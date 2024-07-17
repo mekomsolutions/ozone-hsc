@@ -223,7 +223,7 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
-
+effective-pom.xml
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
