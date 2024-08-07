@@ -1,0 +1,236 @@
+{
+  "@openmrs/esm-patient-registration-app": {
+    "sections": ["demographics", "contact", "additionalInformation"],
+    "fieldConfigurations": {
+      "address": {
+        "useAddressHierarchy": {
+          "enabled": true,
+          "searchAddressByLevel": true
+        }
+      },
+      "name": {
+        "displayCapturePhoto": true,
+        "displayMiddleName": false,
+        "allowUnidentifiedPatients": false,
+        "displayReverseFieldOrder": true
+      },
+      "gender": [
+        {
+          "id": "male",
+          "value": "male",
+          "label": "Male"
+        },
+        {
+          "id": "female",
+          "value": "female",
+          "label": "Female"
+        },
+        {
+          "id": "other",
+          "value": "Other",
+          "label": "Other"
+        }
+      ]
+    },
+    "fieldDefinitions": [
+      {
+        "id": "telephoneField",
+        "type": "person attribute",
+        "uuid": "14d4f066-15f5-102d-96e4-000c29c2a5d7",
+        "placeholder": "placeholder"
+      },
+      {
+        "id": "occupationField",
+        "type": "person attribute",
+        "uuid": "a797b0dc-7ab5-487b-9f01-ef5bb9b7469a",
+        "placeholder": "placeholder",
+        "answerConceptSetUuid": "d746c5e4-b810-4cfb-96ea-73c70d068977"
+      },
+      {
+        "id": "ethnicityField",
+        "type": "person attribute",
+        "uuid": "632d27a5-58c6-49f3-acb1-2a7b5855eaca",
+        "placeholder": "placeholder",
+        "answerConceptSetUuid": "c8b01687-086e-4f7e-ad0d-db77c423a2a7"
+      },
+      {
+        "id": "birthPlaceField",
+        "type": "person attribute",
+        "uuid": "4752b0ca-d8dd-4de9-b59a-7c77895b7657",
+        "placeholder": "placeholder"
+      },
+      {
+        "id": "socialStatusField",
+        "type": "person attribute",
+        "uuid": "157d3d3c-fdc7-443d-82be-71b7b3d92940",
+        "placeholder": "placeholder",
+        "answerConceptSetUuid": "4e7a07f2-345f-419c-8d30-b060d9b8681a"
+      },
+      {
+        "id": "religionField",
+        "type": "person attribute",
+        "uuid": "6a7da305-b5f2-4484-a0ed-ad59f4de8110",
+        "placeholder": "placeholder",
+        "answerConceptSetUuid": "6a7da305-b5f2-4484-a0ed-ad59f4de8110"
+      }
+    ],
+    "sectionDefinitions": [
+      {
+        "id": "demographics",
+        "name": "Basic Info",
+        "fields": ["name", "gender", "dob", "id"]
+      },
+      {
+        "id": "contact",
+        "name": "Contact Details",
+        "fields": ["address", "telephoneField"]
+      },
+      {
+        "id": "additionalInformation",
+        "name": "Additional Information",
+        "fields": [
+          "occupationField",
+          "ethnicityField",
+          "birthPlaceField",
+          "socialStatusField",
+          "religionField"
+        ]
+      },
+      {
+        "id": "death",
+        "name": "Death Info",
+        "fields": []
+      },
+      {
+        "id": "relationships",
+        "name": "Relationships",
+        "fields": []
+      }
+    ],
+    "defaultPatientIdentifierTypes": [
+      "e705fedf-16c6-4304-bde4-c3c22ea2cfa0",
+      "e797f826-8e8f-11e7-bb31-be2e44b06b34",
+      "e797face-8e8f-11e7-bb31-be2e44b06b34"
+    ],
+    "Translation overrides": {
+      "en": {
+        "Commune": "Commune",
+        "Village": "Village",
+        "Country": "Country",
+        "Province": "Province",
+        "District": "District",
+        "contactSection": "Contact Details",
+        "demographicsSection": "Basic Info",
+        "additionalInformationSection": "Additional Information",
+        "Male": "Male",
+        "Female": "Female",
+        "Other": "Other",
+        "Unknown": "Unknown",
+        "selectAnOption": "Select an option",
+        "createNew": "Register",
+        "patient": "New Patient"
+
+      },
+      "fr": {
+        "Commune": "Commune",
+        "Village": "Pays",
+        "Country": "",
+        "Province": "Département",
+        "District": "",
+        "contactSection": "",
+        "demographicsSection": "",
+        "additionalInformationSection": "",
+        "Male": "",
+        "Female": "",
+        "Other": "",
+        "Unknown": "",
+        "selectAnOption": "",
+        "createNew": "",
+        "patient": ""
+      }
+    }
+
+  },
+  "@openmrs/esm-primary-navigation-app": {
+    "externalRefLinks": [
+      {
+        "title": "Pharmacy, Billing & Inventory",
+        "redirect": "${ODOO_PUBLIC_URL}"
+      },
+      {
+        "title": "Laboratory",
+        "redirect": "${SENAITE_PUBLIC_URL}"
+      },
+      {
+        "title": "Reporting & Analytics",
+        "redirect": "${SUPERSET_PUBLIC_URL}"
+      }
+    ],
+    "logo": {
+      "src": "ozone/ozone_hsc_logo.png",
+      "alt": "hsc-logo"
+    }
+  },
+  "@openmrs/esm-login-app": {
+    "logo": {
+      "src": "ozone/ozone_hsc_logo.png",
+      "alt": "hsc-logo"
+    }
+  },
+  "@openmrs/esm-patient-chart-app": {
+    "logo": {
+      "src": "ozone/ozone_hsc_logo.png",
+      "alt": "hsc-logo"
+    },
+    "Display conditions": {
+      "privileges": [
+        "View Patient Summary"
+      ]
+    },
+    "extensionSlots": {
+      "patient-chart-summary-dashboard-slot": {
+        "add": [
+          "obs-by-encounter-widget#consultation"
+        ],
+        "order": [
+          "obs-by-encounter-widget#consultation"
+        ],
+        "configure": {
+          "obs-by-encounter-widget#consultation": {
+            "title": "Motif de consultation",
+            "showGraphByDefault": true,
+            "encounterTypes": [
+              "f9fdbe63-12b4-479f-b8fd-dcbfde6aa944"
+            ],
+            "Display conditions": {
+              "privileges": [
+                "Add Users"
+              ]
+            },
+            "data": [
+              {
+                "label": "Motif de consultation",
+                "concept": "0a061333-1611-45b3-8096-f7c339b4fdfc",
+                "color": "blue"
+              },
+              {
+                "label": "Duration",
+                "concept": "d178d5cf-52c3-4722-bb12-5861daa2815c",
+                "color": "green"
+              },
+              {
+                "label": "Time Units",
+                "concept": "d6593e37-b7a8-482b-856f-6f6a8db25508",
+                "color": "green"
+              }
+            ],
+            "table": {
+              "pageSize": 6
+            }
+          }
+        }
+      }
+    },
+    "disableChangingVisitLocation": true
+  }
+}
