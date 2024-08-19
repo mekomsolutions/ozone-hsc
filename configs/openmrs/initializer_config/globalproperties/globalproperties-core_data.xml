@@ -13,4 +13,10 @@
             <value>org.openmrs.api.handler.ExistingVisitAssignmentHandler</value>
         </globalProperty>
     </globalProperties>
+    <globalProperties>
+    <property>
+        <property>concept.causeOfDeath</property>
+        <value>30e1c728-f008-4dd1-ab34-2c34a00fd3a5</value>
+    </property>
+</globalProperties>
 </config>

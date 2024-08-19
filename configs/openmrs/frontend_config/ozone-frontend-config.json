@@ -1,6 +1,12 @@
 {
   "@openmrs/esm-patient-registration-app": {
-    "sections": ["demographics", "contact", "additionalInformation"],
+    "sections": [
+      "demographics",
+      "addressInformation",
+      "additionalInformation",
+      "death",
+      "relationships"
+    ],
     "fieldConfigurations": {
       "address": {
         "useAddressHierarchy": {
@@ -12,7 +18,7 @@
         "displayCapturePhoto": true,
         "displayMiddleName": false,
         "allowUnidentifiedPatients": false,
-        "displayReverseFieldOrder": true
+        "displayReverseFieldOrder": false
       },
       "gender": [
         {
@@ -27,17 +33,36 @@
         },
         {
           "id": "other",
-          "value": "Other",
+          "value": "other",
           "label": "Other"
         }
       ]
     },
     "fieldDefinitions": [
       {
-        "id": "telephoneField",
+        "id": "email",
         "type": "person attribute",
-        "uuid": "14d4f066-15f5-102d-96e4-000c29c2a5d7",
+        "uuid": "088845f0-3e91-11ef-a5a8-0242ac150005",
         "placeholder": "placeholder"
+      },
+      {
+        "id": "firstPhoneNumber",
+        "type": "person attribute",
+        "uuid": "c3bcd296-eb82-4451-a4b4-eedd1d5f322f",
+        "placeholder": "placeholder"
+      },
+      {
+        "id": "secondPhoneNumber",
+        "type": "person attribute",
+        "uuid": "1102f74e-ea2f-461e-b67f-db58bd136e5c",
+        "placeholder": "placeholder"
+      },
+      {
+        "id": "socialStatus",
+        "type": "person attribute",
+        "uuid": "157d3d3c-fdc7-443d-82be-71b7b3d92940",
+        "placeholder": "placeholder",
+        "answerConceptSetUuid": "4e7a07f2-345f-419c-8d30-b060d9b8681a"
       },
       {
         "id": "occupationField",
@@ -47,24 +72,49 @@
         "answerConceptSetUuid": "d746c5e4-b810-4cfb-96ea-73c70d068977"
       },
       {
-        "id": "ethnicityField",
+        "id": "insuranceCompany",
         "type": "person attribute",
-        "uuid": "632d27a5-58c6-49f3-acb1-2a7b5855eaca",
+        "uuid": "4b27cc11-8cfc-423f-b470-0065ee587313",
         "placeholder": "placeholder",
-        "answerConceptSetUuid": "c8b01687-086e-4f7e-ad0d-db77c423a2a7"
+        "answerConceptSetUuid": "b7003acb-fca3-4a5b-bad9-62514116d764"
       },
       {
-        "id": "birthPlaceField",
+        "id": "contactPersonName",
         "type": "person attribute",
-        "uuid": "4752b0ca-d8dd-4de9-b59a-7c77895b7657",
+        "uuid": "d7a52bd1-77dd-4f71-a5d0-92848a746014",
         "placeholder": "placeholder"
       },
       {
-        "id": "socialStatusField",
+        "id": "contactPersonPhoneNumber",
         "type": "person attribute",
-        "uuid": "157d3d3c-fdc7-443d-82be-71b7b3d92940",
+        "uuid": "62844ea0-8be6-4a12-9471-cbb1f060d78b",
+        "placeholder": "placeholder"
+      },
+      {
+        "id": "contactPersonAddress",
+        "type": "person attribute",
+        "uuid": "0c6d3b0c-7b54-4848-9638-6afc046c59ec",
+        "placeholder": "placeholder"
+      },
+      {
+        "id": "contactPersonRelationship",
+        "type": "person attribute",
+        "uuid": "b47a9c55-4d28-4549-a223-b16d54b8fbbf",
         "placeholder": "placeholder",
-        "answerConceptSetUuid": "4e7a07f2-345f-419c-8d30-b060d9b8681a"
+        "answerConceptSetUuid": "ee63d1f2-095a-4d28-ba95-fbc933666070"
+
+      },
+      {
+        "id": "mothersName",
+        "type": "person attribute",
+        "uuid": "91dbc359-39ef-49f4-abbb-43497b6709f2",
+        "placeholder": "placeholder"
+      },
+      {
+        "id": "mothersFirstName",
+        "type": "person attribute",
+        "uuid": "8d871d18-c2cc-11de-8d13-0010c6dffd0f",
+        "placeholder": "placeholder"
       },
       {
         "id": "religionField",
@@ -72,34 +122,57 @@
         "uuid": "6a7da305-b5f2-4484-a0ed-ad59f4de8110",
         "placeholder": "placeholder",
         "answerConceptSetUuid": "6a7da305-b5f2-4484-a0ed-ad59f4de8110"
+      },
+      {
+        "id": "policyNumber",
+        "type": "person attribute",
+        "uuid": "ecdfe4f8-e66d-43a3-af8e-560b98b6be2a",
+        "placeholder": "placeholder"
       }
     ],
     "sectionDefinitions": [
       {
         "id": "demographics",
-        "name": "Basic Info",
-        "fields": ["name", "gender", "dob", "id"]
+        "name": "Basic Information",
+        "fields": [
+          "name",
+          "gender",
+          "dob",
+          "id"
+        ]
       },
       {
-        "id": "contact",
-        "name": "Contact Details",
-        "fields": ["address", "telephoneField"]
+        "id": "addressInformation",
+        "name": "Address Information",
+        "fields": [
+          "address"
+        ]
       },
       {
         "id": "additionalInformation",
-        "name": "Additional Information",
+        "name": "Other Information",
         "fields": [
+          "email",
+          "firstPhoneNumber",
+          "secondPhoneNumber",
+          "socialStatus",
           "occupationField",
-          "ethnicityField",
-          "birthPlaceField",
-          "socialStatusField",
-          "religionField"
+          "insuranceCompany",
+          "contactPersonName",
+          "contactPersonPhoneNumber",
+          "contactPersonRelationship",
+          "mothersName",
+          "mothersFirstName",
+          "religionField",
+          "policyNumber"
         ]
       },
       {
         "id": "death",
-        "name": "Death Info",
-        "fields": []
+        "name": "Death Information",
+        "fields": [
+          "causeOfDeath"
+        ]
       },
       {
         "id": "relationships",
@@ -128,8 +201,8 @@
         "Unknown": "Unknown",
         "selectAnOption": "Select an option",
         "createNew": "Register",
-        "patient": "New Patient"
-
+        "patient": "New Patient",
+        "familyName" : "Last Name"
       },
       "fr": {
         "Commune": "Commune",
@@ -146,10 +219,10 @@
         "Unknown": "",
         "selectAnOption": "",
         "createNew": "",
-        "patient": ""
+        "patient": "",
+        "familyName" : "Last Name"
       }
     }
-
   },
   "@openmrs/esm-primary-navigation-app": {
     "externalRefLinks": [
@@ -186,50 +259,6 @@
       "privileges": [
         "View Patient Summary"
       ]
-    },
-    "extensionSlots": {
-      "patient-chart-summary-dashboard-slot": {
-        "add": [
-          "obs-by-encounter-widget#consultation"
-        ],
-        "order": [
-          "obs-by-encounter-widget#consultation"
-        ],
-        "configure": {
-          "obs-by-encounter-widget#consultation": {
-            "title": "Motif de consultation",
-            "showGraphByDefault": true,
-            "encounterTypes": [
-              "f9fdbe63-12b4-479f-b8fd-dcbfde6aa944"
-            ],
-            "Display conditions": {
-              "privileges": [
-                "Add Users"
-              ]
-            },
-            "data": [
-              {
-                "label": "Motif de consultation",
-                "concept": "0a061333-1611-45b3-8096-f7c339b4fdfc",
-                "color": "blue"
-              },
-              {
-                "label": "Duration",
-                "concept": "d178d5cf-52c3-4722-bb12-5861daa2815c",
-                "color": "green"
-              },
-              {
-                "label": "Time Units",
-                "concept": "d6593e37-b7a8-482b-856f-6f6a8db25508",
-                "color": "green"
-              }
-            ],
-            "table": {
-              "pageSize": 6
-            }
-          }
-        }
-      }
     },
     "disableChangingVisitLocation": true
   }

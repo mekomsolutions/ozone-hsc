@@ -1,0 +1,33 @@
+{
+    "name": "Echographie gynécologique",
+    "pages": [
+      {
+        "label": "Echographie gynécologique",
+        "sections": [
+          {
+            "label": "Echographie gynécologique",
+            "isExpanded": "true",
+            "questions": [
+              {
+                "label": "Observations",
+                "type": "obs",
+                "required": false,
+                "id": "observations",
+                "questionOptions": {
+                  "rendering": "textarea",
+                  "concept": "4d1f668f-f9b7-4e95-8436-53f37e8c643e"
+                },
+                "validators": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "processor": "EncounterFormProcessor",
+    "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+    "referencedForms": [],
+    "uuid": "d1f43dba-e483-4ded-aedf-40f84de577a2",
+    "description": "Echographie gynécologique",
+    "version": "1"
+  }

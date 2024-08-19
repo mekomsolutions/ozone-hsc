@@ -1,0 +1,98 @@
+{
+    "name": "Anthropométrie",
+    "pages": [
+      {
+        "label": "Anthropométrie",
+        "sections": [
+          {
+            "label": "Anthropométrie",
+            "isExpanded": "true",
+            "questions": [
+              {
+                "label": "Height",
+                "type": "obs",
+                "required": false,
+                "id": "height",
+                "questionOptions": {
+                  "rendering": "number",
+                  "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                  "conceptMappings": [
+                    {
+                      "relationship": "SAME-AS",
+                      "type": "CIEL",
+                      "value": "5090"
+                    }
+                  ]
+                },
+                "validators": []
+              },
+              {
+                "label": "Weight",
+                "type": "obs",
+                "required": false,
+                "id": "weight",
+                "questionOptions": {
+                  "rendering": "number",
+                  "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                  "conceptMappings": [
+                    {
+                      "relationship": "SAME-AS",
+                      "type": "CIEL",
+                      "value": "5089"
+                    }
+                  ]
+                },
+                "validators": []
+              },
+              {
+                "label": "Head Circumference",
+                "type": "obs",
+                "required": false,
+                "id": "headCircumference",
+                "questionOptions": {
+                  "rendering": "number",
+                  "concept": "09313648-8ba0-4480-a3a3-efe2d3b8a769"
+                },
+                "validators": []
+              },
+              {
+                "label": "Abdominal Diameter",
+                "type": "obs",
+                "required": false,
+                "id": "abdominalDiameter",
+                "questionOptions": {
+                  "rendering": "number",
+                  "concept": "f95a4f13-80f0-4254-a1f2-bc06aea4c9c9"
+                },
+                "validators": []
+              },
+              {
+                "label": "Mid-Upper Arm Circumference",
+                "type": "obs",
+                "required": false,
+                "id": "mid-UpperArmCircumference",
+                "questionOptions": {
+                  "rendering": "number",
+                  "concept": "f074942b-666b-4ca3-9f0e-1103128b3ae2",
+                  "conceptMappings": [
+                    {
+                      "relationship": "SAME-AS",
+                      "type": "CIEL",
+                      "value": "1343"
+                    }
+                  ]
+                },
+                "validators": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "processor": "EncounterFormProcessor",
+    "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+    "referencedForms": [],
+    "uuid": "5512c4aa-b983-4cac-8fa1-de143267719f",
+    "description": "Anthropométrie",
+    "version": "1"
+  }
