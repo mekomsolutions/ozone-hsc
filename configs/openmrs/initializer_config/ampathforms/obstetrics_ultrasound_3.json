@@ -253,9 +253,11 @@
       }
     ],
     "processor": "EncounterFormProcessor",
-    "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+    "encounter": "Consultation",
     "referencedForms": [],
     "uuid": "acad07d9-945f-415d-a5b0-5cc1dc701115",
     "description": "Echographie obstétricale 3",
-    "version": "1"
+    "version": "1",
+    "published": true,
+    "retired": false
   }

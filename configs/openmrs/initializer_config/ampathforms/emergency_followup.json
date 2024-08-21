@@ -53,9 +53,11 @@
       }
     ],
     "processor": "EncounterFormProcessor",
-    "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+    "encounter": "Consultation",
     "referencedForms": [],
     "uuid": "b11bef46-cb83-47b1-90b7-75ac5dd629e3",
     "description": "Suivi d’urgences",
-    "version": "1"
+    "version": "1",
+    "published": true,
+    "retired": false
   }
