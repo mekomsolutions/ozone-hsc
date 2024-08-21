@@ -351,9 +351,11 @@
       }
     ],
     "processor": "EncounterFormProcessor",
-    "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+    "encounter": "Consultation",
     "referencedForms": [],
     "uuid": "00716af3-1d4b-4cdf-aa8e-0800743d1542",
     "description": "Examen physique",
-    "version": "1"
+    "version": "1",
+    "published": true,
+    "retired": false
   }

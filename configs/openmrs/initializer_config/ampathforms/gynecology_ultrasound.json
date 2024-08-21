@@ -25,9 +25,11 @@
       }
     ],
     "processor": "EncounterFormProcessor",
-    "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+    "encounter": "Consultation",
     "referencedForms": [],
     "uuid": "d1f43dba-e483-4ded-aedf-40f84de577a2",
     "description": "Echographie gynécologique",
-    "version": "1"
+    "version": "1",
+    "published": true,
+    "retired": false
   }

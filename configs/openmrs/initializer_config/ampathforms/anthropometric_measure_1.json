@@ -90,9 +90,11 @@
       }
     ],
     "processor": "EncounterFormProcessor",
-    "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+    "encounter": "Consultation",
     "referencedForms": [],
     "uuid": "5512c4aa-b983-4cac-8fa1-de143267719f",
     "description": "Anthropométrie",
-    "version": "1"
+    "version": "1",
+    "published": true,
+    "retired": false
   }

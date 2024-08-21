@@ -1,11 +1,11 @@
 {
-    "name": "Echographie obstétricale 3",
+    "name": "Echographie obstétricale 2",
     "pages": [
       {
-        "label": "Echographie obstétricale 3",
+        "label": "Echographie obstétricale 2",
         "sections": [
           {
-            "label": "Echographie obstétricale 3",
+            "label": "Echographie obstétricale 2",
             "isExpanded": "true",
             "questions": [
               {
@@ -59,12 +59,12 @@
                       "label": "Anterior"
                     },
                     {
-                      "concept": "f5c721f6-7162-4533-9a83-4a4cd6997cb8",
-                      "label": "Lateral"
-                    },
-                    {
                       "concept": "1f82cf3c-ce84-4c98-a35a-c37c45edc5fc",
                       "label": "Posterior"
+                    },
+                    {
+                      "concept": "f5c721f6-7162-4533-9a83-4a4cd6997cb8",
+                      "label": "Lateral"
                     },
                     {
                       "concept": "cc4c6921-1d06-48f7-a7d8-a0c6664b515e",
@@ -130,107 +130,206 @@
                 "validators": []
               },
               {
-                "label": "Biparietal diameter ",
+                "label": "Arms",
                 "type": "obs",
                 "required": false,
-                "id": "biparietalDiameter",
+                "id": "arms",
                 "questionOptions": {
-                  "rendering": "number",
-                  "concept": "f19b4e41-e18e-4e17-a7ff-48a33315d504"
-                },
-                "validators": []
-              },
-              {
-                "label": "Occ-frontal diameter",
-                "type": "obs",
-                "required": false,
-                "id": "occ-FrontalDiameter",
-                "questionOptions": {
-                  "rendering": "number",
-                  "concept": "b0277458-f1c8-43d7-a18a-996a9f183b65"
-                },
-                "validators": []
-              },
-              {
-                "label": "Cranial circumference ",
-                "type": "obs",
-                "required": false,
-                "id": "cranialCircumference",
-                "questionOptions": {
-                  "rendering": "number",
-                  "concept": "96548d58-2335-4f6e-ae8b-c77fd8c6d051"
-                },
-                "validators": []
-              },
-              {
-                "label": "Femur length",
-                "type": "obs",
-                "required": false,
-                "id": "femurLength",
-                "questionOptions": {
-                  "rendering": "number",
-                  "concept": "1391f581-6ff8-463d-95f3-cd23af17e65e"
-                },
-                "validators": []
-              },
-              {
-                "label": "Humerus length",
-                "type": "obs",
-                "required": false,
-                "id": "humerusLength",
-                "questionOptions": {
-                  "rendering": "number",
-                  "concept": "fe37fd4a-31f1-48a7-adc4-e7833a7c6859"
-                },
-                "validators": []
-              },
-              {
-                "label": "Abdominal circumference",
-                "type": "obs",
-                "required": false,
-                "id": "abdominalCircumference",
-                "questionOptions": {
-                  "rendering": "number",
-                  "concept": "dd7a5da2-ce47-4eae-8e26-3317fc53f4da"
-                },
-                "validators": []
-              },
-              {
-                "label": "Estimated fetal weight ",
-                "type": "obs",
-                "required": false,
-                "id": "estimatedFetalWeight",
-                "questionOptions": {
-                  "rendering": "number",
-                  "concept": "c96709f0-f446-4081-98b1-494b562dd7b4"
-                },
-                "validators": []
-              },
-              {
-                "label": "Weight Percentile",
-                "type": "obs",
-                "required": false,
-                "id": "weightPercentile",
-                "questionOptions": {
-                  "rendering": "number",
-                  "concept": "5c75e55f-845c-4df6-a6da-b45475a4a215",
-                  "conceptMappings": [
+                  "rendering": "radio",
+                  "concept": "19aa76a5-7b92-47f9-91c1-581b20e9c2a0",
+                  "answers": [
                     {
-                      "relationship": "SAME-AS",
-                      "type": "CIEL",
-                      "value": "159428"
+                      "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
+                      "label": "Normal"
+                    },
+                    {
+                      "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
+                      "label": "Abnormal"
+                    },
+                    {
+                      "concept": "f7139b53-6e10-4096-8e87-ea133fc8fc46",
+                      "label": "Not Seen"
                     }
-                  ],
-                  "disallowDecimals": true
+                  ]
+                },
+                "validators": []
+              },
+              {
+                "label": "Legs",
+                "type": "obs",
+                "required": false,
+                "id": "legs",
+                "questionOptions": {
+                  "rendering": "radio",
+                  "concept": "bdd6b795-8283-4c87-b3d4-4c7b74110e93",
+                  "answers": [
+                    {
+                      "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
+                      "label": "Normal"
+                    },
+                    {
+                      "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
+                      "label": "Abnormal"
+                    },
+                    {
+                      "concept": "f7139b53-6e10-4096-8e87-ea133fc8fc46",
+                      "label": "Not Seen"
+                    }
+                  ]
+                },
+                "validators": []
+              },
+              {
+                "label": "Brain",
+                "type": "obs",
+                "required": false,
+                "id": "brain",
+                "questionOptions": {
+                  "rendering": "radio",
+                  "concept": "8a0fcd33-1cf3-4136-9173-c8874104ae06",
+                  "answers": [
+                    {
+                      "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
+                      "label": "Normal"
+                    },
+                    {
+                      "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
+                      "label": "Abnormal"
+                    },
+                    {
+                      "concept": "f7139b53-6e10-4096-8e87-ea133fc8fc46",
+                      "label": "Not Seen"
+                    }
+                  ]
+                },
+                "validators": []
+              },
+              {
+                "label": "Heart",
+                "type": "obs",
+                "required": false,
+                "id": "heart",
+                "questionOptions": {
+                  "rendering": "radio",
+                  "concept": "24b631fa-3c4a-4e3b-bacf-c3c5d0405cc9",
+                  "answers": [
+                    {
+                      "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
+                      "label": "Normal"
+                    },
+                    {
+                      "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
+                      "label": "Abnormal"
+                    },
+                    {
+                      "concept": "f7139b53-6e10-4096-8e87-ea133fc8fc46",
+                      "label": "Not Seen"
+                    }
+                  ]
+                },
+                "validators": []
+              },
+              {
+                "label": "Lungs",
+                "type": "obs",
+                "required": false,
+                "id": "lungs",
+                "questionOptions": {
+                  "rendering": "radio",
+                  "concept": "8b1ce3d9-3841-427d-ab49-b92a28a6416e",
+                  "answers": [
+                    {
+                      "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
+                      "label": "Normal"
+                    },
+                    {
+                      "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
+                      "label": "Abnormal"
+                    },
+                    {
+                      "concept": "f7139b53-6e10-4096-8e87-ea133fc8fc46",
+                      "label": "Not Seen"
+                    }
+                  ]
+                },
+                "validators": []
+              },
+              {
+                "label": "Kidneys",
+                "type": "obs",
+                "required": false,
+                "id": "kidneys",
+                "questionOptions": {
+                  "rendering": "radio",
+                  "concept": "dc5154f9-30ba-4018-84b0-01306c2244f8",
+                  "answers": [
+                    {
+                      "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
+                      "label": "Normal"
+                    },
+                    {
+                      "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
+                      "label": "Abnormal"
+                    },
+                    {
+                      "concept": "f7139b53-6e10-4096-8e87-ea133fc8fc46",
+                      "label": "Not Seen"
+                    }
+                  ]
+                },
+                "validators": []
+              },
+              {
+                "label": "Genitals",
+                "type": "obs",
+                "required": false,
+                "id": "genitals",
+                "questionOptions": {
+                  "rendering": "radio",
+                  "concept": "9f0d5af7-bd0a-41b7-8281-e42dfe0d4248",
+                  "answers": [
+                    {
+                      "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
+                      "label": "Normal"
+                    },
+                    {
+                      "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
+                      "label": "Abnormal"
+                    },
+                    {
+                      "concept": "f7139b53-6e10-4096-8e87-ea133fc8fc46",
+                      "label": "Not Seen"
+                    }
+                  ]
+                },
+                "validators": []
+              },
+              {
+                "label": "Fetal Sex",
+                "type": "obs",
+                "required": false,
+                "id": "fetalSex",
+                "questionOptions": {
+                  "rendering": "radio",
+                  "concept": "730d5952-7f8a-41b7-add5-3b470335aea4",
+                  "answers": [
+                    {
+                      "concept": "48be742e-e22e-4bd9-bb2b-0d4840c60aeb",
+                      "label": "Boy"
+                    },
+                    {
+                      "concept": "7adb833e-9e48-4b76-aa8f-24daa3acb810",
+                      "label": "Girl"
+                    },
+                    {
+                      "concept": "f7139b53-6e10-4096-8e87-ea133fc8fc46",
+                      "label": "Not Seen"
+                    }
+                  ]
                 },
                 "validators": []
               }
             ]
-          },
-          {
-            "label": "Other observations",
-            "isExpanded": "true",
-            "questions": []
           },
           {
             "label": "Other observations",
@@ -255,8 +354,8 @@
     "processor": "EncounterFormProcessor",
     "encounter": "Consultation",
     "referencedForms": [],
-    "uuid": "acad07d9-945f-415d-a5b0-5cc1dc701115",
-    "description": "Echographie obstétricale 3",
+    "uuid": "9ddbe11e-b6ac-4788-a146-ef258853e129",
+    "description": "Echographie obstétricale 2",
     "version": "1",
     "published": true,
     "retired": false

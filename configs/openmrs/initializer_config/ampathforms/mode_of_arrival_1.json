@@ -1,0 +1,66 @@
+{
+    "name": "Moyen de transport",
+    "pages": [
+      {
+        "label": "Moyen de transport",
+        "sections": [
+          {
+            "label": "Moyen de transport",
+            "isExpanded": "true",
+            "questions": [
+              {
+                "label": "Moyen de transport",
+                "type": "obs",
+                "required": false,
+                "id": "moyenDeTransport",
+                "questionOptions": {
+                  "rendering": "radio",
+                  "concept": "f83eeb93-703a-4dd5-bd95-51a6580b4065",
+                  "answers": [
+                    {
+                      "concept": "8e84e437-35fa-4d31-8be9-9aa999f1ff94",
+                      "label": "Ambulated"
+                    },
+                    {
+                      "concept": "0b290aeb-b4f6-4b37-b114-e7ce2e4c304c",
+                      "label": "Car"
+                    },
+                    {
+                      "concept": "7a5b55b6-4617-42b9-808c-82116a259a6e",
+                      "label": "Minibus"
+                    },
+                    {
+                      "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                      "label": "Other"
+                    }
+                  ]
+                },
+                "validators": []
+              },
+              {"hide": {
+                  "hideWhenExpression": "isEmpty(moyenDeTransport) ||  moyenDeTransport !== '26c0366b-83e4-4401-9699-e545219b8870'"
+                },
+                "label": "Other observations",
+                "type": "obs",
+                "required": false,
+                "id": "otherObservations",
+                "questionOptions": {
+                  "rendering": "textarea",
+                  "concept": "4d1f668f-f9b7-4e95-8436-53f37e8c643e"
+                },
+                "validators": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "processor": "EncounterFormProcessor",
+    "encounter": "Consultation",
+    "referencedForms": [],
+    "uuid": "e2d88e5b-6391-4dda-ac2f-4b48b2d1e86b",
+    "description": "Moyen de transport",
+    "version": "1",
+    "published": true,
+    "retired": false
+  }
