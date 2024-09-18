@@ -267,7 +267,7 @@
       "useFormEngine": true,
       "formName": "Vitals and Biometrics",
       "formUuid": "f9f0b508-3de5-46bc-ad50-dd5a0c91688d",
-      "encounterTypeUuid": "67a71486-1a54-468f-ac3e-7091a9a79584"
+      "encounterTypeUuid": "a7feb1a0-4bd8-48d1-acfd-ce282d139f06"
     }
   }
 }
