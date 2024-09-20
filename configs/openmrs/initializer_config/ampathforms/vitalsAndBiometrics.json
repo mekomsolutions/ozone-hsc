@@ -39,7 +39,7 @@
               }
             },
             {
-              "label": "Temperature Test",
+              "label": "Temperature",
               "type": "obs",
               "required": false,
               "id": "temperatureTest",
