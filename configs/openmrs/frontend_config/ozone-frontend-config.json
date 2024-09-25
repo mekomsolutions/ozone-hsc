@@ -171,6 +171,7 @@
         "id": "death",
         "name": "Death Information",
         "fields": [
+          "dateAndTimeOfDeath",
           "causeOfDeath"
         ]
       },
