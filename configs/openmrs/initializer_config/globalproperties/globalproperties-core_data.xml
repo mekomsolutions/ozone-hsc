@@ -12,6 +12,10 @@
             <property>visits.assignmentHandler</property>
             <value>org.openmrs.api.handler.ExistingVisitAssignmentHandler</value>
         </globalProperty>
+        <globalProperty>
+            <property>idgen.prefixLocationAttributeType</property>
+            <value>id_prefix</value>
+        </globalProperty>
     </globalProperties>
     <globalProperties>
     <property>
