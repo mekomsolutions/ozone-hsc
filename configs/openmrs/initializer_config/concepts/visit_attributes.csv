@@ -1,5 +1,0 @@
-Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:en,Short name:fr,Description:en,Description:fr,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:500
-2fdfe136-263c-4d59-b96e-ae4a76d9445f,,,Minibus,Minibus,Minibus,Minibus,,,Misc,N/A,,,,,,,,,,,
-93298e19-1e9a-4306-beec-c134d0989a0a,,,Ambulated,Ambulated,Ambulated,Ambulated,,,Misc,N/A,,,,,,,,,,,
-693c7001-1433-4ebb-aee9-1ab0dd1787f6,,,Car,Car,Car,Car,,,Misc,N/A,,,,,,,,,,,
-f61a8a18-cb64-4a63-bc28-56b4789941ff,,,Mode of arrival,Mode of arrival,Mode of arrival,Mode of arrival,,,Question,Coded,,Minibus;Ambulated;Car;Other,,,,,,,,,
