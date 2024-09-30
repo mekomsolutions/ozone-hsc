@@ -102,7 +102,6 @@
         "uuid": "b47a9c55-4d28-4549-a223-b16d54b8fbbf",
         "placeholder": "placeholder",
         "answerConceptSetUuid": "ee63d1f2-095a-4d28-ba95-fbc933666070"
-
       },
       {
         "id": "mothersName",
@@ -134,19 +133,12 @@
       {
         "id": "demographics",
         "name": "Basic Information",
-        "fields": [
-          "name",
-          "gender",
-          "dob",
-          "id"
-        ]
+        "fields": ["name", "gender", "dob", "id"]
       },
       {
         "id": "addressInformation",
         "name": "Address Information",
-        "fields": [
-          "address"
-        ]
+        "fields": ["address"]
       },
       {
         "id": "additionalInformation",
@@ -170,10 +162,7 @@
       {
         "id": "death",
         "name": "Death Information",
-        "fields": [
-          "dateAndTimeOfDeath",
-          "causeOfDeath"
-        ]
+        "fields": ["dateAndTimeOfDeath", "causeOfDeath"]
       },
       {
         "id": "relationships",
@@ -203,7 +192,7 @@
         "selectAnOption": "Select an option",
         "createNew": "Register",
         "patient": "New Patient",
-        "familyName" : "Last Name"
+        "familyName": "Last Name"
       },
       "fr": {
         "Commune": "Commune",
@@ -221,7 +210,7 @@
         "selectAnOption": "",
         "createNew": "",
         "patient": "",
-        "familyName" : "Last Name"
+        "familyName": "Last Name"
       }
     }
   },
@@ -257,11 +246,19 @@
       "alt": "hsc-logo"
     },
     "Display conditions": {
-      "privileges": [
-        "View Patient Summary"
-      ]
+      "privileges": ["View Patient Summary"]
     },
-    "disableChangingVisitLocation": true
+    "disableChangingVisitLocation": true,
+    "visitAttributeTypes": [
+      {
+        "uuid": "a56959b5-4fe2-4d69-a553-fdc77957c48b",
+        "required": false
+      },
+      {
+        "uuid": "d63554a8-4979-4719-a918-1ccc3d924ed7",
+        "required": true
+      }
+    ]
   },
   "@openmrs/esm-patient-vitals-app": {
     "concepts": {
