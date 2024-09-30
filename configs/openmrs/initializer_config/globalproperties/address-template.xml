@@ -58,5 +58,14 @@
                 </org.openmrs.layout.address.AddressTemplate>
             ]]></value>
         </globalProperty>
+        <globalProperty>
+            <property>addresshierarchy.initializeAddressHierarchyCacheOnStartup</property>
+            <value>true</value>
+            <description>
+                Sets whether to initialize the address hierarchy in-memory cache (which is used to speed up address hierarchy searches.
+                Generally, you want to set this to "true", though developers may want to set it to false during development
+                to speed module start-up.
+            </description>
+        </globalProperty>
     </globalProperties>
 </config>
