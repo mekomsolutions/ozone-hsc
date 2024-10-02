@@ -41,6 +41,7 @@
     "fieldDefinitions": [
       {
         "id": "email",
+        "label": "Email Address",
         "type": "person attribute",
         "uuid": "d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e",
         "placeholder": "placeholder"
@@ -192,25 +193,28 @@
         "selectAnOption": "Select an option",
         "createNew": "Register",
         "patient": "New Patient",
-        "familyName": "Last Name"
+        "familyNameLabelText": "Last Name",
+        "emailLabelText": "Email Address",
+        "genderLabelText": "Gender"
       },
       "fr": {
         "Commune": "Commune",
         "Village": "Pays",
-        "Country": "",
+        "Country": "Country",
         "Province": "Département",
-        "District": "",
-        "contactSection": "",
-        "demographicsSection": "",
-        "additionalInformationSection": "",
-        "Male": "",
-        "Female": "",
-        "Other": "",
-        "Unknown": "",
-        "selectAnOption": "",
-        "createNew": "",
-        "patient": "",
-        "familyName": "Last Name"
+        "District": "District",
+        "contactSection": "Contact Details",
+        "demographicsSection": "Basic Info",
+        "additionalInformationSection": "Additional Information",
+        "Male": "Homme",
+        "Female": "Femme",
+        "Other": "Autre",
+        "selectAnOption": "Select an option",
+        "createNew": "Register",
+        "patient": "New Patient",
+        "familyNameLabelText": "Nom de famille",
+        "emailLabelText": "Email Address",
+        "genderLabelText": "Gender"
       }
     }
   },
