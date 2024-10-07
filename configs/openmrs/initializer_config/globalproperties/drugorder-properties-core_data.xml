@@ -11,10 +11,10 @@
         <globalProperty>
             <property>order.drugDispensingUnitsConceptUuid</property>
             <value>162402AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
-        </globalProperty><globalProperty>
+        </globalProperty>
+        <globalProperty>
             <property>order.durationUnitsConceptUuid</property>
             <value>1732AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
         </globalProperty>
     </globalProperties>
-    
 </config>
