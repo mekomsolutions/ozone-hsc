@@ -234,7 +234,7 @@
       }
     ],
     "logo": {
-      "src": "ozone/ozone_hsc_logo.png",
+      "src": "ozone/ozone_hsc_logo_white.png",
       "alt": "hsc-logo"
     }
   },
@@ -246,7 +246,7 @@
   },
   "@openmrs/esm-patient-chart-app": {
     "logo": {
-      "src": "ozone/ozone_hsc_logo.png",
+      "src": "ozone/ozone_hsc_logo_white.png",
       "alt": "hsc-logo"
     },
     "Display conditions": {
