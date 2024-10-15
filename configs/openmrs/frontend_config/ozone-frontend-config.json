@@ -287,5 +287,14 @@
       "heightUnit": "cm",
       "weightUnit": "kg"
     }
+  },
+  "@openmrs/esm-patient-banner-app": {
+    "printPatientSticker": {
+      "header": {
+        "showBarcode": true,
+        "showLogo": true,
+        "logo": "ozone/ozone_hsc_logo.png"
+      }
+    }
   }
 }
