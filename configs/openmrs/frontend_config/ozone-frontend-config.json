@@ -271,10 +271,10 @@
       "pulseUuid": "0b9e358e-c9cf-439e-8c00-69f873cec59f",
       "temperatureUuid": "0ff962b3-8730-4eb0-9028-82d403b066bf",
       "oxygenSaturationUuid": "c642aeb3-95d3-4d1b-aa5b-1273b438d14f",
-      "heightUuid": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-      "weightUuid": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "heightUuid": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "weightUuid": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
       "respiratoryRateUuid": "8130729f-4605-49b3-b7c0-12b19cc10543",
-      "midUpperArmCircumferenceUuid": "string"
+      "midUpperArmCircumferenceUuid": "f074942b-666b-4ca3-9f0e-1103128b3ae2"
     },
     "vitals": {
       "useFormEngine": true,
@@ -283,9 +283,7 @@
       "encounterTypeUuid": "a7feb1a0-4bd8-48d1-acfd-ce282d139f06"
     },
     "biometrics": {
-      "bmiUnit": "kg / m²",
-      "heightUnit": "cm",
-      "weightUnit": "kg"
+      "bmiUnit": "kg / m²"
     }
   },
   "@openmrs/esm-patient-banner-app": {
