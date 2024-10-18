@@ -15,10 +15,10 @@
               "id": "painScale",
               "questionOptions": {
                 "rendering": "number",
-                "concept": "3fe6460f-3d37-463e-9fb9-df42ab15aec8",
-                "disallowDecimals": true
-              },
-              "validators": []
+                "min": "0",
+                "max": "10",
+                "concept": "3fe6460f-3d37-463e-9fb9-df42ab15aec8"
+              }
             },
             {
               "label": "Pulse (beats/min)",
@@ -27,6 +27,8 @@
               "id": "pulseTest",
               "questionOptions": {
                 "rendering": "number",
+                "min": "10",
+                "max": "230",
                 "concept": "0b9e358e-c9cf-439e-8c00-69f873cec59f",
                 "conceptMappings": [
                   {
@@ -45,6 +47,8 @@
               "id": "temperatureTest",
               "questionOptions": {
                 "rendering": "number",
+                "min": "25",
+                "max": "43",
                 "concept": "0ff962b3-8730-4eb0-9028-82d403b066bf",
                 "conceptMappings": [
                   {
@@ -82,6 +86,8 @@
               "id": "oxygenSaturation",
               "questionOptions": {
                 "rendering": "number",
+                "min": "0",
+                "max": "100",
                 "concept": "c642aeb3-95d3-4d1b-aa5b-1273b438d14f",
                 "conceptMappings": [
                   {
@@ -89,10 +95,8 @@
                     "type": "CIEL",
                     "value": "5092"
                   }
-                ],
-                "disallowDecimals": true
-              },
-              "validators": []
+                ]
+              }
             }
           ]
         },
@@ -107,6 +111,8 @@
               "id": "systolicBloodPressure",
               "questionOptions": {
                 "rendering": "number",
+                "min": "40",
+                "max": "400",
                 "concept": "bc4f2e44-26b0-4f5f-a98f-248601fdf792",
                 "conceptMappings": [
                   {
@@ -124,6 +130,8 @@
               "id": "diastolicBloodPressure",
               "questionOptions": {
                 "rendering": "number",
+                "min": "20",
+                "max": "400",
                 "concept": "8bc4016d-88ee-43dc-a943-ad10b8bb211e",
                 "conceptMappings": [
                   {
@@ -131,10 +139,8 @@
                     "type": "CIEL",
                     "value": "5086"
                   }
-                ],
-                "disallowDecimals": true
-              },
-              "validators": []
+                ]
+              }
             }
           ]
         }
@@ -154,7 +160,7 @@
               "id": "height",
               "questionOptions": {
                 "rendering": "number",
-                "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "concept": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "conceptMappings": [
                   {
                     "relationship": "SAME-AS",
@@ -172,7 +178,9 @@
               "id": "weight",
               "questionOptions": {
                 "rendering": "number",
-                "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "min": "0",
+                "max": "700",
+                "concept": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "conceptMappings": [
                   {
                     "relationship": "SAME-AS",
@@ -180,8 +188,7 @@
                     "value": "5089"
                   }
                 ]
-              },
-              "validators": []
+              }
             },
             {
               "label": "Head Circumference (cm)",
