@@ -234,19 +234,19 @@
       }
     ],
     "logo": {
-      "src": "ozone/ozone_hsc_logo_white.png",
+      "src": "configs/ozone_hsc_logo_white.png",
       "alt": "hsc-logo"
     }
   },
   "@openmrs/esm-login-app": {
     "logo": {
-      "src": "ozone/ozone_hsc_logo.png",
+      "src": "configs/ozone_hsc_logo.png",
       "alt": "hsc-logo"
     }
   },
   "@openmrs/esm-patient-chart-app": {
     "logo": {
-      "src": "ozone/ozone_hsc_logo_white.png",
+      "src": "configs/ozone_hsc_logo_white.png",
       "alt": "hsc-logo"
     },
     "Display conditions": {
@@ -293,7 +293,7 @@
       "header": {
         "showBarcode": true,
         "showLogo": true,
-        "logo": "ozone/ozone_hsc_logo.png"
+        "logo": "configs/ozone_hsc_logo.png"
       }
     }
   }
