@@ -1,0 +1,262 @@
+{
+  "name": "Echographie obstétricale 3",
+  "pages": [
+    {
+      "label": "Echographie obstétricale 3",
+      "sections": [
+        {
+          "label": "Echographie obstétricale 3",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Number of Fetuses",
+              "type": "obs",
+              "required": false,
+              "id": "numberOfFetuses",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "a7ad184c-b79a-476d-9ba2-ef980375da28",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "165387"
+                  }
+                ],
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "label": "Number of Placenta",
+              "type": "obs",
+              "required": false,
+              "id": "numberOfPlacenta",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c1e61ae3-4de8-4fe1-9b7a-8c1ae56d1631",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "label": "Fetus Details",
+              "type": "obsGroup",
+              "required": false,
+              "id": "fetusDetails",
+              "questionOptions": {
+                "rendering": "repeating",
+                "concept": "ee66049d-8028-4f93-869d-8edcebd5d2e6"
+              },
+              "questions": [
+                {
+                  "label": "Location of Placenta",
+                  "type": "obs",
+                  "required": false,
+                  "id": "locationOfPlacenta",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "f4d664f4-e6e5-47f7-8781-2255ebfacc97",
+                    "answers": [
+                      {
+                        "concept": "ca69545b-dfef-4210-b311-dc8a1d309311",
+                        "label": "Anterior"
+                      },
+                      {
+                        "concept": "f5c721f6-7162-4533-9a83-4a4cd6997cb8",
+                        "label": "Lateral"
+                      },
+                      {
+                        "concept": "1f82cf3c-ce84-4c98-a35a-c37c45edc5fc",
+                        "label": "Posterior"
+                      },
+                      {
+                        "concept": "cc4c6921-1d06-48f7-a7d8-a0c6664b515e",
+                        "label": "Praevia"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Fetal Heart Rate (beats/min)",
+                  "type": "obs",
+                  "required": false,
+                  "id": "fetalHeartRate",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "min": "120",
+                    "max": "160",
+                    "concept": "7ce5a9fe-d9e0-427e-a080-ce8a9c673822",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "1440"
+                      }
+                    ],
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Presentation",
+                  "type": "obs",
+                  "required": false,
+                  "id": "presentation",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "d47e2e11-355e-4c62-86a7-8ebe45fb4292",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "160090"
+                      }
+                    ],
+                    "answers": [
+                      {
+                        "concept": "c4526510-3f10-11e4-adec-0800271c1b75",
+                        "label": "Cephalic"
+                      },
+                      {
+                        "concept": "a0dc5727-c33e-479b-b70e-fb0eb7e45853",
+                        "label": "Breech"
+                      },
+                      {
+                        "concept": "5bb2ea3b-a736-4533-bd5e-a1e9d835f721",
+                        "label": "Transverse"
+                      },
+                      {
+                        "concept": "cbafba29-b62a-4675-910a-a6bb161de256",
+                        "label": "Variable"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Biparietal diameter (cm)",
+                  "type": "obs",
+                  "required": false,
+                  "id": "biparietalDiameter",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "f19b4e41-e18e-4e17-a7ff-48a33315d504"
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Occ-frontal diameter (cm)",
+                  "type": "obs",
+                  "required": false,
+                  "id": "occ-FrontalDiameter",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "b0277458-f1c8-43d7-a18a-996a9f183b65"
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Cranial circumference (cm)",
+                  "type": "obs",
+                  "required": false,
+                  "id": "cranialCircumference",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "96548d58-2335-4f6e-ae8b-c77fd8c6d051"
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Femur length (cm)",
+                  "type": "obs",
+                  "required": false,
+                  "id": "femurLength",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "1391f581-6ff8-463d-95f3-cd23af17e65e"
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Humerus length (cm)",
+                  "type": "obs",
+                  "required": false,
+                  "id": "humerusLength",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "fe37fd4a-31f1-48a7-adc4-e7833a7c6859"
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Abdominal circumference (cm)",
+                  "type": "obs",
+                  "required": false,
+                  "id": "abdominalCircumference",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "dd7a5da2-ce47-4eae-8e26-3317fc53f4da"
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Estimated fetal weight (g)",
+                  "type": "obs",
+                  "required": false,
+                  "id": "estimatedFetalWeight",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "c96709f0-f446-4081-98b1-494b562dd7b4"
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Weight Percentile",
+                  "type": "obs",
+                  "required": false,
+                  "id": "weightPercentile",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "5c75e55f-845c-4df6-a6da-b45475a4a215",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "159428"
+                      }
+                    ],
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            },
+            {
+              "label": "Other observations",
+              "type": "obs",
+              "required": false,
+              "id": "otherObservations",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "4d1f668f-f9b7-4e95-8436-53f37e8c643e"
+              },
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounter": "Consultation",
+  "referencedForms": [],
+  "uuid": "acad07d9-945f-415d-a5b0-5cc1dc701115",
+  "description": "Echographie obstétricale 3",
+  "version": "1",
+  "published": true,
+  "retired": false,
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591"
+}

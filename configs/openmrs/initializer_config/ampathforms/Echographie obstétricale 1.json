@@ -1,0 +1,286 @@
+{
+  "name": "Echographie obstétricale 1",
+  "pages": [
+    {
+      "label": "Echographie obstétricale 1",
+      "sections": [
+        {
+          "label": "Echographie obstétricale 1",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Confirmed Pregnancy",
+              "type": "obs",
+              "required": false,
+              "id": "confirmedPregnancy",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "89e9cd9c-be64-491a-a96c-1201f4a74b0b",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "152305"
+                  }
+                ],
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "No"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Confirmed Gestational Age",
+              "type": "obsGroup",
+              "required": false,
+              "id": "confirmedGestationalAge",
+              "questionOptions": {
+                "rendering": "group",
+                "concept": "31759f43-b3a4-4d9c-ba79-6e6baf2d5bdc"
+              },
+              "questions": [
+                {
+                  "label": "Number of Weeks",
+                  "type": "obs",
+                  "required": false,
+                  "id": "numberOfWeeks",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "73099ba8-73c7-4427-a973-76fc1e4d4120",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Number of Days",
+                  "type": "obs",
+                  "required": false,
+                  "id": "numberOfDays",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "f887f487-58a2-4429-944c-c2134ea658de",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            },
+            {
+              "label": "Location of pregnancy",
+              "type": "obs",
+              "required": false,
+              "id": "locationOfPregnancy",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "309fba9e-7936-42e6-a7b6-d05830f5a432",
+                "answers": [
+                  {
+                    "concept": "0c7dc1a3-e7de-40c0-8b75-5c8c3c513d57",
+                    "label": "Abdominal Pregnancy"
+                  },
+                  {
+                    "concept": "b4b1d099-1932-4eda-bc72-7ba69b471b3a",
+                    "label": "Intrauterine Pregnancy"
+                  },
+                  {
+                    "concept": "a999e659-d882-425e-b3db-a2d039d15ac6",
+                    "label": "Other Ectopic Pregnancy"
+                  },
+                  {
+                    "concept": "7fc52ed8-8397-4016-be5a-b4686ef8fa7e",
+                    "label": "Ovarian Pregnancy"
+                  },
+                  {
+                    "concept": "c9662450-d9f4-43c6-90d5-6172ec709283",
+                    "label": "Tubal Pregnancy"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Estimated date of delivery",
+              "type": "obs",
+              "required": false,
+              "id": "estimatedDateOfDelivery",
+              "datePickerFormat": "calendar",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "6422a83f-acc6-4953-8239-f18a0b6d90a4",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "5596"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Number of Fetuses",
+              "type": "obs",
+              "required": false,
+              "id": "numberOfFetuses",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "a7ad184c-b79a-476d-9ba2-ef980375da28",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "165387"
+                  }
+                ],
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "label": "Number of Placenta",
+              "type": "obs",
+              "required": false,
+              "id": "numberOfPlacenta",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c1e61ae3-4de8-4fe1-9b7a-8c1ae56d1631",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "label": "Fetus Details",
+              "type": "obsGroup",
+              "required": false,
+              "id": "fetusDetails",
+              "questionOptions": {
+                "rendering": "repeating",
+                "concept": "ee66049d-8028-4f93-869d-8edcebd5d2e6"
+              },
+              "questions": [
+                {
+                  "label": "Location of Placenta",
+                  "type": "obs",
+                  "required": false,
+                  "id": "locationOfPlacenta",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "f4d664f4-e6e5-47f7-8781-2255ebfacc97",
+                    "answers": [
+                      {
+                        "concept": "ca69545b-dfef-4210-b311-dc8a1d309311",
+                        "label": "Anterior"
+                      },
+                      {
+                        "concept": "f5c721f6-7162-4533-9a83-4a4cd6997cb8",
+                        "label": "Lateral"
+                      },
+                      {
+                        "concept": "1f82cf3c-ce84-4c98-a35a-c37c45edc5fc",
+                        "label": "Posterior"
+                      },
+                      {
+                        "concept": "cc4c6921-1d06-48f7-a7d8-a0c6664b515e",
+                        "label": "Praevia"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Fetal Heart Rate (beats/min)",
+                  "type": "obs",
+                  "required": false,
+                  "id": "fetalHeartRate",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "min": "120",
+                    "max": "160",
+                    "concept": "7ce5a9fe-d9e0-427e-a080-ce8a9c673822",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "1440"
+                      }
+                    ],
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            },
+            {
+              "label": "Risky Pregnancy",
+              "type": "obs",
+              "required": false,
+              "id": "riskyPregnancy",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "No"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Identified complications",
+              "type": "obs",
+              "required": false,
+              "id": "identifiedComplications",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "6a228d2d-87ca-4d84-a774-ebc0e26b55c9",
+                "answers": [
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "No"
+                  },
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "Yes"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Other observations",
+              "type": "obs",
+              "required": false,
+              "id": "otherObservations",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "4d1f668f-f9b7-4e95-8436-53f37e8c643e"
+              },
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "89111520-a926-47c1-a4fb-82c70fd68cb1",
+  "description": "Echographie obstétricale 1",
+  "version": "1"
+}

@@ -1,0 +1,516 @@
+{
+  "name": "Consultation prénatale",
+  "pages": [
+    {
+      "label": "Consultation prénatale",
+      "sections": [
+        {
+          "label": "Consultation prénatale",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Visit number",
+              "type": "obs",
+              "required": false,
+              "id": "visitNumber",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "c4b48a7a-7c13-4e7d-89ad-1df68c5c6802",
+                "answers": [
+                  {
+                    "concept": "3098581b-4ce3-4064-8e87-facb1d7a5ff5",
+                    "label": "Five plus"
+                  },
+                  {
+                    "concept": "d29d0005-5e23-48cd-86ac-1ff9cd36dd13",
+                    "label": "Four"
+                  },
+                  {
+                    "concept": "929e9a36-fdfa-42a3-a416-64be037c3155",
+                    "label": "One"
+                  },
+                  {
+                    "concept": "877b6c50-7960-4be6-862f-c9ffd2f65afb",
+                    "label": "Three"
+                  },
+                  {
+                    "concept": "a82e292b-7bd3-4bf1-b6d8-d89c8b8cabff",
+                    "label": "Two"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Total Number of Pregnancies (Gravidity)",
+              "type": "obs",
+              "required": false,
+              "id": "totalNumberOfPregnancies(Gravidity)",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5bab781c-96be-4c32-b75b-d7906ddff555",
+                "disallowDecimals": true
+              },
+              "validators": [],
+              "hide": {
+                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "questionInfo": "Number of times the woman has been pregnant including current pregnancy if applicable"
+            },
+            {
+              "label": "Number of Term Pregnancies",
+              "type": "obs",
+              "required": false,
+              "id": "numberOfTermPregnancies",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "b346c76b-56ba-4c27-97cc-f7b0f85bf581",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "160080"
+                  }
+                ],
+                "disallowDecimals": true
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "validators": []
+            },
+            {
+              "label": "Number of live births",
+              "type": "obs",
+              "required": false,
+              "id": "numberOfLiveBirths",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "1b6a7d76-755c-4db9-8f05-42fe28fc3175",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "160601"
+                  }
+                ],
+                "disallowDecimals": true
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "validators": []
+            },
+            {
+              "label": "Number of living children",
+              "type": "obs",
+              "required": false,
+              "id": "numberOfLivingChildren",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "3b7d4768-8fc6-4a2d-9a83-05bd288b7108",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "1825"
+                  }
+                ],
+                "disallowDecimals": true
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "validators": []
+            },
+            {
+              "label": "Number of abortions",
+              "type": "obs",
+              "required": false,
+              "id": "numberOfAbortions",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "88e9ef3b-651f-47ea-89c5-5f751cee165b",
+                "disallowDecimals": true
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "validators": []
+            },
+            {
+              "label": "Birth outcome during the last pregnancy",
+              "type": "obs",
+              "required": false,
+              "id": "birthOutcomeDuringTheLastPregnancy",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2a07d3b8-c3d5-4fae-ac89-e0a1dfdd9915",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "161033"
+                  }
+                ],
+                "answers": [
+                  {
+                    "concept": "90950144-af82-460d-9393-e5e412445075",
+                    "label": "No workbirth (Abortion)"
+                  },
+                  {
+                    "concept": "5066f452-5d8b-4e04-b815-0c212929e47e",
+                    "label": "Cesarean"
+                  },
+                  {
+                    "concept": "dfb79477-ab61-47c4-b308-e1ab09757c18",
+                    "label": "Vaginal delivery"
+                  }
+                ]
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "validators": []
+            },
+            {
+              "label": "Place of delivery of the last pregnancy",
+              "type": "obsGroup",
+              "required": false,
+              "id": "placeOfDeliveryOfTheLastPregnancyGroup",
+              "questionOptions": {
+                "rendering": "group"
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "questions": [
+                {
+                  "label": "Place of delivery of the last pregnancy",
+                  "type": "obs",
+                  "required": false,
+                  "id": "placeOfDeliveryOfTheLastPregnancy",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "023e0a9e-cf47-4a4d-9cf4-b2edfbe7fc33",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "1572"
+                      }
+                    ],
+                    "answers": [
+                      {
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                        "label": "Other"
+                      },
+                      {
+                        "concept": "4b9b9184-6aa8-4875-ab10-f22092a0075b",
+                        "label": "Hopital St Jean Limbe"
+                      },
+                      {
+                        "concept": "696114ce-8c7b-4018-a8d5-ee2e65d323d3",
+                        "label": "Hopital Sacré Coeur Milot"
+                      },
+                      {
+                        "concept": "b0b1c920-02ba-47e7-93e5-9922e888aac0",
+                        "label": "Hopital Justinien Cap Haitien"
+                      },
+                      {
+                        "concept": "50f4de56-b5b6-4939-aa73-7d7f5a5f8961",
+                        "label": "Hopital HBCH"
+                      },
+                      {
+                        "concept": "df9cc02b-b427-4262-b30a-7b973aef23fc",
+                        "label": "Home"
+                      },
+                      {
+                        "concept": "1ff3db17-7a6f-40bf-8062-a912773e905c",
+                        "label": "Hopital Bon Samaritain Limbe"
+                      },
+                      {
+                        "concept": "1c61317b-f7cf-4709-829c-76abb6f6501b",
+                        "label": "Hopital de Borgne"
+                      },
+                      {
+                        "concept": "57195bab-5935-4da4-b5de-e9ee1dba162e",
+                        "label": "Hopital de Pignon"
+                      },
+                      {
+                        "concept": "6d1450bb-0109-456b-82f9-e495bcb5c959",
+                        "label": "Hopital de Trou du Nord"
+                      }
+                    ]
+                  },
+                  "hide": {
+                    "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+                  },
+                  "validators": []
+                }
+              ]
+            },
+            {
+              "label": "Date of most recent pregnancy delivery",
+              "type": "obs",
+              "required": false,
+              "id": "dateOfMostRecentPregnancyDelivery",
+              "datePickerFormat": "calendar",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "50a37eff-81a3-4cef-a19c-1f85d4e690d6",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "1596"
+                  }
+                ]
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "validators": []
+            },
+            {
+              "label": "Previous Delivery Complications",
+              "type": "obs",
+              "required": false,
+              "id": "previousDeliveryComplications",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e3892a91-1428-4816-8e83-834dcd738723",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "No"
+                  }
+                ]
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "validators": []
+            },
+            {
+              "label": "Date of last period",
+              "type": "obs",
+              "required": false,
+              "id": "dateOfLastPeriod",
+              "datePickerFormat": "calendar",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "6ed50023-d807-492f-a203-8ce87a942a52",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "1427"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Estimated date of delivery",
+              "type": "obs",
+              "required": false,
+              "id": "estimatedDateOfDelivery",
+              "datePickerFormat": "calendar",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "6422a83f-acc6-4953-8239-f18a0b6d90a4",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "5596"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Estimated Gestational Age",
+              "type": "obsGroup",
+              "required": false,
+              "id": "estimatedGestationalAge",
+              "questionOptions": {
+                "rendering": "group",
+                "concept": "9e071d37-ee01-4785-a756-7e4059ffe736"
+              },
+              "validators": [],
+              "questions": [
+                {
+                  "label": "Risky Pregnancy",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2"
+                  },
+                  "answers": [
+                    {
+                      "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                      "label": "Yes"
+                    },
+                    {
+                      "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                      "label": "No"
+                    }
+                  ],
+                  "id": "riskyPregnancy"
+                }
+              ]
+            },
+            {
+              "label": "Signs and Symptoms",
+              "type": "obsGroup",
+              "required": false,
+              "id": "signsAndSymptoms",
+              "questionOptions": {
+                "concept": "f7312165-7e96-4761-b4cf-d601a1a18f9c",
+                "rendering": "repeating"
+              },
+              "questions": [
+                {
+                  "label": "Fundal height (cm)",
+                  "type": "obs",
+                  "required": false,
+                  "id": "fundalHeight(Cm)",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "f857c495-98d2-4097-9018-d6641a8304a5",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "1439"
+                      }
+                    ]
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            },
+            {
+              "label": "Fetus Details",
+              "type": "obsGroup",
+              "required": false,
+              "id": "fetusDetails",
+              "questionOptions": {
+                "concept": "e8468864-09e2-454b-b984-94a3c0ff7727",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "label": "Fetal Heart Rate (beats/min)",
+                  "type": "obs",
+                  "required": false,
+                  "id": "fetalHeartRate(Beats/Min)",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "min": "120",
+                    "max": "160",
+                    "concept": "7ce5a9fe-d9e0-427e-a080-ce8a9c673822",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "1440"
+                      }
+                    ],
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Presentation",
+                  "type": "obs",
+                  "required": false,
+                  "id": "presentation",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "d47e2e11-355e-4c62-86a7-8ebe45fb4292",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "160090"
+                      }
+                    ],
+                    "answers": [
+                      {
+                        "concept": "cbafba29-b62a-4675-910a-a6bb161de256",
+                        "label": "Variable"
+                      },
+                      {
+                        "concept": "5bb2ea3b-a736-4533-bd5e-a1e9d835f721",
+                        "label": "Transverse"
+                      },
+                      {
+                        "concept": "c4526510-3f10-11e4-adec-0800271c1b75",
+                        "label": "Cephalic"
+                      },
+                      {
+                        "concept": "a0dc5727-c33e-479b-b70e-fb0eb7e45853",
+                        "label": "Breech"
+                      }
+                    ]
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            },
+            {
+              "label": "Physical examination notes",
+              "type": "obs",
+              "required": false,
+              "id": "physicalExaminationNotes",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "6d1b036f-829e-1c52-a74c-a8ec6d2f2d15"
+              },
+              "validators": []
+            },
+            {
+              "label": "Childbirth Plan",
+              "type": "obs",
+              "required": false,
+              "id": "childbirthPlan",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0ae11d29-2ba0-4bae-a2fe-47603a82df3d",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "No"
+                  }
+                ]
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "e3d5ba62-a432-4e7b-bab1-5ac29d41cf14",
+  "description": "Consultation prénatale",
+  "version": "1"
+}
