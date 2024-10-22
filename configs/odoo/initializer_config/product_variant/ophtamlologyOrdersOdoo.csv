@@ -1,0 +1,23 @@
+id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
+init.a8855f0e-7496-4c2b-8ce1-a5252cd09c5c,Cataract,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.e0d71b2e-f47b-4799-8e7b-2278749f2619,Cataracte,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.d2f43828-2a52-4404-b58b-16d36e8ebd7e,Cataracte ECCE,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.4df1905e-1597-4f75-aa74-e9eb46bde7bd,Cataracte PHACO,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.ec739b82-3e0d-430d-8bd5-8a53b6aa50f0,Cataracte SICS,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.32937ed3-d874-4cf1-9bb8-d61c51dfffa0,Chalazion,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.ea4135d7-19c5-4221-a269-782c8b44d8e6,Chalazion (clous),product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.3ba6e232-c584-4c07-b229-e98e32f29b2f,"Conjonctive, chirurgie",product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.4309907d-3090-4251-9896-13ca2f3266dd,Evisération Oeil,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.57a005b8-c23b-4ee0-9099-8019796b6eeb,Glaucome - Laser  SLT,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.8f2c0419-e4a2-43c4-b4a2-4e153c0ffd3b,Glaucome/Laser,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.207a41c3-5a29-46f7-8bce-8dd9a72d90b8,Glaucome/Trabeculectomie,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.55236fd7-f059-4608-a6cb-4801a0a834c2,Oeil absces / Kyste - Drainage,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.4f98f50f-36a4-455d-83df-7265ae7e0814,Plaie Cornéenne/Sclérotique-Adulte,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.e3703746-0e4a-4c29-aeb1-f2e536f27cf7,Plaie Cornéenne/Sclérotique-Enfant,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.8d226514-a8c5-4fc4-96c1-51774079ca47,Pterygion,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.5d94a966-1691-44a0-bf06-b48860ffb758,Réparation Plaie de la paupière,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.6a54a9bd-6d00-47b8-953f-bd79ac63b87e,Bilan Ophtalmologique,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.450ce173-ea9e-4aa9-b2dc-d8070237c1a4,Champs Visuel,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.1f450fae-2340-4d30-89bc-73ab5a139b67,Fondoscopie,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.4d6f2d17-debf-45d6-815b-b3c13f06d7cd,Réfraction,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities
+init.3564b9b5-39eb-4025-ba8f-d05ac5773cdb,Rétinoscopie,product.categ_services_ophtamology_orders,service,FALSE,TRUE,Ordered quantities

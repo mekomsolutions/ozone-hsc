@@ -1,0 +1,7 @@
+"id","name",warehouse_ids/id,rule_ids/name,rule_ids/picking_type_id/id,rule_ids/action,"rule_ids/location_src_id/id",rule_ids/location_id/id
+"init.3ce3e9c4-21db-4300-8f31-97ea1062ed94","Manufacture",init.warehouse0,Manufacture,init.d200d3d1-a862-4389-b8c5-c3851e90596b,Manufacture,"init.6299466b-05bb-4cba-9acb-ba9b6d8020fd",init.6299466b-05bb-4cba-9acb-ba9b6d8020fd
+"init.4e9ab677-a3af-44aa-8811-58259eec92f4","Pharmacy: Receive in 1 step (stock)",init.warehouse0,Receive,init.911f6e6b-a3d2-468d-8911-740f39a93a91,Pull From,"init.f495f2ed-032d-459b-81d6-f3258cd931c5",init.6299466b-05bb-4cba-9acb-ba9b6d8020fd
+"init.8defcf60-3708-471b-8598-d25968327515","Pharmacy: Deliver in 1 step (ship)",init.warehouse0,Deliver,init.da6a478b-0f47-4bfa-a3e4-f73723a78ecb,Pull From,"init.6299466b-05bb-4cba-9acb-ba9b6d8020fd",stock.stock_location_customers
+"init.2e2b4956-553c-4437-aaa6-455f83774d30","Buy",init.warehouse2,WAREH: Stock (Buy),init.06befd64-b2bf-419d-9c57-69bb2902cef0,Buy,,init.f495f2ed-032d-459b-81d6-f3258cd931c5
+"init.107fa8c6-6caa-43b0-a894-e182fb283cdb","Warehouse: Receive in 1 step (stock)",init.warehouse2,WAREH: Receive,init.06befd64-b2bf-419d-9c57-69bb2902cef0,Pull From,,init.f495f2ed-032d-459b-81d6-f3258cd931c5
+"init.2e2d0877-65c8-49de-adf0-1ca9f12258e3","Warehouse: Deliver in 1 step (ship)",init.warehouse2,WAREH: Deliver,init.911f6e6b-a3d2-468d-8911-740f39a93a91,Pull From,"init.f495f2ed-032d-459b-81d6-f3258cd931c5",init.6299466b-05bb-4cba-9acb-ba9b6d8020fd

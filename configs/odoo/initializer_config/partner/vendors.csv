@@ -1,0 +1,24 @@
+id,name,company_id/id,is_company
+d58a10bf-c829-42d8-8894-23e0352ecdfa,4C,base.main_company,TRUE
+5bce2b77-f0b8-4d24-9cfb-d4183485cde0,ADP PHARMA,base.main_company,TRUE
+13071da0-0c36-43fd-ab0a-9e2324c56735,COSMOS,base.main_company,TRUE
+996ba8a8-4486-4162-af43-8918f281b786,DENTISTRY,base.main_company,TRUE
+26b82aee-23ee-4ed5-8ce6-965625654500,DEPOT CAPOIS,base.main_company,TRUE
+5b39c3b0-1cdc-4a87-9f59-df348d340ab5,Entreprises Maximillien,base.main_company,TRUE
+e676e3cc-879e-4eaf-9e37-c231a68cc171,G11 DEPOT,base.main_company,TRUE
+e168a449-3323-4af7-888f-1a4aa02501d6,HIV Program,base.main_company,TRUE
+fccd19bc-a7d4-43e9-a2bd-28012de5f805,Holy Name Medical Center,base.main_company,TRUE
+88a4b0eb-9ebd-46db-961a-e0fee944ef34,IMEDIS,base.main_company,TRUE
+da520e16-f11b-4c1a-8efa-b965d9e43df1,MEDICAL SUPPLIES,base.main_company,TRUE
+8f81a4aa-50ef-4b78-b4fa-ef085c3d7112,Ministry of Health,base.main_company,TRUE
+c601a66a-84be-422e-a39a-8db63bad5b6a,NACO,base.main_company,TRUE
+50990482-c84d-4869-983a-e0b9e00370b2,NOJUPHARMA,base.main_company,TRUE
+2d4e182e-c85d-4d75-a844-bcd40a73eeef,PEHACHEVE,base.main_company,TRUE
+2d4477cf-fba9-4b32-9036-e423e1c502b7,PIC Pharma,base.main_company,TRUE
+b2f26505-2ded-4160-906d-3c277594e4f3,PLURIMED,base.main_company,TRUE
+446f8f58-ff43-48e9-abed-e3ddf515669d,PRODENTOS,base.main_company,TRUE
+46801498-4325-4fa7-8855-b4d86dee5eec,PROMESS,base.main_company,TRUE
+0a552533-ade2-42b5-8545-26287a5ce094,PROPHALAB,base.main_company,TRUE
+b466e415-924d-4f5c-a00e-338ecc0f9dfa,REIMBOL,base.main_company,TRUE
+5ad559e9-1b45-436a-bb41-efc8f6cc2a5d,SOPRODIS,base.main_company,TRUE
+ae1f3438-deba-4f69-bf51-f3906fcd947c,Pharmacie Sejourné,base.main_company,TRUE

@@ -1,0 +1,16 @@
+"id","name","usage","location_id/id",removal_strategy_id/id
+"init.5bd7018a-a2b8-4f06-a2b6-d8d6d80abfb5","PHARM","View",,product_expiry.removal_fefo
+"init.c9f90afd-0127-4e50-b408-53d845f0411a","WAREH","View",,product_expiry.removal_fefo
+"init.6299466b-05bb-4cba-9acb-ba9b6d8020fd","Stock","Internal Location","init.5bd7018a-a2b8-4f06-a2b6-d8d6d80abfb5",product_expiry.removal_fefo
+"init.f495f2ed-032d-459b-81d6-f3258cd931c5","Stock","Internal Location","init.c9f90afd-0127-4e50-b408-53d845f0411a",product_expiry.removal_fefo
+"init.9475ea87-1f3d-4a67-97e9-798f4bfb3400","Community health stock","Internal Location","init.6299466b-05bb-4cba-9acb-ba9b6d8020fd",product_expiry.removal_fefo
+"init.2b236481-a968-435f-9b41-b14f0bb1b413","Pediatrics Stock","Internal Location","init.6299466b-05bb-4cba-9acb-ba9b6d8020fd",product_expiry.removal_fefo
+"init.8f2a1f1b-cc74-4661-a39e-cb8405d39997","Internal medicine stock","Internal Location","init.6299466b-05bb-4cba-9acb-ba9b6d8020fd",product_expiry.removal_fefo
+"init.b41e4b5a-6d10-4cd5-9961-16f469105337","Surgery stock","Internal Location","init.6299466b-05bb-4cba-9acb-ba9b6d8020fd",product_expiry.removal_fefo
+"init.499f5949-df76-4ccc-8e52-cf559cb3e823","Orthopedics stock","Internal Location","init.6299466b-05bb-4cba-9acb-ba9b6d8020fd",product_expiry.removal_fefo
+"init.e0d67716-a15c-4e38-a5b7-12c1298062dc","Emergency stock","Internal Location","init.6299466b-05bb-4cba-9acb-ba9b6d8020fd",product_expiry.removal_fefo
+"init.c2bd159e-325e-4842-b159-2006d47642fa","ICU stock","Internal Location","init.6299466b-05bb-4cba-9acb-ba9b6d8020fd",product_expiry.removal_fefo
+"init.93067f35-7b27-495f-b070-274d73ec7ced","Operating Room stock","Internal Location","init.6299466b-05bb-4cba-9acb-ba9b6d8020fd",product_expiry.removal_fefo
+"init.ead1c071-3db5-4def-aa19-829c918267ee","Maternity stock","Internal Location","init.6299466b-05bb-4cba-9acb-ba9b6d8020fd",product_expiry.removal_fefo
+"init.7134ed00-064e-4270-a372-cdd6d38fdb7b","Vaccine Dispense Center","Customer Location",,product_expiry.removal_fefo
+"init.a1f81582-75f5-4de8-9859-43c19d96a6f0","Bulk Dispense","Customer Location",,product_expiry.removal_fefo

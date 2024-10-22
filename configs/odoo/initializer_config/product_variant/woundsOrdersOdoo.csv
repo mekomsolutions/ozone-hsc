@@ -1,0 +1,5 @@
+id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
+init.799a3a6a-13c7-48cb-bb9d-4f88ef88bb3d,PLA1001 - Suture plaie superficielle,product.categ_services_wounds_orders,service,FALSE,TRUE,Ordered quantities
+init.53867e4b-0302-473c-81e8-d4c66f127552,PLA1002 - Suture plaie etendue,product.categ_services_wounds_orders,service,FALSE,TRUE,Ordered quantities
+init.12c4f274-1e0d-4935-a9e6-071db8bda75c,PLA1003 - Plaie delabrante / contuse,product.categ_services_wounds_orders,service,FALSE,TRUE,Ordered quantities
+init.f5043ff3-98bd-476f-be9d-eccdf94a7c9e,PLA1004 - Kit Chirurgical,product.categ_services_wounds_orders,service,FALSE,TRUE,Ordered quantities

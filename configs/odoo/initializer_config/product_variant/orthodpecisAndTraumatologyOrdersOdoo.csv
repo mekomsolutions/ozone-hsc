@@ -1,0 +1,156 @@
+id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
+init.eb874096-70da-4fbc-a89f-c7611a5280a7,Allongement de membre inférieur,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.6505a44e-5405-4031-9b1a-778d36a58811,Allongement tendineux,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.4031be8f-a52c-4cf5-bd56-91b6f91d1565,AMO sur demande du patient (Broche),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.6366225b-ab78-4513-b9fa-bb6a166c4b55,AMO sur demande du patient (ECM),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.97302d3e-89e2-45cc-9a98-5777c4d202a7,AMO sur Fd d'infection (1ère intervention  à l'HSC),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.9c2c3ba9-5240-421e-a53f-2159f0243c79,AMO sur Fd d'infection (1ère intervention hors de l'HSC),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.97ccf29b-b949-462f-b4bd-95efdd3e7441,Amputation bras,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a9283050-20d3-4fc3-8172-d2c49c54f36c,Amputation Doigts,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.32c7a6ce-b7f3-48ff-ad9c-79df4ca49360,Amputation du pied (lis franc),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a69d88b1-281b-4535-a431-809e4fae535c,Amputation orteil,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.3adfe531-3235-4c45-8661-4994c497cc38,Amputation Phalange,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.eb6fcf84-19f0-4ed3-ac7e-1d7a772d01a9,Amputation trans huméral,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.93c675b4-d25f-484d-96fd-194d8ed98d4d,Amputation trans radio-ulnaire,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.8f091125-e6cb-4204-b7be-b44737ad7bd4,Amputation trans tibial,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.12f65ae5-730d-49dc-a26f-b79ae32e9398,Amputation transfémoral,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a587d6dc-03f3-478e-806c-a6e8ee7c2e82,Amputation transmetatarsienne,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.ab82c53f-9065-472d-a988-e22eba553962,Arthrodèse de la cheville,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.ed521b03-4b1d-4ea9-98c2-3251bbd50c1d,Arthrodèse du coude,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.65bb48cf-001e-42f0-88a6-70a9f710cdb0,Arthrodèse du genou,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.4c9bc307-2b68-4b07-97bd-b688e903c334,Arthrodèse du poignet,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.33c24b9e-2d07-4ab3-a59d-ef9eda3c756a,Arthrolyse de l'épaule (fermée),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.d2419d93-8b57-4ae9-9415-5b28309f46f2,Arthrolyse de l'épaule (ouverte),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.cf6539fc-b1ba-435a-a1d6-17e4514ac748,Arthrolyse du coude (fermée),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.7053cdb7-7094-4f4c-9c9a-7d8bce497162,Arthrolyse du coude (ouverte),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.99727bbd-aa6c-4525-83ff-d5f24d162b69,Arthrolyse du genou (fermée),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.bc314c1f-4ab4-4f17-b0c4-269a101ce0c7,Arthrolyse du genou (ouverte),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.1db4e233-547e-4b9f-a36b-f12aaa3df0cf,Arthrolyse du poignet (fermée),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.84d1c981-63fd-474c-ae3b-931c58865c09,Arthrolyse du poignet (ouverte),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.f8816af9-8d5c-40a3-b6df-3c3360d85d6d,Arthrolyse inter-phalangienne distale (fermée),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.810b25e2-3f10-428a-ab3c-35c36706c805,Arthrolyse inter-phalangienne distale (ouverte),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.5c9279c6-21f5-47eb-8c4a-f970e642bd5e,Arthrolyse inter-phalangienne proximale (fermée),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.f89632f2-b520-46f3-bd91-5b6ec21c0a5e,Arthrolyse inter-phalangienne proximale (ouverte),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.0d50d17d-550f-42a5-89c2-e808f566a351,Arthrolyse Métacarpo-phalangienne (fermée),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.54e9504d-7359-4eb7-9db2-c9f6144166a9,Arthrolyse Métacarpo-phalangienne (ouverte),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.93ad8dce-0e09-4110-9474-47bd39781f6b,Arthroplastie de Hanche,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a4f61af8-4550-4144-b8b5-61c5111b12a3,Arthroplastie de l'épaule,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.62b7ed83-6a79-47c4-ac92-8a500115351f,Arthroplastie du coude,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.1a20ea0e-03cc-437f-8b46-c9600c1874c4,Arthroplastie du genou,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.d406065b-b1ee-4ff3-8a39-1b61c7202727,Biopsie Exerese / main,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.586591bb-f67e-47b8-a708-76db570f1167,Biopsie pied,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a313fb09-1425-43f7-8a77-544ddaec57e7,Buté osseuse de Bankart (Luxation récidivante),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.9043dfdd-2a05-4f53-bd63-a06c07c7f111,Carpectomie,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.70aef106-991e-451c-8b0e-fce2b89a1aeb,Cerclage Péritendineux,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.57c96d6d-921a-4e54-a920-ea8a2be52d5b,Club foot repair bilateral,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.9495b189-d15d-45ee-af26-9008448ddc64,Club foot repair unilateral,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.ba79d295-36a7-4503-b8c8-7b980500f1ac,Cross-finger flap,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.953be943-467a-4f13-95b7-f4d94873b8cb,Crossleg flap,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.d553d1b7-ec2b-49c9-a5f2-4d9837c935e9,Debridement+lavage+parage,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a7b062c9-5c87-4af6-a68d-e6024b9ec3e8,Désarticulation de Chopard,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.cef36522-b321-4984-93e4-e92770326deb,Désarticulation de hanche,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.f482e108-ca8d-47b4-bfde-0e4bfd44d7b7,Désarticulation de l'épaule,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.7f3df511-2ec2-4c2b-bb6f-a10c8f1230bb,Désarticulation de Lisfranc,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a300fd89-f424-4632-85a5-8252f260c38f,Désarticulation du Coude,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a2cdc219-dda2-472e-a377-b764a8db217a,Désarticulation du genou,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.597b981d-1ecd-44da-8203-d91b62d97d92,DHS (Hanche),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.30847ace-cb79-4b91-be01-6c7b1f6e039f,Doigt surnumeraire infecte,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.88f40468-52ea-4c2d-a892-9297f295604c,Droigt a ressaut (Triger finger),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.8244f2f7-ba70-476f-9d60-92a8790d909e,ECM du Femur,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.410df63f-7e88-4b72-87b5-7db3462ceba1,ECM du Tibia,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.70dc9b52-3e51-45d4-9427-9cf1f76717bb,Embrochage per cutané,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.2623bfd6-1d45-4ff3-93f5-a86e3eeb0c48,Embrochage per cutane fx supra cond. Hum. (enfant),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.dc7ff57f-1194-4198-812a-8fc86ae1e53f,Embrochage per-cutanée fx supra condylienne humérus chez l'enfant,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.d4bd0764-6ffb-4c6c-befe-73fe1756f089,Embrocharge poignet,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.d7a853e1-d989-44d1-aff2-c77162502209,Enlèvement fixateur Externe-En SOP,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.3ddd6df5-5978-448d-93c1-d13ea14f596b,Exérèse de la tête fémoral,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.c5c9d0b6-6f75-4d33-8ab9-77a78244c784,Exérèse Nodule Face plantaire,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.bd266d16-701b-4006-92a7-20a0fc5fe552,Exérèse tête radial,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.e31c4915-e07a-4610-9933-9eba9e1de379,Flap des jumeaux,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.49fed095-034e-40e4-96e6-488bb0f25c31,Flap du soléaire,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.472c37d7-a8f0-42ea-9f26-f2b4f8d1a278,Fracture du bassin,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.823802f1-3d94-486f-9da4-4ad29ce0cdcf,Ganglion Cyst Exerese,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.52223d49-f8da-4c4e-815a-a2ec6c4081e7,Greffe osseuse,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.63b7fd70-419a-4f37-a91d-2d21592d3b79,Groin flap,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.bd4d9020-9ee8-421c-8e94-bf6f944c3d00,Haubannage Rotule,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.8566ff37-280c-4814-a3db-891e6cc3dcb6,Lavage et  fixateur externe 2 os de l'avant-bras,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.cf1cfff9-2411-4cc5-91bf-d29bcbfbb8a0,Lavage et fixateur externe cheville,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.0fb9a57f-3c72-450a-9c2d-770be5c18804,Lavage et fixateur externe femur,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.ca89200d-e3eb-49a0-84fc-11c24772ea4d,Lavage et fixateur externe humerus,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.f8bcd75d-4d47-46ef-b532-0f0059169c2d,Lavage et fixateur externe tibia,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a51b261a-2b48-4884-9b37-5d8bb1582be8,Ligamentotaxis radius distal,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.7fffd487-2ccd-404f-bcda-de253147dd1a,Ligametotaxis Cheville,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.549220f7-31c5-4856-94fa-f940e982d18b,Méniscectomie partielle,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.4019c19b-3f92-4951-a814-23c70fa2e198,Méniscectomie totale,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.1db45866-4cac-47cf-8e7a-1e7edab26f8b,Mise à Plat de cal vicieux Fémur,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.af921c99-c046-4b3f-91fe-5914bf771f12,Mise à Plat de cal vicieux Main,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.d2d39bd1-912b-4388-a623-de78083ac601,Mise à Plat de cal vicieux Tibia,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.31dff92a-77a8-4eb0-aadd-e49146b7ba98,Neurolyse du nerf Médian (Carpal tunnel release),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a1ebf702-9fe0-4e11-b941-fe2ad250cb6b,Neurolyse du nerf sciatique,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.79c483e1-64d8-439d-a84a-5018f2ccbab5,Neurolyse du nerf Ulnaire,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.6bcebcd9-affa-44f5-aea1-6399428d7c20,Neurorraphie,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.f9d291a7-5395-4aa2-a40d-6028b1fbf55c,Ostéotomie correctrice du Fémur,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.7e2ce74c-f7e6-4f8c-96dd-5f5383e73f4e,Ostéotomie correctrice du Tibia,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.b91814fd-513d-4703-bac3-08f3be68ffdf,Plaque vissee Fémur (Cuisse),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.bb8799b9-da51-456f-995e-20dd3dfe4155,Plaque vissee Tibia (Jambre),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.c80120da-830d-4fb3-b7a2-894255875f23,Protèse de Hanche,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.9519bda1-a700-4d96-9e42-be23c25127b2,Raccourcissement de membre inférieur,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.949d4bf4-04a2-4f8c-aa86-d313ad9690c3,Radial forearm flap,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.b3f70af0-3ac2-47ac-95c4-8498de57f6a9,Reconstitut. osseuse ( Transport osseuse; Masquelet; Tibialisation du Péroné.),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.5f10589a-06fc-4a20-8451-56ed387ef746,Reconstruction du Cotyle,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.7fd2d013-92eb-4010-9cad-f5a5127775dd,Reconstruction ligamentaire,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.7f6c525b-3bc9-4f80-b71d-d944099a085b,Réduction et embrochage luxation du semi-lunaire,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.f7311a62-156f-40a1-9232-82a2567e01d2,Réduction fermée de Luxation de l'Epaule en SOP,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.ea138849-91cd-41fb-9c71-7796878fc3f7,Réduction fermée de Luxation du coude,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.df8085bc-7d83-47e1-a39c-e11fc3d7c92b,Réduction fermée de Luxation Metacarpo-Phalangienne,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.476b2a10-635b-4e44-a7a2-028aa6c269dd,Réduction fermée luxation de hanche,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.cea7d3b1-fd94-41c7-b571-ccf710216551,Reduction fracture fermée & platre,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.72071b51-5ad7-4b07-ba07-d1d6a67e44c1,Reduction fracture fermée & platre Embrochage,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.ae794070-0b67-4b71-858d-c926f8158227,Reduction fracture ouverte mbre inférieur,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.c0aa7197-c73d-4b37-bd72-0e50dea5186d,Reduction fracture ouverte mbre supérieur,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.f2426dea-8304-49cb-820e-dfa6295b5932,Reduction luxation de la hanche,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.4d5dd10a-59da-4b1d-ac3f-06fb139c0937,Réduction ouverte de Luxation négligée de l'Epaule,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.1b4360a3-da0d-4a63-9b6a-92d7b1ae14c8,Réduction ouverte de Luxation négligée du coude,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.7c23f3a4-19e4-4266-9c50-33bac07147ab,Réduction ouverte de Luxation Négligée Metacarpo-Phalangienne,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.acc5fd6f-7cf7-4459-bfc3-d00764a0c25f,Réduction ouverte luxation négligée de hanche,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.ce82da78-ac98-49a8-81c8-59977f61f3f4,Remise sur tension de Latarjet de l'épaule (luxation récidivante),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.0f5d7912-e2b8-4b61-a0f6-7e410a296f1b,Reprise de moignon (1ère intervention à l'HSC),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.06dbc8b1-b1a3-4953-a476-10546257eb0d,Reprise de moignon (1ère intervention hors de l'HSC),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.4712a737-a54d-4258-a12e-b6ee96070a56,Rétablissement de la prono-supination du poignet (technique de Kapandji),product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.f44618c8-d424-4b91-a41d-9cc35c044145,Reverse sural flap,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.3bc60347-7d56-416f-a8f8-b31b8c52a3a9,ROFI -  Clavicule par Plaque vissee Vs embrochage,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.bb328306-984e-44bc-82b8-4c61393373b7,ROFI - Cheville,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.43eec935-cac4-4f1c-ae70-40c145f7a34d,ROFI 2 os de l'avant-bras,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.6f397298-636d-4a77-9ad8-4f3b812752ed,ROFI Bassin,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.bc196611-b3ae-4eea-a2b3-7236c0ffa96a,ROFI Cheville,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.644fd616-4517-4aa5-9f5a-9585ac9050de,ROFI Clavicule par plaque vissée vs embrochage.,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.be93b835-82ee-4cb2-bced-68ec4ac45811,ROFI Femur,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.9b6c892a-e222-4720-bff5-ab1baaa5ed3c,ROFI Femur distal,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.13d566c5-62f4-413b-88a6-95510e245810,ROFI Humérus distal par plaque vissée vs vissage.,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.9ca5a139-0520-4580-8e22-e856647256cd,ROFI Humerus par plaque visse Vs ECM,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.26dbc71d-413d-4595-9c82-e582f216ad96,ROFI Humerus proximal par plaque visee Vs vissage,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.c8a4519d-2d22-44cf-83d0-bd6ed989aa0f,ROFI Humérus Proximal par plaque vissée vs embrochage,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.0d8d7c13-8c50-46fe-acac-243361691476,ROFI Metacarpienne,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.272d411d-c151-4a1f-80e5-7068aee74cb2,ROFI Metatarsienne,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.e41293cf-efcc-47c3-9719-b01a020dd3f9,ROFI Olecrane par haubannage/ Vs vissage/ plq vissee,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.6cad3736-7183-4b08-8477-d5f340d22768,ROFI Radius distal,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.2afcf7e7-061b-4735-8571-6bcd1bd36aae,ROFI scarphoide poignet,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.58dcd0a7-6851-457d-9a42-5721f1c924c4,ROFI Tibia Proximal,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.b5d7bde5-39b0-45e6-beef-859475ccb1be,Sequestratectomie-Membres inférieurs,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.c951f782-0189-4309-b89c-6a5470397f76,Spica Adulte,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.444696b9-ff2a-4189-a238-f41a2556f34d,Spica Enfant,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a2021dbb-138d-4601-b3e4-3a371872320b,Tenolyse de la Coiffe des Rotateurs,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.1bbdbfa5-7856-49d3-9d54-4320bf13c210,Tenolyse de Quervain,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.24b301cc-3ddc-4e2b-a8f3-19d53263a846,Tenolyse du Golf Elbow,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.ff033096-f417-426c-9535-3efdf26be5f7,Tenolyse du Tennis Elbow,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.842b9004-ba76-41bc-bff6-ae7e1340f2f9,Tenorraphie,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.0fe32dfb-e8e2-4887-a003-bb4f100532eb,Tenorraphie +Réduction,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.5af985d1-9466-432d-b396-7757f7d10ea0,Traitement de Pseudarthrose de la Clavicule,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.7efbb578-5ff4-4c3c-94fa-4e0211ed1c83,Traitement de Pseudarthrose de l'humérus,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.ca7be3cd-0a4c-4cfd-b0e6-e7d4aa1910af,Traitement de Pseudarthrose des deux os de l'avant-bras,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.e3f4d6d1-41a8-4218-a7b2-068839d75de2,Traitement de Pseudarthrose du fémur,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.57144ec9-197e-457e-8dc0-5eb6e5d1c77d,Traitement de Pseudarthrose du Scaphoïde,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.5371cdc7-769b-4a70-a69c-a0d622475df0,Traitement de Pseudarthrose du Tibia,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.3d93d0f0-6b0b-4903-82b7-2265bc72ecec,Transfert tendineux,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.a94b76ef-01d2-4097-bf4a-1ecc10dbfa8f,Vissage Astragal,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
+init.91d7fea7-2a7f-435a-8fdd-fd820b94c4ad,Vissage Calcaneum,product.categ_services_orthopedics_orders,service,FALSE,TRUE,Ordered quantities
