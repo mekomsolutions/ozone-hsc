@@ -241,6 +241,20 @@
               "validators": []
             },
             {
+              "label": "Other Pregnancy Risks",
+              "type": "obs",
+              "required": false,
+              "id": "otherPregnancyRisks",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "ee39e8af-12e8-41ae-a1f9-b08acea07587"
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(riskyPregnancy) || riskyPregnancy !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
+              },
+              "validators": []
+            },
+            {
               "label": "Identified complications",
               "type": "obs",
               "required": false,
@@ -250,14 +264,35 @@
                 "concept": "6a228d2d-87ca-4d84-a774-ebc0e26b55c9",
                 "answers": [
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
-                  },
-                  {
                     "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
                     "label": "Yes"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "No"
                   }
                 ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Complications",
+              "type": "obs",
+              "required": false,
+              "id": "complications",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1fac1715-4e6e-4f87-ad75-d4ecf8bbdbe8",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "1576"
+                  }
+                ]
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(identifiedComplications) || identifiedComplications !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
               },
               "validators": []
             },
