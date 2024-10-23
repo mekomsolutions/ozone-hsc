@@ -179,7 +179,8 @@
               "required": false,
               "id": "placeOfDeliveryOfTheLastPregnancyGroup",
               "questionOptions": {
-                "rendering": "group"
+                "rendering": "group",
+                "concept": "05306cba-374b-40e8-ac40-4e8a510add61"
               },
               "hide": {
                 "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
@@ -247,6 +248,20 @@
                     "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
                   },
                   "validators": []
+                },
+                {
+                  "label": "Other Health Centre",
+                  "type": "obs",
+                  "required": false,
+                  "id": "otherHealthCentre",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "ebf58d81-6ca4-4f2b-9287-cffa5cb67441"
+                  },
+                  "hide": {
+                    "hideWhenExpression": "isEmpty(placeOfDeliveryOfTheLastPregnancy) || placeOfDeliveryOfTheLastPregnancy !== '26c0366b-83e4-4401-9699-e545219b8870'"
+                  },
+                  "validators": []
                 }
               ]
             },
@@ -293,6 +308,20 @@
               },
               "hide": {
                 "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "validators": []
+            },
+            {
+              "label": "Previous Delivery Complications Details",
+              "type": "obs",
+              "required": false,
+              "id": "previousDeliveryComplicationsDetails",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "402bba9c-ee24-45ac-947b-c574157e397d"
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(previousDeliveryComplications) || previousDeliveryComplications !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
               },
               "validators": []
             },
@@ -346,55 +375,267 @@
               "validators": [],
               "questions": [
                 {
-                  "label": "Risky Pregnancy",
+                  "label": "Number of Weeks",
                   "type": "obs",
+                  "required": false,
+                  "id": "numberOfWeeks",
                   "questionOptions": {
-                    "rendering": "radio",
-                    "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2"
+                    "rendering": "number",
+                    "concept": "73099ba8-73c7-4427-a973-76fc1e4d4120",
+                    "disallowDecimals": true
                   },
-                  "answers": [
-                    {
-                      "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                      "label": "Yes"
-                    },
-                    {
-                      "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                      "label": "No"
-                    }
-                  ],
-                  "id": "riskyPregnancy"
+                  "validators": []
+                },
+                {
+                  "label": "Number of Days",
+                  "type": "obs",
+                  "required": false,
+                  "id": "numberOfDays",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "f887f487-58a2-4429-944c-c2134ea658de",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
                 }
               ]
+            },
+            {
+              "label": "Risky Pregnancy",
+              "type": "obs",
+              "required": false,
+              "id": "riskyPregnancy",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "No"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Pregnancy Risks",
+              "type": "obsGroup",
+              "required": false,
+              "id": "pregnancyRisksGroup",
+              "questionOptions": {
+                "rendering": "repeating",
+                "concept": "b35ad290-0d8f-4821-91fe-70b8411ce110"
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(riskyPregnancy) || riskyPregnancy !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
+              },
+              "questions": [
+                {
+                  "label": "Pregnancy Risks",
+                  "type": "obs",
+                  "required": false,
+                  "id": "pregnancyRisks",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "b35ad290-0d8f-4821-91fe-70b8411ce110",
+                    "answers": [
+                      {
+                        "concept": "edf4ecc4-44f6-457a-b561-179f4426b16a",
+                        "label": "Diabetes (E14.9)"
+                      },
+                      {
+                        "concept": "138405AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "Human immunodeficiency virus (HIV) disease (B24)"
+                      },
+                      {
+                        "concept": "3cd50188-26fe-102b-80cb-0017a47871b2",
+                        "label": "Hypertension (I10)"
+                      },
+                      {
+                        "concept": "3cccb654-26fe-102b-80cb-0017a47871b2",
+                        "label": "Malnutrition (E46)"
+                      },
+                      {
+                        "concept": "50e4eb00-968a-456f-824b-cbe320064dcf",
+                        "label": "Mother younger than 18 or older than 36 years"
+                      },
+                      {
+                        "concept": "115491AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "Multiple gestation (O30.9)"
+                      },
+                      {
+                        "concept": "115115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "Obesity (E66.9)"
+                      },
+                      {
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                        "label": "Other"
+                      },
+                      {
+                        "concept": "3cceae50-26fe-102b-80cb-0017a47871b2",
+                        "label": "Syphilis (A53.9)"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Other Pregnancy Risks",
+                  "type": "obs",
+                  "required": false,
+                  "id": "otherPregnancyRisks",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "ee39e8af-12e8-41ae-a1f9-b08acea07587"
+                  },
+                  "hide": {
+                    "hideWhenExpression": "isEmpty(pregnancyRisks) || pregnancyRisks !== '26c0366b-83e4-4401-9699-e545219b8870'"
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
             },
             {
               "label": "Signs and Symptoms",
               "type": "obsGroup",
               "required": false,
-              "id": "signsAndSymptoms",
+              "id": "signsAndSymptomsGroup",
               "questionOptions": {
                 "concept": "f7312165-7e96-4761-b4cf-d601a1a18f9c",
                 "rendering": "repeating"
               },
               "questions": [
                 {
-                  "label": "Fundal height (cm)",
+                  "label": "Signs and Symptoms",
                   "type": "obs",
                   "required": false,
-                  "id": "fundalHeight(Cm)",
+                  "id": "signsAndSymptoms",
                   "questionOptions": {
-                    "rendering": "number",
-                    "concept": "f857c495-98d2-4097-9018-d6641a8304a5",
+                    "rendering": "select",
+                    "concept": "f7312165-7e96-4761-b4cf-d601a1a18f9c",
                     "conceptMappings": [
                       {
                         "relationship": "SAME-AS",
                         "type": "CIEL",
-                        "value": "1439"
+                        "value": "1727"
+                      }
+                    ],
+                    "answers": [
+                      {
+                        "concept": "7f703275-777c-4237-9d07-36c99ea0966c",
+                        "label": "Abdominal pain"
+                      },
+                      {
+                        "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3",
+                        "label": "Fever"
+                      },
+                      {
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                        "label": "Other"
+                      },
+                      {
+                        "concept": "e90fa130-09cd-4574-936f-91fca52a9324",
+                        "label": "Swollen feet"
+                      },
+                      {
+                        "concept": "4ba98e11-cb3b-4a22-be4e-bb43f3078683",
+                        "label": "Uterine contractions"
+                      },
+                      {
+                        "concept": "2c1e2efe-74cb-475d-a922-3785e02e7bd3",
+                        "label": "Vaginal bleeding"
+                      },
+                      {
+                        "concept": "8d83ff2b-3f6f-432a-b0cd-5b4f2f1055fd",
+                        "label": "Vision problems"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Other Signs and Symptoms",
+                  "type": "obs",
+                  "required": false,
+                  "id": "otherSignsAndSymptoms",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "2f191568-b58f-4542-a69e-441209e88ea7"
+                  },
+                  "hide": {
+                    "hideWhenExpression": "isEmpty(signsAndSymptoms) || signsAndSymptoms !== '26c0366b-83e4-4401-9699-e545219b8870'"
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Duration",
+                  "type": "obs",
+                  "required": false,
+                  "id": "duration",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "b0823b2c-4bc8-2a7c-41b5-7bf3c7f14e82",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Time Units",
+                  "type": "obs",
+                  "required": false,
+                  "id": "timeUnits",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "373b5749-82ff-a3d8-2e13-db76dd0499b3",
+                    "answers": [
+                      {
+                        "concept": "327cdb97-571c-2d13-306b-4024fce268cb",
+                        "label": "Day(s)"
+                      },
+                      {
+                        "concept": "88e474ea-0ba4-11eb-a3aa-0242ac140008",
+                        "label": "Hour(s)"
+                      },
+                      {
+                        "concept": "88e5cc3c-0ba4-11eb-a3aa-0242ac140008",
+                        "label": "Month(s)"
+                      },
+                      {
+                        "concept": "88e55059-0ba4-11eb-a3aa-0242ac140008",
+                        "label": "Week(s)"
+                      },
+                      {
+                        "concept": "a4d0c480-923b-49fe-b125-80453675fdea",
+                        "label": "Year(s)"
                       }
                     ]
                   },
                   "validators": []
                 }
               ],
+              "validators": []
+            },
+            {
+              "label": "Fundal height (cm)",
+              "type": "obs",
+              "required": false,
+              "id": "fundalHeight(Cm)",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "f857c495-98d2-4097-9018-d6641a8304a5",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "1439"
+                  }
+                ]
+              },
               "validators": []
             },
             {
@@ -463,6 +704,17 @@
                     ]
                   },
                   "validators": []
+                },
+                {
+                  "label": "Position",
+                  "type": "obs",
+                  "required": false,
+                  "id": "position",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "7d6fe9a9-af03-4501-ab55-e6db95540409"
+                  },
+                  "validators": []
                 }
               ],
               "validators": []
@@ -500,6 +752,92 @@
               "hide": {
                 "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
               },
+              "validators": []
+            },
+            {
+              "label": "Planned place of delivery",
+              "type": "obsGroup",
+              "required": false,
+              "id": "plannedPlaceOfDeliveryGroup",
+              "questionOptions": {
+                "rendering": "group",
+                "concept": "657e7263-a3d6-445e-9c24-81e765ea447d"
+              },
+              "hide": {
+                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
+              },
+              "questions": [
+                {
+                  "label": "Planned place of delivery",
+                  "type": "obs",
+                  "required": false,
+                  "id": "plannedPlaceOfDelivery",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "6ef80ed0-2102-45d3-a188-ad57c16263dc",
+                    "answers": [
+                      {
+                        "concept": "df9cc02b-b427-4262-b30a-7b973aef23fc",
+                        "label": "Home"
+                      },
+                      {
+                        "concept": "1ff3db17-7a6f-40bf-8062-a912773e905c",
+                        "label": "Hopital Bon Samaritain Limbe"
+                      },
+                      {
+                        "concept": "1c61317b-f7cf-4709-829c-76abb6f6501b",
+                        "label": "Hopital de Borgne"
+                      },
+                      {
+                        "concept": "57195bab-5935-4da4-b5de-e9ee1dba162e",
+                        "label": "Hopital de Pignon"
+                      },
+                      {
+                        "concept": "6d1450bb-0109-456b-82f9-e495bcb5c959",
+                        "label": "Hopital de Trou du Nord"
+                      },
+                      {
+                        "concept": "4b9b9184-6aa8-4875-ab10-f22092a0075b",
+                        "label": "Hopital St Jean Limbe"
+                      },
+                      {
+                        "concept": "696114ce-8c7b-4018-a8d5-ee2e65d323d3",
+                        "label": "Hopital Sacré Coeur Milot"
+                      },
+                      {
+                        "concept": "b0b1c920-02ba-47e7-93e5-9922e888aac0",
+                        "label": "Hopital Justinien Cap Haitien"
+                      },
+                      {
+                        "concept": "50f4de56-b5b6-4939-aa73-7d7f5a5f8961",
+                        "label": "Hopital HBCH"
+                      },
+                      {
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                        "label": "Other"
+                      }
+                    ]
+                  },
+                  "hide": {
+                    "hideWhenExpression": "isEmpty(childbirthPlan) || childbirthPlan !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Other Health Centre",
+                  "type": "obs",
+                  "required": false,
+                  "id": "otherHealthCentre",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "ebf58d81-6ca4-4f2b-9287-cffa5cb67441"
+                  },
+                  "hide": {
+                    "hideWhenExpression": "isEmpty(plannedPlaceOfDelivery) || plannedPlaceOfDelivery !== '26c0366b-83e4-4401-9699-e545219b8870'"
+                  },
+                  "validators": []
+                }
+              ],
               "validators": []
             }
           ]
