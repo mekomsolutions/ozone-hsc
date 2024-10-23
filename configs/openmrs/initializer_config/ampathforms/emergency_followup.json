@@ -53,7 +53,7 @@
       }
     ],
     "processor": "EncounterFormProcessor",
-    "encounter": "Consultation",
+    "encounter": "Suivi d’urgences",
     "referencedForms": [],
     "uuid": "b11bef46-cb83-47b1-90b7-75ac5dd629e3",
     "description": "Suivi d’urgences",

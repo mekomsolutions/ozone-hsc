@@ -236,7 +236,7 @@
   ],
   "processor": "EncounterFormProcessor",
   "encounterType": "a7feb1a0-4bd8-48d1-acfd-ce282d139f06",
-  "encounter": "REG",
+  "encounter": "Vitals and Biometrics",
   "referencedForms": [],
   "uuid": "895f7868-ca3f-33bb-9336-20f1daf461b3",
   "description": "Vitals and Biometrics",
