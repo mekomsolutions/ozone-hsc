@@ -1,0 +1,25 @@
+id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
+init.5024f465-3b7c-477c-baf1-cfbe5a9507a1,Hospitalisation Adulte,product.categ_services_others_orders,service,FALSE,TRUE,Ordered quantities
+init.61d073e5-c794-431e-91ae-8d6aa53a6d93,Hospitalisation Pédiatrique,product.categ_services_others_orders,service,FALSE,TRUE,Ordered quantities
+init.e1ce77e7-18de-4da4-b63b-5e9b96eb6bb6,Hospitalisation Soins intensifs,product.categ_services_others_orders,service,FALSE,TRUE,Ordered quantities
+init.f0ae601c-bee9-4d0c-8189-7c0e7da73108,Patient en Observation,product.categ_services_others_orders,service,FALSE,TRUE,Ordered quantities
+init.e3324f1d-3d7a-4a9c-8091-a3b215de8683,Kit d'admission,product.categ_services_others_orders,service,FALSE,TRUE,Ordered quantities
+init.1a017ec6-3b32-4360-b1af-3e24fa8035b0,Frais de Consultation generale,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.2e01fc73-0f15-4896-a60a-de680316f0c1,Frais de consultation Specialisee,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.e6395fcb-11f2-4518-a58f-96501f0d9960,Morgue,product.categ_services_others_orders,service,FALSE,TRUE,Ordered quantities
+init.8f64058c-3460-4638-8a7a-fda268984ce2,Autres cliniques,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.743e1976-2c7d-4d59-a35d-be72ba6b2478,Consultation cardiaque,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.fac5f9d8-8947-4ad1-97d1-8aafde11e226,Consultation chirurgie générale,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.e67ed0f7-486e-44a0-84a8-530fead30d30,Consultation dermatologie,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.b48c6d6c-0a84-4b6c-b728-af46ca8ad10c,Consultation diabétique,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.df2df8ef-6d62-4038-bce3-ed1080c2b7ac,Consultation gynécologie,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.0c4edcfc-b7a3-4e8f-ac0f-eff8d9a69872,Consultation maternité,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.1fa10221-9c6d-47c4-ae6f-552b7b421ae7,Consultation maxillo-faciale,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.af9e7953-8b16-4b5b-8a91-0be1c1dc0453,Consultation ophtalmologie,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.fb4238de-e5b0-4b66-b412-28c4113ec357,Consultation orthopedie,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.9ecf8126-8b2d-4414-a3b1-98e92e428bd8,Consultation pédiatrique,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.2c6e8060-5403-4ffb-a6f5-7a9aac3bbbaf,Consultation platique,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.3917ada0-5698-4756-8a59-e909fbac9a0b,Consultation pré-natale,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.39093657-4441-4976-bbab-2d910cb7443e,Consultation urologie,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.0526d6c7-96c8-454d-92de-04b4bb291eba,Consultation Odontologie,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities
+init.8629a427-e685-4cac-a820-cfe9f505d171,Consultation Médecine Interne,product.categ_services_consultation_orders,service,FALSE,TRUE,Ordered quantities

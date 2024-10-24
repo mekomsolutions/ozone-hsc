@@ -1,0 +1,64 @@
+id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
+init.8e951835-a64d-4639-a9f3-b3f12a398047,2 View Abdomen,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.3373dc3c-c7db-4ceb-980c-765f92e85c43,2 View Chest,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.d6a9aa22-f74d-49dd-aa17-bfdc8eff1352,Abdomen,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.a2797459-1a1b-4077-9a6c-7fb60b3ff3f4,ASP,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.cf4634b1-f8e9-40e8-9a49-764a4b6f6676,Avant Bras,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.9d67fa5b-2542-4fd5-bae4-fc1492aa02ae,Bassin,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.15370e47-f58f-42b1-9b35-2fdc288ed1dc,Bras,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.c7ac37f0-46b4-439a-b8a5-fa89aca67902,Cheville,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.d3bd752d-86b9-46c2-bf23-1a7071a69ea1,Clavicule,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.838aa5c7-e589-444a-b3c6-b4c9ad5f9117,Colonne Cervicale,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.bb309696-687a-45a1-964d-bf4dd83d2cb0,Colonne Dorsale,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.fb074eab-ce2c-477a-8194-3d9a3075e1c8,Colonne Lombaire,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.31227b54-791a-4942-a4fb-18eec7b84caf,Colonne Lombo Sacrée,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.7b7a73f7-15bb-40ff-bff9-64a1ecf324be,Coude du Bras,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.b41c90d9-8901-454a-9f1b-239d4c6010bb,Crane,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.cc7ee3ba-8386-4f29-ac9e-d50e91603382,Cuisse,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.6e0faed3-e29c-4e39-8b20-e3331e22c0a5,ECG-Electrocardiographie,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.93cba1d0-5fff-44a1-9c23-fcf430cc6d92,Echo Doppler Arterielle/1 membre,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.d63d5690-b180-4001-8367-dfd78c6c5b30,Echo Doppler Arterielle/2 membres,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.b45815fe-97a2-4b74-bb70-18fccf46577e,Echo Doppler Arterio-Véneuse/1 membre,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.c95e3b1f-e4b6-42da-98d5-9f11763db05c,Echo Doppler Arterio-Véneuse/2 membres,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.9d8ac3c7-4ca3-4493-9adf-429955d4f2d0,Echo Doppler Scrotale,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.86d68691-5711-491a-9172-fd0816de4880,Echo Doppler Véneuse/1 membre,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.445c3a7c-2684-433c-a3c4-75f3d47c6387,Echo Doppler Véneuse/2 membres,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.4d1e3ad4-a5bb-4abd-b7b5-36a47cd59658,Echocardiographie,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.0b15b116-0709-4c70-aca6-e7b64a7d9b79,Echo-Stress,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.85ed2353-5379-45be-ac27-ac7b82e74c0a,Endoscopie Digestive,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.d107afc9-6a61-401a-9574-daadb7a8020c,Epaule,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.f77e9735-6cea-4760-9ced-f76dc664bbc7,Fémur,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.9477ff2e-02dd-4203-9ace-8fc38c3d3692,Finger (3 Views),product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.c266ac5a-a019-41fe-89b8-c9b0d8b1530f,Genou,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.1fbe6199-069a-4d2d-a979-7dca5ecf9908,Gorge Barytée,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.6d393221-a82a-4674-b9be-73224eb98867,Hanche,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.dd4b4f82-5f07-4fb2-8ee7-2602d413cefc,Hand (3 Views),product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.d9865b2b-7abd-4627-9fad-0e08ca0f290f,Holter Test/ECG-24 heures,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.4f851123-73d9-4dfc-90e2-5b49fd558c6b,Jambe,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.b8ce2e8b-0d20-4664-90b2-ee60ed164983,Pied,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.e389bcbb-807c-483d-9191-d39fc9de10d6,Poignet,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.4debe30e-1ab9-456d-8294-356b0182321b,Repas Baryté,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.c654e09e-62d2-4754-9a0c-62d5d7240164,Sinus,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.9212685d-a475-45ce-9aa1-2d95c6c11fed,Sonographie Abdominale,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.6e3d4a12-333b-4bab-b08a-3ae35c528aee,Sonographie Abdomino-Pelvienne,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.b3a57d08-e986-4dc5-8de1-8c329cd0ad39,Sonographie de la Carotide,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.a35e3227-cd58-48b7-b023-4c9a5bc54587,Sonographie de la Thyroïde,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.4a0812b2-eb70-4ece-a11c-2e289ecb7db0,Sonographie Foetale Biophysicale Profile,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.d60eb339-2d75-4fb7-b64b-8f1969ad5c4c,Sonographie Gynécologique ou Pelvienne,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.acd32f87-e994-4e16-b4fb-ec31c2d37622,Sonographie Mammaire 1 sein,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.fe238ad9-4008-46b8-9254-6a3ad68d483b,Sonographie Obstétricale,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.f50c9e0d-4deb-4e91-a3ce-30f49a407000,Sonographie Renale,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.d9b295fc-af14-4547-af39-ba1c80918dac,Sonographie Scrotale,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.48001634-8922-4caf-8539-59f5b16b3bbd,Sonographie Superficielle,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.886a17f3-1fe5-48b4-a865-8cb14e40583c,Stress Test,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.d83efa3d-0d52-40e3-88f5-ecdd4d2162e0,Thorax,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.2e62356d-4458-4e71-9fd8-d51c2d2fe2f9,Toe (3 Vieux),product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.19d88c5b-139f-41a6-9e2e-11354f374d74,Voie Urinaire/Bladder,product.categ_services_radiology_orders,service,FALSE,TRUE,Ordered quantities
+init.53e7a255-6f12-43b2-a016-b62219a65c6a,Échographie transfontanellaire,product.categ_services_radiology_orders,Service,FALSE,TRUE,Ordered quantities
+init.48b209d7-90cb-41b8-8f36-e9ad9c1084db,Échographie acromio-claviculaire,product.categ_services_radiology_orders,Service,FALSE,TRUE,Ordered quantities
+init.5cc208b3-70c8-4f38-a3f7-072f34df366a,Échographie du coude,product.categ_services_radiology_orders,Service,FALSE,TRUE,Ordered quantities
+init.cfee44fb-0f7f-44df-abda-c74ad766bcbf,Échographie des hanches (bassin),product.categ_services_radiology_orders,Service,FALSE,TRUE,Ordered quantities
+inti.05c952e6-277d-4491-9d54-7dfc2665afb0,Échographie du genou,product.categ_services_radiology_orders,Service,FALSE,TRUE,Ordered quantities
+init.784fbf7a-1bdc-4426-b2e7-c08eee0b37ba,Repas baryté,product.categ_services_radiology_orders,Service,FALSE,TRUE,Ordered quantities
+init.dc09435d-c9f5-420c-96a5-fa7dbf8592f0,Hystérosalpingographie,product.categ_services_radiology_orders,Service,FALSE,TRUE,Ordered quantities
+init.ba843109-ac81-457f-9db7-ba773fc4a610,Tomographie,product.categ_services_radiology_orders,Service,FALSE,TRUE,Ordered quantities

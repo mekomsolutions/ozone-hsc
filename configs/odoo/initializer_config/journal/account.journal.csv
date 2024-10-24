@@ -1,0 +1,19 @@
+id,name,type,code,profit_account_id/id,loss_account_id/id
+init.c44f9e29-74ec-457f-a375-959054fa8e5b,OFATMA Insurance,Cash,OFATMA,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.f54a4d26-300d-4d69-8903-2b43a763d72e,INASSA Insurance,Cash,INASSA,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.27f00eac-a2dc-4143-94dc-f82b88b5fea1,ALSA SANTE Insurance,Cash,AS,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.df46519e-08c5-4557-a258-90595293fb8d,AIC Insurance,Cash,AIC,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.f4629848-2fa6-481e-b44c-f44da5026f97,BRANA Insurance,Cash,BRANA,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.fa54e1cd-ede7-486d-944d-de1f56cad9b0,ARSA Insurance,Cash,ARSA,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.419f0de9-fe54-4d9d-8f3b-b299083de954,PDE Program,Cash,PDE,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.43437758-1b30-45dc-8029-fa2048a9809c,Clinique St Jules Program,Cash,CSJ,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.7bad181e-d7a6-4520-9149-c5b624932721,Second Mile Program,Cash,SM,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.f3ecc8f0-736b-4432-8e3b-7f031cb73853,SOS Village d'Enfants Program,Cash,SVE,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.24258ad3-c177-4762-b78b-d269c88901dd,Asile Program,Cash,ASI,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.d1975e00-b755-46d5-947a-117e7fb8187e,Archeveche Program,Cash,ARC,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.66374c89-d2f3-4bf0-a51e-a02f90e4ba13,Exoneration - Employee,Cash,EXE,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.d923c9a8-e575-405b-8719-116ebd46763e,Exoneration - Community,Cash,EXC,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.7c4e76e5-6011-4378-bcbc-a307b1e50e24,Program Care HSC,Cash,PCH,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.6ca93e80-c2f3-4101-87d6-fc56e7dd9d55,CMPP,Cash,CMPP,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.b99c7186-8d3b-4183-a1b3-81b984c009be,Dette Employé et Famille,Cash,DBTEM,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense
+init.83d9b02c-e557-4599-a23c-a254da977c67,Dette Population,Cash,DBTPO,l10n_generic_coa.1_cash_diff_income,l10n_generic_coa.1_cash_diff_expense

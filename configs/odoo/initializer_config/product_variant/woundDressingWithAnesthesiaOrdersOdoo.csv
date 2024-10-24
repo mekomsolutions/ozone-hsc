@@ -1,0 +1,11 @@
+id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
+init.3cef2071-48a2-4b16-a787-5f132139771f,PAN2001 - Brulure entre 20 à 50% 1er pansement,product.categ_services_woundWithAnesth_orders,service,FALSE,TRUE,Ordered quantities
+init.7d2f5b5f-2d10-4af3-9581-5bb5690ffe59,PAN2002 - Brulure entre 20 à 50%,product.categ_services_woundWithAnesth_orders,service,FALSE,TRUE,Ordered quantities
+init.8ba1e204-507a-498f-986f-3c454fa82018,PAN2003 - Brulure entre >50%  1er pansement,product.categ_services_woundWithAnesth_orders,service,FALSE,TRUE,Ordered quantities
+init.8b12c191-639b-4a91-99ec-846021474859,PAN2004 - Brulure entre >50%,product.categ_services_woundWithAnesth_orders,service,FALSE,TRUE,Ordered quantities
+init.315605f7-7a7b-4f85-b6d3-55a9fd5acd65,PAN2005 - Débridement Brulure entre 20 à 50%,product.categ_services_woundWithAnesth_orders,service,FALSE,TRUE,Ordered quantities
+init.fb5f4a69-f209-442f-8f5e-ac88a1f87daa,PAN2006 - Débridement Brulure >50%,product.categ_services_woundWithAnesth_orders,service,FALSE,TRUE,Ordered quantities
+init.03c6fdc2-b80b-44f5-9727-88a0220bcf14,PAN2007 - Brûlure < 10%.  Premier Pansement,product.categ_services_woundWithAnesth_orders,service,FALSE,TRUE,Ordered quantities
+init.74d5797d-b5c7-48a8-ac0f-b16cd1faae39,PAN2008 - Brûlure < 10%,product.categ_services_woundWithAnesth_orders,service,FALSE,TRUE,Ordered quantities
+init.ba5f9e00-eab3-470b-8385-6844e9b47414,PAN2009 - Brûlure entre 10 et 20% Premier Pansement,product.categ_services_woundWithAnesth_orders,service,FALSE,TRUE,Ordered quantities
+init.5564bebe-6655-482c-80b1-a8bd4d504b71,PAN2010 - Brûlure entre < 20%. Premier Pansement,product.categ_services_woundWithAnesth_orders,service,FALSE,TRUE,Ordered quantities

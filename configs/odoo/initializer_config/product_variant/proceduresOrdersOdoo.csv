@@ -1,0 +1,53 @@
+id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
+init.e354e5a6-0f74-4e69-a5d8-6fdd3ca4bcc2,Ablation des Agraffes,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.7a29215f-157d-438f-9cf5-aa8e90452018,Ablation des fils de suture,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.b3e11605-3977-4308-a59c-0bd28d4b2626,Alèze,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.31cc0fa6-0fe1-4069-b751-d028d1974ea4,Canule Nasale,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.76b4bdd9-5e60-47ef-af8d-40cb6354d20f,Catheter à succion,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.4d3bbd1d-80ea-4013-b527-2e00e614ca5a,Cathetérisme ombilicale,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.ebcae73e-8afa-43f5-9f76-5035233f622d,Cathetérisme vesical continu,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.88c71bfc-592f-4147-acfd-adac65fac894,Cathetérisme vesical intermitent,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.9e95f5f8-a0cf-4136-963a-9f3aafcc2878,CPAP/par jour,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.5a4c17ce-8305-4ea4-baca-0db107ae5ec2,Cystoscopie,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.65705411-b0b0-4f5f-bdd9-aa3a7fb64a25,Déplatrage court Menbres inf,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.ab20b3e2-6502-4b36-80d5-241974bb458c,Déplatrage court Menbres sup,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.4cb8969b-1005-4e96-84bf-485aa9c7c118,Déplatrage long Menbres inf,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.6ca9d66f-fb17-4705-837e-b04269c142d8,Déplatrage long Menbres sup,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.c78f9a34-e6cc-4149-8b94-26680d375e75,Mise en Echarpe,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.ad9757f8-7419-4b4a-b563-8be18abcfad8,Enlèvement fixateur Externe-En clinique,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.0165c0ef-c91b-4a1c-b4bf-dbf5cdc59ca7,Ganglionique cyst. Inj.,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.1a51c1e4-af95-472f-8d35-6b00fe5b7df6,Diapers-Adultes,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.70c1cf56-28ea-468b-9f86-c47e76ae1696,Diapers-Enfants,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.a48e26fd-86de-4138-93ce-797387cfa569,Gaz sanguin,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.665d56c4-5f8f-4778-82ea-56498e3ab8c0,Incubateur/par jour,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.97964dbf-d72e-4ada-875e-2deb1ead957e,Infiltration De Cortisone (médicament compris),product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.3cb744db-4e5e-4ee5-9f1c-3175140a3ba7,Insertion tube de levine,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.87d3ea87-9870-4abf-85ed-b34395a5a535,Insertion voie veineuse centrale,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.6034281d-03ea-4b2a-8adc-621df27c972e,IV Set,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.8f7bd871-b35d-46e7-ba15-4e144d9caf26,Lavage Vésical,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.2dfd45f6-d5e4-4fcf-8655-f54296618542,Manipulation,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.34cab6cb-26c5-4c47-86a5-008449e37e88,Masque à Oxygène,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.a3821c14-47e2-4773-bc8c-f445ae6878a4,Masque à respirateur artificiel,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.aebc32df-143e-4107-9e61-3c115bee8fe3,Masque pour nébulisateur,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.52d8117e-9292-4258-af5d-a9b4b922788d,Nébulisation,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.f554ca87-d439-496f-9d4f-0c5cdba63a2d,Paracenthèse,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.077e61b1-a964-40a8-a5e5-0c43805492cf,Photothérapie/par jour,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.73466d33-77a8-4b84-b991-23da71c7c549,Physiothérapie,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.48ac6c8f-5a8e-4a05-92ed-4925fd7ea35c,Ponction Lombaire,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.24b7b4ae-34a9-44ed-878f-a44500166caf,Pose d'atelle court/membres inférieurs,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.f5b7f6d6-192d-4bec-8617-729f4476b06d,Pose d'atelle court/membres Supérieurs,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.9601b319-bea6-4ac3-a4fc-6b23259ad361,Pose d'atelle long/membres inférieurs,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.3ee64230-4498-4857-99ef-5a4ebc528795,Pose d'atelle long/membres Supérieurs,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.f6a57ad8-21a2-4132-9ec8-c711f2193367,Pose d'atelle Postérieure ou 8 de Chiffre Adulte,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.a5be18cb-7385-4556-ada6-7083076715b0,Pose d'atelle Postérieure ou 8 de Chiffre Enfant,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.1beb7409-ce98-4a8b-9899-64c9a4c9ad58,Pose de platre court/membres inférieurs,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.6dfc6ff9-93db-47c4-81cc-d580841ded3c,Pose de platre court/membres supérieurs,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.ebddf624-7323-4d70-982e-67ac98722ce5,Pose de platre long/membres inférieurs,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.9c1de0f3-8490-4a78-a66a-cb5c1b714e88,Pose de platre long/membres supérieurs,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.98d6c7bc-27bd-4683-a709-d08a0a791392,Prélèvement Pap test,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.064134c0-a243-4c14-85c1-2ac61ea581c9,Ramonage des selles,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.c7997294-91d9-4826-a47f-ab424b7db45c,Table chauffante/par jour,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.1391f83b-5909-481b-8c25-05f26d0b1604,Thoracenthese,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.2959828d-f751-4aa5-89e0-be841c040885,Traction de Burck,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.4c4f803d-a58d-47a6-ac6a-cdeeddfc7d1d,Respirateur artificiel/par jour,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities
+init.ca860042-8dab-4b7c-a8f9-2421b53d0438,Voie Centrale,product.categ_services_procedure_orders,service,FALSE,TRUE,Ordered quantities

@@ -1,0 +1,73 @@
+id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
+init.b2cdf526-2c27-40ec-b363-8a8176d97def,Acide Urique,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.ccbba877-1de6-4f01-8191-c86a2a139b5f,Albumine,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.a9caf4e2-9d08-4f17-a37d-075aaeec33e0,ALT (SGPT),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.d9cec232-89c8-4f05-85f8-18b2dcdd04b3,Amylase,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.4e4a3c4d-73bb-42e9-a4c9-a3173938e535,ASO (Antistreptolysine O),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.633a672a-134f-485f-8ea3-30dd087fcac6,AST (SGOT),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.7e9fb4ad-866e-4ad5-ae5c-1ff95e088492,Azote de l'Urée (BUN),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.afa4d5ed-0f81-4c16-8061-7647f46660e9,BHCG,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.896a4080-a67a-42ea-9c16-d76dd546f9b7,Bilan Hépatique (AST-ALT-TBil-ALKP-LDH),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.6b5afe48-603e-433b-935b-bae7480c9562,Bilan Lipidique (Chol-Trig-HDLC-LDL-VLDL),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.8bf2d98d-4245-485f-84eb-be58a2e04915,Bilan Renal (BUN-Creat-Urée-Acide Urique),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.061e56ba-de5c-4561-9a76-7b157b891cb6,Bilan Thyroïdien,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.20e3a85e-c705-4e99-884f-7b3bab4fe761,Calcium (Ca),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.62cb0655-e3da-41c3-a7f2-8574dec3ea41,Chimie Sanguine (Glycemie-BUN-Urée-Créatine),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.aa89391a-3aa9-4780-afdc-280e84020261,Chlore (Cl),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.6ff9b4ea-4e1c-4f6b-b678-4c5912b71770,Cholesterol,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.da6d4fef-b416-4def-9328-88e0ad404bbe,CO₂,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.9afafe44-e017-47de-9445-4f4b0e448df9,Crachat,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.4c002480-8dd3-4a95-a37c-73acda95d696,Créatinine (CRSC),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.14fcec2c-3270-4b6f-974d-b237a62ee29a,Créatinine Kinase (CK),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.665d4e20-2fd5-4c73-9c77-dded5164b8c8,Créatinine Kinase MB,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.5384cbbf-717b-4d18-b300-f34606a5b73c,CRP,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.97685dc5-db61-471d-a11e-4e5ec8d470f4,ECBC des Liquides (TP-ALB-LDH-GLU-WBC-RBC-Diff…),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.f4ca3fa3-f2c1-47f2-9344-a6e2f82fc8b3,Fer (Fe),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.41737137-c9b5-4410-9b33-0ee8039908b7,Filaire test Diurne,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.785b40ec-5829-46b2-8bb8-e808f8621501,Filaire test Nocturne,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.9630356e-0543-4b05-b442-98748ee7a16f,Frottis Uretral+ Goutte pendante,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.166f683e-7610-49d9-8a99-ff3cd3863291,Frottis Vaginal+ Goutte pendante,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.7478a8d3-f42d-4c3f-934b-6a6ff1dcd912,Globules Blanches,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.3c9cb504-2664-45c9-bfd4-680e2f9bb431,Globules Rouges,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.3448df1c-68c0-4921-8dcf-36f5eeff4343,Glycemie Capillaire,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.9b10ba90-0463-4000-8a0c-4c9b3816c288,Glycemie Plasmatique,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.5dd677c5-ca41-465d-ad38-b2310954105c,Gravindex,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.220d5285-ad5f-449d-b601-bcde944c85fa,"Groupe Sanguin (ABO, Rh)",product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.14ea7b4d-6c0d-4eda-a8a2-01d8edb5ecce,H-Pilori dans les selles,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.40d9472b-fd37-418f-bd8c-da0942ed523f,H-Pilori test,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.ec7fd2c3-cb77-4fe8-bb35-354fa37de045,Hemoglobine Glycolysilé(HBA1C),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.d7c62b0b-f7d2-451c-b980-3515df60489d,Hemogramme Complet,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.16f83b5f-ac14-43ef-93fa-14d15884f78e,"Ionogramme (Na, K, Cl, CO₂)",product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.cbe84fa7-c035-45f8-82a8-5941e9273614,Lame Peripherique,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.b3955cad-ae3d-4916-9a4b-a97137008dcf,LDH,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.41340e80-7d51-4444-8ad8-d21280994602,Lipase,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.f5141095-5734-405c-8fd7-12350dfa686d,Magnesium (Mg),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.92b3b57d-9f9f-4d16-a94d-774c0bd38f15,Malaria test,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.b3712d70-875a-4ac7-aba2-c14774e55c9e,Mantoux test,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.b3911053-fa59-4eec-ab3a-a1e791f3de16,Panel Cardiaque (CKMB-MYOGLOBINE-TREPONINE),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.4268c1ab-a6b9-49e0-a0eb-05793c10617a,Phosphatase Alcaline (ALKP),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.31c8da4f-6e32-4174-9945-a2f5b7aa15c9,Plaquettes Sanguines,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.173afc1a-9172-4d97-9d4b-9955656a671a,Potassium (K),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.1e72558f-0554-4c00-a99d-94fd83878fd5,Proteine Serique,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.b92fab67-729f-49e6-9fde-6dfd40aa415b,Proteine Totale,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.42c7d71b-5763-4894-aa3a-7fccc378a7d6,PSA,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.b82b8ee0-62bc-42cc-aae9-5fae283e0e60,PT-INR,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.60a512f8-46ab-470c-a8ec-7c7d30255291,RPR,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.71c5b4ae-5eb2-40a8-be87-3974bac78a95,Sang Occulte,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.a895379e-e2e8-448e-b9a1-4fd99b1af4fd,Selles,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.9aac4d91-2c2a-4dbe-869d-c411868d1d84,Sickling test,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.1ec0206a-34a9-4c48-a8d1-73e20cca527a,Sodium (Na),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.6128dc03-bad8-44ef-9f4c-8bdd3a94ebd9,T3,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.d364f4e0-bcbe-4fee-8942-780748181187,T4,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.de9f079d-9172-47fb-8c48-48e0758bf948,Taux de reticulocytes,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.da08820c-59b9-4b34-ba88-b4efcef2c388,Triglyceride,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.481f279f-c02a-40a9-bab5-6f008f7795ad,TSH,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.ca06f436-5bab-4e3d-95fb-8d142ca722e2,Urée,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.5355ed7b-f0ef-47a1-bf2b-c93b8f0303d7,Urines,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.cefdab88-2126-442f-95fc-d7a8a5af94e8,Vitesse de Sedimentation (VS),product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.f2267a24-7d35-47ef-a221-71d39b948874,VLDL-Cholesterol,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.ca28bdb2-c032-4b2f-b33f-fd73de27b271,Widal,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.7f66be56-1d90-46f4-b849-1eeeba4fae21,Zeihl,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.533e1832-00e0-4228-a61c-6df1d68da279,Bilirubine directe,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.6d08b363-eeeb-4fe6-9377-dcf9a6443d0d,Bilirubine indirecte,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities
+init.e9120969-90c8-4662-8a3c-d33c2d46277a,D-Dimer Exclusion,product.categ_services_lab_test_orders,service,FALSE,TRUE,Ordered quantities

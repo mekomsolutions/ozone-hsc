@@ -1,0 +1,15 @@
+id,name,categ_id/id,type,purchase_ok,sale_ok,invoice_policy
+init.43cc229d-67c2-46b9-814b-6c24a6df87ac,Amalgame,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.ebb79c2a-34bd-4f26-a667-24cfc953603a,Composite,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.bd51e00d-95b7-4003-9152-98f0120df4da,Décapuchonage,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.3779d078-f897-4144-b608-83e5c8279d4e,Drainage d'abcès dentaire,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.a0d101bf-96e4-4925-a969-1848b49e6f14,Endodontie antérieure,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.c47c0d66-9285-412d-9f0c-ca9442342500,Endodontie postérieure,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.57eb21e5-e4c9-4672-8017-e640154bcefc,Extraction dentaire complexe,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.4d6a7e4a-e893-48f8-828c-3624cadc6e33,Extraction dentaire simple,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.b767a14b-59ae-4a2b-8b0b-80dba28a12ac,Prophylaxie dentaire grade 1,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.43b84cb6-9176-4902-afc8-6cb60773508b,Prophylaxie dentaire grade 2,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.a4d39ed5-23bc-403d-9f76-66a9291c2173,Prophylaxie dentaire grade 3,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.b3a9d1e3-fc5e-45a2-8d33-f78395c42034,Radiographie dentaire,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.930d856f-fdb0-423e-bf65-4aba8c06a941,Radiographie panoramique,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
+init.8829a43d-9e22-4edf-9e0c-c0a9f6b6d7b0,Decapuchonnage,product.categ_services_dental_orders,service,FALSE,TRUE,Ordered quantities
