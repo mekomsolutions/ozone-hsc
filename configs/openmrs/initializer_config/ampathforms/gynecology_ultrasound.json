@@ -25,7 +25,7 @@
       }
     ],
     "processor": "EncounterFormProcessor",
-    "encounter": "Consultation",
+    "encounter": "Examen gynécologique",
     "referencedForms": [],
     "uuid": "d1f43dba-e483-4ded-aedf-40f84de577a2",
     "description": "Echographie gynécologique",
