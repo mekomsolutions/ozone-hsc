@@ -308,5 +308,41 @@
       "uuid": "327cdb97-571c-2d13-306b-4024fce268cb",
       "display": "Day(s)"
     }
+  },
+  "@openmrs/esm-patient-tests-app": {
+    "resultsViewerConcepts": [
+    {
+      "conceptUuid": "77615ce7-18cd-4737-96e1-5e3231185fa1",
+      "defaultOpen": false
+    },
+    {
+      "conceptUuid": "25c6aa02-f411-45bc-9298-569ee659cb08",
+      "defaultOpen": false
+    },
+    {
+      "conceptUuid": "babf2a96-1776-49d9-aa18-bcecbe4c2f29",
+      "defaultOpen": false
+    },
+    {
+      "conceptUuid": "f905c824-d064-4693-abb6-4bcacdf0cb26",
+      "defaultOpen": false
+    },
+    {
+      "conceptUuid": "769571f1-158e-4f84-9cee-742e9d908d44",
+      "defaultOpen": false
+    },
+    {
+      "conceptUuid": "540c1c61-1454-46fd-a67a-5b30c067dcb5",
+      "defaultOpen": false
+    },
+    {
+      "conceptUuid": "edcffda7-8b63-4b73-af15-bd9bc8b61153",
+      "defaultOpen": false
+    }
+    ],
+    "orders": {
+     "labOrderTypeUuid": "dd528487-82a5-4082-9c72-ed246bd49591",
+    "labOrderableConcepts": ["f99a0f3b-b54e-4113-bf20-79fdcd089590"]
+    }
   }
 }
