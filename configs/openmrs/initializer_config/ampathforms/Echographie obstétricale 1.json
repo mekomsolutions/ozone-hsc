@@ -196,7 +196,7 @@
                   "validators": []
                 },
                 {
-                  "label": "Fetal Heart Rate (beats/min)",
+                  "label": "Fetal Heart Rate (beats/min) (120 -160)",
                   "type": "obs",
                   "required": false,
                   "id": "fetalHeartRate",

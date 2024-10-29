@@ -1,0 +1,109 @@
+{
+  "name": "Motif de consultation",
+  "pages": [
+    {
+      "label": "Motif de consultation",
+      "sections": [
+        {
+          "label": "Motif de consultation",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Motif de consultation Data",
+              "type": "obsGroup",
+              "required": false,
+              "id": "motifDeConsultationData",
+              "questionOptions": {
+                "rendering": "repeating",
+                "concept": "c3949eb6-3f10-11e4-adec-0800271c1b75"
+              },
+              "questions": [
+                {
+                  "label": "Motif de consultation",
+                  "type": "obs",
+                  "required": false,
+                  "id": "motifDeConsultation",
+                  "questionOptions": {
+                    "rendering": "select-concept-answers",
+                    "concept": "33c31827-1f0d-4843-a84c-e98db2406b27",
+                    "datasource": {
+                      "name": "select_concept_answers_datasource",
+                      "config": {
+                        "concept": "33c31827-1f0d-4843-a84c-e98db2406b27"
+                      }
+                    }
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Details",
+                  "type": "obs",
+                  "required": true,
+                  "id": "details",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "9d20f065-9568-4769-80b5-f596907a8805"
+                  },
+                  "hide": {
+                    "hideWhenExpression": "isEmpty(motifDeConsultation)"
+                  }
+                },
+                {
+                  "label": "Duration",
+                  "type": "obs",
+                  "required": true,
+                  "id": "duration",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "b0823b2c-4bc8-2a7c-41b5-7bf3c7f14e82",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Time Units",
+                  "type": "obs",
+                  "required": true,
+                  "id": "timeUnits",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "373b5749-82ff-a3d8-2e13-db76dd0499b3",
+                    "answers": [
+                      {
+                        "concept": "88e474ea-0ba4-11eb-a3aa-0242ac140008",
+                        "label": "Hour(s)"
+                      },
+                      {
+                        "concept": "327cdb97-571c-2d13-306b-4024fce268cb",
+                        "label": "Day(s)"
+                      },
+                      {
+                        "concept": "88e55059-0ba4-11eb-a3aa-0242ac140008",
+                        "label": "Week(s)"
+                      },
+                      {
+                        "concept": "88e5cc3c-0ba4-11eb-a3aa-0242ac140008",
+                        "label": "Month(s)"
+                      },
+                      {
+                        "concept": "a4d0c480-923b-49fe-b125-80453675fdea",
+                        "label": "Year(s)"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "368d69a6-2b00-4d23-85f5-a70ef5d75761",
+  "description": "Motif de consultation",
+  "version": "1.0"
+}

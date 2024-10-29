@@ -198,90 +198,91 @@
                     ]
                   },
                   "validators": []
+                },
+                {
+                  "label": "Contraception Set",
+                  "type": "obsGroup",
+                  "required": false,
+                  "id": "contraceptionSet",
+                  "questionOptions": {
+                    "rendering": "group",
+                    "concept": "6c830082-d394-4f29-95ba-37d587016a4d"
+                  },
+                  "questions": [
+                    {
+                      "label": "Contraception",
+                      "type": "obs",
+                      "required": false,
+                      "id": "contraception",
+                      "questionOptions": {
+                        "rendering": "select",
+                        "concept": "5b60b970-0df4-4518-9717-a32a9d37798e",
+                        "answers": [
+                          {
+                            "concept": "f1f57397-ba51-4218-9cae-da74b6b52543",
+                            "label": "Condom (unity)"
+                          },
+                          {
+                            "concept": "85ceb4d6-585d-48e1-8e46-af7e517b4667",
+                            "label": "Contraceptive Implant"
+                          },
+                          {
+                            "concept": "ce15c503-9015-4855-b751-c6626f8af279",
+                            "label": "Depo Provera Injection"
+                          },
+                          {
+                            "concept": "1c206a15-6196-4c44-b914-031f94c476f8",
+                            "label": "IUD"
+                          },
+                          {
+                            "concept": "d320463b-1e09-45c8-88c3-626fce462c21",
+                            "label": "Microlut (plaquette)"
+                          },
+                          {
+                            "concept": "0e577d2c-319b-4463-a94b-96c311eba6e1",
+                            "label": "Microgynon (plaquette)"
+                          }
+                        ]
+                      },
+                      "validators": []
+                    },
+                    {
+                      "label": "Date",
+                      "type": "obs",
+                      "required": false,
+                      "id": "date",
+                      "datePickerFormat": "calendar",
+                      "questionOptions": {
+                        "rendering": "date",
+                        "concept": "e605731b-2e81-41a9-8446-2ed442c339e2",
+                        "conceptMappings": [
+                          {
+                            "relationship": "SAME-AS",
+                            "type": "CIEL",
+                            "value": "1640"
+                          }
+                        ]
+                      },
+                      "validators": []
+                    },
+                    {
+                      "label": "Contraception date",
+                      "type": "obs",
+                      "required": false,
+                      "id": "contraceptionDate",
+                      "questionOptions": {
+                        "rendering": "textarea",
+                        "concept": "f2da2221-25d5-4697-b2b0-5c39b7d59ff7"
+                      },
+                      "validators": []
+                    }
+                  ],
+                  "validators": []
                 }
               ],
               "validators": []
             },
-            {
-              "label": "Contraception Set",
-              "type": "obsGroup",
-              "required": false,
-              "id": "contraceptionSet",
-              "questionOptions": {
-                "rendering": "group",
-                "concept": "6c830082-d394-4f29-95ba-37d587016a4d"
-              },
-              "questions": [
-                {
-                  "label": "Contraception",
-                  "type": "obs",
-                  "required": false,
-                  "id": "contraception",
-                  "questionOptions": {
-                    "rendering": "select",
-                    "concept": "5b60b970-0df4-4518-9717-a32a9d37798e",
-                    "answers": [
-                      {
-                        "concept": "f1f57397-ba51-4218-9cae-da74b6b52543",
-                        "label": "Condom (unity)"
-                      },
-                      {
-                        "concept": "85ceb4d6-585d-48e1-8e46-af7e517b4667",
-                        "label": "Contraceptive Implant"
-                      },
-                      {
-                        "concept": "ce15c503-9015-4855-b751-c6626f8af279",
-                        "label": "Depo Provera Injection"
-                      },
-                      {
-                        "concept": "1c206a15-6196-4c44-b914-031f94c476f8",
-                        "label": "IUD"
-                      },
-                      {
-                        "concept": "d320463b-1e09-45c8-88c3-626fce462c21",
-                        "label": "Microlut (plaquette)"
-                      },
-                      {
-                        "concept": "0e577d2c-319b-4463-a94b-96c311eba6e1",
-                        "label": "Microgynon (plaquette)"
-                      }
-                    ]
-                  },
-                  "validators": []
-                },
-                {
-                  "label": "Date",
-                  "type": "obs",
-                  "required": false,
-                  "id": "date",
-                  "datePickerFormat": "calendar",
-                  "questionOptions": {
-                    "rendering": "date",
-                    "concept": "e605731b-2e81-41a9-8446-2ed442c339e2",
-                    "conceptMappings": [
-                      {
-                        "relationship": "SAME-AS",
-                        "type": "CIEL",
-                        "value": "1640"
-                      }
-                    ]
-                  },
-                  "validators": []
-                },
-                {
-                  "label": "Contraception date",
-                  "type": "obs",
-                  "required": false,
-                  "id": "contraceptionDate",
-                  "questionOptions": {
-                    "rendering": "textarea",
-                    "concept": "f2da2221-25d5-4697-b2b0-5c39b7d59ff7"
-                  },
-                  "validators": []
-                }
-              ],
-              "validators": []
-            },
+
             {
               "label": "Gyn History Set",
               "type": "obsGroup",

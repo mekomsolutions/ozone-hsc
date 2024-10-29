@@ -90,6 +90,93 @@
                 "disallowDecimals": true
               },
               "validators": []
+            },
+            {
+              "label": "Booster",
+              "type": "obs",
+              "required": false,
+              "id": "booster",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "70bc9209-2b6e-4e17-9c4d-58923d3ac49e",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "No"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Vaccination date",
+              "type": "obs",
+              "required": false,
+              "id": "vaccinationDate",
+              "datePickerFormat": "calendar",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "31819490-ae2f-4bb2-ab30-522f93baa0d1",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "1410"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Vaccine Manufacturer",
+              "type": "obs",
+              "required": false,
+              "id": "vaccineManufacturer",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "602ea0c3-c5ce-4ddd-87a5-a5135bb3cb08",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "1419"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Vaccine Lot Number",
+              "type": "obs",
+              "required": false,
+              "id": "vaccineLotNumber",
+              "questionOptions": {
+                "rendering": "textarea"
+              },
+              "validators": []
+            },
+            {
+              "label": "Vaccine lot expiration date",
+              "type": "obs",
+              "required": false,
+              "id": "vaccineLotExpirationDate",
+              "datePickerFormat": "calendar",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "83189d40-6746-4bb6-a987-9afd4a766690",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "165907"
+                  }
+                ]
+              },
+              "validators": []
             }
           ]
         }
