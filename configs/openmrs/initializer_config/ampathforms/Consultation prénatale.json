@@ -253,7 +253,7 @@
                   "label": "Other Health Centre",
                   "type": "obs",
                   "required": false,
-                  "id": "otherHealthCentre",
+                  "id": "otherPlaceOfDeliveryOfTheLastPregnancy",
                   "questionOptions": {
                     "rendering": "textarea",
                     "concept": "ebf58d81-6ca4-4f2b-9287-cffa5cb67441"
@@ -763,9 +763,6 @@
                 "rendering": "group",
                 "concept": "657e7263-a3d6-445e-9c24-81e765ea447d"
               },
-              "hide": {
-                "hideWhenExpression": "isEmpty(visitNumber) || visitNumber !== '929e9a36-fdfa-42a3-a416-64be037c3155'"
-              },
               "questions": [
                 {
                   "label": "Planned place of delivery",
@@ -827,7 +824,7 @@
                   "label": "Other Health Centre",
                   "type": "obs",
                   "required": false,
-                  "id": "otherHealthCentre",
+                  "id": "otherPlannedPlaceOfDelivery",
                   "questionOptions": {
                     "rendering": "textarea",
                     "concept": "ebf58d81-6ca4-4f2b-9287-cffa5cb67441"
