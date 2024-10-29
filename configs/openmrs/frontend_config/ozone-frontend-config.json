@@ -262,7 +262,14 @@
         "uuid": "d63554a8-4979-4719-a918-1ccc3d924ed7",
         "required": true
       }
-    ]
+    ],
+    "extensionSlots": {
+      "patient-chart-summary-dashboard-slot": {
+        "add": [
+          "attachments-overview-widget"
+        ]
+      }
+    }
   },
   "@openmrs/esm-patient-vitals-app": {
     "concepts": {
