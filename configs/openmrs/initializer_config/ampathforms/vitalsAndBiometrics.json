@@ -235,25 +235,30 @@
     },
     {
       "label": "Triage",
-      "isExpanded": "true",
-      "questions": [
+      "sections": [
         {
-          "label": "Level of emergency severity assessment",
-          "type": "obs",
-          "required": true,
-          "id": "levelOfEmergencySeverityAssessment",
-          "questionOptions": {
-            "rendering": "select",
-            "concept": "d63554a8-4979-4719-a918-1ccc3d924ed7",
-            "conceptMappings": [
-              {
-                "relationship": "SAME-AS",
-                "type": "CIEL",
-                "value": "159637"
-              }
-            ]
-          },
-          "validators": []
+          "label": "Triage",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Level of emergency severity assessment",
+              "type": "obs",
+              "required": true,
+              "id": "levelOfEmergencySeverityAssessment",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "d63554a8-4979-4719-a918-1ccc3d924ed7",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "159637"
+                  }
+                ]
+              },
+              "validators": []
+            }
+          ]
         }
       ]
     }
