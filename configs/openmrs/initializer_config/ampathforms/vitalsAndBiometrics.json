@@ -247,7 +247,7 @@
               "id": "levelOfEmergencySeverityAssessment",
               "questionOptions": {
                 "rendering": "select",
-                "concept": "d63554a8-4979-4719-a918-1ccc3d924ed7",
+                "concept": "bbb02557-0277-4979-a1fa-b0020f136066",
                 "conceptMappings": [
                   {
                     "relationship": "SAME-AS",
