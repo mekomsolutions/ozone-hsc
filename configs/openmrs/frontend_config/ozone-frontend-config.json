@@ -267,7 +267,8 @@
     "extensionSlots": {
       "patient-chart-summary-dashboard-slot": {
         "add": [
-          "attachments-overview-widget"
+          "attachments-overview-widget",
+          "allergies-details-widget"
         ]
       }
     }
