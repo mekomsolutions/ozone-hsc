@@ -178,7 +178,7 @@
     ],
     "Translation overrides": {
       "en": {
-        "Commune": "Commune",
+        "": "",
         "Village": "Village",
         "Country": "Country",
         "Province": "Province",
@@ -198,7 +198,7 @@
         "genderLabelText": "Gender"
       },
       "fr": {
-        "Commune": "Commune",
+        "": "",
         "Village": "Pays",
         "Country": "Country",
         "Province": "Département",
@@ -298,6 +298,25 @@
         "showLogo": true,
         "logo": "configs/ozone_hsc_logo.png"
       }
+    },
+    "Translation overrides": {
+      "en": {
+        "state": "Département",
+        "city": "Commune",
+        "Country": "Country"
+      },
+      "fr": {
+        "state": "Département",
+        "city": "Commune",
+        "Country": "Pays"
+      }
+    },
+    "contactAttributeTypes": {
+      "default": [
+        "c3bcd296-eb82-4451-a4b4-eedd1d5f322f",
+        "1102f74e-ea2f-461e-b67f-db58bd136e5c",
+        "d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e"
+      ]
     }
   },
   "@openmrs/esm-patient-medications-app": {
