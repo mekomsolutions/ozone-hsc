@@ -843,7 +843,8 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "encounterType": "061ab9e1-5ca4-4007-ae77-27ac9eadfa51",
+  "encounter": "Consultation prénatale",
   "referencedForms": [],
   "uuid": "e3d5ba62-a432-4e7b-bab1-5ac29d41cf14",
   "description": "Consultation prénatale",
