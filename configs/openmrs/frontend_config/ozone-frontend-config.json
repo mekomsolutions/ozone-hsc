@@ -258,10 +258,6 @@
         "uuid": "a56959b5-4fe2-4d69-a553-fdc77957c48b",
         "required": false,
         "displayInThePatientBanner": false
-      },
-      {
-        "uuid": "d63554a8-4979-4719-a918-1ccc3d924ed7",
-        "required": true
       }
     ],
     "extensionSlots": {
