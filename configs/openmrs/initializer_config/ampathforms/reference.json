@@ -112,7 +112,8 @@
         }
     ],
     "processor": "EncounterFormProcessor",
-    "encounter": "Consultation",
+    "encounter": "Reference",
+    "encounterType": "817abc8f-47b3-446c-bfad-22e49e8d2cf4",
     "referencedForms": [],
     "uuid": "4ae0cfeb-7834-43fe-b6fb-37d2f63cf37c",
     "description": "Referral form",

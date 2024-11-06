@@ -355,12 +355,12 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounter": "Consultation",
+  "encounter": "Echographie obstétricale 2",
   "referencedForms": [],
   "uuid": "9ddbe11e-b6ac-4788-a146-ef258853e129",
   "description": "Echographie obstétricale 2",
   "version": "1",
   "published": true,
   "retired": false,
-  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591"
+  "encounterType": "23c9cd94-75ed-42f2-a2f6-7945ca54b438"
 }

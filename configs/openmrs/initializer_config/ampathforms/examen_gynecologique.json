@@ -325,7 +325,8 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "encounterType": "55fd6104-58a2-46d9-9996-17b5d5138a21",
+  "encounter": "Examen gynécologique",
   "referencedForms": [],
   "uuid": "74fef8e4-7a9a-4a05-ab77-ae2cebbc9506",
   "description": "Examen gynécologique",

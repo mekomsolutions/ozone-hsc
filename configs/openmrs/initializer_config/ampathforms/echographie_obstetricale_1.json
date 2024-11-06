@@ -313,7 +313,8 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "encounterType": "a46e76b4-019a-4f5e-813b-82fcb05e73c7",
+  "encounter": "Echographie obstétricale 1",
   "referencedForms": [],
   "uuid": "89111520-a926-47c1-a4fb-82c70fd68cb1",
   "description": "Echographie obstétricale 1",

@@ -25,7 +25,8 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounter": "Consultation",
+  "encounter": "Echographie gynécologique",
+  "encounterType": "b01f0262-232a-4489-aad3-9bb67ad0d166",
   "referencedForms": [],
   "uuid": "d1f43dba-e483-4ded-aedf-40f84de577a2",
   "description": "Echographie gynécologique",

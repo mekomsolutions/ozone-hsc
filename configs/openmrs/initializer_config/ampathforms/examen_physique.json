@@ -351,7 +351,8 @@
       }
     ],
     "processor": "EncounterFormProcessor",
-    "encounter": "Consultation",
+    "encounterType": "f1b49ab9-66de-4cb5-bdc6-4cbebf81cfa5\n",
+    "encounter": "Examen physique",
     "referencedForms": [],
     "uuid": "00716af3-1d4b-4cdf-aa8e-0800743d1542",
     "description": "Examen physique",

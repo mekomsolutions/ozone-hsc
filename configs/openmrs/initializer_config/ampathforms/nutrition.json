@@ -631,7 +631,8 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "encounterType": "0a669a95-6754-4160-a93b-ec37eab75c99",
+  "encounter": "Nutrition",
   "referencedForms": [],
   "uuid": "47ad6522-d817-45cb-8e16-386bb090995d",
   "description": "Nutrition",
