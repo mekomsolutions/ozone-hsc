@@ -308,11 +308,13 @@
   "core": {
     "Translation overrides": {
       "en": {
+        "address2": "Adresse",
         "state": "Département",
         "city": "Commune",
         "Country": "Country"
       },
       "fr": {
+        "address2": "Adresse",
         "state": "Département",
         "city": "Commune",
         "Country": "Pays"
