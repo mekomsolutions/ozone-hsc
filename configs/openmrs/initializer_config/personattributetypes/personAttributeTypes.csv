@@ -12,3 +12,4 @@ d7a52bd1-77dd-4f71-a5d0-92848a746014,,impl.contactPersonName,Contact Person's Na
 62844ea0-8be6-4a12-9471-cbb1f060d78b,,impl.contactPersonPhoneNumber,Contact Person's Phone Number,Numéro de la personne à contacter,Numéro de la personne à contacter,java.lang.String,,,,
 0c6d3b0c-7b54-4848-9638-6afc046c59ec,,impl.contactPersonAddress,Contact Person's Address,Adresse de la personne à contacter,Adresse de la personne à contacter,java.lang.String,,,,
 b47a9c55-4d28-4549-a223-b16d54b8fbbf,,impl.contactPersonRelationship,Contact Person  Relationship,Lien avec la personne à contacter,Lien avec la personne à contacter,org.openmrs.Concept,ee63d1f2-095a-4d28-ba95-fbc933666070,,,
+d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e,,email,Email,Email,Email,java.lang.String,d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e,TRUE,,
