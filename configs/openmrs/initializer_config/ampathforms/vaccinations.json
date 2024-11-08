@@ -189,5 +189,7 @@
   "referencedForms": [],
   "uuid": "c37025cf-13b7-4b99-9356-40e2b7a9e8c6",
   "description": "Vaccinations",
-  "version": "1.0"
+  "version": "1",
+  "published": true,
+  "retired": false
 }

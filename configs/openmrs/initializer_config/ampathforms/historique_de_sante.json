@@ -812,5 +812,7 @@
   "referencedForms": [],
   "uuid": "44dc4d8f-e739-43c5-813a-d88d89c11775",
   "description": "Historique de santé",
-  "version": "1.0"
+  "version": "1",
+  "published": true,
+  "retired": false
 }

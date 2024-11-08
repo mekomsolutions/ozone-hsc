@@ -1004,5 +1004,7 @@
   "referencedForms": [],
   "uuid": "",
   "description": "Examen des systèmes",
-  "version": "1.0"
+  "version": "1",
+  "published": true,
+  "retired": false
 }

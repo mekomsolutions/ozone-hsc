@@ -848,5 +848,7 @@
   "referencedForms": [],
   "uuid": "e3d5ba62-a432-4e7b-bab1-5ac29d41cf14",
   "description": "Consultation prénatale",
-  "version": "1"
+  "version": "1",
+  "published": true,
+  "retired": false
 }

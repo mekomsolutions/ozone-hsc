@@ -330,5 +330,7 @@
   "referencedForms": [],
   "uuid": "74fef8e4-7a9a-4a05-ab77-ae2cebbc9506",
   "description": "Examen gynécologique",
-  "version": "1.0"
+  "version": "1",
+  "published": true,
+  "retired": false
 }

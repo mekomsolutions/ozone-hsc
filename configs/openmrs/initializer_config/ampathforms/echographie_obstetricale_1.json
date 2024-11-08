@@ -318,5 +318,7 @@
   "referencedForms": [],
   "uuid": "89111520-a926-47c1-a4fb-82c70fd68cb1",
   "description": "Echographie obstétricale 1",
-  "version": "1"
+  "version": "1",
+  "published": true,
+  "retired": false
 }

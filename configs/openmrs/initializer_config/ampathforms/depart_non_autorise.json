@@ -51,5 +51,7 @@
   "referencedForms": [],
   "uuid": "2567021e-1666-4ffa-9504-9e66da01c31a",
   "description": "Départ non autorisé",
-  "version": "1"
+  "version": "1",
+  "published": true,
+  "retired": false
 }

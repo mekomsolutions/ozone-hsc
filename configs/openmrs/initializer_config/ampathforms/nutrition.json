@@ -636,5 +636,7 @@
   "referencedForms": [],
   "uuid": "47ad6522-d817-45cb-8e16-386bb090995d",
   "description": "Nutrition",
-  "version": "1.0"
+  "version": "1",
+  "published": true,
+  "retired": false
 }

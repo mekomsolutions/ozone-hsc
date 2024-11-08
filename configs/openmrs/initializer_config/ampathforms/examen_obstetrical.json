@@ -129,5 +129,7 @@
   "referencedForms": [],
   "uuid": "f30209a8-9d58-4b99-b99a-582b9006cce5",
   "description": "Examen obstétrical",
-  "version": "1.0"
+  "version": "1",
+  "published": true,
+  "retired": false
 }

@@ -106,5 +106,7 @@
   "referencedForms": [],
   "uuid": "368d69a6-2b00-4d23-85f5-a70ef5d75761",
   "description": "Motif de consultation",
-  "version": "1.0"
+  "version": "1",
+  "published": true,
+  "retired": false
 }
