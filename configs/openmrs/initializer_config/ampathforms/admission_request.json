@@ -58,5 +58,7 @@
     "referencedForms": [],
     "uuid": "604d025b-7c5c-49b1-a2ae-90753eef9efc",
     "description": "Admission form IPD",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "published": true,
+    "retired": false
 }
