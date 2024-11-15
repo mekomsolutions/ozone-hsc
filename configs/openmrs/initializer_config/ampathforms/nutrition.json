@@ -89,10 +89,10 @@
               "validators": []
             },
             {
-              "label": "Weight Goal (Kg)",
+              "label": "Weight Goal",
               "type": "obs",
               "required": false,
-              "id": "weightGoal(Kg)",
+              "id": "weightGoal",
               "questionOptions": {
                 "rendering": "number",
                 "concept": "fc1f3f86-9332-4714-a4f4-ce88c173a5c2",

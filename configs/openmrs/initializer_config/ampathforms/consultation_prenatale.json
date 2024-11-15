@@ -608,10 +608,10 @@
               "validators": []
             },
             {
-              "label": "Fundal height (cm)",
+              "label": "Fundal height",
               "type": "obs",
               "required": false,
-              "id": "fundalHeight(Cm)",
+              "id": "fundalHeight",
               "questionOptions": {
                 "rendering": "number",
                 "concept": "f857c495-98d2-4097-9018-d6641a8304a5",
@@ -636,10 +636,10 @@
               },
               "questions": [
                 {
-                  "label": "Fetal Heart Rate (beats/min)",
+                  "label": "Fetal Heart Rate",
                   "type": "obs",
                   "required": false,
-                  "id": "fetalHeartRate(Beats/Min)",
+                  "id": "fetalHeartRate",
                   "questionOptions": {
                     "rendering": "number",
                     "min": "120",

@@ -79,7 +79,7 @@
                   "validators": []
                 },
                 {
-                  "label": "Fetal Heart Rate (beats/min) (120 -160)",
+                  "label": "Fetal Heart Rate",
                   "type": "obs",
                   "required": false,
                   "id": "fetalHeartRate",
@@ -136,7 +136,7 @@
                   "validators": []
                 },
                 {
-                  "label": "Biparietal diameter (cm)",
+                  "label": "Biparietal diameter",
                   "type": "obs",
                   "required": false,
                   "id": "biparietalDiameter",
@@ -147,7 +147,7 @@
                   "validators": []
                 },
                 {
-                  "label": "Occ-frontal diameter (cm)",
+                  "label": "Occ-frontal diameter",
                   "type": "obs",
                   "required": false,
                   "id": "occ-FrontalDiameter",
@@ -158,7 +158,7 @@
                   "validators": []
                 },
                 {
-                  "label": "Cranial circumference (cm)",
+                  "label": "Cranial circumference",
                   "type": "obs",
                   "required": false,
                   "id": "cranialCircumference",
@@ -169,7 +169,7 @@
                   "validators": []
                 },
                 {
-                  "label": "Femur length (cm)",
+                  "label": "Femur length",
                   "type": "obs",
                   "required": false,
                   "id": "femurLength",
@@ -180,7 +180,7 @@
                   "validators": []
                 },
                 {
-                  "label": "Humerus length (cm)",
+                  "label": "Humerus length",
                   "type": "obs",
                   "required": false,
                   "id": "humerusLength",
@@ -191,7 +191,7 @@
                   "validators": []
                 },
                 {
-                  "label": "Abdominal circumference (cm)",
+                  "label": "Abdominal circumference",
                   "type": "obs",
                   "required": false,
                   "id": "abdominalCircumference",
@@ -202,7 +202,7 @@
                   "validators": []
                 },
                 {
-                  "label": "Estimated fetal weight (g)",
+                  "label": "Estimated fetal weight",
                   "type": "obs",
                   "required": false,
                   "id": "estimatedFetalWeight",

@@ -597,10 +597,10 @@
                       "validators": []
                     },
                     {
-                      "label": "Number of Tobacco sticks (Day)",
+                      "label": "Number of Tobacco sticks",
                       "type": "obs",
                       "required": false,
-                      "id": "numberOfTobaccoSticks(Day)",
+                      "id": "numberOfTobaccoSticks",
                       "questionOptions": {
                         "rendering": "number",
                         "concept": "d6540462-4f03-419c-a0d6-2e3371ba3147",
@@ -612,10 +612,10 @@
                       "validators": []
                     },
                     {
-                      "label": "Smoking Duration (Year(s))",
+                      "label": "Smoking Duration",
                       "type": "obs",
                       "required": false,
-                      "id": "smokingDuration(Year(S))",
+                      "id": "smokingDuration",
                       "questionOptions": {
                         "rendering": "number",
                         "concept": "dbab4772-1814-466f-a4ff-22aceca57200",
@@ -644,10 +644,10 @@
                       "validators": []
                     },
                     {
-                      "label": "Pack Years (pack-year(s))",
+                      "label": "Pack Years",
                       "type": "obs",
                       "required": false,
-                      "id": "packYears(Pack-Year(S))",
+                      "id": "packYears",
                       "questionOptions": {
                         "rendering": "number",
                         "concept": "4d24f560-7c9d-448c-8767-66ba584588a2"
@@ -658,10 +658,10 @@
                       "validators": []
                     },
                     {
-                      "label": "Year(s) since last smoke (Year(s))",
+                      "label": "Year(s) since last smoke",
                       "type": "obs",
                       "required": false,
-                      "id": "year(S)SinceLastSmoke(Year(S))",
+                      "id": "year(S)SinceLastSmoke",
                       "questionOptions": {
                         "rendering": "number",
                         "concept": "65be3d70-89db-4d59-afd9-83357d911956"
