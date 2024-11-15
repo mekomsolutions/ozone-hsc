@@ -618,7 +618,7 @@
                       "id": "smokingDuration(Year(S))",
                       "questionOptions": {
                         "rendering": "number",
-                        "concept": "159931AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "concept": "dbab4772-1814-466f-a4ff-22aceca57200",
                         "conceptMappings": [
                           {
                             "relationship": "NARROWER-THAN",

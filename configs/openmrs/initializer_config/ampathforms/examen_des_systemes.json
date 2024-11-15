@@ -445,10 +445,27 @@
                       {
                         "concept": "3cd4d0c8-26fe-102b-80cb-0017a47871b2",
                         "label": "Dysphagia (R13)"
+                      },
+                      {
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                        "label": "Other"
                       }
                     ]
                   },
                   "validators": []
+                },
+                {
+                  "label": "Other observations",
+                  "type": "obs",
+                  "required": false,
+                  "id": "otherNoseObservations",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "4d1f668f-f9b7-4e95-8436-53f37e8c643e"
+                  },
+                  "hide": {
+                    "hideWhenExpression": "!arrayContains(mouthAndThroat,'26c0366b-83e4-4401-9699-e545219b8870')"
+                  }
                 }
               ],
               "validators": []
@@ -489,16 +506,15 @@
                         "label": "Dyspnea (R06.0)"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
-                      },
-                      {
                         "concept": "063cb6f4-f54d-4ee6-878b-6c683cacac8a",
                         "label": "Platypnea"
                       },
                       {
                         "concept": "7629a17f-9fc1-4fb6-a766-059cc88620a3",
                         "label": "Productive Cough"
+                      },{
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                        "label": "Other"
                       }
                     ]
                   },
@@ -556,10 +572,6 @@
                         "label": "Lower Extremity Edema"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
-                      },
-                      {
                         "concept": "678517e9-53c3-4bac-8e5c-29ffd715a584",
                         "label": "Palpitations"
                       },
@@ -570,6 +582,9 @@
                       {
                         "concept": "1ddc1171-8b77-0f79-718d-0e467d4122f9",
                         "label": "Syncope"
+                      },{
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                        "label": "Other"
                       }
                     ]
                   },
@@ -891,7 +906,7 @@
                         "label": "Lesions"
                       },
                       {
-                        "concept": "135488AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "concept": "3cce4c76-26fe-102b-80cb-0017a47871b2",
                         "label": "Lymphadenopathy"
                       },
                       {

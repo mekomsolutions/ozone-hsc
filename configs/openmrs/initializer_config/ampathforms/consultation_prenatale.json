@@ -423,81 +423,68 @@
             },
             {
               "label": "Pregnancy Risks",
-              "type": "obsGroup",
+              "type": "obs",
               "required": false,
-              "id": "pregnancyRisksGroup",
+              "id": "pregnancyRisks",
               "questionOptions": {
-                "rendering": "repeating",
-                "concept": "b35ad290-0d8f-4821-91fe-70b8411ce110"
+                "rendering": "checkbox-searchable",
+                "concept": "b35ad290-0d8f-4821-91fe-70b8411ce110",
+                "answers": [
+                  {
+                    "concept": "edf4ecc4-44f6-457a-b561-179f4426b16a",
+                    "label": "Diabetes (E14.9)"
+                  },
+                  {
+                    "concept": "138405AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Human immunodeficiency virus (HIV) disease (B24)"
+                  },
+                  {
+                    "concept": "3cd50188-26fe-102b-80cb-0017a47871b2",
+                    "label": "Hypertension (I10)"
+                  },
+                  {
+                    "concept": "3cccb654-26fe-102b-80cb-0017a47871b2",
+                    "label": "Malnutrition (E46)"
+                  },
+                  {
+                    "concept": "50e4eb00-968a-456f-824b-cbe320064dcf",
+                    "label": "Mother younger than 18 or older than 36 years"
+                  },
+                  {
+                    "concept": "115491AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Multiple gestation (O30.9)"
+                  },
+                  {
+                    "concept": "115115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Obesity (E66.9)"
+                  },
+                  {
+                    "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                    "label": "Other"
+                  },
+                  {
+                    "concept": "3cceae50-26fe-102b-80cb-0017a47871b2",
+                    "label": "Syphilis (A53.9)"
+                  }
+                ]
               },
               "hide": {
                 "hideWhenExpression": "isEmpty(riskyPregnancy) || riskyPregnancy !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
               },
-              "questions": [
-                {
-                  "label": "Pregnancy Risks",
-                  "type": "obs",
-                  "required": false,
-                  "id": "pregnancyRisks",
-                  "questionOptions": {
-                    "rendering": "select",
-                    "concept": "b35ad290-0d8f-4821-91fe-70b8411ce110",
-                    "answers": [
-                      {
-                        "concept": "edf4ecc4-44f6-457a-b561-179f4426b16a",
-                        "label": "Diabetes (E14.9)"
-                      },
-                      {
-                        "concept": "138405AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "Human immunodeficiency virus (HIV) disease (B24)"
-                      },
-                      {
-                        "concept": "3cd50188-26fe-102b-80cb-0017a47871b2",
-                        "label": "Hypertension (I10)"
-                      },
-                      {
-                        "concept": "3cccb654-26fe-102b-80cb-0017a47871b2",
-                        "label": "Malnutrition (E46)"
-                      },
-                      {
-                        "concept": "50e4eb00-968a-456f-824b-cbe320064dcf",
-                        "label": "Mother younger than 18 or older than 36 years"
-                      },
-                      {
-                        "concept": "115491AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "Multiple gestation (O30.9)"
-                      },
-                      {
-                        "concept": "115115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "Obesity (E66.9)"
-                      },
-                      {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
-                      },
-                      {
-                        "concept": "3cceae50-26fe-102b-80cb-0017a47871b2",
-                        "label": "Syphilis (A53.9)"
-                      }
-                    ]
-                  },
-                  "validators": []
-                },
-                {
-                  "label": "Other Pregnancy Risks",
-                  "type": "obs",
-                  "required": false,
-                  "id": "otherPregnancyRisks",
-                  "questionOptions": {
-                    "rendering": "textarea",
-                    "concept": "ee39e8af-12e8-41ae-a1f9-b08acea07587"
-                  },
-                  "hide": {
-                    "hideWhenExpression": "isEmpty(pregnancyRisks) || pregnancyRisks !== '26c0366b-83e4-4401-9699-e545219b8870'"
-                  },
-                  "validators": []
-                }
-              ],
+              "validators": []
+            },
+            {
+              "label": "Other Pregnancy Risks",
+              "type": "obs",
+              "required": false,
+              "id": "otherPregnancyRisks",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "ee39e8af-12e8-41ae-a1f9-b08acea07587"
+              },
+              "hide": {
+                "hideWhenExpression": "!arrayContains(pregnancyRisks,'26c0366b-83e4-4401-9699-e545219b8870')"
+              },
               "validators": []
             },
             {
@@ -506,7 +493,7 @@
               "required": false,
               "id": "signsAndSymptomsGroup",
               "questionOptions": {
-                "concept": "f7312165-7e96-4761-b4cf-d601a1a18f9c",
+                "concept": "da18a735-7f7d-4f77-a01c-d6b2ecfc36fe",
                 "rendering": "repeating"
               },
               "questions": [
