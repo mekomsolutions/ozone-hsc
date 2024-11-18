@@ -1,0 +1,135 @@
+{
+  "name": "Examen obstétrical",
+  "pages": [
+    {
+      "label": "Examen obstétrical",
+      "sections": [
+        {
+          "label": "Examen obstétrical",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Hauteur utérine (Exam Obs)",
+              "type": "obs",
+              "required": false,
+              "id": "hauteurUtéRine(ExamObs)",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "498d6b5e-abe3-4421-aed9-c99c588d521b"
+              },
+              "validators": []
+            },
+            {
+              "label": "Présentation fœtale (Exam Obs)",
+              "type": "obs",
+              "required": false,
+              "id": "préSentationFœTale(ExamObs)",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "0343ecb1-5b0c-4ae3-be51-129d3b33fc22"
+              },
+              "validators": []
+            },
+            {
+              "label": "Station (Exam Obs)",
+              "type": "obs",
+              "required": false,
+              "id": "station(ExamObs)",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "78c24b0d-2159-4ab0-80c5-a0169684f6c5"
+              },
+              "validators": []
+            },
+            {
+              "label": "Position (Exam Obs)",
+              "type": "obs",
+              "required": false,
+              "id": "position(ExamObs)",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "42f0d5bb-f39f-4ded-b01a-eae79646f999"
+              },
+              "validators": []
+            },
+            {
+              "label": "BDCF (Exam Obs)",
+              "type": "obs",
+              "required": false,
+              "id": "bdcf(ExamObs)",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "27be99a9-d913-4a60-a667-ac9389384370"
+              },
+              "validators": []
+            },
+            {
+              "label": "Col (Exam Obs)",
+              "type": "obs",
+              "required": false,
+              "id": "col(ExamObs)",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "10cf74ed-3e71-46fd-b805-cf28b6f9603f"
+              },
+              "validators": []
+            },
+            {
+              "label": "Dilation (Exam Obs)",
+              "type": "obs",
+              "required": false,
+              "id": "dilation(ExamObs)",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "732f8ec5-23c2-46d6-89fd-b7e3398ce5ce"
+              },
+              "validators": []
+            },
+            {
+              "label": "Poche des eaux (Exam Obs)",
+              "type": "obs",
+              "required": false,
+              "id": "pocheDesEaux(ExamObs)",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "8586c0e9-b8c3-406e-8e62-067a4d1568b4"
+              },
+              "validators": []
+            },
+            {
+              "label": "Bassin (Exam Obs)",
+              "type": "obs",
+              "required": false,
+              "id": "bassin(ExamObs)",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "86cef6c9-c8a5-4c3c-aa84-132b1253492a"
+              },
+              "validators": []
+            },
+            {
+              "label": "Lignes Innom (Exam Obs)",
+              "type": "obs",
+              "required": false,
+              "id": "lignesInnom(ExamObs)",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "3ec55e17-ad8f-406f-aa02-1fba0a41ee4c"
+              },
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "648adf26-bb2f-4b73-bc7a-466437d558b3",
+  "encounter": "Examen obstétrical",
+  "referencedForms": [],
+  "uuid": "f30209a8-9d58-4b99-b99a-582b9006cce5",
+  "description": "Examen obstétrical",
+  "version": "1",
+  "published": true,
+  "retired": false
+}

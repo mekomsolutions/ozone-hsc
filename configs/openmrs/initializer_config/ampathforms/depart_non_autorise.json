@@ -1,0 +1,57 @@
+{
+  "name": "Départ non autorisé",
+  "pages": [
+    {
+      "label": "Départ non autorisé",
+      "sections": [
+        {
+          "label": "Départ non autorisé",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Left without permission",
+              "type": "obs",
+              "required": false,
+              "id": "leftWithoutPermission",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2ffc2e24-fa5c-4cb1-9366-8faec8225ee6",
+                "answers": [
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "Yes"
+                  },
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "No"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Comments",
+              "type": "obs",
+              "required": false,
+              "id": "comments",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "16430ab8-5e6d-4031-a622-815fd0c9e41a"
+              },
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "e9515b93-8932-4d9a-a9c2-655eba9142c5",
+  "encounter": "Départ non autorisé",
+  "referencedForms": [],
+  "uuid": "2567021e-1666-4ffa-9504-9e66da01c31a",
+  "description": "Départ non autorisé",
+  "version": "1",
+  "published": true,
+  "retired": false
+}

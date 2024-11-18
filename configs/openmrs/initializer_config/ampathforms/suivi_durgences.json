@@ -1,0 +1,78 @@
+{
+  "name": "Suivi d’urgences",
+  "pages": [
+    {
+      "label": "Suivi d’urgences",
+      "sections": [
+        {
+          "label": "Emergency",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Emergency",
+              "type": "obsGroup",
+              "required": false,
+              "id": "emergency",
+              "questionOptions": {
+                "rendering": "repeating",
+                "concept": "0ab68a6e-4002-400b-8d3f-21c8cdd78dac"
+              },
+              "questions": [
+                {
+                  "label": "Date / Time ",
+                  "type": "encounterDatetime",
+                  "required": false,
+                  "id": "dateTime",
+                  "datePickerFormat": "both",
+                  "questionOptions": {
+                    "rendering": "date",
+                    "concept": "b6b02232-2a9f-43c9-a66f-b13d4acc4a93"
+                  }
+                },
+                {
+                  "label": "Action taken",
+                  "type": "obs",
+                  "required": false,
+                  "id": "actionTaken",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "7d15e31b-021f-9f99-50e6-50ace62f3962",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "164378"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Observations",
+                  "type": "obs",
+                  "required": false,
+                  "id": "observations",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "4d1f668f-f9b7-4e95-8436-53f37e8c643e"
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounter": "Suivi d’urgences",
+  "encounterType": "3f3058a3-d264-47b4-a414-1d5ddc707121",
+  "referencedForms": [],
+  "uuid": "b11bef46-cb83-47b1-90b7-75ac5dd629e3",
+  "description": "Suivi d’urgences",
+  "version": "1",
+  "published": true,
+  "retired": false
+}

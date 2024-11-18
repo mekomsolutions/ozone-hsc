@@ -1,0 +1,123 @@
+{
+    "name": "Référence",
+    "pages": [
+        {
+            "label": "Référence",
+            "sections": [
+                {
+                    "label": "Referral",
+                    "isExpanded": "true",
+                    "questions": [
+                        {
+                            "label": "Referral",
+                            "type": "obsGroup",
+                            "required": false,
+                            "id": "referral",
+                            "questionOptions": {
+                                "rendering": "repeating",
+                                "concept": "bda6b247-f1fa-40d8-9164-79aebe99bfaf"
+                            },
+                            "questions": [
+                                {
+                                    "label": "Referred By",
+                                    "type": "obs",
+                                    "required": false,
+                                    "id": "referredBy",
+                                    "questionOptions": {
+                                        "rendering": "textarea",
+                                        "concept": "eb2cec8a-ee2e-4b12-9026-3d24e88bfab8"
+                                    },
+                                    "validators": []
+                                },
+                                {
+                                    "label": "Health Centre",
+                                    "type": "obs",
+                                    "required": false,
+                                    "id": "healthCentre",
+                                    "questionOptions": {
+                                        "rendering": "radio",
+                                        "concept": "276cccb6-0c0b-4f84-8947-298aceea5e62",
+                                        "answers": [
+                                            {
+                                                "concept": "4b9b9184-6aa8-4875-ab10-f22092a0075b",
+                                                "label": "Hopital St Jean Limbe"
+                                            },
+                                            {
+                                                "concept": "696114ce-8c7b-4018-a8d5-ee2e65d323d3",
+                                                "label": "Hopital Sacré Coeur Milot"
+                                            },
+                                            {
+                                                "concept": "b0b1c920-02ba-47e7-93e5-9922e888aac0",
+                                                "label": "Hopital Justinien Cap Haitien"
+                                            },
+                                            {
+                                                "concept": "50f4de56-b5b6-4939-aa73-7d7f5a5f8961",
+                                                "label": "Hopital HBCH"
+                                            },
+                                            {
+                                                "concept": "6d1450bb-0109-456b-82f9-e495bcb5c959",
+                                                "label": "Hopital de Trou du Nord"
+                                            },
+                                            {
+                                                "concept": "57195bab-5935-4da4-b5de-e9ee1dba162e",
+                                                "label": "Hopital de Pignon"
+                                            },
+                                            {
+                                                "concept": "1c61317b-f7cf-4709-829c-76abb6f6501b",
+                                                "label": "Hopital de Borgne"
+                                            },
+                                            {
+                                                "concept": "1ff3db17-7a6f-40bf-8062-a912773e905c",
+                                                "label": "Hopital Bon Samaritain Limbe"
+                                            },
+                                            {
+                                                "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                                                "label": "Other"
+                                            }
+                                        ]
+                                    },
+                                    "validators": []
+                                },
+                                {
+                                    "label": "Other Health Centre",
+                                    "type": "obs",
+                                    "required": false,
+                                    "id": "otherHealthCentre",
+                                    "questionOptions": {
+                                        "rendering": "textarea",
+                                        "concept": "ebf58d81-6ca4-4f2b-9287-cffa5cb67441"
+                                    },
+                                    "hide": {
+                                        "hideWhenExpression": "isEmpty(healthCentre) || healthCentre !== '26c0366b-83e4-4401-9699-e545219b8870'"
+                                    },
+                                    "validators": []
+                                },
+                                {
+                                    "label": "Referral Notes",
+                                    "type": "obs",
+                                    "required": false,
+                                    "id": "referralNotes",
+                                    "questionOptions": {
+                                        "rendering": "textarea",
+                                        "concept": "68224cb3-5b61-410d-b269-7b4edc572fd8"
+                                    },
+                                    "validators": []
+                                }
+                            ],
+                            "validators": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "processor": "EncounterFormProcessor",
+    "encounter": "Reference",
+    "encounterType": "817abc8f-47b3-446c-bfad-22e49e8d2cf4",
+    "referencedForms": [],
+    "uuid": "4ae0cfeb-7834-43fe-b6fb-37d2f63cf37c",
+    "description": "Referral form",
+    "version": "1",
+    "published": true,
+    "retired": false
+}
