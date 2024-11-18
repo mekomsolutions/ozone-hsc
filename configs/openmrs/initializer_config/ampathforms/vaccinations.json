@@ -1,0 +1,207 @@
+{
+  "name": "Vaccinations",
+  "pages": [
+    {
+      "label": "Vaccination History",
+      "sections": [
+        {
+          "label": "Vaccination History",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Vaccination History",
+              "type": "obsGroup",
+              "required": false,
+              "id": "vaccinationHistory",
+              "questionOptions": {
+                "rendering": "repeating",
+                "concept": "ee938d18-fa98-43e3-809f-61aa29726a46"
+              },
+              "questions": [
+                {
+                  "label": "Vaccinations",
+                  "type": "obs",
+                  "required": true,
+                  "id": "vaccinations",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "3c25e650-ccfa-48da-b276-a7872796b113",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "984"
+                      }
+                    ],
+                    "answers": [
+                      {
+                        "concept": "9199a4c6-b15f-482c-aa0e-c839bd0cf535",
+                        "label": "BCG Vaccination"
+                      },
+                      {
+                        "concept": "8fdcd0a6-8bcf-4fad-b780-994bdeabaa9c",
+                        "label": "Covid 19 Vaccination"
+                      },
+                      {
+                        "concept": "4a561f0d-d898-42ef-ac20-c3f48382604f",
+                        "label": "Diphtheria Tetanus acellular Pertusis Vaccination"
+                      },
+                      {
+                        "concept": "9f24e11b-24e7-4a44-917b-645a461defc3",
+                        "label": "Diphtheria Tetanus Pertusis Vaccination"
+                      },
+                      {
+                        "concept": "a5bda1d3-281e-4421-bd73-6d649381a9a5",
+                        "label": "Oral Polio Vaccination"
+                      },
+                      {
+                        "concept": "5358e6bf-dcef-46aa-a6af-9d5be7f74d0f",
+                        "label": "Typhim Vi Vaccination"
+                      },
+                      {
+                        "concept": "5ba4e40a-28f9-4c21-b589-add0c9cdec78",
+                        "label": "Rotavirus Vaccination"
+                      },
+                      {
+                        "concept": "5d7c570a-f1f8-4e80-8804-e8d8e94ebd80",
+                        "label": "Polio Vaccine-Inactivated Vaccination"
+                      },
+                      {
+                        "concept": "67b20a95-eaa4-4a54-ba8c-2e3c8aa2f327",
+                        "label": "Pneumococcal Vaccination"
+                      },
+                      {
+                        "concept": "ed8d4bd9-9834-49f7-8700-8b384e5fa307",
+                        "label": "Pneumococcal Polysaccharide Vaccination"
+                      },
+                      {
+                        "concept": "19e9c51d-e0de-4b2c-8eb0-598dbd11187c",
+                        "label": "Pentavalent Vaccination"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Sequence number",
+                  "type": "obs",
+                  "required": false,
+                  "id": "sequenceNumber",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "1f4109b3-b201-46df-a341-dcfa5299a187",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "1418"
+                      }
+                    ],
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Booster",
+                  "type": "obs",
+                  "required": false,
+                  "id": "booster",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "70bc9209-2b6e-4e17-9c4d-58923d3ac49e",
+                    "answers": [
+                      {
+                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                        "label": "Yes"
+                      },
+                      {
+                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                        "label": "No"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Vaccination date",
+                  "type": "obs",
+                  "required": false,
+                  "id": "vaccinationDate",
+                  "datePickerFormat": "calendar",
+                  "questionOptions": {
+                    "rendering": "date",
+                    "concept": "31819490-ae2f-4bb2-ab30-522f93baa0d1",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "1410"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Vaccine Manufacturer",
+                  "type": "obs",
+                  "required": false,
+                  "id": "vaccineManufacturer",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "602ea0c3-c5ce-4ddd-87a5-a5135bb3cb08",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "1419"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Vaccine Lot Number",
+                  "type": "obs",
+                  "required": false,
+                  "id": "vaccineLotNumber",
+                  "questionOptions": {
+                    "rendering": "textarea"
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Vaccine lot expiration date",
+                  "type": "obs",
+                  "required": false,
+                  "id": "vaccineLotExpirationDate",
+                  "datePickerFormat": "calendar",
+                  "questionOptions": {
+                    "rendering": "date",
+                    "concept": "83189d40-6746-4bb6-a987-9afd4a766690",
+                    "conceptMappings": [
+                      {
+                        "relationship": "SAME-AS",
+                        "type": "CIEL",
+                        "value": "165907"
+                      }
+                    ]
+                  },
+                  "validators": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "4bb8c32e-344b-43a7-8650-fe565cef94d2",
+  "encounter": "Vaccinations",
+  "referencedForms": [],
+  "uuid": "c37025cf-13b7-4b99-9356-40e2b7a9e8c6",
+  "description": "Vaccinations",
+  "version": "1",
+  "published": true,
+  "retired": false
+}

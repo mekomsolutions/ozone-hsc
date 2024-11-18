@@ -154,7 +154,7 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Height (cm)",
+              "label": "Height",
               "type": "obs",
               "required": false,
               "id": "height",
@@ -172,7 +172,7 @@
               "validators": []
             },
             {
-              "label": "Weight (kg)",
+              "label": "Weight",
               "type": "obs",
               "required": false,
               "id": "weight",
@@ -191,7 +191,7 @@
               }
             },
             {
-              "label": "Head Circumference (cm)",
+              "label": "Head Circumference",
               "type": "obs",
               "required": false,
               "id": "headCircumference",
@@ -202,7 +202,7 @@
               "validators": []
             },
             {
-              "label": "Abdominal Diameter (cm)",
+              "label": "Abdominal Diameter",
               "type": "obs",
               "required": false,
               "id": "abdominalDiameter",
@@ -213,7 +213,7 @@
               "validators": []
             },
             {
-              "label": "Mid-Upper Arm Circumference (cm)",
+              "label": "Mid-Upper Arm Circumference",
               "type": "obs",
               "required": false,
               "id": "midUpperArmCircumference",
@@ -264,8 +264,8 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounterType": "a7feb1a0-4bd8-48d1-acfd-ce282d139f06",
-  "encounter": "REG",
+  "encounterType": "29b58312-7f0b-443d-8af6-b262acb764b6",
+  "encounter": "Vitals and Biometrics",
   "referencedForms": [],
   "uuid": "895f7868-ca3f-33bb-9336-20f1daf461b3",
   "description": "Vitals and Biometrics",
