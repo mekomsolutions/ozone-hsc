@@ -264,8 +264,50 @@
       "patient-chart-summary-dashboard-slot": {
         "add": [
           "attachments-overview-widget",
-          "allergies-details-widget"
-        ]
+          "allergies-details-widget",
+          "nav-group#General"
+        ],
+        "configure": {
+          "nav-group#General": {
+            "title": "General",
+            "slotName": "General-nav-group-slot",
+            "add": []
+          }
+        }
+      },
+      "General-nav-group-slot":{
+        "add":[
+          "antenatal-care-dashboard"
+        ],
+        "configure":{
+          "antenatal-care-dashboard":{
+            "title": "Antenatal Care",
+            "slot": "antenatal-care-dashboard-slot",
+            "path": "AntenatalCare",
+            "order": 0
+          }
+        }
+      },
+      "antenatal-care-dashboard-slot":{
+        "add": [
+          "obs-by-encounter-widget#AntenatalCare"
+        ],
+        "configure":{
+                    "obs-by-encounter-widget#AntenatalCare": {
+                      "title": "Antenatal Care",
+                      "resultsName": "ANTENATAL CARE",
+                      "data": [
+                        {
+                          "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                          "label": "Test",
+                          "color": "green"
+                        }
+                      ],
+                      "table": {
+                        "pageSize": 20
+                      }
+                    }
+        }
       }
     }
   },
