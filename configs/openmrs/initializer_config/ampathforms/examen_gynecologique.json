@@ -1,0 +1,336 @@
+{
+  "name": "Examen gynécologique",
+  "pages": [
+    {
+      "label": "Examen gynécologique",
+      "sections": [
+        {
+          "label": "Examen gynécologique",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Age at Menarche",
+              "type": "obs",
+              "required": false,
+              "id": "ageAtMenarche",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "d5fea038-5a9d-47b1-87d3-8a3b162db2c0",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "label": "Date of last period",
+              "type": "obs",
+              "required": false,
+              "id": "dateOfLastPeriod",
+              "datePickerFormat": "calendar",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "6ed50023-d807-492f-a203-8ce87a942a52",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "1427"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Total Number of Pregnancies (Gravidity)",
+              "type": "obs",
+              "required": false,
+              "id": "totalNumberOfPregnancies",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "5bab781c-96be-4c32-b75b-d7906ddff555",
+                "disallowDecimals": true
+              },
+              "questionInfo": "Number of times the woman has been pregnant including current pregnancy if applicable",
+              "validators": []
+            },
+            {
+              "label": "Number of abortions",
+              "type": "obs",
+              "required": false,
+              "id": "numberOfAbortions",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "88e9ef3b-651f-47ea-89c5-5f751cee165b",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "label": "Number of Term Pregnancies",
+              "type": "obs",
+              "required": false,
+              "id": "numberOfTermPregnancies",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "b346c76b-56ba-4c27-97cc-f7b0f85bf581",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "160080"
+                  }
+                ],
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "label": "Gyn complaint Set",
+              "type": "obsGroup",
+              "required": false,
+              "id": "gynComplaintSet",
+              "questionOptions": {
+                "rendering": "group",
+                "concept": "40b7e9a5-e251-4195-bf0f-d6b3ea7d6939"
+              },
+              "questions": [
+                {
+                  "label": "Gyn complaint",
+                  "type": "obs",
+                  "required": false,
+                  "id": "gynComplaint",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "55242d08-d58a-4412-9a3e-ff0c579bee0f",
+                    "answers": [
+                      {
+                        "concept": "148989AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "Amenorrhea (N91.2)"
+                      },
+                      {
+                        "concept": "cd1d48f8-a791-4ac7-90a4-7336a58da545",
+                        "label": "Breast problems"
+                      },
+                      {
+                        "concept": "3ccd154a-26fe-102b-80cb-0017a47871b2",
+                        "label": "Dysmenorrhea (N94.6)"
+                      },
+                      {
+                        "concept": "6d9c595d-215b-4895-83d5-dadcbb2e164b",
+                        "label": "Dyspareunia (N94.1)"
+                      },
+                      {
+                        "concept": "2e27f30d-33cc-7793-6678-0c420e260ad3",
+                        "label": "Leucorrhea"
+                      },
+                      {
+                        "concept": "8b24f981-9078-47dc-bcf6-c24358f706c7",
+                        "label": "Menorrhagia (N92.0)"
+                      },
+                      {
+                        "concept": "157544AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "Lower abdominal pain (R10.3)"
+                      },
+                      {
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
+                        "label": "Other"
+                      },
+                      {
+                        "concept": "2c1e2efe-74cb-475d-a922-3785e02e7bd3",
+                        "label": "Vaginal bleeding"
+                      },
+                      {
+                        "concept": "2c4a42db-09f2-4ee8-8b8a-f9f9be169024",
+                        "label": "Vaginal Discharge"
+                      },
+                      {
+                        "concept": "9b2c628c-175b-1f1e-3381-38fd31147ed5",
+                        "label": "Vaginal itching"
+                      },
+                      {
+                        "concept": "ba2b3fed-0ec0-0b69-4c2f-a0334be91263",
+                        "label": "Voiding burns"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Other observations",
+                  "type": "obs",
+                  "required": false,
+                  "id": "otherObservations",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "4d1f668f-f9b7-4e95-8436-53f37e8c643e"
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            },
+            {
+              "label": "Contraception History Set",
+              "type": "obsGroup",
+              "required": false,
+              "id": "contraceptionHistorySet",
+              "questionOptions": {
+                "rendering": "group",
+                "concept": "d459bae9-34d8-433b-aabb-f833c941bb05"
+              },
+              "questions": [
+                {
+                  "label": "Use of contraception",
+                  "type": "obs",
+                  "required": false,
+                  "id": "useOfContraception",
+                  "questionOptions": {
+                    "rendering": "radio",
+                    "concept": "914b5c0e-77f3-4a6d-b9ec-738df9d7a782",
+                    "answers": [
+                      {
+                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                        "label": "False"
+                      },
+                      {
+                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                        "label": "True"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Contraception Set",
+                  "type": "obsGroup",
+                  "required": false,
+                  "id": "contraceptionSet",
+                  "questionOptions": {
+                    "rendering": "group",
+                    "concept": "6c830082-d394-4f29-95ba-37d587016a4d"
+                  },
+                  "questions": [
+                    {
+                      "label": "Contraception",
+                      "type": "obs",
+                      "required": false,
+                      "id": "contraception",
+                      "questionOptions": {
+                        "rendering": "select",
+                        "concept": "5b60b970-0df4-4518-9717-a32a9d37798e",
+                        "answers": [
+                          {
+                            "concept": "f1f57397-ba51-4218-9cae-da74b6b52543",
+                            "label": "Condom (unity)"
+                          },
+                          {
+                            "concept": "85ceb4d6-585d-48e1-8e46-af7e517b4667",
+                            "label": "Contraceptive Implant"
+                          },
+                          {
+                            "concept": "ce15c503-9015-4855-b751-c6626f8af279",
+                            "label": "Depo Provera Injection"
+                          },
+                          {
+                            "concept": "1c206a15-6196-4c44-b914-031f94c476f8",
+                            "label": "IUD"
+                          },
+                          {
+                            "concept": "d320463b-1e09-45c8-88c3-626fce462c21",
+                            "label": "Microlut (plaquette)"
+                          },
+                          {
+                            "concept": "0e577d2c-319b-4463-a94b-96c311eba6e1",
+                            "label": "Microgynon (plaquette)"
+                          }
+                        ]
+                      },
+                      "validators": []
+                    },
+                    {
+                      "label": "Date",
+                      "type": "obs",
+                      "required": false,
+                      "id": "date",
+                      "datePickerFormat": "calendar",
+                      "questionOptions": {
+                        "rendering": "date",
+                        "concept": "e605731b-2e81-41a9-8446-2ed442c339e2",
+                        "conceptMappings": [
+                          {
+                            "relationship": "SAME-AS",
+                            "type": "CIEL",
+                            "value": "1640"
+                          }
+                        ]
+                      },
+                      "validators": []
+                    },
+                    {
+                      "label": "Contraception date",
+                      "type": "obs",
+                      "required": false,
+                      "id": "contraceptionDate",
+                      "questionOptions": {
+                        "rendering": "textarea",
+                        "concept": "f2da2221-25d5-4697-b2b0-5c39b7d59ff7"
+                      },
+                      "validators": []
+                    }
+                  ],
+                  "validators": []
+                }
+              ],
+              "validators": []
+            },
+
+            {
+              "label": "Gyn History Set",
+              "type": "obsGroup",
+              "required": false,
+              "id": "gynHistorySet",
+              "questionOptions": {
+                "rendering": "group",
+                "concept": "b25e9790-46c0-4937-9a04-cead9b52b04b"
+              },
+              "questions": [
+                {
+                  "label": "First sexual intercourse",
+                  "type": "obs",
+                  "required": false,
+                  "id": "firstSexualIntercourse",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "288445fc-87a4-464b-81ca-f3a0e9454c1b"
+                  },
+                  "validators": []
+                },
+                {
+                  "label": "Number of partners",
+                  "type": "obs",
+                  "required": false,
+                  "id": "numberOfPartners",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "cfe9491c-8f42-425d-9c0a-987c171006e6",
+                    "disallowDecimals": true
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "55fd6104-58a2-46d9-9996-17b5d5138a21",
+  "encounter": "Examen gynécologique",
+  "referencedForms": [],
+  "uuid": "74fef8e4-7a9a-4a05-ab77-ae2cebbc9506",
+  "description": "Examen gynécologique",
+  "version": "1",
+  "published": true,
+  "retired": false
+}
