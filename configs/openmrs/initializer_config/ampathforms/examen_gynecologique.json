@@ -189,11 +189,11 @@
                     "answers": [
                       {
                         "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                        "label": "False"
+                        "label": "No"
                       },
                       {
                         "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                        "label": "True"
+                        "label": "Yes"
                       }
                     ]
                   },
@@ -271,7 +271,7 @@
                       "required": false,
                       "id": "contraceptionDate",
                       "questionOptions": {
-                        "rendering": "textarea",
+                        "rendering": "date",
                         "concept": "f2da2221-25d5-4697-b2b0-5c39b7d59ff7"
                       },
                       "validators": []
