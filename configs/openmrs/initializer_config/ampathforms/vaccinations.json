@@ -165,7 +165,8 @@
                   "required": false,
                   "id": "vaccineLotNumber",
                   "questionOptions": {
-                    "rendering": "textarea"
+                    "rendering": "text",
+                    "concept": "051ef90b-3d76-4328-86c2-b6a433a200b1"
                   },
                   "validators": []
                 },
