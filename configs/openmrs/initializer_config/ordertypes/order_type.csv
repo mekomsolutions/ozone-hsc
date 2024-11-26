@@ -1,6 +1,6 @@
 Uuid,Void/Retire,Name,Description,Java class name,Parent,Concept Classes
 425ae793-e776-4f84-8be1-2f322744644d,,Urology,An order for Urology exams,org.openmrs.Order,,Urology
-67a92bd6-0f88-11ea-8d71-362b9e155667,,Material,An order for Material exams,org.openmrs.Order,,Material
+67a92bd6-0f88-11ea-8d71-362b9e155667,,Medical Supply Order,An order for Medical supplies,org.openmrs.module.orderexpansion.api.model.MedicalSupplyOrder,,Material
 67a92e56-0f88-11ea-8d71-362b9e155667,,Procedure,An order for Procedure exams,org.openmrs.Order,,Procedure
 67a9328e-0f88-11ea-8d71-362b9e155667,,Wound,An order for Wound exams,org.openmrs.Order,,Wound
 67a93496-0f88-11ea-8d71-362b9e155667,,Wound Dressing,An order for Wound Dressing exams,org.openmrs.Order,,Wound Dressing
