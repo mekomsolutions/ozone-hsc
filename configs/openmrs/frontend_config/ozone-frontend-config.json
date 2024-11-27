@@ -340,6 +340,6 @@
     }
   },
   "@openmrs/esm-active-visits-app": {
-    "pageSize" : 50
+    "pageSize": 50
   }
 }
