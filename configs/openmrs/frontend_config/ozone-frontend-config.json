@@ -8,6 +8,9 @@
       "relationships"
     ],
     "fieldConfigurations": {
+      "causeOfDeath": {
+        "conceptUuid": "30e1c728-f008-4dd1-ab34-2c34a00fd3a5"
+      },
       "address": {
         "useAddressHierarchy": {
           "enabled": true,
