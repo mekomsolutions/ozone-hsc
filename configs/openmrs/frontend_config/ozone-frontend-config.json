@@ -266,6 +266,18 @@
           "attachments-overview-widget",
           "allergies-details-widget"
         ]
+      },
+      "general-dashboard-slot":{
+        "add":[
+          "nav-group#General"
+        ],
+        "configure": {
+          "nav-group#General": {
+            "title": "General",
+            "slotName": "General-nav-group-slot",
+            "add": []
+          }
+        }
       }
     }
   },
