@@ -267,15 +267,137 @@
           "allergies-details-widget"
         ]
       },
-      "general-dashboard-slot":{
-        "add":[
+      "patient-chart-dashboard-slot": {
+        "add": [
           "nav-group#General"
         ],
         "configure": {
           "nav-group#General": {
             "title": "General",
-            "slotName": "General-nav-group-slot",
-            "add": []
+            "slotName": "general-nav-group-slot"
+          }
+        }
+      },
+      "general-nav-group-slot": {
+        "add": [
+          "dashboard#general"
+        ],
+        "configure": {
+          "dashboard#antenatal": {
+            "title": "General",
+            "slot": "general-dashboard-slot",
+            "path": "General"
+          }
+        }
+      }
+    },
+    "equip-dashboard-slot": {
+      "add": [
+        "obs-by-encounter-widget#antenatalCare"
+      ],
+      "configure": {
+        "obs-by-encounter-widget#antenatalCare": {
+          "title": "Antenatal Care",
+          "resultsName": "Antenatal Care",
+          "data": [
+            {
+              "concept": "c4b48a7a-7c13-4e7d-89ad-1df68c5c6802",
+              "label": "Visit Number",
+              "color": "green"
+            },
+            {
+              "concept": "5bab781c-96be-4c32-b75b-d7906ddff555",
+              "label": "Total Number of Pregnancies (Gravidity)",
+              "color": "red"
+            },
+            {
+              "concept": "b346c76b-56ba-4c27-97cc-f7b0f85bf581",
+              "label": "Number of Term Pregnancies",
+              "color": "green"
+            },
+            {
+              "concept": "1b6a7d76-755c-4db9-8f05-42fe28fc3175",
+              "label": "Number of live births",
+              "color": "red"
+            },
+            {
+              "concept": "3b7d4768-8fc6-4a2d-9a83-05bd288b7108",
+              "label": "Number of living children",
+              "color": "green"
+            },
+            {
+              "concept": "88e9ef3b-651f-47ea-89c5-5f751cee165b",
+              "label": "Number of abortions",
+              "color": "red"
+            },
+            {
+              "concept": "2a07d3b8-c3d5-4fae-ac89-e0a1dfdd9915",
+              "label": "Birth outcome during the last pregnancy",
+              "color": "green"
+            },
+            {
+              "concept": "05306cba-374b-40e8-ac40-4e8a510add61",
+              "label": "Place of delivery of the last pregnancy",
+              "color": "red"
+            },
+            {
+              "concept": "50a37eff-81a3-4cef-a19c-1f85d4e690d6",
+              "label": "Date of most recent pregnancy delivery",
+              "color": "green"
+            },
+            {
+              "concept": "e3892a91-1428-4816-8e83-834dcd738723",
+              "label": "Previous Delivery Complications",
+              "color": "red"
+            },
+            {
+              "concept": "6ed50023-d807-492f-a203-8ce87a942a52",
+              "label": "Date of last period",
+              "color": "green"
+            },
+            {
+              "concept": "6422a83f-acc6-4953-8239-f18a0b6d90a4",
+              "label": "Estimated date of delivery",
+              "color": "red"
+            },
+            {
+              "concept": "9e071d37-ee01-4785-a756-7e4059ffe736",
+              "label": "Estimated Gestational Age",
+              "color": "green"
+            },
+            {
+              "concept": "73099ba8-73c7-4427-a973-76fc1e4d4120",
+              "label": "Number of Weeks",
+              "color": "red"
+            },
+            {
+              "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2",
+              "label": "Risky Pregnancy",
+              "color": "green"
+            },
+            {
+              "concept": "b35ad290-0d8f-4821-91fe-70b8411ce110",
+              "label": "Pregnancy Risks",
+              "color": "green"
+            },
+            {
+              "concept": "da18a735-7f7d-4f77-a01c-d6b2ecfc36fe",
+              "label": "Signs and Symptoms",
+              "color": "green"
+            },
+            {
+              "concept": "f887f487-58a2-4429-944c-c2134ea658de",
+              "label": "Number of Days",
+              "color": "green"
+            },
+            {
+              "concept": "f887f487-58a2-4429-944c-c2134ea658de",
+              "label": "Duration",
+              "color": "green"
+            }
+          ],
+          "table": {
+            "pageSize": 5
           }
         }
       }
