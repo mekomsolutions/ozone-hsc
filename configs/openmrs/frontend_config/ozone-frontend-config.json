@@ -342,5 +342,10 @@
       ],
       "showLabReferenceNumberField": false
     }
+  },
+  "@openmrs/esm-active-visits-app": {
+    "activeVisits": {
+      "pageSize": 50
+    }
   }
 }
