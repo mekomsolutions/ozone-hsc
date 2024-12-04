@@ -345,7 +345,10 @@
   },
   "@openmrs/esm-active-visits-app": {
     "activeVisits": {
-      "pageSize": 50
+      "pageSize": 50,
+      "obs": [
+        "bbb02557-0277-4979-a1fa-b0020f136066"
+      ]
     }
   }
 }
