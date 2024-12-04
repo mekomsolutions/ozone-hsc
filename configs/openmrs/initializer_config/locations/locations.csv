@@ -1,6 +1,6 @@
 Uuid,Void/Retire,Name,display:en,display:fr,Description,Parent,Tags,Address 1,Address 2,Address 3,Address 4,Address 5,Address 6,City/Village,County/District,State/Province,Postal Code,Country
 47816337-9fbe-4b09-821f-8690dc8031c0,,Hôpital Sacré-Coeur,Hôpital Sacré-Coeur,Hôpital Sacré-Coeur,,,Login Location; Visit Location; Admission Location; Appointment Location,,,,,,,,,,,
-e939f8e9-e7d1-4bcf-8e12-c92ae675562e,,Emergency Department - OPD,Emergency Department - OPD,Service des urgences - OPD,,,Login Location; Visit Location;Appointment Location,,,,,,,,,,,
+e939f8e9-e7d1-4bcf-8e12-c92ae675562e,,Emergency - OPD,Emergency - OPD,Urgences - OPD,,,Login Location; Visit Location;Appointment Location,,,,,,,,,,,
 749727b7-605d-459b-9c96-8cab8db8fe5f,,Dental - OPD,Dental - OPD,Dentaire - OPD,,,Login Location; Visit Location;Appointment Location,,,,,,,,,,,
 748f178f-83a0-4d2c-aabc-fba70c956fff,,Cardiology - OPD,Cardiology - OPD,Cardiologie - OPD,,,Login Location; Visit Location;Appointment Location,,,,,,,,,,,
 8a9702ee-a892-4562-996c-2bd4f01d4f2e,,Pediatrics - OPD,Pediatrics - OPD,Pédiatrie - OPD,,,Login Location; Visit Location;Appointment Location,,,,,,,,,,,
