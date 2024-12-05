@@ -1,0 +1,600 @@
+{
+  "name": "Emergency Department",
+  "pages": [
+    {
+      "label": "Emergency Assessment",
+      "sections": [
+        {
+          "label": "Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Motifs de consultation",
+              "type": "obs",
+              "required": false,
+              "id": "motifsDeConsultation",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "f099bb29-a6cf-49eb-9efb-8b1d06d6a7ed"
+              },
+              "validators": []
+            },
+            {
+              "label": "Échelle de douleur",
+              "type": "obs",
+              "required": false,
+              "id": "éChelleDeDouleur",
+              "questionOptions": {
+                "rendering": "number",
+                "min": "0",
+                "max": "10",
+                "concept": "3fe6460f-3d37-463e-9fb9-df42ab15aec8",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "label": "Fall in person aged 65 and older ",
+              "type": "obs",
+              "required": false,
+              "id": "fallInPersonAged65AndOlder",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "e127d9cc-aac5-4f91-9dad-0f33edbed2ce",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "True"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "False"
+                  }
+                ]
+              },
+              "validators": []
+            }
+          ]
+        },
+        {
+          "label": "Causes",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Cause of Emergency",
+              "type": "obs",
+              "required": false,
+              "id": "causeOfEmergency",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "2357763a-1387-4b0c-8fd8-79162ea7ea92",
+                "answers": [
+                  {
+                    "concept": "835e0c85-42c1-4e9e-8974-1dfe71d01d34",
+                    "label": "Domestic accident (ER)"
+                  },
+                  {
+                    "concept": "c733d6ac-fff6-4009-ba81-c69a74625548",
+                    "label": "Injury on public road (ER)"
+                  },
+                  {
+                    "concept": "7f95de56-5f78-4864-84f6-eb54f246ca9d",
+                    "label": "Other type assault/violence (ER)"
+                  },
+                  {
+                    "concept": "91cdac0e-54e1-4d10-8311-bf111c2c2bab",
+                    "label": "Physical violence (ER)"
+                  },
+                  {
+                    "concept": "6f6e266d-9eac-4ed6-929b-28ab78c0713c",
+                    "label": "Sexual violence (ER)"
+                  },
+                  {
+                    "concept": "193c6c79-2539-4aa6-8ba8-a28ee8ed9d5f",
+                    "label": "Work related accident (ER)"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Medical / Surgical emergency",
+              "type": "obs",
+              "required": false,
+              "id": "medical/SurgicalEmergency",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7751d3df-884c-4b23-8e3a-80388bd9fdae",
+                "answers": [
+                  {
+                    "concept": "92eaeb1f-775a-4c18-8029-956c3340cb6d",
+                    "label": "Traumatic injuries (ER)"
+                  },
+                  {
+                    "concept": "0c7e2af6-c17f-4387-8884-4c5e1c9d2a17",
+                    "label": "Respiratory (ER)"
+                  },
+                  {
+                    "concept": "c9d6f1cc-6d7d-4ef3-9215-8c563acdf5c2",
+                    "label": "Obstetric (ER)"
+                  },
+                  {
+                    "concept": "77fdf29f-ff0c-4b70-b500-28353c641e02",
+                    "label": "Musculoskeletal (ER)"
+                  },
+                  {
+                    "concept": "48328818-38b0-4cff-9fc4-1d3bef606157",
+                    "label": "Genitourinary (ER)"
+                  },
+                  {
+                    "concept": "9a8aad2e-fc07-4da7-9271-b71a31f2b22d",
+                    "label": "Gastrointestinal (ER)"
+                  },
+                  {
+                    "concept": "b0cd5e9e-02f2-45b9-bafe-4ddda678c237",
+                    "label": "Cardiovascular (ER)"
+                  }
+                ]
+              },
+              "validators": []
+            }
+          ]
+        },
+        {
+          "label": "Medical History",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Anamnesis",
+              "type": "obs",
+              "required": false,
+              "id": "anamnesis",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "6b8024cb-d2fa-4627-a0b8-5de6e3f6f103"
+              },
+              "validators": []
+            },
+            {
+              "label": "Past medical history",
+              "type": "obs",
+              "required": false,
+              "id": "pastMedicalHistory",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "a5864ffc-d3b7-42fb-bbe7-e4aa080c7bdb"
+              },
+              "validators": []
+            },
+            {
+              "label": "Family history",
+              "type": "obs",
+              "required": false,
+              "id": "familyHistory",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "9aa32cf1-0528-43f8-8f0b-9ec5dfdbdeb4"
+              },
+              "validators": []
+            },
+            {
+              "label": "Previous hospitalization",
+              "type": "obs",
+              "required": false,
+              "id": "previousHospitalization",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "a1d46f24-06ff-4f8d-b2b0-e6754bcc37a5",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "True"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "False"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "If Yes Reason",
+              "type": "obs",
+              "required": false,
+              "id": "ifYesReason",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "52a12ff4-6c8e-4381-ae5e-6b706c59c70a"
+              },
+              "validators": []
+            },
+            {
+              "label": "Vaccination status ",
+              "type": "obs",
+              "required": false,
+              "id": "vaccinationStatus",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "ea3e990a-eae3-40c9-a6c0-367468b71f8d",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "True"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "False"
+                  }
+                ]
+              },
+              "validators": []
+            }
+          ]
+        },
+        {
+          "label": "Life Style",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Alcohol",
+              "type": "obs",
+              "required": false,
+              "id": "alcohol",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "16a035ea-acf0-4e54-9c63-ffd126aaa3f7",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "True"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "False"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Tobacco",
+              "type": "obs",
+              "required": false,
+              "id": "tobacco",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "61ac6631-a248-4dae-bd32-33520d26c04d",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "True"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "False"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Coffee",
+              "type": "obs",
+              "required": false,
+              "id": "coffee",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "0c787837-0e53-49a6-9be7-4df178dd6fcd",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "True"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "False"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Drugs",
+              "type": "obs",
+              "required": false,
+              "id": "drugs",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "7d2e95f9-1368-4ef9-b65e-224aba05e5d3",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "True"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "False"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Infusions",
+              "type": "obs",
+              "required": false,
+              "id": "infusions",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "324201d4-0e17-496c-945e-f3ee4202e963",
+                "answers": [
+                  {
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
+                    "label": "True"
+                  },
+                  {
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
+                    "label": "False"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Other",
+              "type": "obs",
+              "required": false,
+              "id": "other",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "4d1f668f-f9b7-4e95-8436-53f37e8c643e"
+              },
+              "validators": []
+            }
+          ]
+        },
+        {
+          "label": "Review",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Review of systems",
+              "type": "obs",
+              "required": false,
+              "id": "reviewOfSystems",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "7583ef5c-cf85-49b1-9448-bcfb8384ba89"
+              },
+              "validators": []
+            }
+          ]
+        },
+        {
+          "label": "Physical Examination",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "General condition / Nutritional status",
+              "type": "obs",
+              "required": false,
+              "id": "generalCondition/NutritionalStatus",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "d6fb8c3a-585d-44ef-bd4f-a8857021c66b"
+              },
+              "validators": []
+            },
+            {
+              "label": "Ultrasound ",
+              "type": "obs",
+              "required": false,
+              "id": "ultrasound",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "468d1bf0-33af-4e3a-b19b-ffde61605bb5"
+              },
+              "validators": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Systems",
+      "sections": [
+        {
+          "label": "System",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Head",
+              "type": "obs",
+              "required": false,
+              "id": "head",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "d4a4bb63-3a55-45bf-a543-35d1c3e343bb"
+              }
+            },
+            {
+              "label": "ENT",
+              "type": "obs",
+              "required": false,
+              "id": "ent",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "da6b7b3a-d39c-49d6-a895-ecaf69d7f3d2"
+              }
+            },
+            {
+              "label": "Neck",
+              "type": "obs",
+              "required": false,
+              "id": "neck",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "14df2dea-a465-422b-a3bd-40702af7d39b"
+              }
+            },
+            {
+              "label": "Thorax",
+              "type": "obs",
+              "required": false,
+              "id": "thorax",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1acf052e-3bd8-4266-973f-d67749841b9b"
+              }
+            },
+            {
+              "label": "Heart",
+              "type": "obs",
+              "required": false,
+              "id": "heart",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c7ebeffd-e678-42e1-bcf2-6d5c07f7f29e"
+              }
+            },
+            {
+              "label": "Lungs",
+              "type": "obs",
+              "required": false,
+              "id": "lungs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "5a8986e7-245d-4c2e-9428-3c8474269be9"
+              }
+            },
+            {
+              "label": "Abdomen",
+              "type": "obs",
+              "required": false,
+              "id": "abdomen",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "9fff00cc-aa30-44d7-9e92-47ab3f655ad0"
+              },
+              "validators": []
+            },
+            {
+              "label": "OGE",
+              "type": "obs",
+              "required": false,
+              "id": "oge",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "ec937660-2eac-46a9-a24c-47587b159988"
+              }
+            },
+            {
+              "label": "Members",
+              "type": "obs",
+              "required": false,
+              "id": "members",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "ec27ea3d-bc5c-456f-9394-5981a00e22c4"
+              }
+            },
+            {
+              "label": "Neuro",
+              "type": "obs",
+              "required": false,
+              "id": "neuro",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "9c1151df-2280-4c9b-b471-6a1ac0005d09"
+              },
+              "validators": []
+            },
+            {
+              "label": "Skin",
+              "type": "obs",
+              "required": false,
+              "id": "skin",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "c8cb49fe-5583-4b12-8a43-d8db0bd306c1"
+              }
+            },
+            {
+              "label": "Findings",
+              "type": "obs",
+              "required": false,
+              "id": "findings",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e950aef5-bf7c-42f5-a287-ec266ff674ff"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Impressions / Diagnostics",
+      "sections": [
+        {
+          "label": "Details",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Impressions / Diagnostics",
+              "type": "obs",
+              "required": false,
+              "id": "impressions/Diagnostics",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "585750d5-47eb-4f9b-a4a5-de799d0c5fa7"
+              },
+              "validators": []
+            },
+            {
+              "label": "Re-evalution",
+              "type": "obs",
+              "required": false,
+              "id": "re-Evalution",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "0a59f64e-9bd8-470a-a850-c4e85e47797f"
+              },
+              "validators": []
+            },
+            {
+              "label": "Expected duration of stay (days)",
+              "type": "obs",
+              "required": false,
+              "id": "expectedDurationOfStay(Days)",
+              "questionOptions": {
+                "rendering": "number",
+                "min": "0",
+                "concept": "e232692d-e2a5-4c12-bad0-805862bf8e23",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "label": "Signature",
+              "type": "obs",
+              "required": false,
+              "id": "signature",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "da67e381-aac6-4e64-ba6e-1d746725d003"
+              },
+              "validators": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "c08071a6-bcf3-4de7-b4d2-647e941d127f",
+  "description": "Emergency Department Form",
+  "version": "1"
+}
