@@ -147,6 +147,35 @@
       ]
     },
     {
+      "label": "Triage",
+      "sections": [
+        {
+          "label": "Triage",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "label": "Level of emergency severity assessment",
+              "type": "obs",
+              "required": false,
+              "id": "levelOfEmergencySeverityAssessment",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "bbb02557-0277-4979-a1fa-b0020f136066",
+                "conceptMappings": [
+                  {
+                    "relationship": "SAME-AS",
+                    "type": "CIEL",
+                    "value": "159637"
+                  }
+                ]
+              },
+              "validators": []
+            }
+          ]
+        }
+      ]
+    },
+    {
       "label": "Biometrics",
       "sections": [
         {
@@ -228,35 +257,6 @@
                   }
                 ]
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Triage",
-      "sections": [
-        {
-          "label": "Triage",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "label": "Level of emergency severity assessment",
-              "type": "obs",
-              "required": true,
-              "id": "levelOfEmergencySeverityAssessment",
-              "questionOptions": {
-                "rendering": "select",
-                "concept": "bbb02557-0277-4979-a1fa-b0020f136066",
-                "conceptMappings": [
-                  {
-                    "relationship": "SAME-AS",
-                    "type": "CIEL",
-                    "value": "159637"
-                  }
-                ]
-              },
-              "validators": []
             }
           ]
         }
