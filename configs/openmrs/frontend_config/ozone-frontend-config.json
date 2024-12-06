@@ -262,10 +262,7 @@
     ],
     "extensionSlots": {
       "patient-chart-summary-dashboard-slot": {
-        "add": [
-          "attachments-overview-widget",
-          "allergies-details-widget"
-        ]
+        "add": ["attachments-overview-widget", "allergies-details-widget"]
       }
     }
   },
@@ -297,7 +294,9 @@
         "showBarcode": true,
         "showLogo": true,
         "logo": "configs/ozone_hsc_logo.png"
-      }
+      },
+      "pageSize": "86mm 54mm",
+      "printScale": "0.6"
     },
     "contactAttributeTypes": [
       "c3bcd296-eb82-4451-a4b4-eedd1d5f322f",
@@ -337,18 +336,14 @@
     ],
     "orders": {
       "labOrderTypeUuid": "f8ae333e-9d1a-423e-a6a8-c3a0687ebcf2",
-      "labOrderableConcepts": [
-        "f99a0f3b-b54e-4113-bf20-79fdcd089590"
-      ]
+      "labOrderableConcepts": ["f99a0f3b-b54e-4113-bf20-79fdcd089590"]
     },
     "showLabReferenceNumberField": false
   },
   "@openmrs/esm-active-visits-app": {
     "activeVisits": {
       "pageSize": 50,
-      "obs": [
-        "bbb02557-0277-4979-a1fa-b0020f136066"
-      ]
+      "obs": ["bbb02557-0277-4979-a1fa-b0020f136066"]
     }
   }
 }
