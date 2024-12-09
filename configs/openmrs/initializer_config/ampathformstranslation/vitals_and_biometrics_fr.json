@@ -6,6 +6,7 @@
     "form_name_translation" : "Vitals and Biometrics",
     "language": "fr",
     "Translations" :{
-        "label": "Triage"
+        "label": "Triage",
+        "Pain Scale (0 - 10)": "Échelle de douleur (0 - 10)"
     }
 }
