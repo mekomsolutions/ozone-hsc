@@ -276,7 +276,8 @@
       "heightUuid": "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
       "weightUuid": "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
       "respiratoryRateUuid": "8130729f-4605-49b3-b7c0-12b19cc10543",
-      "midUpperArmCircumferenceUuid": "f074942b-666b-4ca3-9f0e-1103128b3ae2"
+      "midUpperArmCircumferenceUuid": "f074942b-666b-4ca3-9f0e-1103128b3ae2",
+      "vitalSignsConceptSetUuid": "773d36e9-119e-452c-91ee-4ac90245e504"
     },
     "vitals": {
       "useFormEngine": true,
