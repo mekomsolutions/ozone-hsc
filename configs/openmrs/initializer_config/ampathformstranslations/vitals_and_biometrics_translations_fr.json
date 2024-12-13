@@ -1,0 +1,11 @@
+{
+
+    "uuid": "6ed1cc00-db2a-4577-b867-696bc1bd81a7",
+    "description": "Vitals and Biometrics",
+    "form" : "Vitals and Biometrics",
+    "language": "fr",
+    "translations" :{
+        "Triage": "Triage",
+        "Pain Scale (0 - 10)": "Échelle de douleur (0 - 10)"
+    }
+}
