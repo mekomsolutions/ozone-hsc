@@ -341,6 +341,46 @@
     },
     "showLabReferenceNumberField": false
   },
+  "@openmrs/esm-patient-search-app": {
+    "search": {
+      "searchFilterFields": {
+        "gender": {
+          "enabled": true
+        },
+        "dateOfBirth": {
+          "enabled": true
+        },
+        "age": {
+          "enabled": true,
+          "min": 0
+        },
+        "postcode": {
+          "enabled": false
+        },
+        "personAttributes": [
+          {
+            "attributeTypeUuid": "14d4f066-15f5-102d-96e4-000c29c2a5d7"
+          },
+          {
+            "attributeTypeUuid": "1102f74e-ea2f-461e-b67f-db58bd136e5c"
+          },
+          {
+            "attributeTypeUuid": "d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e"
+          },
+          {
+            "attributeTypeUuid": "a797b0dc-7ab5-487b-9f01-ef5bb9b7469a",
+            "answerConceptSetUuid": "d746c5e4-b810-4cfb-96ea-73c70d068977"
+          },
+          {
+            "attributeTypeUuid": "91dbc359-39ef-49f4-abbb-43497b6709f2"
+          },
+          {
+            "attributeTypeUuid": "8d871d18-c2cc-11de-8d13-0010c6dffd0f"
+          }
+        ]
+      }
+    }
+  },
   "@openmrs/esm-active-visits-app": {
     "activeVisits": {
       "pageSize": 50,
