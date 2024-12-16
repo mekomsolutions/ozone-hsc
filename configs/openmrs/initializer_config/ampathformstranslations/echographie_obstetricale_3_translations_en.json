@@ -1,0 +1,32 @@
+{
+  "uuid": "k7m5p9q2-r4s6-8t2v-5w7x-9y3z1a4b6c8d",
+  "description": "Echographie obstétricale 3",
+  "form": "Echographie obstétricale 3",
+  "language": "en",
+  "translations": {
+    "Echographie obstétricale 3": "Obstetric Ultrasound 3",
+    "Number of Fetuses": "Number of Fetuses",
+    "Number of Placenta": "Number of Placentas",
+    "Fetus Details": "Fetus Details",
+    "Location of Placenta": "Location of Placenta",
+    "Anterior": "Anterior",
+    "Lateral": "Lateral",
+    "Posterior": "Posterior",
+    "Praevia": "Praevia",
+    "Fetal Heart Rate": "Fetal Heart Rate",
+    "Presentation": "Presentation",
+    "Cephalic": "Cephalic",
+    "Breech": "Breech",
+    "Transverse": "Transverse",
+    "Variable": "Variable",
+    "Biparietal diameter": "Biparietal Diameter",
+    "Occ-frontal diameter": "Occipitofrontal Diameter",
+    "Cranial circumference": "Head Circumference",
+    "Femur length": "Femur Length",
+    "Humerus length": "Humerus Length",
+    "Abdominal circumference": "Abdominal Circumference",
+    "Estimated fetal weight": "Estimated Fetal Weight",
+    "Weight Percentile": "Weight Percentile",
+    "Other observations": "Other Observations"
+  }
+}

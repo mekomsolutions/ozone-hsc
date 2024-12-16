@@ -1,0 +1,19 @@
+{
+  "uuid": "a2b5c8d3-f6g9-4h7j-8k1l-2m5n9p4q7r3s",
+  "description": "Examen obstétrical",
+  "form": "Examen obstétrical",
+  "language": "en",
+  "translations": {
+    "Examen obstétrical": "Obstetrical Examination",
+    "Hauteur utérine (Exam Obs)": "Uterine Height (Obs Exam)",
+    "Présentation fœtale (Exam Obs)": "Fetal Presentation (Obs Exam)",
+    "Station (Exam Obs)": "Station (Obs Exam)",
+    "Position (Exam Obs)": "Position (Obs Exam)",
+    "BDCF (Exam Obs)": "FHR (Obs Exam)",
+    "Col (Exam Obs)": "Cervix (Obs Exam)",
+    "Dilation (Exam Obs)": "Dilation (Obs Exam)",
+    "Poche des eaux (Exam Obs)": "Amniotic Sac (Obs Exam)",
+    "Bassin (Exam Obs)": "Pelvis (Obs Exam)",
+    "Lignes Innom (Exam Obs)": "Ischial Lines (Obs Exam)"
+  }
+}

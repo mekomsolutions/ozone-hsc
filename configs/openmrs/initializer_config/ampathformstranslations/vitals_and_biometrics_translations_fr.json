@@ -1,11 +1,22 @@
 {
-
     "uuid": "6ed1cc00-db2a-4577-b867-696bc1bd81a7",
     "description": "Vitals and Biometrics",
-    "form" : "Vitals and Biometrics",
+    "form": "Vitals and Biometrics",
     "language": "fr",
-    "translations" :{
+    "translations": {
         "Triage": "Triage",
-        "Pain Scale (0 - 10)": "Échelle de douleur (0 - 10)"
+        "Pain Scale (0 - 10)": "Échelle de douleur (0 - 10)",
+        "Pulse (beats/min)": "Pouls (battements/min)",
+        "Temperature": "Température",
+        "Respiratory Rate (breaths/min)": "Fréquence respiratoire (respirations/min)",
+        "Oxygen Saturation (%)": "Saturation en oxygène (%)",
+        "Systolic Blood Pressure (mmHg)": "Tension artérielle systolique (mmHg)",
+        "Diastolic Blood Pressure (mmHg)": "Tension artérielle diastolique (mmHg)",
+        "Level of emergency severity assessment": "Niveau d'évaluation de la gravité des urgences",
+        "Height": "Taille",
+        "Weight": "Poids",
+        "Head Circumference": "Périmètre crânien",
+        "Abdominal Diameter": "Diamètre abdominal",
+        "Mid-Upper Arm Circumference": "Périmètre brachial"
     }
 }

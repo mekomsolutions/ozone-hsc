@@ -1,0 +1,23 @@
+{
+    "uuid": "b5c6d7e8-9f0a-5h6i-9j0k-1l2m3n4o5p6",
+    "description": "Formulaire de référence",
+    "form": "Référence",
+    "language": "fr",
+    "translations": {
+        "Référence": "Référence",
+        "Referral": "Référence",
+        "Referred By": "Référé par",
+        "Health Centre": "Centre de santé",
+        "Other Health Centre": "Autre centre de santé",
+        "Referral Notes": "Notes de référence",
+        "Hopital St Jean Limbe": "Hôpital St Jean Limbe",
+        "Hopital Sacré Coeur Milot": "Hôpital Sacré Cœur Milot",
+        "Hopital Justinien Cap Haitien": "Hôpital Justinien Cap Haïtien",
+        "Hopital HBCH": "Hôpital HBCH",
+        "Hopital de Trou du Nord": "Hôpital de Trou du Nord",
+        "Hopital de Pignon": "Hôpital de Pignon",
+        "Hopital de Borgne": "Hôpital de Borgne",
+        "Hopital Bon Samaritain Limbe": "Hôpital Bon Samaritain Limbe",
+        "Other": "Autre"
+    }
+}
