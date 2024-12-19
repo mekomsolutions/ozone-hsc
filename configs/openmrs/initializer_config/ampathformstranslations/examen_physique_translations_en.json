@@ -1,0 +1,32 @@
+{
+  "uuid": "d8e5f2b3-c7a9-4h6j-8k2m-5n7p9q4r3s6t",
+  "description": "Examen physique",
+  "form": "Examen physique",
+  "form_name_translation": "Physical examination",
+  "language": "en",
+  "translations": {
+    "Examen physique": "Physical Examination",
+    "General Examination": "General Examination",
+    "General Examination Details": "General Examination Details",
+    "Eyes/Nose/Throat/Ear Examination": "Eyes/Nose/Throat/Ear Examination",
+    "Eyes/Nose/Throat/Ear Examination Details": "Eyes/Nose/Throat/Ear Examination Details",
+    "Cardiovascular Examination": "Cardiovascular Examination",
+    "Cardiovascular Examination Details": "Cardiovascular Examination Details",
+    "Respiratory Examination": "Respiratory Examination",
+    "Respiratory Examination Details": "Respiratory Examination Details",
+    "Gastrointestinal Examination": "Gastrointestinal Examination",
+    "Gastrointestinal Examination Details": "Gastrointestinal Examination Details",
+    "Genitourinary Examination": "Genitourinary Examination",
+    "Genitourinary Examination Details": "Genitourinary Examination Details",
+    "Musculoskeletal Examination": "Musculoskeletal Examination",
+    "Musculoskeletal Examination Details": "Musculoskeletal Examination Details",
+    "Neurological Examination": "Neurological Examination",
+    "Neurological Examination Details": "Neurological Examination Details",
+    "Endocrinological Examination": "Endocrinological Examination",
+    "Endocrinological Examination Details": "Endocrinological Examination Details",
+    "Skin Examination": "Skin Examination",
+    "Skin Examination Details": "Skin Examination Details",
+    "Normal": "Normal",
+    "Abnormal": "Abnormal"
+  }
+}

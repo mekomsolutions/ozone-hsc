@@ -1,0 +1,30 @@
+{
+  "uuid": "9g4b3c2d-6e7f-5h8j-0k1l-3m4n5o6p7q8r",
+  "description": "Nutrition",
+  "form": "Nutrition",
+  "form_name_translation": "Nutrition",
+  "language": "en",
+  "translations": {
+    "Nutrition": "Nutrition",
+    "First Visit": "First Visit",
+    "Admission Criteria": "Admission Criteria",
+    "Readmission": "Readmission",
+    "Weight Goal": "Weight Goal",
+    "Malnutrition Signs and symptoms": "Malnutrition Signs and Symptoms",
+    "Grade of edema": "Grade of Edema",
+    "Chest Indrawing": "Chest Indrawing",
+    "Signs of dehydration": "Signs of Dehydration",
+    "Frequent urination": "Frequent Urination",
+    "Thirst": "Thirst",
+    "State of consciousness": "State of Consciousness",
+    "Extremities": "Extremities",
+    "Appearance of the ears": "Appearance of the Ears",
+    "Oral appearance": "Oral Appearance",
+    "Skin appearance": "Skin Appearance",
+    "Lymph Nodes": "Lymph Nodes",
+    "Appetite": "Appetite",
+    "Other Problems": "Other Problems",
+    "Other Problems Details": "Other Problems Details",
+    "Result of the visit": "Result of the Visit"
+  }
+}

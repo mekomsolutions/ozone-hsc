@@ -1,0 +1,14 @@
+{
+  "uuid": "h5j7k9m2-n4p6-3q8r-5s7t-9u2v4w6x8y1z",
+  "description": "Départ non autorisé",
+  "form": "Départ non autorisé",
+  "form_name_translation": "Unauthorized departure",
+  "language": "en",
+  "translations": {
+    "Départ non autorisé": "Unauthorized Departure",
+    "Left without permission": "Left Without Permission",
+    "Comments": "Comments",
+    "Yes": "Yes",
+    "No": "No"
+  }
+}

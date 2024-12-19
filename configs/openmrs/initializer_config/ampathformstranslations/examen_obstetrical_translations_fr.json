@@ -1,0 +1,20 @@
+{
+  "uuid": "e4d1c7a9-b8f2-4h5j-9k3l-1m6n4p8q2r5s",
+  "description": "Examen obstétrical",
+  "form": "Examen obstétrical",
+  "form_name_translation": "Examen obstétrical",
+  "language": "fr",
+  "translations": {
+    "Examen obstétrical": "Examen obstétrical",
+    "Hauteur utérine (Exam Obs)": "Hauteur utérine (Exam Obs)",
+    "Présentation fœtale (Exam Obs)": "Présentation fœtale (Exam Obs)",
+    "Station (Exam Obs)": "Station (Exam Obs)",
+    "Position (Exam Obs)": "Position (Exam Obs)",
+    "BDCF (Exam Obs)": "BDCF (Exam Obs)",
+    "Col (Exam Obs)": "Col (Exam Obs)",
+    "Dilation (Exam Obs)": "Dilation (Exam Obs)",
+    "Poche des eaux (Exam Obs)": "Poche des eaux (Exam Obs)",
+    "Bassin (Exam Obs)": "Bassin (Exam Obs)",
+    "Lignes Innom (Exam Obs)": "Lignes Innom (Exam Obs)"
+  }
+}

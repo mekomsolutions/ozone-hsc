@@ -1,0 +1,30 @@
+{
+  "uuid": "c5a6d3e2-9f1b-4d7c-8e3a-2b6f4c9d5e1a",
+  "description": "Vaccinations",
+  "form": "Vaccinations",
+  "form_name_translation": "Vaccinations",
+  "language": "fr",
+  "translations": {
+    "Vaccination History": "Historique de vaccination",
+    "Vaccinations": "Vaccinations",
+    "Sequence number": "Numéro de séquence",
+    "Booster": "Rappel",
+    "Vaccination date": "Date de vaccination",
+    "Vaccine Manufacturer": "Fabricant du vaccin",
+    "Vaccine Lot Number": "Numéro de lot du vaccin",
+    "Vaccine lot expiration date": "Date d'expiration du lot de vaccin",
+    "BCG Vaccination": "Vaccination BCG",
+    "Covid 19 Vaccination": "Vaccination Covid 19",
+    "Diphtheria Tetanus acellular Pertusis Vaccination": "Vaccination contre la diphtérie, le tétanos et la coqueluche acellulaire",
+    "Diphtheria Tetanus Pertusis Vaccination": "Vaccination contre la diphtérie, le tétanos et la coqueluche",
+    "Oral Polio Vaccination": "Vaccination antipoliomyélitique orale",
+    "Typhim Vi Vaccination": "Vaccination Typhim Vi",
+    "Rotavirus Vaccination": "Vaccination contre le rotavirus",
+    "Polio Vaccine-Inactivated Vaccination": "Vaccination antipoliomyélitique inactivée",
+    "Pneumococcal Vaccination": "Vaccination antipneumococcique",
+    "Pneumococcal Polysaccharide Vaccination": "Vaccination antipneumococcique polyosidique",
+    "Pentavalent Vaccination": "Vaccination pentavalente",
+    "Yes": "Oui",
+    "No": "Non"
+  }
+}
