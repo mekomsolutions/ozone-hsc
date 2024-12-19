@@ -2,6 +2,7 @@
   "uuid": "n9p4r7s2-t6v8-4w2x-5y9z-1a3b6c8d4e7f",
   "description": "Consultation prénatale",
   "form": "Consultation prénatale",
+  "form_name_translation": "Consultation prénatale",
   "language": "fr",
   "translations": {
     "Consultation prénatale": "Consultation prénatale",

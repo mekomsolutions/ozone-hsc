@@ -2,6 +2,7 @@
   "uuid": "a2b5c8d3-f6g9-4h7j-8k1l-2m5n9p4q7r3s",
   "description": "Examen obstétrical",
   "form": "Examen obstétrical",
+  "form_name_translation": "Obstetric examination",
   "language": "en",
   "translations": {
     "Examen obstétrical": "Obstetrical Examination",

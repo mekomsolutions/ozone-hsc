@@ -2,6 +2,7 @@
   "uuid": "f7k9m2n5-p8r4-6s2t-7v3w-9x5y8z1a4b6c",
   "description": "Examen gynécologique",
   "form": "Examen gynécologique",
+  "form_name_translation": "Gynecological examination",
   "language": "en",
   "translations": {
     "Examen gynécologique": "Gynecological Examination",

@@ -2,6 +2,7 @@
   "uuid": "b7c2d9e3-5f1h-6g0j-9k4l-7m2n8o5p3q6r",
   "description": "Motif de consultation",
   "form": "Motif de consultation",
+  "form_name_translation": "Reason for consultation",
   "language": "en",
   "translations": {
     "Motif de consultation": "Reason for Consultation",

@@ -2,6 +2,7 @@
   "uuid": "v5w7x9y2-z4a6-8b2c-5d7e-3f9g2h4j6k8m",
   "description": "Echographie gynécologique",
   "form": "Echographie gynécologique",
+  "form_name_translation": "Gynecological ultrasound",
   "language": "en",
   "translations": {
     "Echographie gynécologique": "Gynecological Ultrasound",

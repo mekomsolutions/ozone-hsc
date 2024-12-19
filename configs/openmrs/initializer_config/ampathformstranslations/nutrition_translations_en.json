@@ -2,6 +2,7 @@
   "uuid": "9g4b3c2d-6e7f-5h8j-0k1l-3m4n5o6p7q8r",
   "description": "Nutrition",
   "form": "Nutrition",
+  "form_name_translation": "Nutrition",
   "language": "en",
   "translations": {
     "Nutrition": "Nutrition",

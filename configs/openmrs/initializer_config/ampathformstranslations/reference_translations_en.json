@@ -2,6 +2,7 @@
     "uuid": "e7f4a2b6-5c3d-4a9f-8e1b-2d6f3c9d5e1a",
     "description": "Formulaire de référence",
     "form": "Référence",
+    "form_name_translation": "Reference",
     "language": "en",
     "translations": {
         "Référence": "Reference",

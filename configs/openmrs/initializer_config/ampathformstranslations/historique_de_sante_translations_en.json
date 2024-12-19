@@ -2,6 +2,7 @@
   "uuid": "b5e7f9a3-c2d4-5g6h-9j1k-4l7m8n2p5q6r",
   "description": "Historique de santé",
   "form": "Historique de santé",
+  "form_name_translation": "Health history",
   "language": "en",
   "translations": {
     "Historique de santé": "Health History",

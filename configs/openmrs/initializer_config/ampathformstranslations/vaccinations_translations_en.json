@@ -2,6 +2,7 @@
   "uuid": "f7b3a204-5d1e-4e3f-9a2c-8e1b6f3c9d5a",
   "description": "Vaccinations",
   "form": "Vaccinations",
+  "form_name_translation": "Vaccinations",
   "language": "en",
   "translations": {
     "Vaccination History": "Vaccination History",

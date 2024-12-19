@@ -2,6 +2,7 @@
   "uuid": "a7b9c2d4-e6f8-4g5h-9j3k-2l5m8n4p6q7r",
   "description": "Examen physique",
   "form": "Examen physique",
+  "form_name_translation": "Examen physique",
   "language": "fr",
   "translations": {
     "Examen physique": "Examen physique",

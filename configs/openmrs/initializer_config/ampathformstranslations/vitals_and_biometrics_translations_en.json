@@ -3,6 +3,7 @@
     "uuid": "c28d80d8-edcd-4a79-8b36-4c791ca7447f",
     "description": "Vitals and Biometrics",
     "form" : "Vitals and Biometrics",
+    "form_name_translation" : "Vitals and Biometrics",
     "language": "en",
     "translations" :{
         "Triage": "Triage",
