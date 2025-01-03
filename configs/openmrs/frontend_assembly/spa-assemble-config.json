@@ -1,0 +1,5 @@
+{
+  "frontendModules": {
+    "@mekomsolutions/esm-patient-medical-supply-orders-app": "next"
+  }
+}
