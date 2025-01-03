@@ -79,6 +79,8 @@ settings.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/modules.xml
+.idea/ozone-hsc.iml
 
 # AWS User-specific
 .idea/**/aws.xml
