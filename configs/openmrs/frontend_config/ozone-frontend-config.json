@@ -337,8 +337,7 @@
     ],
     "orders": {
       "labOrderTypeUuid": "52a447d3-a64a-11e3-9aeb-50e549534c5e",
-      "labOrderableConcepts": ["f99a0f3b-b54e-4113-bf20-79fdcd089590"],
-      "label": ""
+      "labOrderableConcepts": ["f99a0f3b-b54e-4113-bf20-79fdcd089590"]
     },
     "showLabReferenceNumberField": false
   },
