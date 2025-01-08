@@ -178,6 +178,7 @@
     ],
     "Translation overrides": {
       "en": {
+        "addressInformationSection": "Address Information",
         "Commune": "Commune",
         "Village": "Village",
         "Country": "Country",
@@ -198,23 +199,24 @@
         "genderLabelText": "Gender"
       },
       "fr": {
+        "addressInformationSection": "Informations sur l'adresse",
         "Commune": "Commune",
         "Village": "Pays",
         "Country": "Country",
         "Province": "Département",
         "District": "District",
-        "contactSection": "Contact Details",
-        "demographicsSection": "Basic Info",
-        "additionalInformationSection": "Additional Information",
+        "contactSection": "Coordonnées",
+        "demographicsSection": "Informations de base",
+        "additionalInformationSection": "Informations Complémentaires",
         "Male": "Homme",
         "Female": "Femme",
         "Other": "Autre",
-        "selectAnOption": "Select an option",
-        "createNew": "Register",
-        "patient": "New Patient",
+        "selectAnOption": "Sélectionnez une option",
+        "createNew": "Registre",
+        "patient": "Nouveau patient",
         "familyNameLabelText": "Nom de famille",
-        "emailLabelText": "Email Address",
-        "genderLabelText": "Gender"
+        "emailLabelText": "Adresse Email",
+        "genderLabelText": "Genre"
       }
     }
   },
@@ -315,7 +317,14 @@
       "1102f74e-ea2f-461e-b67f-db58bd136e5c",
       "d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e",
       "62844ea0-8be6-4a12-9471-cbb1f060d78b"
-    ]
+    ],
+    "Translation overrides": {
+      "en": {
+        "activeVisit": "Active Visit"
+      },"fr": {
+        "activeVisit": "Visite active"
+      }
+    }
   },
   "core": {
     "Translation overrides": {
