@@ -263,6 +263,49 @@
     "extensionSlots": {
       "patient-chart-summary-dashboard-slot": {
         "add": ["attachments-overview-widget", "allergies-details-widget"]
+      },
+      "patient-chart-dashboard-slot": {
+        "add": ["nav-group#lifeStyle"],
+        "configure": {
+          "nav-group#lifeStyle": {
+            "title": "Life Style",
+            "slotName": "lifeStyle-nav-group-slot"
+          }
+        }
+      },
+      "lifeStyle-nav-group-slot": {
+        "add": ["dashboard#lifeStyle"],
+        "configure": {
+          "dashboard#lifeStyle": {
+            "title": "Life Style",
+            "slot": "lifeStyle-dashboard-slot",
+            "path": "lifeStyle"
+          }
+        }
+      },
+      "lifeStyle-dashboard-slot": {
+        "add": ["obs-by-encounter-widget#lifeStyle"],
+        "configure": {
+          "obs-by-encounter-widget#lifeStyle": {
+            "title": "Life Style",
+            "resultsName": "Life Style",
+            "data": [
+              {
+                "concept": "faba8eb0-d7f7-4f01-92af-b595c035a7a6",
+                "label": "CAGE Score",
+                "color": "green"
+              },
+              {
+                "concept": "4d24f560-7c9d-448c-8767-66ba584588a2",
+                "label": "Pack Years",
+                "color": "red"
+              }
+            ],
+            "table": {
+              "pageSize": 5
+            }
+          }
+        }
       }
     }
   },
