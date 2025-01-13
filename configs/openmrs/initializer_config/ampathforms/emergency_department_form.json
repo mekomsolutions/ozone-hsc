@@ -1,5 +1,5 @@
 {
-  "name": "Emergency Department",
+  "name": "Emergency",
   "pages": [
     {
       "label": "Emergency Assessment",
@@ -16,20 +16,6 @@
               "questionOptions": {
                 "rendering": "textarea",
                 "concept": "f099bb29-a6cf-49eb-9efb-8b1d06d6a7ed"
-              },
-              "validators": []
-            },
-            {
-              "label": "Échelle de douleur",
-              "type": "obs",
-              "required": false,
-              "id": "éChelleDeDouleur",
-              "questionOptions": {
-                "rendering": "number",
-                "min": "0",
-                "max": "10",
-                "concept": "3fe6460f-3d37-463e-9fb9-df42ab15aec8",
-                "disallowDecimals": true
               },
               "validators": []
             },
@@ -199,6 +185,9 @@
               "validators": []
             },
             {
+              "hide": {
+                "hideWhenExpression": "isEmpty(previousHospitalization) ||  previousHospitalization !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
+              },
               "label": "If Yes Reason",
               "type": "obs",
               "required": false,
@@ -320,27 +309,6 @@
               "validators": []
             },
             {
-              "label": "Infusions",
-              "type": "obs",
-              "required": false,
-              "id": "infusions",
-              "questionOptions": {
-                "rendering": "radio",
-                "concept": "324201d4-0e17-496c-945e-f3ee4202e963",
-                "answers": [
-                  {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "True"
-                  },
-                  {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "False"
-                  }
-                ]
-              },
-              "validators": []
-            },
-            {
               "label": "Other",
               "type": "obs",
               "required": false,
@@ -348,23 +316,6 @@
               "questionOptions": {
                 "rendering": "text",
                 "concept": "4d1f668f-f9b7-4e95-8436-53f37e8c643e"
-              },
-              "validators": []
-            }
-          ]
-        },
-        {
-          "label": "Review",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "label": "Review of systems",
-              "type": "obs",
-              "required": false,
-              "id": "reviewOfSystems",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "7583ef5c-cf85-49b1-9448-bcfb8384ba89"
               },
               "validators": []
             }
@@ -395,139 +346,6 @@
                 "concept": "468d1bf0-33af-4e3a-b19b-ffde61605bb5"
               },
               "validators": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Systems",
-      "sections": [
-        {
-          "label": "System",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "label": "Head",
-              "type": "obs",
-              "required": false,
-              "id": "head",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "d4a4bb63-3a55-45bf-a543-35d1c3e343bb"
-              }
-            },
-            {
-              "label": "ENT",
-              "type": "obs",
-              "required": false,
-              "id": "ent",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "da6b7b3a-d39c-49d6-a895-ecaf69d7f3d2"
-              }
-            },
-            {
-              "label": "Neck",
-              "type": "obs",
-              "required": false,
-              "id": "neck",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "14df2dea-a465-422b-a3bd-40702af7d39b"
-              }
-            },
-            {
-              "label": "Thorax",
-              "type": "obs",
-              "required": false,
-              "id": "thorax",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "1acf052e-3bd8-4266-973f-d67749841b9b"
-              }
-            },
-            {
-              "label": "Heart",
-              "type": "obs",
-              "required": false,
-              "id": "heart",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "c7ebeffd-e678-42e1-bcf2-6d5c07f7f29e"
-              }
-            },
-            {
-              "label": "Lungs",
-              "type": "obs",
-              "required": false,
-              "id": "lungs",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "5a8986e7-245d-4c2e-9428-3c8474269be9"
-              }
-            },
-            {
-              "label": "Abdomen",
-              "type": "obs",
-              "required": false,
-              "id": "abdomen",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "9fff00cc-aa30-44d7-9e92-47ab3f655ad0"
-              },
-              "validators": []
-            },
-            {
-              "label": "OGE",
-              "type": "obs",
-              "required": false,
-              "id": "oge",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "ec937660-2eac-46a9-a24c-47587b159988"
-              }
-            },
-            {
-              "label": "Members",
-              "type": "obs",
-              "required": false,
-              "id": "members",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "ec27ea3d-bc5c-456f-9394-5981a00e22c4"
-              }
-            },
-            {
-              "label": "Neuro",
-              "type": "obs",
-              "required": false,
-              "id": "neuro",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "9c1151df-2280-4c9b-b471-6a1ac0005d09"
-              },
-              "validators": []
-            },
-            {
-              "label": "Skin",
-              "type": "obs",
-              "required": false,
-              "id": "skin",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "c8cb49fe-5583-4b12-8a43-d8db0bd306c1"
-              }
-            },
-            {
-              "label": "Findings",
-              "type": "obs",
-              "required": false,
-              "id": "findings",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "e950aef5-bf7c-42f5-a287-ec266ff674ff"
-              }
             }
           ]
         }
@@ -574,17 +392,6 @@
                 "disallowDecimals": true
               },
               "validators": []
-            },
-            {
-              "label": "Signature",
-              "type": "obs",
-              "required": false,
-              "id": "signature",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "da67e381-aac6-4e64-ba6e-1d746725d003"
-              },
-              "validators": []
             }
           ]
         }
@@ -594,7 +401,7 @@
   "processor": "EncounterFormProcessor",
   "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
   "referencedForms": [],
-  "uuid": "c08071a6-bcf3-4de7-b4d2-647e941d127f",
+  "uuid": "436dd530-a978-41f0-a798-868e1cb9bd4c",
   "description": "Emergency Department Form",
   "version": "1"
 }
