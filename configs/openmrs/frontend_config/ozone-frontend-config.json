@@ -227,10 +227,6 @@
         "redirect": "${ODOO_PUBLIC_URL}"
       },
       {
-        "title": "Laboratory",
-        "redirect": "${SENAITE_PUBLIC_URL}"
-      },
-      {
         "title": "Reporting & Analytics",
         "redirect": "${SUPERSET_PUBLIC_URL}"
       }
@@ -238,6 +234,16 @@
     "logo": {
       "src": "configs/ozone_hsc_logo_white.png",
       "alt": "hsc-logo"
+    },
+    "Translation overrides": {
+      "en": {
+        "Pharmacy, Billing & Inventory": "Pharmacy, Billing & Inventory",
+        "Reporting & Analytics": "Reporting & Analytics"
+      },
+      "fr": {
+        "Pharmacy, Billing & Inventory": "Pharmacie, Facturation et Inventaire",
+        "Reporting & Analytics": "Rapports et Analyses"
+      }
     }
   },
   "@openmrs/esm-login-app": {
