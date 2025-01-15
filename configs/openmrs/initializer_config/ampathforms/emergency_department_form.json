@@ -1,5 +1,5 @@
 {
-  "name": "Emergency Department",
+  "name": "Emergency",
   "pages": [
     {
       "label": "Emergency Assessment",
@@ -57,27 +57,27 @@
                 "answers": [
                   {
                     "concept": "835e0c85-42c1-4e9e-8974-1dfe71d01d34",
-                    "label": "Domestic accident (ER)"
+                    "label": "Domestic accident"
                   },
                   {
                     "concept": "c733d6ac-fff6-4009-ba81-c69a74625548",
-                    "label": "Injury on public road (ER)"
+                    "label": "Injury on public road"
                   },
                   {
                     "concept": "7f95de56-5f78-4864-84f6-eb54f246ca9d",
-                    "label": "Other type assault/violence (ER)"
+                    "label": "Other type assault/violence"
                   },
                   {
                     "concept": "91cdac0e-54e1-4d10-8311-bf111c2c2bab",
-                    "label": "Physical violence (ER)"
+                    "label": "Physical violence"
                   },
                   {
                     "concept": "6f6e266d-9eac-4ed6-929b-28ab78c0713c",
-                    "label": "Sexual violence (ER)"
+                    "label": "Sexual violence"
                   },
                   {
                     "concept": "193c6c79-2539-4aa6-8ba8-a28ee8ed9d5f",
-                    "label": "Work related accident (ER)"
+                    "label": "Work related accident"
                   }
                 ]
               },
@@ -94,31 +94,31 @@
                 "answers": [
                   {
                     "concept": "92eaeb1f-775a-4c18-8029-956c3340cb6d",
-                    "label": "Traumatic injuries (ER)"
+                    "label": "Traumatic injuries"
                   },
                   {
                     "concept": "0c7e2af6-c17f-4387-8884-4c5e1c9d2a17",
-                    "label": "Respiratory (ER)"
+                    "label": "Respiratory"
                   },
                   {
                     "concept": "c9d6f1cc-6d7d-4ef3-9215-8c563acdf5c2",
-                    "label": "Obstetric (ER)"
+                    "label": "Obstetric"
                   },
                   {
                     "concept": "77fdf29f-ff0c-4b70-b500-28353c641e02",
-                    "label": "Musculoskeletal (ER)"
+                    "label": "Musculoskeletal"
                   },
                   {
                     "concept": "48328818-38b0-4cff-9fc4-1d3bef606157",
-                    "label": "Genitourinary (ER)"
+                    "label": "Genitourinary"
                   },
                   {
                     "concept": "9a8aad2e-fc07-4da7-9271-b71a31f2b22d",
-                    "label": "Gastrointestinal (ER)"
+                    "label": "Gastrointestinal"
                   },
                   {
                     "concept": "b0cd5e9e-02f2-45b9-bafe-4ddda678c237",
-                    "label": "Cardiovascular (ER)"
+                    "label": "Cardiovascular"
                   }
                 ]
               },
@@ -199,21 +199,56 @@
               "validators": []
             },
             {
-              "label": "Vaccination status ",
+              "label": "Vaccination status",
               "type": "obs",
               "required": false,
               "id": "vaccinationStatus",
               "questionOptions": {
-                "rendering": "textarea",
+                "rendering": "number",
+                "min": "1900",
+                "max": "2100",
                 "concept": "ea3e990a-eae3-40c9-a6c0-367468b71f8d",
+                "disallowDecimals": true
+              },
+              "validators": []
+            },
+            {
+              "label": "Tetanus",
+              "type": "obs",
+              "required": false,
+              "id": "tetanus",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5890a04f-5327-4145-a8e5-24aed5e9b91e",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "True"
+                    "concept": "1d481a5f-f8e0-43ba-8732-5b5e22180d93",
+                    "label": "Up to date"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "False"
+                    "concept": "f05641c9-e583-4f03-8a00-a722cca8a00f",
+                    "label": "Not up to date"
+                  }
+                ]
+              },
+              "validators": []
+            },
+            {
+              "label": "Other Vaccinations",
+              "type": "obs",
+              "required": false,
+              "id": "otherVaccinations",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "8c78ddb4-8e22-4c06-b48c-60ea8624d685",
+                "answers": [
+                  {
+                    "concept": "1d481a5f-f8e0-43ba-8732-5b5e22180d93",
+                    "label": "Up to date"
+                  },
+                  {
+                    "concept": "f05641c9-e583-4f03-8a00-a722cca8a00f",
+                    "label": "Not up to date"
                   }
                 ]
               },
@@ -418,9 +453,9 @@
   "processor": "EncounterFormProcessor",
   "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
   "referencedForms": [],
-  "uuid": "c08071a6-bcf3-4de7-b4d2-647e941d127f",
+  "uuid": "123d2a47-ad72-47bd-ba07-5119c9761b74",
   "description": "Emergency Department Form",
-  "version": "1", 
+  "version": "1",
   "published": true,
   "retired": false
 }
