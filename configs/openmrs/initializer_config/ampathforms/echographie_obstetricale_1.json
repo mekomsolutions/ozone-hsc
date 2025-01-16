@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Confirmed Pregnancy",
               "type": "obs",
               "required": false,
               "id": "confirmedPregnancy",
@@ -25,19 +24,16 @@
                 ],
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Confirmed Gestational Age",
               "type": "obsGroup",
               "required": false,
               "id": "confirmedGestationalAge",
@@ -47,7 +43,6 @@
               },
               "questions": [
                 {
-                  "label": "Number of Weeks",
                   "type": "obs",
                   "required": false,
                   "id": "numberOfWeeks",
@@ -59,7 +54,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Number of Days",
                   "type": "obs",
                   "required": false,
                   "id": "numberOfDays",
@@ -74,7 +68,6 @@
               "validators": []
             },
             {
-              "label": "Location of pregnancy",
               "type": "obs",
               "required": false,
               "id": "locationOfPregnancy",
@@ -83,31 +76,25 @@
                 "concept": "309fba9e-7936-42e6-a7b6-d05830f5a432",
                 "answers": [
                   {
-                    "concept": "0c7dc1a3-e7de-40c0-8b75-5c8c3c513d57",
-                    "label": "Abdominal Pregnancy"
+                    "concept": "0c7dc1a3-e7de-40c0-8b75-5c8c3c513d57"
                   },
                   {
-                    "concept": "b4b1d099-1932-4eda-bc72-7ba69b471b3a",
-                    "label": "Intrauterine Pregnancy"
+                    "concept": "b4b1d099-1932-4eda-bc72-7ba69b471b3a"
                   },
                   {
-                    "concept": "a999e659-d882-425e-b3db-a2d039d15ac6",
-                    "label": "Other Ectopic Pregnancy"
+                    "concept": "a999e659-d882-425e-b3db-a2d039d15ac6"
                   },
                   {
-                    "concept": "7fc52ed8-8397-4016-be5a-b4686ef8fa7e",
-                    "label": "Ovarian Pregnancy"
+                    "concept": "7fc52ed8-8397-4016-be5a-b4686ef8fa7e"
                   },
                   {
-                    "concept": "c9662450-d9f4-43c6-90d5-6172ec709283",
-                    "label": "Tubal Pregnancy"
+                    "concept": "c9662450-d9f4-43c6-90d5-6172ec709283"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Estimated date of delivery",
               "type": "obs",
               "required": false,
               "id": "estimatedDateOfDelivery",
@@ -126,7 +113,6 @@
               "validators": []
             },
             {
-              "label": "Number of Fetuses",
               "type": "obs",
               "required": false,
               "id": "numberOfFetuses",
@@ -145,7 +131,6 @@
               "validators": []
             },
             {
-              "label": "Number of Placenta",
               "type": "obs",
               "required": false,
               "id": "numberOfPlacenta",
@@ -157,7 +142,6 @@
               "validators": []
             },
             {
-              "label": "Fetus Details",
               "type": "obsGroup",
               "required": false,
               "id": "fetusDetails",
@@ -167,7 +151,6 @@
               },
               "questions": [
                 {
-                  "label": "Location of Placenta",
                   "type": "obs",
                   "required": false,
                   "id": "locationOfPlacenta",
@@ -176,27 +159,22 @@
                     "concept": "f4d664f4-e6e5-47f7-8781-2255ebfacc97",
                     "answers": [
                       {
-                        "concept": "ca69545b-dfef-4210-b311-dc8a1d309311",
-                        "label": "Anterior"
+                        "concept": "ca69545b-dfef-4210-b311-dc8a1d309311"
                       },
                       {
-                        "concept": "f5c721f6-7162-4533-9a83-4a4cd6997cb8",
-                        "label": "Lateral"
+                        "concept": "f5c721f6-7162-4533-9a83-4a4cd6997cb8"
                       },
                       {
-                        "concept": "1f82cf3c-ce84-4c98-a35a-c37c45edc5fc",
-                        "label": "Posterior"
+                        "concept": "1f82cf3c-ce84-4c98-a35a-c37c45edc5fc"
                       },
                       {
-                        "concept": "cc4c6921-1d06-48f7-a7d8-a0c6664b515e",
-                        "label": "Praevia"
+                        "concept": "cc4c6921-1d06-48f7-a7d8-a0c6664b515e"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Fetal Heart Rate",
                   "type": "obs",
                   "required": false,
                   "id": "fetalHeartRate",
@@ -220,7 +198,6 @@
               "validators": []
             },
             {
-              "label": "Risky Pregnancy",
               "type": "obs",
               "required": false,
               "id": "riskyPregnancy",
@@ -229,19 +206,16 @@
                 "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Other Pregnancy Risks",
               "type": "obs",
               "required": false,
               "id": "otherPregnancyRisks",
@@ -255,7 +229,6 @@
               "validators": []
             },
             {
-              "label": "Identified complications",
               "type": "obs",
               "required": false,
               "id": "identifiedComplications",
@@ -264,19 +237,16 @@
                 "concept": "6a228d2d-87ca-4d84-a774-ebc0e26b55c9",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Complications",
               "type": "obs",
               "required": false,
               "id": "complications",
@@ -297,7 +267,6 @@
               "validators": []
             },
             {
-              "label": "Other observations",
               "type": "obs",
               "required": false,
               "id": "otherObservations",

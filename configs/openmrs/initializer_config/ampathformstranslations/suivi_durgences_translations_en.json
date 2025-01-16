@@ -5,10 +5,6 @@
   "form_name_translation": "Emergency monitoring",
   "language": "en",
   "translations": {
-    "Suivi d'urgences": "Emergency Follow-up",
-    "Emergency": "Emergency",
-    "Date / Time": "Date / Time",
-    "Action taken": "Action taken",
-    "Observations": "Observations"
+
   }
 }

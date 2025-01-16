@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Age at Menarche",
               "type": "obs",
               "required": false,
               "id": "ageAtMenarche",
@@ -21,7 +20,6 @@
               "validators": []
             },
             {
-              "label": "Date of last period",
               "type": "obs",
               "required": false,
               "id": "dateOfLastPeriod",
@@ -40,7 +38,6 @@
               "validators": []
             },
             {
-              "label": "Total Number of Pregnancies (Gravidity)",
               "type": "obs",
               "required": false,
               "id": "totalNumberOfPregnancies",
@@ -53,7 +50,6 @@
               "validators": []
             },
             {
-              "label": "Number of abortions",
               "type": "obs",
               "required": false,
               "id": "numberOfAbortions",
@@ -65,7 +61,6 @@
               "validators": []
             },
             {
-              "label": "Number of Term Pregnancies",
               "type": "obs",
               "required": false,
               "id": "numberOfTermPregnancies",
@@ -84,7 +79,6 @@
               "validators": []
             },
             {
-              "label": "Gyn complaint Set",
               "type": "obsGroup",
               "required": false,
               "id": "gynComplaintSet",
@@ -94,7 +88,6 @@
               },
               "questions": [
                 {
-                  "label": "Gyn complaint",
                   "type": "obs",
                   "required": false,
                   "id": "gynComplaint",
@@ -103,59 +96,46 @@
                     "concept": "55242d08-d58a-4412-9a3e-ff0c579bee0f",
                     "answers": [
                       {
-                        "concept": "148989AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "Amenorrhea (N91.2)"
+                        "concept": "148989AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                       },
                       {
-                        "concept": "cd1d48f8-a791-4ac7-90a4-7336a58da545",
-                        "label": "Breast problems"
+                        "concept": "cd1d48f8-a791-4ac7-90a4-7336a58da545"
                       },
                       {
-                        "concept": "3ccd154a-26fe-102b-80cb-0017a47871b2",
-                        "label": "Dysmenorrhea (N94.6)"
+                        "concept": "3ccd154a-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "6d9c595d-215b-4895-83d5-dadcbb2e164b",
-                        "label": "Dyspareunia (N94.1)"
+                        "concept": "6d9c595d-215b-4895-83d5-dadcbb2e164b"
                       },
                       {
-                        "concept": "2e27f30d-33cc-7793-6678-0c420e260ad3",
-                        "label": "Leucorrhea"
+                        "concept": "2e27f30d-33cc-7793-6678-0c420e260ad3"
                       },
                       {
-                        "concept": "8b24f981-9078-47dc-bcf6-c24358f706c7",
-                        "label": "Menorrhagia (N92.0)"
+                        "concept": "8b24f981-9078-47dc-bcf6-c24358f706c7"
                       },
                       {
-                        "concept": "157544AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "Lower abdominal pain (R10.3)"
+                        "concept": "157544AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "2c1e2efe-74cb-475d-a922-3785e02e7bd3",
-                        "label": "Vaginal bleeding"
+                        "concept": "2c1e2efe-74cb-475d-a922-3785e02e7bd3"
                       },
                       {
-                        "concept": "2c4a42db-09f2-4ee8-8b8a-f9f9be169024",
-                        "label": "Vaginal Discharge"
+                        "concept": "2c4a42db-09f2-4ee8-8b8a-f9f9be169024"
                       },
                       {
-                        "concept": "9b2c628c-175b-1f1e-3381-38fd31147ed5",
-                        "label": "Vaginal itching"
+                        "concept": "9b2c628c-175b-1f1e-3381-38fd31147ed5"
                       },
                       {
-                        "concept": "ba2b3fed-0ec0-0b69-4c2f-a0334be91263",
-                        "label": "Voiding burns"
+                        "concept": "ba2b3fed-0ec0-0b69-4c2f-a0334be91263"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherObservations",
@@ -169,7 +149,6 @@
               "validators": []
             },
             {
-              "label": "Contraception History Set",
               "type": "obsGroup",
               "required": false,
               "id": "contraceptionHistorySet",
@@ -179,7 +158,6 @@
               },
               "questions": [
                 {
-                  "label": "Use of contraception",
                   "type": "obs",
                   "required": false,
                   "id": "useOfContraception",
@@ -188,19 +166,16 @@
                     "concept": "914b5c0e-77f3-4a6d-b9ec-738df9d7a782",
                     "answers": [
                       {
-                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                        "label": "No"
+                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                       },
                       {
-                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                        "label": "Yes"
+                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Contraception Set",
                   "type": "obsGroup",
                   "required": false,
                   "id": "contraceptionSet",
@@ -210,7 +185,6 @@
                   },
                   "questions": [
                     {
-                      "label": "Contraception",
                       "type": "obs",
                       "required": false,
                       "id": "contraception",
@@ -219,35 +193,28 @@
                         "concept": "5b60b970-0df4-4518-9717-a32a9d37798e",
                         "answers": [
                           {
-                            "concept": "f1f57397-ba51-4218-9cae-da74b6b52543",
-                            "label": "Condom (unity)"
+                            "concept": "f1f57397-ba51-4218-9cae-da74b6b52543"
                           },
                           {
-                            "concept": "85ceb4d6-585d-48e1-8e46-af7e517b4667",
-                            "label": "Contraceptive Implant"
+                            "concept": "85ceb4d6-585d-48e1-8e46-af7e517b4667"
                           },
                           {
-                            "concept": "ce15c503-9015-4855-b751-c6626f8af279",
-                            "label": "Depo Provera Injection"
+                            "concept": "ce15c503-9015-4855-b751-c6626f8af279"
                           },
                           {
-                            "concept": "1c206a15-6196-4c44-b914-031f94c476f8",
-                            "label": "IUD"
+                            "concept": "1c206a15-6196-4c44-b914-031f94c476f8"
                           },
                           {
-                            "concept": "d320463b-1e09-45c8-88c3-626fce462c21",
-                            "label": "Microlut (plaquette)"
+                            "concept": "d320463b-1e09-45c8-88c3-626fce462c21"
                           },
                           {
-                            "concept": "0e577d2c-319b-4463-a94b-96c311eba6e1",
-                            "label": "Microgynon (plaquette)"
+                            "concept": "0e577d2c-319b-4463-a94b-96c311eba6e1"
                           }
                         ]
                       },
                       "validators": []
                     },
                     {
-                      "label": "Date",
                       "type": "obs",
                       "required": false,
                       "id": "date",
@@ -266,7 +233,6 @@
                       "validators": []
                     },
                     {
-                      "label": "Contraception date",
                       "type": "obs",
                       "required": false,
                       "id": "contraceptionDate",
@@ -284,7 +250,6 @@
             },
 
             {
-              "label": "Gyn History Set",
               "type": "obsGroup",
               "required": false,
               "id": "gynHistorySet",
@@ -294,7 +259,6 @@
               },
               "questions": [
                 {
-                  "label": "First sexual intercourse",
                   "type": "obs",
                   "required": false,
                   "id": "firstSexualIntercourse",
@@ -305,7 +269,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Number of partners",
                   "type": "obs",
                   "required": false,
                   "id": "numberOfPartners",

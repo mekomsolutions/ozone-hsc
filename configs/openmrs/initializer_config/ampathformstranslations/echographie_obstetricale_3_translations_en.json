@@ -5,29 +5,6 @@
   "form_name_translation": "Obstetric ultrasound 3",
   "language": "en",
   "translations": {
-    "Echographie obstétricale 3": "Obstetric Ultrasound 3",
-    "Number of Fetuses": "Number of Fetuses",
-    "Number of Placenta": "Number of Placentas",
-    "Fetus Details": "Fetus Details",
-    "Location of Placenta": "Location of Placenta",
-    "Anterior": "Anterior",
-    "Lateral": "Lateral",
-    "Posterior": "Posterior",
-    "Praevia": "Praevia",
-    "Fetal Heart Rate": "Fetal Heart Rate",
-    "Presentation": "Presentation",
-    "Cephalic": "Cephalic",
-    "Breech": "Breech",
-    "Transverse": "Transverse",
-    "Variable": "Variable",
-    "Biparietal diameter": "Biparietal Diameter",
-    "Occ-frontal diameter": "Occipitofrontal Diameter",
-    "Cranial circumference": "Head Circumference",
-    "Femur length": "Femur Length",
-    "Humerus length": "Humerus Length",
-    "Abdominal circumference": "Abdominal Circumference",
-    "Estimated fetal weight": "Estimated Fetal Weight",
-    "Weight Percentile": "Weight Percentile",
-    "Other observations": "Other Observations"
+
   }
 }

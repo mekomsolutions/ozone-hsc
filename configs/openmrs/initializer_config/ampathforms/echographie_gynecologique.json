@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Observations",
               "type": "obs",
               "required": false,
               "id": "observations",

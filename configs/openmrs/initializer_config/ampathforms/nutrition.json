@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "First Visit",
               "type": "obs",
               "required": false,
               "id": "firstVisit",
@@ -18,19 +17,16 @@
                 "concept": "c4b48a7a-7c13-4e7d-89ad-1df68c5c6801",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Admission Criteria",
               "type": "obs",
               "required": false,
               "id": "admissionCriteria",
@@ -46,16 +42,13 @@
                 ],
                 "answers": [
                   {
-                    "concept": "8dfc3ec9-771a-42b6-ad45-aa0ac15b660c",
-                    "label": "MUAC<115mm"
+                    "concept": "8dfc3ec9-771a-42b6-ad45-aa0ac15b660c"
                   },
                   {
-                    "concept": "edaef9f4-2b5b-4b71-9019-74f1d40ad4d7",
-                    "label": "Oedema"
+                    "concept": "edaef9f4-2b5b-4b71-9019-74f1d40ad4d7"
                   },
                   {
-                    "concept": "1503f027-2693-4674-b658-de41d5df60e4",
-                    "label": "Weight-for-height<-3SD/BMI<16"
+                    "concept": "1503f027-2693-4674-b658-de41d5df60e4"
                   }
                 ]
               },
@@ -65,7 +58,6 @@
               "validators": []
             },
             {
-              "label": "Readmission",
               "type": "obs",
               "required": false,
               "id": "readmission",
@@ -74,12 +66,10 @@
                 "concept": "a2224476-1827-4270-9ace-c8fd7898fd21",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
@@ -89,7 +79,6 @@
               "validators": []
             },
             {
-              "label": "Weight Goal",
               "type": "obs",
               "required": false,
               "id": "weightGoal",
@@ -110,7 +99,6 @@
               "validators": []
             },
             {
-              "label": "Malnutrition Signs and symptoms",
               "type": "obsGroup",
               "required": false,
               "id": "malnutritionSignsAndSymptomsGroup",
@@ -120,7 +108,6 @@
               },
               "questions": [
                 {
-                  "label": "Malnutrition Signs and symptoms",
                   "type": "obs",
                   "required": false,
                   "id": "malnutritionSignsAndSymptoms",
@@ -129,35 +116,28 @@
                     "concept": "f9270e85-db3f-4e64-8f2a-be3b13863708",
                     "answers": [
                       {
-                        "concept": "3cccf632-26fe-102b-80cb-0017a47871b2",
-                        "label": "Cough (R05)"
+                        "concept": "3cccf632-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "303b3a29-e1da-4a06-892a-648c43399316",
-                        "label": "Diarrhea (> 3 watery stools)"
+                        "concept": "303b3a29-e1da-4a06-892a-648c43399316"
                       },
                       {
-                        "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3",
-                        "label": "Fever"
+                        "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3"
                       },
                       {
-                        "concept": "d6a5068b-91cd-4b6d-86c6-a14fc493a7e7",
-                        "label": "Frequent urination"
+                        "concept": "d6a5068b-91cd-4b6d-86c6-a14fc493a7e7"
                       },
                       {
-                        "concept": "4f73dc25-e114-4666-8559-e3e2528bac7a",
-                        "label": "Thirst"
+                        "concept": "4f73dc25-e114-4666-8559-e3e2528bac7a"
                       },
                       {
-                        "concept": "3cf1c930-26fe-102b-80cb-0017a47871b2",
-                        "label": "Vomiting (R11)"
+                        "concept": "3cf1c930-26fe-102b-80cb-0017a47871b2"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Duration",
                   "type": "obs",
                   "required": false,
                   "id": "duration",
@@ -169,7 +149,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Time Units",
                   "type": "obs",
                   "required": false,
                   "id": "timeUnits",
@@ -178,24 +157,19 @@
                     "concept": "373b5749-82ff-a3d8-2e13-db76dd0499b3",
                     "answers": [
                       {
-                        "concept": "327cdb97-571c-2d13-306b-4024fce268cb",
-                        "label": "Day(s)"
+                        "concept": "327cdb97-571c-2d13-306b-4024fce268cb"
                       },
                       {
-                        "concept": "88e474ea-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Hour(s)"
+                        "concept": "88e474ea-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "88e5cc3c-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Month(s)"
+                        "concept": "88e5cc3c-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "88e55059-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Week(s)"
+                        "concept": "88e55059-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "a4d0c480-923b-49fe-b125-80453675fdea",
-                        "label": "Year(s)"
+                        "concept": "a4d0c480-923b-49fe-b125-80453675fdea"
                       }
                     ]
                   },
@@ -205,7 +179,6 @@
               "validators": []
             },
             {
-              "label": "Grade of edema",
               "type": "obs",
               "required": false,
               "id": "gradeOfEdema",
@@ -221,23 +194,19 @@
                 ],
                 "answers": [
                   {
-                    "concept": "e7c0fefc-96e8-4ccb-b24b-92ec2024f579",
-                    "label": "One plus"
+                    "concept": "e7c0fefc-96e8-4ccb-b24b-92ec2024f579"
                   },
                   {
-                    "concept": "9f14f988-be10-419b-b947-0508664b7ef2",
-                    "label": "Two plus"
+                    "concept": "9f14f988-be10-419b-b947-0508664b7ef2"
                   },
                   {
-                    "concept": "5f2ee7bc-8dcf-4617-b31c-2ac6c07617b5",
-                    "label": "Zero"
+                    "concept": "5f2ee7bc-8dcf-4617-b31c-2ac6c07617b5"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Chest Indrawing",
               "type": "obs",
               "required": false,
               "id": "chestIndrawing",
@@ -253,19 +222,16 @@
                 ],
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Signs of dehydration",
               "type": "obs",
               "required": false,
               "id": "signsOfDehydration",
@@ -281,23 +247,19 @@
                 ],
                 "answers": [
                   {
-                    "concept": "b821d08c-34f3-4614-9ae6-30a80bce0236",
-                    "label": "Moderate"
+                    "concept": "b821d08c-34f3-4614-9ae6-30a80bce0236"
                   },
                   {
-                    "concept": "17aba9e2-b0f0-4d62-9aba-1b2568437313",
-                    "label": "None"
+                    "concept": "17aba9e2-b0f0-4d62-9aba-1b2568437313"
                   },
                   {
-                    "concept": "c728a231-e76a-4c68-aba6-a3909640f5b3",
-                    "label": "Severe"
+                    "concept": "c728a231-e76a-4c68-aba6-a3909640f5b3"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Frequent urination",
               "type": "obs",
               "required": false,
               "id": "frequentUrination",
@@ -313,19 +275,16 @@
                 ],
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Thirst",
               "type": "obs",
               "required": false,
               "id": "thirst",
@@ -341,19 +300,16 @@
                 ],
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "State of consciousness",
               "type": "obs",
               "required": false,
               "id": "stateOfConsciousness",
@@ -369,27 +325,22 @@
                 ],
                 "answers": [
                   {
-                    "concept": "279561c9-e537-42c7-87cc-c16fe6eb6c6e",
-                    "label": "Irritable"
+                    "concept": "279561c9-e537-42c7-87cc-c16fe6eb6c6e"
                   },
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "3af92575-4fde-4982-ae14-85f815c452c8",
-                    "label": "Passive"
+                    "concept": "3af92575-4fde-4982-ae14-85f815c452c8"
                   },
                   {
-                    "concept": "910a2ec7-0672-4880-a2b9-1f9938323611",
-                    "label": "Restless"
+                    "concept": "910a2ec7-0672-4880-a2b9-1f9938323611"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Extremities",
               "type": "obs",
               "required": false,
               "id": "extremities",
@@ -398,19 +349,16 @@
                 "concept": "7ea58c8f-be4c-4c7c-80d7-e43459be45d4",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "24a58167-e111-48a7-953b-d4c169964821",
-                    "label": "Cold"
+                    "concept": "24a58167-e111-48a7-953b-d4c169964821"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Appearance of the ears",
               "type": "obs",
               "required": false,
               "id": "appearanceOfTheEars",
@@ -419,27 +367,22 @@
                 "concept": "3d993c8b-107d-4520-871c-b984d106343b",
                 "answers": [
                   {
-                    "concept": "6513d6c6-d706-4419-9311-ea7e32b2c5b1",
-                    "label": "Dry"
+                    "concept": "6513d6c6-d706-4419-9311-ea7e32b2c5b1"
                   },
                   {
-                    "concept": "566d50e2-5041-4b81-b6d0-da87fdbf1c2f",
-                    "label": "Ear Discharge"
+                    "concept": "566d50e2-5041-4b81-b6d0-da87fdbf1c2f"
                   },
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "7c4d837b-5967-4ba6-902c-ca7651bebf34",
-                    "label": "Pain (R52.9)"
+                    "concept": "7c4d837b-5967-4ba6-902c-ca7651bebf34"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Oral appearance",
               "type": "obs",
               "required": false,
               "id": "oralAppearance",
@@ -448,23 +391,19 @@
                 "concept": "4fe02b51-1e07-485b-a66a-94b98fdca754",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "9df01f14-c567-4a42-a53a-8eff79529479",
-                    "label": "Inflammation"
+                    "concept": "9df01f14-c567-4a42-a53a-8eff79529479"
                   },
                   {
-                    "concept": "a5dde366-b83b-4766-ae8b-2be0b77385bd",
-                    "label": "Oral thrush"
+                    "concept": "a5dde366-b83b-4766-ae8b-2be0b77385bd"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Skin appearance",
               "type": "obs",
               "required": false,
               "id": "skinAppearance",
@@ -473,31 +412,25 @@
                 "concept": "28e80fcf-ddf1-48fd-8784-a6da98589f2c",
                 "answers": [
                   {
-                    "concept": "31e330c1-fe09-437c-9c84-10607d29f0d2",
-                    "label": "Desquamation"
+                    "concept": "31e330c1-fe09-437c-9c84-10607d29f0d2"
                   },
                   {
-                    "concept": "5b227510-5f7a-4d53-9f45-0a74556f1bfb",
-                    "label": "Abscess"
+                    "concept": "5b227510-5f7a-4d53-9f45-0a74556f1bfb"
                   },
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "5597ab5f-4551-48d5-b09e-fdf66a5d18d5",
-                    "label": "Scabies"
+                    "concept": "5597ab5f-4551-48d5-b09e-fdf66a5d18d5"
                   },
                   {
-                    "concept": "3c5c24dd-38a3-4418-8e8e-55c33df7b0b2",
-                    "label": "Ulcers"
+                    "concept": "3c5c24dd-38a3-4418-8e8e-55c33df7b0b2"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Lymph Nodes",
               "type": "obs",
               "required": false,
               "id": "lymphNodes",
@@ -513,27 +446,22 @@
                 ],
                 "answers": [
                   {
-                    "concept": "2b3bc872-0a39-4988-bcb0-017841c6f300",
-                    "label": "Axillary"
+                    "concept": "2b3bc872-0a39-4988-bcb0-017841c6f300"
                   },
                   {
-                    "concept": "cba34152-fbda-4953-bc5c-0cc44db433a1",
-                    "label": "Inguinal fold"
+                    "concept": "cba34152-fbda-4953-bc5c-0cc44db433a1"
                   },
                   {
-                    "concept": "c1db62b1-082b-46b1-b2a8-bb8da60a6e5a",
-                    "label": "Neck"
+                    "concept": "c1db62b1-082b-46b1-b2a8-bb8da60a6e5a"
                   },
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Appetite",
               "type": "obs",
               "required": false,
               "id": "appetite",
@@ -542,23 +470,19 @@
                 "concept": "7c383fa5-d85b-4b5f-b41f-d86826403969",
                 "answers": [
                   {
-                    "concept": "b46aa35e-9fa3-4d61-9d88-e805648c7eac",
-                    "label": "Fair"
+                    "concept": "b46aa35e-9fa3-4d61-9d88-e805648c7eac"
                   },
                   {
-                    "concept": "b82cb558-1b79-4dba-a30a-2f7bd93d8c7c",
-                    "label": "Good"
+                    "concept": "b82cb558-1b79-4dba-a30a-2f7bd93d8c7c"
                   },
                   {
-                    "concept": "6c5e5c1d-137c-421c-ae7e-243dd24fbe18",
-                    "label": "Refusal"
+                    "concept": "6c5e5c1d-137c-421c-ae7e-243dd24fbe18"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Other Problems",
               "type": "obs",
               "required": false,
               "id": "otherProblems",
@@ -567,19 +491,16 @@
                 "concept": "4dc86194-6a6b-44d5-8681-2d6d15f61577",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Other Problems Details",
               "type": "obs",
               "required": false,
               "id": "otherProblemsDetails",
@@ -593,7 +514,6 @@
               "validators": []
             },
             {
-              "label": "Result of the visit",
               "type": "obs",
               "required": false,
               "id": "resultOfTheVisit",
@@ -602,24 +522,19 @@
                 "concept": "32de1494-eb45-47fa-bc1f-4ea80cb487e5",
                 "answers": [
                   {
-                    "concept": "713ab6cf-71e6-4f69-9a8a-747b948a5656",
-                    "label": "Cured"
+                    "concept": "713ab6cf-71e6-4f69-9a8a-747b948a5656"
                   },
                   {
-                    "concept": "08e3c76b-f95c-48e2-9249-51311f3453ec",
-                    "label": "Fail"
+                    "concept": "08e3c76b-f95c-48e2-9249-51311f3453ec"
                   },
                   {
-                    "concept": "43da897c-9936-40db-9b19-7be549505d93",
-                    "label": "Follow-up appointment"
+                    "concept": "43da897c-9936-40db-9b19-7be549505d93"
                   },
                   {
-                    "concept": "fb25b6de-d7d2-4a0b-a2e0-54517e723d03",
-                    "label": "Referred"
+                    "concept": "fb25b6de-d7d2-4a0b-a2e0-54517e723d03"
                   },
                   {
-                    "concept": "3cd5bb6d-29ae-4f3c-90e4-dd77fb08c2ca",
-                    "label": "Withdrawal"
+                    "concept": "3cd5bb6d-29ae-4f3c-90e4-dd77fb08c2ca"
                   }
                 ]
               },

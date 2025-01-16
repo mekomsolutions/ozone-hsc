@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Left without permission",
               "type": "obs",
               "required": false,
               "id": "leftWithoutPermission",
@@ -18,19 +17,16 @@
                 "concept": "2ffc2e24-fa5c-4cb1-9366-8faec8225ee6",
                 "answers": [
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "Yes"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   },
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "No"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Comments",
               "type": "obs",
               "required": false,
               "id": "comments",

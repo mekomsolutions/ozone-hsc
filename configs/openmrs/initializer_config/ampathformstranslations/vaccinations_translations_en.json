@@ -5,26 +5,6 @@
   "form_name_translation": "Vaccinations",
   "language": "en",
   "translations": {
-    "Vaccination History": "Vaccination History",
-    "Vaccinations": "Vaccinations",
-    "Sequence number": "Sequence number",
-    "Booster": "Booster",
-    "Vaccination date": "Vaccination date",
-    "Vaccine Manufacturer": "Vaccine Manufacturer",
-    "Vaccine Lot Number": "Vaccine Lot Number",
-    "Vaccine lot expiration date": "Vaccine lot expiration date",
-    "BCG Vaccination": "BCG Vaccination",
-    "Covid 19 Vaccination": "Covid 19 Vaccination",
-    "Diphtheria Tetanus acellular Pertusis Vaccination": "Diphtheria Tetanus acellular Pertusis Vaccination",
-    "Diphtheria Tetanus Pertusis Vaccination": "Diphtheria Tetanus Pertusis Vaccination",
-    "Oral Polio Vaccination": "Oral Polio Vaccination",
-    "Typhim Vi Vaccination": "Typhim Vi Vaccination",
-    "Rotavirus Vaccination": "Rotavirus Vaccination",
-    "Polio Vaccine-Inactivated Vaccination": "Polio Vaccine-Inactivated Vaccination",
-    "Pneumococcal Vaccination": "Pneumococcal Vaccination",
-    "Pneumococcal Polysaccharide Vaccination": "Pneumococcal Polysaccharide Vaccination",
-    "Pentavalent Vaccination": "Pentavalent Vaccination",
-    "Yes": "Yes",
-    "No": "No"
+
   }
 }

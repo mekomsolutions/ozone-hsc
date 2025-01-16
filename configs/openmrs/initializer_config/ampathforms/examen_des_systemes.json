@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "General Set",
               "type": "obsGroup",
               "required": false,
               "id": "generalSet",
@@ -19,7 +18,6 @@
               },
               "questions": [
                 {
-                  "label": "General",
                   "type": "obs",
                   "required": true,
                   "id": "general",
@@ -28,31 +26,24 @@
                     "concept": "4a9edbef-9ad9-40a3-a5d3-83a1674bc4df",
                     "answers": [
                       {
-                        "concept": "3cf19000-26fe-102b-80cb-0017a47871b2",
-                        "label": "Fatigue (R53)"
+                        "concept": "3cf19000-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3",
-                        "label": "Fever"
+                        "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3"
                       },
                       {
-                        "concept": "e904d309-fb5c-452c-b9b1-8daf9a3eff15",
-                        "label": "Loss of Appetite"
+                        "concept": "e904d309-fb5c-452c-b9b1-8daf9a3eff15"
                       },
                       {
-                        "concept": "3cf2b548-26fe-102b-80cb-0017a47871b2",
-                        "label": "Night sweats (R61.1)"
+                        "concept": "3cf2b548-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other",
-                        "id": "genralOtherOption"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       }
                     ]
                   }
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": true,
                   "id": "otherGeneralObservations",
@@ -69,7 +60,6 @@
               "validators": []
             },
             {
-              "label": "Skin Set",
               "type": "obsGroup",
               "required": false,
               "id": "skinSet",
@@ -79,7 +69,6 @@
               },
               "questions": [
                 {
-                  "label": "Skin",
                   "type": "obs",
                   "required": false,
                   "id": "skin",
@@ -88,34 +77,27 @@
                     "concept": "db2ac1d4-6d8f-4c21-95a7-6bfd49faf42c",
                     "answers": [
                       {
-                        "concept": "ef35f99c-0f59-82a0-3e37-d175d03a35f2",
-                        "label": "Dermatological pruritus"
+                        "concept": "ef35f99c-0f59-82a0-3e37-d175d03a35f2"
                       },
                       {
-                        "concept": "1a384669-a1fe-46bc-a7cb-4a1ed0556918",
-                        "label": "Discolorations"
+                        "concept": "1a384669-a1fe-46bc-a7cb-4a1ed0556918"
                       },
                       {
-                        "concept": "bbcc605d-ee86-42eb-8a04-73648cbc9ef3",
-                        "label": "Lesions"
+                        "concept": "bbcc605d-ee86-42eb-8a04-73648cbc9ef3"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "c1cad65e-5528-2120-42a0-0c7da5243491",
-                        "label": "Rashes"
+                        "concept": "c1cad65e-5528-2120-42a0-0c7da5243491"
                       },
                       {
-                        "concept": "8b53b799-9127-4a38-89bb-3f3d90405557",
-                        "label": "Tattoo"
+                        "concept": "8b53b799-9127-4a38-89bb-3f3d90405557"
                       }
                     ]
                   }
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherSkinObservations",
@@ -131,7 +113,6 @@
               "validators": []
             },
             {
-              "label": "Head Set",
               "type": "obsGroup",
               "required": false,
               "id": "headSet",
@@ -141,7 +122,6 @@
               },
               "questions": [
                 {
-                  "label": "Head",
                   "type": "obs",
                   "required": false,
                   "id": "head",
@@ -150,30 +130,24 @@
                     "concept": "6788f174-9be5-40af-b938-379cf3745c88",
                     "answers": [
                       {
-                        "concept": "6e6f3d4f-8bb9-7712-5d30-15ce540552b9",
-                        "label": "Dizziness"
+                        "concept": "6e6f3d4f-8bb9-7712-5d30-15ce540552b9"
                       },
                       {
-                        "concept": "3cd24178-26fe-102b-80cb-0017a47871b2",
-                        "label": "Headache (R51)"
+                        "concept": "3cd24178-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "671d5d29-2309-3e97-01eb-4edbdda1a671",
-                        "label": "Mass"
+                        "concept": "671d5d29-2309-3e97-01eb-4edbdda1a671"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "3cce938e-26fe-102b-80cb-0017a47871b2",
-                        "label": "Seizure (R56.8)"
+                        "concept": "3cce938e-26fe-102b-80cb-0017a47871b2"
                       }
                     ]
                   }
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherHeadObservations",
@@ -189,7 +163,6 @@
               "validators": []
             },
             {
-              "label": "Eyes Set",
               "type": "obsGroup",
               "required": false,
               "id": "eyesSet",
@@ -199,7 +172,6 @@
               },
               "questions": [
                 {
-                  "label": "Eyes",
                   "type": "obs",
                   "required": false,
                   "id": "eyes",
@@ -208,43 +180,34 @@
                     "concept": "c1eef44a-42ae-41a1-a78f-26a354c59334",
                     "answers": [
                       {
-                        "concept": "53521df8-e9f3-4e42-8649-7fe11df6bab2",
-                        "label": "Conjuctivitis"
+                        "concept": "53521df8-e9f3-4e42-8649-7fe11df6bab2"
                       },
                       {
-                        "concept": "59437118-0d3a-49fc-1612-195787f0065d",
-                        "label": "Discharge from the eyes"
+                        "concept": "59437118-0d3a-49fc-1612-195787f0065d"
                       },
                       {
-                        "concept": "26688603-992f-4171-a1d6-a5d344cdef29",
-                        "label": "Eye itching"
+                        "concept": "26688603-992f-4171-a1d6-a5d344cdef29"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "d5d18115-8cf3-4b10-9110-32dec69db4f6",
-                        "label": "Pain"
+                        "concept": "d5d18115-8cf3-4b10-9110-32dec69db4f6"
                       },
                       {
-                        "concept": "19a92519-e350-434e-ba92-1cc42d031821",
-                        "label": "Pallor"
+                        "concept": "19a92519-e350-434e-ba92-1cc42d031821"
                       },
                       {
-                        "concept": "71e58402-8b2e-4fe4-91bd-e2a220c92dc0",
-                        "label": "Teary eyes"
+                        "concept": "71e58402-8b2e-4fe4-91bd-e2a220c92dc0"
                       },
                       {
-                        "concept": "f08dd30d-4211-50bf-6791-ab4d25e845a2",
-                        "label": "Visual disturbance"
+                        "concept": "f08dd30d-4211-50bf-6791-ab4d25e845a2"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherEyesObservations",
@@ -260,7 +223,6 @@
               "validators": []
             },
             {
-              "label": "Ears Set",
               "type": "obsGroup",
               "required": false,
               "id": "earsSet",
@@ -270,7 +232,6 @@
               },
               "questions": [
                 {
-                  "label": "Ears",
                   "type": "obs",
                   "required": false,
                   "id": "ears",
@@ -279,35 +240,28 @@
                     "concept": "4463d07e-fa84-4f31-8bb1-afc1d04a4501",
                     "answers": [
                       {
-                        "concept": "784cdb78-3b6d-447b-9eee-e29b6e4feae7",
-                        "label": "Deaf"
+                        "concept": "784cdb78-3b6d-447b-9eee-e29b6e4feae7"
                       },
                       {
-                        "concept": "6e6f3d4f-8bb9-7712-5d30-15ce540552b9",
-                        "label": "Dizziness"
+                        "concept": "6e6f3d4f-8bb9-7712-5d30-15ce540552b9"
                       },
                       {
-                        "concept": "566d50e2-5041-4b81-b6d0-da87fdbf1c2f",
-                        "label": "Ear Discharge"
+                        "concept": "566d50e2-5041-4b81-b6d0-da87fdbf1c2f"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "d5d18115-8cf3-4b10-9110-32dec69db4f6",
-                        "label": "Pain"
+                        "concept": "d5d18115-8cf3-4b10-9110-32dec69db4f6"
                       },
                       {
-                        "concept": "e0964733-8dc6-9114-8ac0-9eeecc594fe9",
-                        "label": "Tinnitus"
+                        "concept": "e0964733-8dc6-9114-8ac0-9eeecc594fe9"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherEarsObservations",
@@ -323,7 +277,6 @@
               "validators": []
             },
             {
-              "label": "Nose Set",
               "type": "obsGroup",
               "required": false,
               "id": "noseSet",
@@ -333,7 +286,6 @@
               },
               "questions": [
                 {
-                  "label": "Nose",
                   "type": "obs",
                   "required": false,
                   "id": "nose",
@@ -342,27 +294,22 @@
                     "concept": "669eb2ed-6fe3-47d0-b9ed-17e3b8af1e85",
                     "answers": [
                       {
-                        "concept": "e72e92ae-ca88-4a01-862b-ce3e16c25f96",
-                        "label": "Bleeding"
+                        "concept": "e72e92ae-ca88-4a01-862b-ce3e16c25f96"
                       },
                       {
-                        "concept": "03e3c003-767a-4bcd-88cc-932ed65dbab6",
-                        "label": "Nose Discharge"
+                        "concept": "03e3c003-767a-4bcd-88cc-932ed65dbab6"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "1607769b-1096-4399-8c22-981a8b4742e8",
-                        "label": "Sinus Congestion"
+                        "concept": "1607769b-1096-4399-8c22-981a8b4742e8"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherNoseObservations",
@@ -378,7 +325,6 @@
               "validators": []
             },
             {
-              "label": "Mouth and Throat Set",
               "type": "obsGroup",
               "required": false,
               "id": "mouthAndThroatSet",
@@ -388,7 +334,6 @@
               },
               "questions": [
                 {
-                  "label": "Teeth",
                   "type": "obs",
                   "required": false,
                   "id": "teeth",
@@ -397,19 +342,16 @@
                     "concept": "2de43a2e-e82c-4e04-a276-17dd4db40c54",
                     "answers": [
                       {
-                        "concept": "8137f84b-ca74-487a-ac3e-4c3364e97716",
-                        "label": "Missing"
+                        "concept": "8137f84b-ca74-487a-ac3e-4c3364e97716"
                       },
                       {
-                        "concept": "87a835f5-46c7-4e81-bfd4-687fa62d1cf1",
-                        "label": "Loose"
+                        "concept": "87a835f5-46c7-4e81-bfd4-687fa62d1cf1"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Mouth and Throat Deformation",
                   "type": "obs",
                   "required": false,
                   "id": "mouthAndThroatDeformation",
@@ -418,19 +360,16 @@
                     "concept": "bcda6677-244d-466c-9c33-98c02855b990",
                     "answers": [
                       {
-                        "concept": "08887d3e-78fe-4dff-84e4-3eea4287df02",
-                        "label": "Pallet"
+                        "concept": "08887d3e-78fe-4dff-84e4-3eea4287df02"
                       },
                       {
-                        "concept": "fd55467a-6453-4fc1-a9a7-0ff78e9baa4e",
-                        "label": "Tongue"
+                        "concept": "fd55467a-6453-4fc1-a9a7-0ff78e9baa4e"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Mouth and Throat",
                   "type": "obs",
                   "required": false,
                   "id": "mouthAndThroat",
@@ -439,23 +378,19 @@
                     "concept": "55887656-fb44-4fcc-a9bc-4d73101ed31c",
                     "answers": [
                       {
-                        "concept": "d5d18115-8cf3-4b10-9110-32dec69db4f6",
-                        "label": "Pain"
+                        "concept": "d5d18115-8cf3-4b10-9110-32dec69db4f6"
                       },
                       {
-                        "concept": "3cd4d0c8-26fe-102b-80cb-0017a47871b2",
-                        "label": "Dysphagia (R13)"
+                        "concept": "3cd4d0c8-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherNoseObservations",
@@ -471,7 +406,6 @@
               "validators": []
             },
             {
-              "label": "Respiratory Set",
               "type": "obsGroup",
               "required": false,
               "id": "respiratorySet",
@@ -481,7 +415,6 @@
               },
               "questions": [
                 {
-                  "label": "Respiratory",
                   "type": "obs",
                   "required": false,
                   "id": "respiratory",
@@ -490,38 +423,30 @@
                     "concept": "78d7751f-5ff3-4cef-b9a7-4c81d55fa5ed",
                     "answers": [
                       {
-                        "concept": "3cccf632-26fe-102b-80cb-0017a47871b2",
-                        "label": "Cough (R05)"
+                        "concept": "3cccf632-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "97de94dd-7fc6-414b-afbe-934d6489e10e",
-                        "label": "Orthopnea"
+                        "concept": "97de94dd-7fc6-414b-afbe-934d6489e10e"
                       },
                       {
-                        "concept": "3cd656be-26fe-102b-80cb-0017a47871b2",
-                        "label": "Hemoptysis (R04.2)"
+                        "concept": "3cd656be-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "3cf1a95a-26fe-102b-80cb-0017a47871b2",
-                        "label": "Dyspnea (R06.0)"
+                        "concept": "3cf1a95a-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "063cb6f4-f54d-4ee6-878b-6c683cacac8a",
-                        "label": "Platypnea"
+                        "concept": "063cb6f4-f54d-4ee6-878b-6c683cacac8a"
                       },
                       {
-                        "concept": "7629a17f-9fc1-4fb6-a766-059cc88620a3",
-                        "label": "Productive Cough"
+                        "concept": "7629a17f-9fc1-4fb6-a766-059cc88620a3"
                       },{
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherRespiratoryObservations",
@@ -537,7 +462,6 @@
               "validators": []
             },
             {
-              "label": "Cardiovascular Set",
               "type": "obsGroup",
               "required": false,
               "id": "cardiovascularSet",
@@ -547,7 +471,6 @@
               },
               "questions": [
                 {
-                  "label": "Cardiovascular",
                   "type": "obs",
                   "required": false,
                   "id": "cardiovascular",
@@ -556,42 +479,33 @@
                     "concept": "188fbe84-7fe4-459b-9dc5-689fc16c2e46",
                     "answers": [
                       {
-                        "concept": "3ccd2364-26fe-102b-80cb-0017a47871b2",
-                        "label": "Chest Pain (R07.4)"
+                        "concept": "3ccd2364-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "3fc8f995-6db1-43af-a277-f8c03a879e43",
-                        "label": "Claudication"
+                        "concept": "3fc8f995-6db1-43af-a277-f8c03a879e43"
                       },
                       {
-                        "concept": "25ec3417-f125-4e8c-8862-7f50123b4f81",
-                        "label": "Dyspnea with Exertion"
+                        "concept": "25ec3417-f125-4e8c-8862-7f50123b4f81"
                       },
                       {
-                        "concept": "05aa444c-d7e4-4b7f-a737-9cfbbe321d53",
-                        "label": "Lower Extremity Edema"
+                        "concept": "05aa444c-d7e4-4b7f-a737-9cfbbe321d53"
                       },
                       {
-                        "concept": "678517e9-53c3-4bac-8e5c-29ffd715a584",
-                        "label": "Palpitations"
+                        "concept": "678517e9-53c3-4bac-8e5c-29ffd715a584"
                       },
                       {
-                        "concept": "00e0aad9-7fa0-48af-9000-003bfd616875",
-                        "label": "Paroxysmal Nocturnal Dyspnea"
+                        "concept": "00e0aad9-7fa0-48af-9000-003bfd616875"
                       },
                       {
-                        "concept": "1ddc1171-8b77-0f79-718d-0e467d4122f9",
-                        "label": "Syncope"
+                        "concept": "1ddc1171-8b77-0f79-718d-0e467d4122f9"
                       },{
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherCardovascularObservations",
@@ -607,7 +521,6 @@
               "validators": []
             },
             {
-              "label": "Groupe gastrointestinal",
               "type": "obsGroup",
               "required": false,
               "id": "groupeGastrointestinal",
@@ -617,7 +530,6 @@
               },
               "questions": [
                 {
-                  "label": "Gastrointestinal",
                   "type": "obs",
                   "required": false,
                   "id": "gastrointestinal",
@@ -626,55 +538,43 @@
                     "concept": "45b8d250-4f1a-47c2-ab1e-41205d41d675",
                     "answers": [
                       {
-                        "concept": "7f703275-777c-4237-9d07-36c99ea0966c",
-                        "label": "Abdominal pain"
+                        "concept": "7f703275-777c-4237-9d07-36c99ea0966c"
                       },
                       {
-                        "concept": "b9456fba-63b1-4c29-b3ae-67dc315dd06b",
-                        "label": "Constipation"
+                        "concept": "b9456fba-63b1-4c29-b3ae-67dc315dd06b"
                       },
                       {
-                        "concept": "3ccc6a00-26fe-102b-80cb-0017a47871b2",
-                        "label": "Diarrhea (K52.9)"
+                        "concept": "3ccc6a00-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "d34da7b5-2ede-4231-8abf-a5fb27d69608",
-                        "label": "Dyschezia"
+                        "concept": "d34da7b5-2ede-4231-8abf-a5fb27d69608"
                       },
                       {
-                        "concept": "3cd4d0c8-26fe-102b-80cb-0017a47871b2",
-                        "label": "Dysphagia (R13)"
+                        "concept": "3cd4d0c8-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "139006AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "Hematemesis (K92.0)"
+                        "concept": "139006AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                       },
                       {
-                        "concept": "c7f7721d-8f2f-4bcf-a9b7-aff9470c9e6f",
-                        "label": "Hematochezia"
+                        "concept": "c7f7721d-8f2f-4bcf-a9b7-aff9470c9e6f"
                       },
                       {
-                        "concept": "1b5792c6-9fb0-445f-a588-823b8b5d091d",
-                        "label": "Melena"
+                        "concept": "1b5792c6-9fb0-445f-a588-823b8b5d091d"
                       },
                       {
-                        "concept": "2b8d44e1-ee1f-4023-a9dc-6caf64ce3295",
-                        "label": "Nausea"
+                        "concept": "2b8d44e1-ee1f-4023-a9dc-6caf64ce3295"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "3cf1c930-26fe-102b-80cb-0017a47871b2",
-                        "label": "Vomiting (R11)"
+                        "concept": "3cf1c930-26fe-102b-80cb-0017a47871b2"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherGastrointestinalObservations",
@@ -690,7 +590,6 @@
               "validators": []
             },
             {
-              "label": "Genitourinary Set",
               "type": "obsGroup",
               "required": false,
               "id": "genitourinarySet",
@@ -700,7 +599,6 @@
               },
               "questions": [
                 {
-                  "label": "Genitourinary",
                   "type": "obs",
                   "required": false,
                   "id": "genitourinary",
@@ -709,35 +607,28 @@
                     "concept": "49fcd4a9-ad88-48ff-92d8-ff870c870e20",
                     "answers": [
                       {
-                        "concept": "d3a1d2a9-9281-24bc-7bf7-1d11d10c4226",
-                        "label": "Dysuria"
+                        "concept": "d3a1d2a9-9281-24bc-7bf7-1d11d10c4226"
                       },
                       {
-                        "concept": "f59b66ba-424a-2650-188d-75814d699ab8",
-                        "label": "Hematuria"
+                        "concept": "f59b66ba-424a-2650-188d-75814d699ab8"
                       },
                       {
-                        "concept": "21c3c2c3-3708-48ad-ad0e-5bc003cf732a",
-                        "label": "Hesitation"
+                        "concept": "21c3c2c3-3708-48ad-ad0e-5bc003cf732a"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "98516372-a2c4-4f46-8004-b1ed6c5267a9",
-                        "label": "Polyuria"
+                        "concept": "98516372-a2c4-4f46-8004-b1ed6c5267a9"
                       },
                       {
-                        "concept": "4305753b-937e-4a22-b299-e1680af09919",
-                        "label": "Urgency"
+                        "concept": "4305753b-937e-4a22-b299-e1680af09919"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherGenitourinaryObservations",
@@ -753,7 +644,6 @@
               "validators": []
             },
             {
-              "label": "Endocrine Set",
               "type": "obsGroup",
               "required": false,
               "id": "endocrineSet",
@@ -763,7 +653,6 @@
               },
               "questions": [
                 {
-                  "label": "Endocrine",
                   "type": "obs",
                   "required": false,
                   "id": "endocrine",
@@ -772,35 +661,28 @@
                     "concept": "b1eee37f-bf5a-4608-a108-7c603a3ec94e",
                     "answers": [
                       {
-                        "concept": "f870cb56-9948-4fb4-bf87-115370dcfaab",
-                        "label": "Dry Skin"
+                        "concept": "f870cb56-9948-4fb4-bf87-115370dcfaab"
                       },
                       {
-                        "concept": "58978ab4-9b80-4121-a2b9-b9202b2021c2",
-                        "label": "Hair Problem"
+                        "concept": "58978ab4-9b80-4121-a2b9-b9202b2021c2"
                       },
                       {
-                        "concept": "f607ea8e-ef4c-4a0b-9d61-d7cd51c921c1",
-                        "label": "Heat Intolerance"
+                        "concept": "f607ea8e-ef4c-4a0b-9d61-d7cd51c921c1"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "98516372-a2c4-4f46-8004-b1ed6c5267a9",
-                        "label": "Polyuria"
+                        "concept": "98516372-a2c4-4f46-8004-b1ed6c5267a9"
                       },
                       {
-                        "concept": "9e170e03-52f3-20dd-084d-2ea7ca85458f",
-                        "label": "Polydipsia"
+                        "concept": "9e170e03-52f3-20dd-084d-2ea7ca85458f"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherEndocrineObservations",
@@ -816,7 +698,6 @@
               "validators": []
             },
             {
-              "label": "Musculoskeletal Set",
               "type": "obsGroup",
               "required": false,
               "id": "musculoskeletalSet",
@@ -826,7 +707,6 @@
               },
               "questions": [
                 {
-                  "label": "Musculoskeletal",
                   "type": "obs",
                   "required": false,
                   "id": "musculoskeletal",
@@ -835,35 +715,28 @@
                     "concept": "bed907b6-56f8-4bd5-8961-01a18e0cbfe2",
                     "answers": [
                       {
-                        "concept": "9a611f07-07f5-4aaf-b1b0-cfcf42b53d66",
-                        "label": "Joint Deformity"
+                        "concept": "9a611f07-07f5-4aaf-b1b0-cfcf42b53d66"
                       },
                       {
-                        "concept": "5ebdd207-22e6-4bbd-bda1-940bb6ecf2e1",
-                        "label": "Joint Pain"
+                        "concept": "5ebdd207-22e6-4bbd-bda1-940bb6ecf2e1"
                       },
                       {
-                        "concept": "d3734a4c-410e-46a3-bf43-b52f5ad0298a",
-                        "label": "Joint swelling"
+                        "concept": "d3734a4c-410e-46a3-bf43-b52f5ad0298a"
                       },
                       {
-                        "concept": "f50a1782-5f2c-02ff-02ed-aaf633840f68",
-                        "label": "Myalgia"
+                        "concept": "f50a1782-5f2c-02ff-02ed-aaf633840f68"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "116554AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "Stiffness of Joint, not Elsewhere Classified (M25.6)"
+                        "concept": "116554AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherMusculoskeletalObservations",
@@ -879,7 +752,6 @@
               "validators": []
             },
             {
-              "label": "Skin and Lymphatic Set",
               "type": "obsGroup",
               "required": false,
               "id": "skinAndLymphaticSet",
@@ -889,7 +761,6 @@
               },
               "questions": [
                 {
-                  "label": "Skin and Lymphatic",
                   "type": "obs",
                   "required": false,
                   "id": "skinAndLymphatic",
@@ -898,27 +769,22 @@
                     "concept": "94cc4a0a-281b-4c04-ae3a-cbaf60189aad",
                     "answers": [
                       {
-                        "concept": "2fe1f75c-61bc-4573-88ca-3d1b18daf9ec",
-                        "label": "Bruises"
+                        "concept": "2fe1f75c-61bc-4573-88ca-3d1b18daf9ec"
                       },
                       {
-                        "concept": "bbcc605d-ee86-42eb-8a04-73648cbc9ef3",
-                        "label": "Lesions"
+                        "concept": "bbcc605d-ee86-42eb-8a04-73648cbc9ef3"
                       },
                       {
-                        "concept": "3cce4c76-26fe-102b-80cb-0017a47871b2",
-                        "label": "Lymphadenopathy"
+                        "concept": "3cce4c76-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherSkinAndLymphaticObservations",
@@ -934,7 +800,6 @@
               "validators": []
             },
             {
-              "label": "Neuropsychiatric and Psychomotor Set",
               "type": "obsGroup",
               "required": false,
               "id": "neuropsychiatricAndPsychomotorSet",
@@ -944,7 +809,6 @@
               },
               "questions": [
                 {
-                  "label": "Neuropsychiatric and Psychomotor",
                   "type": "obs",
                   "required": false,
                   "id": "neuropsychiatricAndPsychomotor",
@@ -953,47 +817,37 @@
                     "concept": "4f8d3b98-bd77-4586-b851-2232fb76090c",
                     "answers": [
                       {
-                        "concept": "3ce6b1ee-26fe-102b-80cb-0017a47871b2",
-                        "label": "Anxiety (F41.9)"
+                        "concept": "3ce6b1ee-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "3cce9514-26fe-102b-80cb-0017a47871b2",
-                        "label": "Depression (F32.9)"
+                        "concept": "3cce9514-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "12596595-2f20-4786-ba73-ae8bcd046f33",
-                        "label": "Language Disorder"
+                        "concept": "12596595-2f20-4786-ba73-ae8bcd046f33"
                       },
                       {
-                        "concept": "73b5da3d-c564-4b48-b496-c889b12200b5",
-                        "label": "Memory loss"
+                        "concept": "73b5da3d-c564-4b48-b496-c889b12200b5"
                       },
                       {
-                        "concept": "c9ee4047-e2ec-4f99-b179-762493627fd1",
-                        "label": "Motor Skills Disorder"
+                        "concept": "c9ee4047-e2ec-4f99-b179-762493627fd1"
                       },
                       {
-                        "concept": "039cb6b6-ad9f-4abc-9abd-c208ec75cbbb",
-                        "label": "Neurosis"
+                        "concept": "039cb6b6-ad9f-4abc-9abd-c208ec75cbbb"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "3ccea7fc-26fe-102b-80cb-0017a47871b2",
-                        "label": "Psychosis (F29)"
+                        "concept": "3ccea7fc-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "01aa32c4-7878-45ba-b2d6-7cb3b49e5332",
-                        "label": "Self Care Skill Deficiency"
+                        "concept": "01aa32c4-7878-45ba-b2d6-7cb3b49e5332"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherNeuropsychiatricAndPsychomotorObservations",

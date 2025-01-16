@@ -5,10 +5,6 @@
   "form_name_translation": "Suivi d'urgences",
   "language": "fr",
   "translations": {
-    "Suivi d'urgences": "Suivi d'urgences",
-    "Emergency": "Urgence",
-    "Date / Time": "Date / Heure",
-    "Action taken": "Action entreprise",
-    "Observations": "Observations"
+
   }
 }
