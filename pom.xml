@@ -55,6 +55,46 @@
               </resources>
             </configuration>
           </execution>
+            <execution>
+                <!-- Add stock extension addon -->
+                <id>Copy binaries folder</id>
+                <phase>prepare-package</phase>
+                <goals>
+                    <goal>copy-resources</goal>
+                </goals>
+                <configuration>
+                    <outputDirectory>
+                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries</outputDirectory>
+                    <overwrite>true</overwrite>
+                    <resources>
+                        <resource>
+                            <directory>${project.basedir}/binaries</directory>
+                        </resource>
+                    </resources>
+                </configuration>
+            </execution>
+            <execution>
+                <!-- Copy over the Docker Compose override file -->
+                <id>Copy docker-compose-override.yml</id>
+                <phase>process-resources</phase>
+                <goals>
+                    <goal>copy-resources</goal>
+                </goals>
+                <configuration>
+                    <outputDirectory>
+                        ${project.build.directory}/${project.artifactId}-${project.version}/run/docker/
+                    </outputDirectory>
+                    <overwrite>true</overwrite>
+                    <resources>
+                        <resource>
+                            <directory>${project.basedir}/scripts</directory>
+                            <includes>
+                                <include>docker-compose-override.yml</include>
+                            </includes>
+                        </resource>
+                    </resources>
+                </configuration>
+            </execution>
           </executions>
       </plugin>
         </plugins>
