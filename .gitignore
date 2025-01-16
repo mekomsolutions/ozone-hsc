@@ -224,6 +224,7 @@ buildNumber.properties
 .classpath
 effective-pom.xml
 ### VisualStudioCode ###
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
