@@ -731,7 +731,10 @@
                   "validators": []
                 }
               ],
-              "validators": []
+              "validators": [],
+              "hide": {
+                "hideWhenExpression": "isEmpty(childbirthPlan) || childbirthPlan !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
+              }
             }
           ]
         }
