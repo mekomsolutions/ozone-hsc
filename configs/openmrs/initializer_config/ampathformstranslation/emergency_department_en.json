@@ -1,0 +1,29 @@
+{
+
+    "uuid": "123d2a47-ad72-47bd-ba07-5119c9761b74",
+    "description": "Emergency",
+    "form" : "Emergency",
+    "form_name_translation" : "Emergency",
+    "language": "en",
+    "Translations" :{
+        "Emergency Assessment": "Emergency Assessment",
+        "Details": "Details",
+        "Motifs de consultation": "Motifs de consultation",
+        "Fall in person aged 65 and older": "Fall in person aged 65 and older",
+        "Causes": "Causes",
+        "Cause of Emergency": "Cause of Emergency",
+        "Medical / Surgical emergency": "Medical / Surgical emergency",
+        "Medical History": "Medical History",
+        "Past medical history": "Past medical history",
+        "Family history":"Family history",
+        "Previous hospitalization":"Previous hospitalization",
+        "Reason":"Reason",
+        "Vaccination status":"Vaccination status",
+        "Tetanus":"Tetanus",
+        "Other Vaccinations":"Other Vaccinations",
+        "Life Style":"Life Style",
+        "Review":"Review",
+        "Physical Examination":"Physical Examination",
+        "Impressions / Diagnostics":"Impressions / Diagnostics"
+    }
+}
