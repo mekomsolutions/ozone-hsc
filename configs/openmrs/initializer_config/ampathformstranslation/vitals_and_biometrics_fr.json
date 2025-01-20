@@ -6,6 +6,6 @@
     "form_name_translation" : "Vitals and Biometrics",
     "language": "fr",
     "Translations" :{
-        "label": "Triage"
+        "Triage": "Triage"
     }
 }

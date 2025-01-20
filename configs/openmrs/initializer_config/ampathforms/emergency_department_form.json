@@ -20,7 +20,7 @@
               "validators": []
             },
             {
-              "label": "Fall in person aged 65 and older ",
+              "label": "Fall in person aged 65 and older",
               "type": "obs",
               "required": false,
               "id": "fallInPersonAged65AndOlder",
