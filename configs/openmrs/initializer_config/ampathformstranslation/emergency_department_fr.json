@@ -6,7 +6,7 @@
     "form_name_translation" : "Emergency",
     "language": "fr",
     "Translations" :{
-        "Emergency Assessment": "",
+        "Emergency Assessment": "Evaluation de l’urgence",
         "Details": "Détails",
         "Motifs de consultation": "Motifs de consultation",
         "Fall in person aged 65 and older": "Personnes âgées de 65 ans et plus avec chute",
@@ -17,13 +17,13 @@
         "Past medical history": "Antécédents personnels médicaux",
         "Family history":"Antécédents heredo-collatéraux",
         "Previous hospitalization":"Hospitalisation Antérieure",
-        "Reason":"",
+        "Reason":"Raison",
         "Vaccination status":"Statut vaccinal",
         "Tetanus":"Tétanos",
         "Other Vaccinations":"Autres vaccinations",
         "Life Style":"Style de Vie",
-        "Review":"",
+        "Review":"Revue",
         "Physical Examination":"Examen Physique",
-        "Impressions / Diagnostics":""
+        "Impressions / Diagnostics":"Impression diagnostiques"
     }
 }
