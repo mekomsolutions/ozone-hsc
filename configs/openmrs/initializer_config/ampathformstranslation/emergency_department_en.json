@@ -24,6 +24,8 @@
         "Life Style":"Life Style",
         "Review":"Review",
         "Physical Examination":"Physical Examination",
-        "Impressions / Diagnostics":"Impressions / Diagnostics"
+        "Impressions / Diagnostics":"Impressions / Diagnostics",
+        "Yes": "Yes",
+        "No": "No"
     }
 }

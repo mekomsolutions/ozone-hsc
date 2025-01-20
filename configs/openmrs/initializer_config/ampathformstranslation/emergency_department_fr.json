@@ -24,6 +24,8 @@
         "Life Style":"Style de Vie",
         "Review":"Revue",
         "Physical Examination":"Examen Physique",
-        "Impressions / Diagnostics":"Impression diagnostiques"
+        "Impressions / Diagnostics":"Impression diagnostiques",
+        "Yes": "Oui",
+        "No": "Non"
     }
 }
