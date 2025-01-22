@@ -180,10 +180,10 @@
       "en": {
         "addressInformationSection": "Address Information",
         "Commune": "Commune",
-        "Village": "Village",
+        "Village": "City/Village",
         "Country": "Country",
         "Province": "Province",
-        "District": "District",
+        "District": "Region",
         "contactSection": "Contact Details",
         "demographicsSection": "Basic Info",
         "additionalInformationSection": "Additional Information",
@@ -199,23 +199,23 @@
         "genderLabelText": "Gender"
       },
       "fr": {
-        "addressInformationSection": "Informations sur l'adresse",
+        "addressInformationSection": "Adresse",
         "Commune": "Commune",
-        "Village": "Pays",
-        "Country": "Country",
+        "Village": "Village",
+        "Country": "Pays",
         "Province": "Département",
-        "District": "District",
+        "District": "Région",
         "contactSection": "Coordonnées",
         "demographicsSection": "Informations de base",
-        "additionalInformationSection": "Informations Complémentaires",
+        "additionalInformationSection": "Informations complémentaires",
         "Male": "Homme",
         "Female": "Femme",
         "Other": "Autre",
         "selectAnOption": "Sélectionnez une option",
-        "createNew": "Registre",
+        "createNew": "Enregistrer",
         "patient": "Nouveau patient",
         "familyNameLabelText": "Nom de famille",
-        "emailLabelText": "Adresse Email",
+        "emailLabelText": "Adresse email",
         "genderLabelText": "Genre"
       }
     }
@@ -242,7 +242,7 @@
       },
       "fr": {
         "Pharmacy, Billing & Inventory": "Pharmacie, Facturation et Inventaire",
-        "Reporting & Analytics": "Rapports et Analyses"
+        "Reporting & Analytics": "Rapports et analyses statistiques"
       }
     }
   },
@@ -371,7 +371,7 @@
       "en": {
         "activeVisit": "Active Visit"
       },"fr": {
-        "activeVisit": "Visite active"
+        "activeVisit": "Visite en cours"
       }
     }
   },
