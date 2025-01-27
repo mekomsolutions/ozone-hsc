@@ -180,10 +180,10 @@
       "en": {
         "addressInformationSection": "Address Information",
         "Commune": "Commune",
-        "Village": "Village",
+        "Village": "City/Village",
         "Country": "Country",
         "Province": "Province",
-        "District": "District",
+        "District": "Region",
         "contactSection": "Contact Details",
         "demographicsSection": "Basic Info",
         "additionalInformationSection": "Additional Information",
@@ -199,23 +199,23 @@
         "genderLabelText": "Gender"
       },
       "fr": {
-        "addressInformationSection": "Informations sur l'adresse",
+        "addressInformationSection": "Adresse",
         "Commune": "Commune",
-        "Village": "Pays",
-        "Country": "Country",
+        "Village": "Village",
+        "Country": "Pays",
         "Province": "Département",
-        "District": "District",
+        "District": "Région",
         "contactSection": "Coordonnées",
         "demographicsSection": "Informations de base",
-        "additionalInformationSection": "Informations Complémentaires",
+        "additionalInformationSection": "Informations complémentaires",
         "Male": "Homme",
         "Female": "Femme",
         "Other": "Autre",
         "selectAnOption": "Sélectionnez une option",
-        "createNew": "Registre",
+        "createNew": "Enregistrer",
         "patient": "Nouveau patient",
         "familyNameLabelText": "Nom de famille",
-        "emailLabelText": "Adresse Email",
+        "emailLabelText": "Adresse email",
         "genderLabelText": "Genre"
       }
     }
@@ -242,7 +242,7 @@
       },
       "fr": {
         "Pharmacy, Billing & Inventory": "Pharmacie, Facturation et Inventaire",
-        "Reporting & Analytics": "Rapports et Analyses"
+        "Reporting & Analytics": "Rapports et analyses statistiques"
       }
     }
   },
@@ -341,32 +341,32 @@
     }
   },
   "@openmrs/esm-patient-banner-app": {
-    "printPatientSticker": {
-      "header": {
-        "showBarcode": true,
-        "showLogo": true,
-        "logo": "configs/ozone_hsc_logo.png"
-      },
-      "pageSize": "86mm 54mm",
-      "printScale": "0.63",
-      "fields": ["name", "dob", "gender", "identifier", "contact", "address"],
-      "identifiersToDisplay": ["b303f207-a094-457f-9833-f1cdc7b5d184"]
+  "printPatientSticker": {
+    "header": {
+      "showBarcode": true,
+      "showLogo": true,
+      "logo": "configs/ozone_hsc_logo.png"
     },
-    "contactAttributeTypes": [
-      "c3bcd296-eb82-4451-a4b4-eedd1d5f322f",
-      "1102f74e-ea2f-461e-b67f-db58bd136e5c",
-      "d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e",
-      "62844ea0-8be6-4a12-9471-cbb1f060d78b"
-    ],
-    "Translation overrides": {
-      "en": {
-        "activeVisit": "Active Visit"
-      },
-      "fr": {
-        "activeVisit": "Visite active"
-      }
-    }
+    "pageSize": "86mm 54mm",
+    "printScale": "0.63",
+    "fields": ["name", "dob", "gender", "identifier", "contact", "address"],
+    "identifiersToDisplay": ["b303f207-a094-457f-9833-f1cdc7b5d184"],
   },
+  "contactAttributeTypes": [
+    "c3bcd296-eb82-4451-a4b4-eedd1d5f322f",
+    "1102f74e-ea2f-461e-b67f-db58bd136e5c",
+    "d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e",
+    "62844ea0-8be6-4a12-9471-cbb1f060d78b"
+  ],
+  "Translation overrides": {
+    "en": {
+      "activeVisit": "Active Visit"
+    },
+    "fr": {
+      "activeVisit": "Visite en cours" 
+    }
+  }
+},
   "core": {
     "Translation overrides": {
       "en": {
