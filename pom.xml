@@ -256,6 +256,18 @@
           <url>https://nexus.mekomsolutions.net/repository/maven-private/</url>
         </repository>
       </repositories>
+      <distributionManagement>
+        <repository>
+          <name>Mekom Solutions Nexus repo for releases</name>
+          <id>mks-nexus-public-releases</id>
+          <url>https://nexus.mekomsolutions.net/repository/maven-private-releases</url>
+        </repository>
+        <snapshotRepository>
+          <name>Mekom Solutions Nexus repo for snapshots</name>
+          <id>mks-nexus-public-snapshots</id>
+          <url>https://nexus.mekomsolutions.net/repository/maven-private-snapshots</url>
+        </snapshotRepository>
+      </distributionManagement>
     </profile>
   </profiles>
   <repositories>
@@ -267,10 +279,6 @@
       <id>openmrs-repo</id>
       <name>OpenMRS Nexus Repository</name>
       <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
-    </repository>
-    <repository>
-      <id>mks-nexus-private</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-private/</url>
     </repository>
   </repositories>
 
@@ -306,17 +314,4 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-
-  <distributionManagement>
-    <repository>
-      <name>Mekom Solutions Nexus repo for releases</name>
-      <id>mks-nexus-public-releases</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-releases</url>
-    </repository>
-    <snapshotRepository>
-      <name>Mekom Solutions Nexus repo for snapshots</name>
-      <id>mks-nexus-public-snapshots</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
 </project>
