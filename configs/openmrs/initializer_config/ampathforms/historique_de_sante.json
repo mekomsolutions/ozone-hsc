@@ -273,7 +273,7 @@
                   "required": true,
                   "id": "personalHistory",
                   "questionOptions": {
-                    "rendering": "select",
+                    "rendering": "checkbox-searchable",
                     "concept": "c284cf60-1fae-4640-a6bc-d6dc7accb42c",
                     "answers": [
                       {
@@ -320,6 +320,16 @@
                       }
                     ]
                   }
+                },
+                {
+                  "type": "obs",
+                  "required": false,
+                  "id": "personalHistoryDetails",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "9d20f065-9568-4769-80b5-f596907a8805"
+                  },
+                  "validators": []
                 }
               ],
               "validators": []
@@ -338,7 +348,7 @@
                   "required": false,
                   "id": "familyHistory",
                   "questionOptions": {
-                    "rendering": "select",
+                    "rendering": "checkbox-searchable",
                     "concept": "e34f9f11-c50b-4096-828d-300a34edb0d1",
                     "answers": [
                       {
@@ -378,7 +388,7 @@
                 {
                   "type": "obs",
                   "required": false,
-                  "id": "details",
+                  "id": "familyHistoryDetails",
                   "questionOptions": {
                     "rendering": "textarea",
                     "concept": "9d20f065-9568-4769-80b5-f596907a8805"
