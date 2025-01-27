@@ -341,40 +341,32 @@
     }
   },
   "@openmrs/esm-patient-banner-app": {
-    "printPatientSticker": {
-      "header": {
-        "showBarcode": true,
-        "showLogo": true,
-        "logo": "configs/ozone_hsc_logo.png"
-      },
-      "pageSize": "86mm 54mm",
-      "printScale": "0.63",
-      "fields": [
-        "name",
-        "dob",
-        "gender",
-        "identifier",
-        "contact",
-        "address"
-      ],
-      "identifiersToDisplay": [
-        "b303f207-a094-457f-9833-f1cdc7b5d184"
-      ]
+  "printPatientSticker": {
+    "header": {
+      "showBarcode": true,
+      "showLogo": true,
+      "logo": "configs/ozone_hsc_logo.png"
     },
-    "contactAttributeTypes": [
-      "c3bcd296-eb82-4451-a4b4-eedd1d5f322f",
-      "1102f74e-ea2f-461e-b67f-db58bd136e5c",
-      "d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e",
-      "62844ea0-8be6-4a12-9471-cbb1f060d78b"
-    ],
-    "Translation overrides": {
-      "en": {
-        "activeVisit": "Active Visit"
-      },"fr": {
-        "activeVisit": "Visite en cours"
-      }
-    }
+    "pageSize": "86mm 54mm",
+    "printScale": "0.63",
+    "fields": ["name", "dob", "gender", "identifier", "contact", "address"],
+    "identifiersToDisplay": ["b303f207-a094-457f-9833-f1cdc7b5d184"],
   },
+  "contactAttributeTypes": [
+    "c3bcd296-eb82-4451-a4b4-eedd1d5f322f",
+    "1102f74e-ea2f-461e-b67f-db58bd136e5c",
+    "d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e",
+    "62844ea0-8be6-4a12-9471-cbb1f060d78b"
+  ],
+  "Translation overrides": {
+    "en": {
+      "activeVisit": "Active Visit"
+    },
+    "fr": {
+      "activeVisit": "Visite en cours" 
+    }
+  }
+},
   "core": {
     "Translation overrides": {
       "en": {
@@ -392,6 +384,7 @@
     }
   },
   "@openmrs/esm-patient-orders-app": {
+    "showReferenceNumberField": false,
     "orderTypes": [
       {
         "orderTypeUuid": "67a92e56-0f88-11ea-8d71-362b9e155667",
@@ -404,6 +397,9 @@
       "uuid": "327cdb97-571c-2d13-306b-4024fce268cb",
       "display": "Day(s)"
     }
+  },
+  "@mekomsolutions/esm-patient-medical-supply-orders-app": {
+    "showReferenceNumberField": false
   },
   "@openmrs/esm-patient-tests-app": {
     "resultsViewerConcepts": [
@@ -422,7 +418,7 @@
         "orderableConceptSets": ["f5b13d49-5ef3-4a33-afdf-6ef22a09d16f"]
       }
     ],
-    "showLabReferenceNumberField": false
+    "showReferenceNumberField": false
   },
   "@openmrs/esm-patient-search-app": {
     "search": {
