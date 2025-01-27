@@ -350,7 +350,7 @@
     "pageSize": "86mm 54mm",
     "printScale": "0.63",
     "fields": ["name", "dob", "gender", "identifier", "contact", "address"],
-    "identifiersToDisplay": ["b303f207-a094-457f-9833-f1cdc7b5d184"],
+    "identifiersToDisplay": ["b303f207-a094-457f-9833-f1cdc7b5d184"]
   },
   "contactAttributeTypes": [
     "c3bcd296-eb82-4451-a4b4-eedd1d5f322f",
