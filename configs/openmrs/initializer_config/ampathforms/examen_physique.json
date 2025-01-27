@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "General Examination",
               "type": "obs",
               "required": false,
               "id": "generalExamination",
@@ -18,21 +17,19 @@
                 "concept": "367a7caa-60d4-4a59-b5e1-a7fc5f18e2a8",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
-                    "label": "Abnormal"
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
                   }
                 ]
               },
               "validators": []
             },
-            {              "hide": {
+            {
+              "hide": {
                 "hideWhenExpression": "isEmpty(generalExamination) ||  generalExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
               },
-              "label": "General Examination Details",
               "type": "obs",
               "required": false,
               "id": "generalExaminationDetails",
@@ -42,7 +39,6 @@
               }
             },
             {
-              "label": "Eyes/Nose/Throat/Ear Examination",
               "type": "obs",
               "required": false,
               "id": "eyesNoseThroatEarExamination",
@@ -51,21 +47,19 @@
                 "concept": "2c5a7263-45c1-44ea-bb0c-70f26cb8259a",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
-                    "label": "Abnormal"
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
                   }
                 ]
               },
               "validators": []
             },
-            {              "hide": {
-              "hideWhenExpression": "isEmpty(eyesNoseThroatEarExamination) ||  eyesNoseThroatEarExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
-            },
-              "label": "Eyes/Nose/Throat/Ear Examination Details",
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(eyesNoseThroatEarExamination) ||  eyesNoseThroatEarExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
+              },
               "type": "obs",
               "required": false,
               "id": "eyes/Nose/Throat/EarExaminationDetails",
@@ -75,7 +69,6 @@
               }
             },
             {
-              "label": "Cardiovascular Examination",
               "type": "obs",
               "required": false,
               "id": "cardiovascularExamination",
@@ -84,21 +77,19 @@
                 "concept": "b4f8f5fb-4fc6-46e2-8bf4-92a965592b40",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
-                    "label": "Abnormal"
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
                   }
                 ]
               },
               "validators": []
             },
-            {              "hide": {
-              "hideWhenExpression": "isEmpty(cardiovascularExamination) ||  cardiovascularExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
-            },
-              "label": "Cardiovascular Examination Details",
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(cardiovascularExamination) ||  cardiovascularExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
+              },
               "type": "obs",
               "required": false,
               "id": "cardiovascularExaminationDetails",
@@ -109,7 +100,6 @@
               "validators": []
             },
             {
-              "label": "Respiratory Examination",
               "type": "obs",
               "required": false,
               "id": "respiratoryExamination",
@@ -118,21 +108,19 @@
                 "concept": "f1d833b9-b0f3-4cae-83bc-fcd2ecfae7b5",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
-                    "label": "Abnormal"
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
                   }
                 ]
               },
               "validators": []
             },
-            {              "hide": {
-              "hideWhenExpression": "isEmpty(respiratoryExamination) ||  respiratoryExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
-            },
-              "label": "Respiratory Examination Details",
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(respiratoryExamination) ||  respiratoryExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
+              },
               "type": "obs",
               "required": false,
               "id": "respiratoryExaminationDetails",
@@ -142,7 +130,6 @@
               }
             },
             {
-              "label": "Gastrointestinal Examination",
               "type": "obs",
               "required": false,
               "id": "gastrointestinalExamination",
@@ -151,21 +138,19 @@
                 "concept": "2254bb23-b287-4147-a922-c7c2dc88e11c",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
-                    "label": "Abnormal"
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
                   }
                 ]
               },
               "validators": []
             },
-            {              "hide": {
-              "hideWhenExpression": "isEmpty(gastrointestinalExamination) ||  gastrointestinalExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
-            },
-              "label": "Gastrointestinal Examination Details",
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(gastrointestinalExamination) ||  gastrointestinalExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
+              },
               "type": "obs",
               "required": false,
               "id": "gastrointestinalExaminationDetails",
@@ -176,7 +161,6 @@
               "validators": []
             },
             {
-              "label": "Genitourinary Examination",
               "type": "obs",
               "required": false,
               "id": "genitourinaryExamination",
@@ -185,21 +169,19 @@
                 "concept": "bd618369-92ee-40f2-929c-f01b8aaebad7",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
-                    "label": "Abnormal"
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
                   }
                 ]
               },
               "validators": []
             },
-            {              "hide": {
-              "hideWhenExpression": "isEmpty(genitourinaryExamination) ||  genitourinaryExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
-            },
-              "label": "Genitourinary Examination Details",
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(genitourinaryExamination) ||  genitourinaryExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
+              },
               "type": "obs",
               "required": false,
               "id": "genitourinaryExaminationDetails",
@@ -210,7 +192,6 @@
               "validators": []
             },
             {
-              "label": "Musculoskeletal Examination",
               "type": "obs",
               "required": false,
               "id": "musculoskeletalExamination",
@@ -219,21 +200,19 @@
                 "concept": "1fca8183-96c5-457a-9afe-21c9601349bd",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
-                    "label": "Abnormal"
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
                   }
                 ]
               },
               "validators": []
             },
-            {              "hide": {
-              "hideWhenExpression": "isEmpty(musculoskeletalExamination) ||  musculoskeletalExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
-            },
-              "label": "Musculoskeletal Examination Details",
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(musculoskeletalExamination) ||  musculoskeletalExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
+              },
               "type": "obs",
               "required": false,
               "id": "musculoskeletalExaminationDetails",
@@ -244,7 +223,6 @@
               "validators": []
             },
             {
-              "label": "Neurological Examination",
               "type": "obs",
               "required": false,
               "id": "neurologicalExamination",
@@ -253,21 +231,19 @@
                 "concept": "4e85bdbe-b683-4a35-b886-af62b973b2f4",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
-                    "label": "Abnormal"
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
                   }
                 ]
               },
               "validators": []
             },
-            {              "hide": {
-              "hideWhenExpression": "isEmpty(neurologicalExamination) ||  neurologicalExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
-            },
-              "label": "Neurological Examination Details",
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(neurologicalExamination) ||  neurologicalExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
+              },
               "type": "obs",
               "required": false,
               "id": "neurologicalExaminationDetails",
@@ -278,7 +254,6 @@
               "validators": []
             },
             {
-              "label": "Endocrinological Examination",
               "type": "obs",
               "required": false,
               "id": "endocrinologicalExamination",
@@ -287,21 +262,19 @@
                 "concept": "df5187e8-ae7e-49cd-9810-c945683e6df8",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
-                    "label": "Abnormal"
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
                   }
                 ]
               },
               "validators": []
             },
-            {              "hide": {
-              "hideWhenExpression": "isEmpty(endocrinologicalExamination) ||  endocrinologicalExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
-            },
-              "label": "Endocrinological Examination Details",
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(endocrinologicalExamination) ||  endocrinologicalExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
+              },
               "type": "obs",
               "required": false,
               "id": "endocrinologicalExaminationDetails",
@@ -312,7 +285,6 @@
               "validators": []
             },
             {
-              "label": "Skin Examination",
               "type": "obs",
               "required": false,
               "id": "skinExamination",
@@ -321,21 +293,19 @@
                 "concept": "323cfac9-f4c0-4381-b43c-bf2ecf282ce1",
                 "answers": [
                   {
-                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49",
-                    "label": "Normal"
+                    "concept": "036f30c9-ccff-4752-8206-722724cbbf49"
                   },
                   {
-                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e",
-                    "label": "Abnormal"
+                    "concept": "7c4b5dff-ade6-4fab-9452-b3be4bcba89e"
                   }
                 ]
               },
               "validators": []
             },
-            {              "hide": {
-              "hideWhenExpression": "isEmpty(skinExamination) ||  skinExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
-            },
-              "label": "Skin Examination Details",
+            {
+              "hide": {
+                "hideWhenExpression": "isEmpty(skinExamination) ||  skinExamination !== '7c4b5dff-ade6-4fab-9452-b3be4bcba89e'"
+              },
               "type": "obs",
               "required": false,
               "id": "skinExaminationDetails",

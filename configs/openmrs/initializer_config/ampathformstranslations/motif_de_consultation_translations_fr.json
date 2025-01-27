@@ -5,15 +5,6 @@
   "form_name_translation": "Motif de consultation",
   "language": "fr",
   "translations": {
-    "Motif de consultation": "Motif de consultation",
-    "Motif de consultation Data": "Données de motif de consultation",
-    "Details": "Détails",
-    "Duration": "Durée",
-    "Time Units": "Unités de temps",
-    "Hour(s)": "Heure(s)",
-    "Day(s)": "Jour(s)",
-    "Week(s)": "Semaine(s)",
-    "Month(s)": "Mois",
-    "Year(s)": "Année(s)"
+
   }
 }

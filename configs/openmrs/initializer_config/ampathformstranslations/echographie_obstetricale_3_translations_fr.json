@@ -5,29 +5,6 @@
   "form_name_translation": "Echographie obstétricale 3",
   "language": "fr",
   "translations": {
-    "Echographie obstétricale 3": "Echographie obstétricale 3",
-    "Number of Fetuses": "Nombre de fœtus",
-    "Number of Placenta": "Nombre de placentas",
-    "Fetus Details": "Détails du fœtus",
-    "Location of Placenta": "Localisation du placenta",
-    "Anterior": "Antérieur",
-    "Lateral": "Latéral",
-    "Posterior": "Postérieur",
-    "Praevia": "Prævia",
-    "Fetal Heart Rate": "Rythme cardiaque fœtal",
-    "Presentation": "Présentation",
-    "Cephalic": "Céphalique",
-    "Breech": "Siège",
-    "Transverse": "Transverse",
-    "Variable": "Variable",
-    "Biparietal diameter": "Diamètre bipariétal",
-    "Occ-frontal diameter": "Diamètre occipito-frontal",
-    "Cranial circumference": "Périmètre crânien",
-    "Femur length": "Longueur fémorale",
-    "Humerus length": "Longueur humérale",
-    "Abdominal circumference": "Périmètre abdominal",
-    "Estimated fetal weight": "Poids fœtal estimé",
-    "Weight Percentile": "Percentile de poids",
-    "Other observations": "Autres observations"
+
   }
 }

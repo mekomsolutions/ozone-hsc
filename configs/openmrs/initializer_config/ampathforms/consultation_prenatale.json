@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Visit number",
               "type": "obs",
               "required": false,
               "id": "visitNumber",
@@ -18,31 +17,29 @@
                 "concept": "c4b48a7a-7c13-4e7d-89ad-1df68c5c6802",
                 "answers": [
                   {
-                    "concept": "3098581b-4ce3-4064-8e87-facb1d7a5ff5",
-                    "label": "Five plus"
+                    "concept": "3098581b-4ce3-4064-8e87-facb1d7a5ff5"
                   },
                   {
-                    "concept": "d29d0005-5e23-48cd-86ac-1ff9cd36dd13",
-                    "label": "Four"
+                    "concept": "d29d0005-5e23-48cd-86ac-1ff9cd36dd13"
+
                   },
                   {
-                    "concept": "929e9a36-fdfa-42a3-a416-64be037c3155",
-                    "label": "One"
+                    "concept": "929e9a36-fdfa-42a3-a416-64be037c3155"
+
                   },
                   {
-                    "concept": "877b6c50-7960-4be6-862f-c9ffd2f65afb",
-                    "label": "Three"
+                    "concept": "877b6c50-7960-4be6-862f-c9ffd2f65afb"
+
                   },
                   {
-                    "concept": "a82e292b-7bd3-4bf1-b6d8-d89c8b8cabff",
-                    "label": "Two"
+                    "concept": "a82e292b-7bd3-4bf1-b6d8-d89c8b8cabff"
+
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Total Number of Pregnancies (Gravidity)",
               "type": "obs",
               "required": false,
               "id": "totalNumberOfPregnancies(Gravidity)",
@@ -58,7 +55,6 @@
               "questionInfo": "Number of times the woman has been pregnant including current pregnancy if applicable"
             },
             {
-              "label": "Number of Term Pregnancies",
               "type": "obs",
               "required": false,
               "id": "numberOfTermPregnancies",
@@ -80,7 +76,6 @@
               "validators": []
             },
             {
-              "label": "Number of live births",
               "type": "obs",
               "required": false,
               "id": "numberOfLiveBirths",
@@ -102,7 +97,6 @@
               "validators": []
             },
             {
-              "label": "Number of living children",
               "type": "obs",
               "required": false,
               "id": "numberOfLivingChildren",
@@ -124,7 +118,6 @@
               "validators": []
             },
             {
-              "label": "Number of abortions",
               "type": "obs",
               "required": false,
               "id": "numberOfAbortions",
@@ -139,7 +132,6 @@
               "validators": []
             },
             {
-              "label": "Birth outcome during the last pregnancy",
               "type": "obs",
               "required": false,
               "id": "birthOutcomeDuringTheLastPregnancy",
@@ -155,16 +147,13 @@
                 ],
                 "answers": [
                   {
-                    "concept": "90950144-af82-460d-9393-e5e412445075",
-                    "label": "No workbirth (Abortion)"
+                    "concept": "90950144-af82-460d-9393-e5e412445075"
                   },
                   {
-                    "concept": "5066f452-5d8b-4e04-b815-0c212929e47e",
-                    "label": "Cesarean"
+                    "concept": "5066f452-5d8b-4e04-b815-0c212929e47e"
                   },
                   {
-                    "concept": "dfb79477-ab61-47c4-b308-e1ab09757c18",
-                    "label": "Vaginal delivery"
+                    "concept": "dfb79477-ab61-47c4-b308-e1ab09757c18"
                   }
                 ]
               },
@@ -174,7 +163,6 @@
               "validators": []
             },
             {
-              "label": "Place of delivery of the last pregnancy",
               "type": "obsGroup",
               "required": false,
               "id": "placeOfDeliveryOfTheLastPregnancyGroup",
@@ -187,7 +175,6 @@
               },
               "questions": [
                 {
-                  "label": "Place of delivery of the last pregnancy",
                   "type": "obs",
                   "required": false,
                   "id": "placeOfDeliveryOfTheLastPregnancy",
@@ -203,44 +190,34 @@
                     ],
                     "answers": [
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "4b9b9184-6aa8-4875-ab10-f22092a0075b",
-                        "label": "Hopital St Jean Limbe"
+                        "concept": "4b9b9184-6aa8-4875-ab10-f22092a0075b"
                       },
                       {
-                        "concept": "696114ce-8c7b-4018-a8d5-ee2e65d323d3",
-                        "label": "Hopital Sacré Coeur Milot"
+                        "concept": "696114ce-8c7b-4018-a8d5-ee2e65d323d3"
                       },
                       {
-                        "concept": "b0b1c920-02ba-47e7-93e5-9922e888aac0",
-                        "label": "Hopital Justinien Cap Haitien"
+                        "concept": "b0b1c920-02ba-47e7-93e5-9922e888aac0"
                       },
                       {
-                        "concept": "50f4de56-b5b6-4939-aa73-7d7f5a5f8961",
-                        "label": "Hopital HBCH"
+                        "concept": "50f4de56-b5b6-4939-aa73-7d7f5a5f8961"
                       },
                       {
-                        "concept": "df9cc02b-b427-4262-b30a-7b973aef23fc",
-                        "label": "Home"
+                        "concept": "df9cc02b-b427-4262-b30a-7b973aef23fc"
                       },
                       {
-                        "concept": "1ff3db17-7a6f-40bf-8062-a912773e905c",
-                        "label": "Hopital Bon Samaritain Limbe"
+                        "concept": "1ff3db17-7a6f-40bf-8062-a912773e905c"
                       },
                       {
-                        "concept": "1c61317b-f7cf-4709-829c-76abb6f6501b",
-                        "label": "Hopital de Borgne"
+                        "concept": "1c61317b-f7cf-4709-829c-76abb6f6501b"
                       },
                       {
-                        "concept": "57195bab-5935-4da4-b5de-e9ee1dba162e",
-                        "label": "Hopital de Pignon"
+                        "concept": "57195bab-5935-4da4-b5de-e9ee1dba162e"
                       },
                       {
-                        "concept": "6d1450bb-0109-456b-82f9-e495bcb5c959",
-                        "label": "Hopital de Trou du Nord"
+                        "concept": "6d1450bb-0109-456b-82f9-e495bcb5c959"
                       }
                     ]
                   },
@@ -250,7 +227,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Other Health Centre",
                   "type": "obs",
                   "required": false,
                   "id": "otherPlaceOfDeliveryOfTheLastPregnancy",
@@ -266,7 +242,6 @@
               ]
             },
             {
-              "label": "Date of most recent pregnancy delivery",
               "type": "obs",
               "required": false,
               "id": "dateOfMostRecentPregnancyDelivery",
@@ -288,7 +263,6 @@
               "validators": []
             },
             {
-              "label": "Previous Delivery Complications",
               "type": "obs",
               "required": false,
               "id": "previousDeliveryComplications",
@@ -297,12 +271,10 @@
                 "concept": "e3892a91-1428-4816-8e83-834dcd738723",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
@@ -312,7 +284,6 @@
               "validators": []
             },
             {
-              "label": "Previous Delivery Complications Details",
               "type": "obs",
               "required": false,
               "id": "previousDeliveryComplicationsDetails",
@@ -326,7 +297,6 @@
               "validators": []
             },
             {
-              "label": "Date of last period",
               "type": "obs",
               "required": false,
               "id": "dateOfLastPeriod",
@@ -345,7 +315,6 @@
               "validators": []
             },
             {
-              "label": "Estimated date of delivery",
               "type": "obs",
               "required": false,
               "id": "estimatedDateOfDelivery",
@@ -364,7 +333,6 @@
               "validators": []
             },
             {
-              "label": "Estimated Gestational Age",
               "type": "obsGroup",
               "required": false,
               "id": "estimatedGestationalAge",
@@ -375,7 +343,6 @@
               "validators": [],
               "questions": [
                 {
-                  "label": "Number of Weeks",
                   "type": "obs",
                   "required": false,
                   "id": "numberOfWeeks",
@@ -387,7 +354,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Number of Days",
                   "type": "obs",
                   "required": false,
                   "id": "numberOfDays",
@@ -401,7 +367,6 @@
               ]
             },
             {
-              "label": "Risky Pregnancy",
               "type": "obs",
               "required": false,
               "id": "riskyPregnancy",
@@ -410,19 +375,16 @@
                 "concept": "d291cf12-a568-4eec-9f86-9ef55333c3b2",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Pregnancy Risks",
               "type": "obs",
               "required": false,
               "id": "pregnancyRisks",
@@ -431,40 +393,31 @@
                 "concept": "b35ad290-0d8f-4821-91fe-70b8411ce110",
                 "answers": [
                   {
-                    "concept": "edf4ecc4-44f6-457a-b561-179f4426b16a",
-                    "label": "Diabetes (E14.9)"
+                    "concept": "edf4ecc4-44f6-457a-b561-179f4426b16a"
                   },
                   {
-                    "concept": "138405AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Human immunodeficiency virus (HIV) disease (B24)"
+                    "concept": "138405AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                   },
                   {
-                    "concept": "3cd50188-26fe-102b-80cb-0017a47871b2",
-                    "label": "Hypertension (I10)"
+                    "concept": "3cd50188-26fe-102b-80cb-0017a47871b2"
                   },
                   {
-                    "concept": "3cccb654-26fe-102b-80cb-0017a47871b2",
-                    "label": "Malnutrition (E46)"
+                    "concept": "3cccb654-26fe-102b-80cb-0017a47871b2"
                   },
                   {
-                    "concept": "50e4eb00-968a-456f-824b-cbe320064dcf",
-                    "label": "Mother younger than 18 or older than 36 years"
+                    "concept": "50e4eb00-968a-456f-824b-cbe320064dcf"
                   },
                   {
-                    "concept": "115491AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Multiple gestation (O30.9)"
+                    "concept": "115491AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                   },
                   {
-                    "concept": "115115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Obesity (E66.9)"
+                    "concept": "115115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                   },
                   {
-                    "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                    "label": "Other"
+                    "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                   },
                   {
-                    "concept": "3cceae50-26fe-102b-80cb-0017a47871b2",
-                    "label": "Syphilis (A53.9)"
+                    "concept": "3cceae50-26fe-102b-80cb-0017a47871b2"
                   }
                 ]
               },
@@ -474,7 +427,6 @@
               "validators": []
             },
             {
-              "label": "Other Pregnancy Risks",
               "type": "obs",
               "required": false,
               "id": "otherPregnancyRisks",
@@ -488,7 +440,6 @@
               "validators": []
             },
             {
-              "label": "Signs and Symptoms",
               "type": "obsGroup",
               "required": false,
               "id": "signsAndSymptomsGroup",
@@ -498,7 +449,6 @@
               },
               "questions": [
                 {
-                  "label": "Signs and Symptoms",
                   "type": "obs",
                   "required": false,
                   "id": "signsAndSymptoms",
@@ -514,39 +464,31 @@
                     ],
                     "answers": [
                       {
-                        "concept": "7f703275-777c-4237-9d07-36c99ea0966c",
-                        "label": "Abdominal pain"
+                        "concept": "7f703275-777c-4237-9d07-36c99ea0966c"
                       },
                       {
-                        "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3",
-                        "label": "Fever"
+                        "concept": "6f8988d1-157a-44cc-ac3b-22b627a57db3"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "e90fa130-09cd-4574-936f-91fca52a9324",
-                        "label": "Swollen feet"
+                        "concept": "e90fa130-09cd-4574-936f-91fca52a9324"
                       },
                       {
-                        "concept": "4ba98e11-cb3b-4a22-be4e-bb43f3078683",
-                        "label": "Uterine contractions"
+                        "concept": "4ba98e11-cb3b-4a22-be4e-bb43f3078683"
                       },
                       {
-                        "concept": "2c1e2efe-74cb-475d-a922-3785e02e7bd3",
-                        "label": "Vaginal bleeding"
+                        "concept": "2c1e2efe-74cb-475d-a922-3785e02e7bd3"
                       },
                       {
-                        "concept": "8d83ff2b-3f6f-432a-b0cd-5b4f2f1055fd",
-                        "label": "Vision problems"
+                        "concept": "8d83ff2b-3f6f-432a-b0cd-5b4f2f1055fd"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other Signs and Symptoms",
                   "type": "obs",
                   "required": false,
                   "id": "otherSignsAndSymptoms",
@@ -560,7 +502,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Duration",
                   "type": "obs",
                   "required": false,
                   "id": "duration",
@@ -572,7 +513,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Time Units",
                   "type": "obs",
                   "required": false,
                   "id": "timeUnits",
@@ -581,24 +521,19 @@
                     "concept": "373b5749-82ff-a3d8-2e13-db76dd0499b3",
                     "answers": [
                       {
-                        "concept": "327cdb97-571c-2d13-306b-4024fce268cb",
-                        "label": "Day(s)"
+                        "concept": "327cdb97-571c-2d13-306b-4024fce268cb"
                       },
                       {
-                        "concept": "88e474ea-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Hour(s)"
+                        "concept": "88e474ea-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "88e5cc3c-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Month(s)"
+                        "concept": "88e5cc3c-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "88e55059-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Week(s)"
+                        "concept": "88e55059-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "a4d0c480-923b-49fe-b125-80453675fdea",
-                        "label": "Year(s)"
+                        "concept": "a4d0c480-923b-49fe-b125-80453675fdea"
                       }
                     ]
                   },
@@ -608,7 +543,6 @@
               "validators": []
             },
             {
-              "label": "Fundal height",
               "type": "obs",
               "required": false,
               "id": "fundalHeight",
@@ -626,7 +560,6 @@
               "validators": []
             },
             {
-              "label": "Fetus Details",
               "type": "obsGroup",
               "required": false,
               "id": "fetusDetails",
@@ -636,7 +569,6 @@
               },
               "questions": [
                 {
-                  "label": "Fetal Heart Rate",
                   "type": "obs",
                   "required": false,
                   "id": "fetalHeartRate",
@@ -657,7 +589,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Presentation",
                   "type": "obs",
                   "required": false,
                   "id": "presentation",
@@ -673,27 +604,22 @@
                     ],
                     "answers": [
                       {
-                        "concept": "cbafba29-b62a-4675-910a-a6bb161de256",
-                        "label": "Variable"
+                        "concept": "cbafba29-b62a-4675-910a-a6bb161de256"
                       },
                       {
-                        "concept": "5bb2ea3b-a736-4533-bd5e-a1e9d835f721",
-                        "label": "Transverse"
+                        "concept": "5bb2ea3b-a736-4533-bd5e-a1e9d835f721"
                       },
                       {
-                        "concept": "c4526510-3f10-11e4-adec-0800271c1b75",
-                        "label": "Cephalic"
+                        "concept": "c4526510-3f10-11e4-adec-0800271c1b75"
                       },
                       {
-                        "concept": "a0dc5727-c33e-479b-b70e-fb0eb7e45853",
-                        "label": "Breech"
+                        "concept": "a0dc5727-c33e-479b-b70e-fb0eb7e45853"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Position",
                   "type": "obs",
                   "required": false,
                   "id": "position",
@@ -707,7 +633,6 @@
               "validators": []
             },
             {
-              "label": "Physical examination notes",
               "type": "obs",
               "required": false,
               "id": "physicalExaminationNotes",
@@ -718,7 +643,6 @@
               "validators": []
             },
             {
-              "label": "Childbirth Plan",
               "type": "obs",
               "required": false,
               "id": "childbirthPlan",
@@ -727,12 +651,10 @@
                 "concept": "0ae11d29-2ba0-4bae-a2fe-47603a82df3d",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
@@ -742,7 +664,6 @@
               "validators": []
             },
             {
-              "label": "Planned place of delivery",
               "type": "obsGroup",
               "required": false,
               "id": "plannedPlaceOfDeliveryGroup",
@@ -752,7 +673,6 @@
               },
               "questions": [
                 {
-                  "label": "Planned place of delivery",
                   "type": "obs",
                   "required": false,
                   "id": "plannedPlaceOfDelivery",
@@ -761,44 +681,34 @@
                     "concept": "6ef80ed0-2102-45d3-a188-ad57c16263dc",
                     "answers": [
                       {
-                        "concept": "df9cc02b-b427-4262-b30a-7b973aef23fc",
-                        "label": "Home"
+                        "concept": "df9cc02b-b427-4262-b30a-7b973aef23fc"
                       },
                       {
-                        "concept": "1ff3db17-7a6f-40bf-8062-a912773e905c",
-                        "label": "Hopital Bon Samaritain Limbe"
+                        "concept": "1ff3db17-7a6f-40bf-8062-a912773e905c"
                       },
                       {
-                        "concept": "1c61317b-f7cf-4709-829c-76abb6f6501b",
-                        "label": "Hopital de Borgne"
+                        "concept": "1c61317b-f7cf-4709-829c-76abb6f6501b"
                       },
                       {
-                        "concept": "57195bab-5935-4da4-b5de-e9ee1dba162e",
-                        "label": "Hopital de Pignon"
+                        "concept": "57195bab-5935-4da4-b5de-e9ee1dba162e"
                       },
                       {
-                        "concept": "6d1450bb-0109-456b-82f9-e495bcb5c959",
-                        "label": "Hopital de Trou du Nord"
+                        "concept": "6d1450bb-0109-456b-82f9-e495bcb5c959"
                       },
                       {
-                        "concept": "4b9b9184-6aa8-4875-ab10-f22092a0075b",
-                        "label": "Hopital St Jean Limbe"
+                        "concept": "4b9b9184-6aa8-4875-ab10-f22092a0075b"
                       },
                       {
-                        "concept": "696114ce-8c7b-4018-a8d5-ee2e65d323d3",
-                        "label": "Hopital Sacré Coeur Milot"
+                        "concept": "696114ce-8c7b-4018-a8d5-ee2e65d323d3"
                       },
                       {
-                        "concept": "b0b1c920-02ba-47e7-93e5-9922e888aac0",
-                        "label": "Hopital Justinien Cap Haitien"
+                        "concept": "b0b1c920-02ba-47e7-93e5-9922e888aac0"
                       },
                       {
-                        "concept": "50f4de56-b5b6-4939-aa73-7d7f5a5f8961",
-                        "label": "Hopital HBCH"
+                        "concept": "50f4de56-b5b6-4939-aa73-7d7f5a5f8961"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       }
                     ]
                   },
@@ -808,7 +718,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Other Health Centre",
                   "type": "obs",
                   "required": false,
                   "id": "otherPlannedPlaceOfDelivery",
@@ -822,7 +731,10 @@
                   "validators": []
                 }
               ],
-              "validators": []
+              "validators": [],
+              "hide": {
+                "hideWhenExpression": "isEmpty(childbirthPlan) || childbirthPlan !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
+              }
             }
           ]
         }

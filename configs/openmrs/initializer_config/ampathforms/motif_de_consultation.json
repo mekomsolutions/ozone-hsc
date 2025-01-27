@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Motif de consultation Data",
               "type": "obsGroup",
               "required": false,
               "id": "motifDeConsultationData",
@@ -19,7 +18,6 @@
               },
               "questions": [
                 {
-                  "label": "Motif de consultation",
                   "type": "obs",
                   "required": false,
                   "id": "motifDeConsultation",
@@ -36,7 +34,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Details",
                   "type": "obs",
                   "required": true,
                   "id": "details",
@@ -49,7 +46,6 @@
                   }
                 },
                 {
-                  "label": "Duration",
                   "type": "obs",
                   "required": true,
                   "id": "duration",
@@ -61,7 +57,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Time Units",
                   "type": "obs",
                   "required": true,
                   "id": "timeUnits",
@@ -70,24 +65,19 @@
                     "concept": "373b5749-82ff-a3d8-2e13-db76dd0499b3",
                     "answers": [
                       {
-                        "concept": "88e474ea-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Hour(s)"
+                        "concept": "88e474ea-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "327cdb97-571c-2d13-306b-4024fce268cb",
-                        "label": "Day(s)"
+                        "concept": "327cdb97-571c-2d13-306b-4024fce268cb"
                       },
                       {
-                        "concept": "88e55059-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Week(s)"
+                        "concept": "88e55059-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "88e5cc3c-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Month(s)"
+                        "concept": "88e5cc3c-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "a4d0c480-923b-49fe-b125-80453675fdea",
-                        "label": "Year(s)"
+                        "concept": "a4d0c480-923b-49fe-b125-80453675fdea"
                       }
                     ]
                   }

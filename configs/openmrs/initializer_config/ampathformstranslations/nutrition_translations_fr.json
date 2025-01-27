@@ -5,26 +5,6 @@
   "form_name_translation": "Nutrition",
   "language": "fr",
   "translations": {
-    "Nutrition": "Nutrition",
-    "First Visit": "Première visite",
-    "Admission Criteria": "Critères d'admission",
-    "Readmission": "Réadmission",
-    "Weight Goal": "Objectif de poids",
-    "Malnutrition Signs and symptoms": "Signes et symptômes de malnutrition",
-    "Grade of edema": "Grade d'œdème",
-    "Chest Indrawing": "Rentrement thoracique",
-    "Signs of dehydration": "Signes de déshydratation",
-    "Frequent urination": "Miction fréquente",
-    "Thirst": "Soif",
-    "State of consciousness": "État de conscience",
-    "Extremities": "Extrémités",
-    "Appearance of the ears": "Apparence des oreilles",
-    "Oral appearance": "Apparence buccale",
-    "Skin appearance": "Apparence de la peau",
-    "Lymph Nodes": "Ganglions lymphatiques",
-    "Appetite": "Appétit",
-    "Other Problems": "Autres problèmes",
-    "Other Problems Details": "Détails des autres problèmes",
-    "Result of the visit": "Résultat de la visite"
+
   }
 }

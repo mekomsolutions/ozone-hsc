@@ -5,28 +5,6 @@
   "form_name_translation": "Examen physique",
   "language": "fr",
   "translations": {
-    "Examen physique": "Examen physique",
-    "General Examination": "Examen général",
-    "General Examination Details": "Détails de l'examen général",
-    "Eyes/Nose/Throat/Ear Examination": "Examen des yeux/nez/gorge/oreilles",
-    "Eyes/Nose/Throat/Ear Examination Details": "Détails de l'examen des yeux/nez/gorge/oreilles",
-    "Cardiovascular Examination": "Examen cardiovasculaire",
-    "Cardiovascular Examination Details": "Détails de l'examen cardiovasculaire",
-    "Respiratory Examination": "Examen respiratoire",
-    "Respiratory Examination Details": "Détails de l'examen respiratoire",
-    "Gastrointestinal Examination": "Examen gastro-intestinal",
-    "Gastrointestinal Examination Details": "Détails de l'examen gastro-intestinal",
-    "Genitourinary Examination": "Examen génito-urinaire",
-    "Genitourinary Examination Details": "Détails de l'examen génito-urinaire",
-    "Musculoskeletal Examination": "Examen musculo-squelettique",
-    "Musculoskeletal Examination Details": "Détails de l'examen musculo-squelettique",
-    "Neurological Examination": "Examen neurologique",
-    "Neurological Examination Details": "Détails de l'examen neurologique",
-    "Endocrinological Examination": "Examen endocrinologique",
-    "Endocrinological Examination Details": "Détails de l'examen endocrinologique",
-    "Skin Examination": "Examen cutané",
-    "Skin Examination Details": "Détails de l'examen cutané",
-    "Normal": "Normal",
-    "Abnormal": "Anormal"
+
   }
 }

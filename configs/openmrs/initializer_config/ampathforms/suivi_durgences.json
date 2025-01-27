@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Emergency",
               "type": "obsGroup",
               "required": false,
               "id": "emergency",
@@ -19,7 +18,6 @@
               },
               "questions": [
                 {
-                  "label": "Date / Time ",
                   "type": "encounterDatetime",
                   "required": false,
                   "id": "dateTime",
@@ -30,7 +28,6 @@
                   }
                 },
                 {
-                  "label": "Action taken",
                   "type": "obs",
                   "required": false,
                   "id": "actionTaken",
@@ -48,7 +45,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Observations",
                   "type": "obs",
                   "required": false,
                   "id": "observations",

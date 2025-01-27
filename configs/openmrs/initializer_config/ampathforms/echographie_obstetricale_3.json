@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Number of Fetuses",
               "type": "obs",
               "required": false,
               "id": "numberOfFetuses",
@@ -28,7 +27,6 @@
               "validators": []
             },
             {
-              "label": "Number of Placenta",
               "type": "obs",
               "required": false,
               "id": "numberOfPlacenta",
@@ -40,7 +38,6 @@
               "validators": []
             },
             {
-              "label": "Fetus Details",
               "type": "obsGroup",
               "required": false,
               "id": "fetusDetails",
@@ -50,7 +47,6 @@
               },
               "questions": [
                 {
-                  "label": "Location of Placenta",
                   "type": "obs",
                   "required": false,
                   "id": "locationOfPlacenta",
@@ -59,27 +55,22 @@
                     "concept": "f4d664f4-e6e5-47f7-8781-2255ebfacc97",
                     "answers": [
                       {
-                        "concept": "ca69545b-dfef-4210-b311-dc8a1d309311",
-                        "label": "Anterior"
+                        "concept": "ca69545b-dfef-4210-b311-dc8a1d309311"
                       },
                       {
-                        "concept": "f5c721f6-7162-4533-9a83-4a4cd6997cb8",
-                        "label": "Lateral"
+                        "concept": "f5c721f6-7162-4533-9a83-4a4cd6997cb8"
                       },
                       {
-                        "concept": "1f82cf3c-ce84-4c98-a35a-c37c45edc5fc",
-                        "label": "Posterior"
+                        "concept": "1f82cf3c-ce84-4c98-a35a-c37c45edc5fc"
                       },
                       {
-                        "concept": "cc4c6921-1d06-48f7-a7d8-a0c6664b515e",
-                        "label": "Praevia"
+                        "concept": "cc4c6921-1d06-48f7-a7d8-a0c6664b515e"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Fetal Heart Rate",
                   "type": "obs",
                   "required": false,
                   "id": "fetalHeartRate",
@@ -100,7 +91,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Presentation",
                   "type": "obs",
                   "required": false,
                   "id": "presentation",
@@ -116,27 +106,22 @@
                     ],
                     "answers": [
                       {
-                        "concept": "c4526510-3f10-11e4-adec-0800271c1b75",
-                        "label": "Cephalic"
+                        "concept": "c4526510-3f10-11e4-adec-0800271c1b75"
                       },
                       {
-                        "concept": "a0dc5727-c33e-479b-b70e-fb0eb7e45853",
-                        "label": "Breech"
+                        "concept": "a0dc5727-c33e-479b-b70e-fb0eb7e45853"
                       },
                       {
-                        "concept": "5bb2ea3b-a736-4533-bd5e-a1e9d835f721",
-                        "label": "Transverse"
+                        "concept": "5bb2ea3b-a736-4533-bd5e-a1e9d835f721"
                       },
                       {
-                        "concept": "cbafba29-b62a-4675-910a-a6bb161de256",
-                        "label": "Variable"
+                        "concept": "cbafba29-b62a-4675-910a-a6bb161de256"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Biparietal diameter",
                   "type": "obs",
                   "required": false,
                   "id": "biparietalDiameter",
@@ -147,7 +132,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Occ-frontal diameter",
                   "type": "obs",
                   "required": false,
                   "id": "occ-FrontalDiameter",
@@ -158,7 +142,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Cranial circumference",
                   "type": "obs",
                   "required": false,
                   "id": "cranialCircumference",
@@ -169,7 +152,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Femur length",
                   "type": "obs",
                   "required": false,
                   "id": "femurLength",
@@ -180,7 +162,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Humerus length",
                   "type": "obs",
                   "required": false,
                   "id": "humerusLength",
@@ -191,7 +172,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Abdominal circumference",
                   "type": "obs",
                   "required": false,
                   "id": "abdominalCircumference",
@@ -202,7 +182,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Estimated fetal weight",
                   "type": "obs",
                   "required": false,
                   "id": "estimatedFetalWeight",
@@ -213,7 +192,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Weight Percentile",
                   "type": "obs",
                   "required": false,
                   "id": "weightPercentile",
@@ -235,7 +213,6 @@
               "validators": []
             },
             {
-              "label": "Other observations",
               "type": "obs",
               "required": false,
               "id": "otherObservations",

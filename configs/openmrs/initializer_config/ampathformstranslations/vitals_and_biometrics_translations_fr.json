@@ -5,19 +5,6 @@
     "form_name_translation": "Vitalité et biométrie",
     "language": "fr",
     "translations": {
-        "Triage": "Triage",
-        "Pain Scale (0 - 10)": "Échelle de douleur (0 - 10)",
-        "Pulse (beats/min)": "Pouls (battements/min)",
-        "Temperature": "Température (Celsius)",
-        "Respiratory Rate (breaths/min)": "Fréquence respiratoire (respirations/min)",
-        "Oxygen Saturation (%)": "Saturation en oxygène (%)",
-        "Systolic Blood Pressure (mmHg)": "Tension artérielle systolique (mmHg)",
-        "Diastolic Blood Pressure (mmHg)": "Tension artérielle diastolique (mmHg)",
-        "Level of emergency severity assessment": "Niveau d'évaluation de la gravité des urgences",
-        "Height": "Taille (cm)",
-        "Weight": "Poids (kg)",
-        "Head Circumference": "Périmètre Cranien (cm)",
-        "Abdominal Diameter": "Périmètre Abdominal (cm)",
-        "Mid-Upper Arm Circumference": "Périmètre bracchial (cm)"
+        "Pain Scale (0 - 10)": "Échelle de douleur (0 - 10)"
     }
 }

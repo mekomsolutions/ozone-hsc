@@ -9,7 +9,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Allergique",
               "type": "obs",
               "required": true,
               "id": "allergique",
@@ -18,19 +17,16 @@
                 "concept": "74400b2a-ac0f-4dce-8589-1301a85c96b7",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Allergies",
               "type": "obs",
               "required": false,
               "id": "allergies",
@@ -51,7 +47,6 @@
               "validators": []
             },
             {
-              "label": "Past Admission History",
               "type": "obsGroup",
               "required": false,
               "id": "pastAdmissionHistoryGroup",
@@ -61,7 +56,6 @@
               },
               "questions": [
                 {
-                  "label": "Date",
                   "type": "obs",
                   "required": false,
                   "id": "date",
@@ -80,7 +74,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Duration",
                   "type": "obs",
                   "required": false,
                   "id": "duration",
@@ -92,7 +85,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Time Units",
                   "type": "obs",
                   "required": false,
                   "id": "timeUnits",
@@ -101,31 +93,25 @@
                     "concept": "373b5749-82ff-a3d8-2e13-db76dd0499b3",
                     "answers": [
                       {
-                        "concept": "88e474ea-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Hour(s)"
+                        "concept": "88e474ea-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "327cdb97-571c-2d13-306b-4024fce268cb",
-                        "label": "Day(s)"
+                        "concept": "327cdb97-571c-2d13-306b-4024fce268cb"
                       },
                       {
-                        "concept": "88e55059-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Week(s)"
+                        "concept": "88e55059-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "88e5cc3c-0ba4-11eb-a3aa-0242ac140008",
-                        "label": "Month(s)"
+                        "concept": "88e5cc3c-0ba4-11eb-a3aa-0242ac140008"
                       },
                       {
-                        "concept": "a4d0c480-923b-49fe-b125-80453675fdea",
-                        "label": "Year(s)"
+                        "concept": "a4d0c480-923b-49fe-b125-80453675fdea"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Reason",
                   "type": "obs",
                   "required": false,
                   "id": "reason",
@@ -136,7 +122,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Health Centre",
                   "type": "obs",
                   "required": false,
                   "id": "healthCentre",
@@ -145,47 +130,37 @@
                     "concept": "276cccb6-0c0b-4f84-8947-298aceea5e62",
                     "answers": [
                       {
-                        "concept": "1ff3db17-7a6f-40bf-8062-a912773e905c",
-                        "label": "Hopital Bon Samaritain Limbe"
+                        "concept": "1ff3db17-7a6f-40bf-8062-a912773e905c"
                       },
                       {
-                        "concept": "1c61317b-f7cf-4709-829c-76abb6f6501b",
-                        "label": "Hopital de Borgne"
+                        "concept": "1c61317b-f7cf-4709-829c-76abb6f6501b"
                       },
                       {
-                        "concept": "57195bab-5935-4da4-b5de-e9ee1dba162e",
-                        "label": "Hopital de Pignon"
+                        "concept": "57195bab-5935-4da4-b5de-e9ee1dba162e"
                       },
                       {
-                        "concept": "6d1450bb-0109-456b-82f9-e495bcb5c959",
-                        "label": "Hopital de Trou du Nord"
+                        "concept": "6d1450bb-0109-456b-82f9-e495bcb5c959"
                       },
                       {
-                        "concept": "50f4de56-b5b6-4939-aa73-7d7f5a5f8961",
-                        "label": "Hopital HBCH"
+                        "concept": "50f4de56-b5b6-4939-aa73-7d7f5a5f8961"
                       },
                       {
-                        "concept": "b0b1c920-02ba-47e7-93e5-9922e888aac0",
-                        "label": "Hopital Justinien Cap Haitien"
+                        "concept": "b0b1c920-02ba-47e7-93e5-9922e888aac0"
                       },
                       {
-                        "concept": "696114ce-8c7b-4018-a8d5-ee2e65d323d3",
-                        "label": "Hopital Sacré Coeur Milot"
+                        "concept": "696114ce-8c7b-4018-a8d5-ee2e65d323d3"
                       },
                       {
-                        "concept": "4b9b9184-6aa8-4875-ab10-f22092a0075b",
-                        "label": "Hopital St Jean Limbe"
+                        "concept": "4b9b9184-6aa8-4875-ab10-f22092a0075b"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other Health Centre",
                   "type": "obs",
                   "required": false,
                   "id": "otherHealthCentre",
@@ -199,7 +174,6 @@
               "validators": []
             },
             {
-              "label": "Current Medication Set",
               "type": "obsGroup",
               "required": false,
               "id": "currentMedicationSet",
@@ -209,7 +183,6 @@
               },
               "questions": [
                 {
-                  "label": "Current Medication",
                   "type": "obs",
                   "required": true,
                   "id": "currentMedication",
@@ -218,19 +191,16 @@
                     "concept": "b44ca1a9-7d31-48af-818c-ef8ef046ac75",
                     "answers": [
                       {
-                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                        "label": "Yes"
+                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                       },
                       {
-                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                        "label": "No"
+                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Details",
                   "type": "obs",
                   "required": false,
                   "id": "currentMedicationDetails",
@@ -247,7 +217,6 @@
               "validators": []
             },
             {
-              "label": "Self Medication Set",
               "type": "obsGroup",
               "required": false,
               "id": "selfMedicationSet",
@@ -257,7 +226,6 @@
               },
               "questions": [
                 {
-                  "label": "Self Medication",
                   "type": "obs",
                   "required": true,
                   "id": "selfMedication",
@@ -266,19 +234,16 @@
                     "concept": "34628964-2ba7-453a-bf40-446cfb97ba04",
                     "answers": [
                       {
-                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                        "label": "Yes"
+                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                       },
                       {
-                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                        "label": "No"
+                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Details",
                   "type": "obs",
                   "required": false,
                   "id": "selfMedicationDetails",
@@ -295,7 +260,6 @@
               "validators": []
             },
             {
-              "label": "Personal History Set",
               "type": "obsGroup",
               "required": false,
               "id": "personalHistorySet",
@@ -305,144 +269,62 @@
               },
               "questions": [
                 {
-                  "label": "Personal History",
                   "type": "obs",
                   "required": true,
                   "id": "personalHistory",
                   "questionOptions": {
-                    "rendering": "select",
+                    "rendering": "checkbox-searchable",
                     "concept": "c284cf60-1fae-4640-a6bc-d6dc7accb42c",
                     "answers": [
                       {
-                        "concept": "f891f12b-9947-4cc4-aa97-b6ba47567a58",
-                        "label": "Allergies"
+                        "concept": "f891f12b-9947-4cc4-aa97-b6ba47567a58"
                       },
                       {
-                        "concept": "3ccc4bf6-26fe-102b-80cb-0017a47871b2",
-                        "label": "Asthma (J45.9)"
+                        "concept": "3ccc4bf6-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "13cf6c22-2eba-4a9b-a4ac-6683dec5c973",
-                        "label": "Cancer (C80.9)"
+                        "concept": "13cf6c22-2eba-4a9b-a4ac-6683dec5c973"
                       },
                       {
-                        "concept": "f40bf9bb-fcaa-4f90-8199-197bc6cb2b03",
-                        "label": "Heart disease (I51.9)"
+                        "concept": "f40bf9bb-fcaa-4f90-8199-197bc6cb2b03"
                       },
                       {
-                        "concept": "3ccc7d2e-26fe-102b-80cb-0017a47871b2",
-                        "label": "Hepatitis (K75.9)"
+                        "concept": "3ccc7d2e-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "3cd50188-26fe-102b-80cb-0017a47871b2",
-                        "label": "Hypertension (I10)"
+                        "concept": "3cd50188-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "529287bb-6bd6-4efd-a90d-4ea96dbb4802",
-                        "label": "Mental illness (F99)"
+                        "concept": "529287bb-6bd6-4efd-a90d-4ea96dbb4802"
                       },
                       {
-                        "concept": "17aba9e2-b0f0-4d62-9aba-1b2568437313",
-                        "label": "None"
+                        "concept": "17aba9e2-b0f0-4d62-9aba-1b2568437313"
                       },
                       {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
                       },
                       {
-                        "concept": "3cce99c4-26fe-102b-80cb-0017a47871b2",
-                        "label": "Peptic Ulcer (K27.9)"
+                        "concept": "3cce99c4-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "117703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "Sickle-cell anemia (D57.1)"
+                        "concept": "117703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                       },
                       {
-                        "concept": "3ccca7cc-26fe-102b-80cb-0017a47871b2",
-                        "label": "Tuberculosis (A16.9)"
+                        "concept": "3ccca7cc-26fe-102b-80cb-0017a47871b2"
                       },
                       {
-                        "concept": "105903f4-7b6d-496a-b613-37ab9d0f5450",
-                        "label": "Type 1 diabetes (E10)"
+                        "concept": "105903f4-7b6d-496a-b613-37ab9d0f5450"
                       },
                       {
-                        "concept": "8b26ecd3-8726-4c8e-b042-cbe71e44a863",
-                        "label": "Type 2 diabetes (E11)"
+                        "concept": "8b26ecd3-8726-4c8e-b042-cbe71e44a863"
                       }
                     ]
                   }
-                }
-              ],
-              "validators": []
-            },
-            {
-              "label": "Family History Set",
-              "type": "obsGroup",
-              "required": false,
-              "id": "familyHistorySet",
-              "questionOptions": {
-                "rendering": "group",
-                "concept": "47ded7b8-23c1-4e57-b374-e2fde0396a18"
-              },
-              "questions": [
-                {
-                  "label": "Family History",
-                  "type": "obs",
-                  "required": false,
-                  "id": "familyHistory",
-                  "questionOptions": {
-                    "rendering": "select",
-                    "concept": "e34f9f11-c50b-4096-828d-300a34edb0d1",
-                    "answers": [
-                      {
-                        "concept": "3ccc4bf6-26fe-102b-80cb-0017a47871b2",
-                        "label": "Asthma (J45.9)"
-                      },
-                      {
-                        "concept": "13cf6c22-2eba-4a9b-a4ac-6683dec5c973",
-                        "label": "Cancer (C80.9)"
-                      },
-                      {
-                        "concept": "f40bf9bb-fcaa-4f90-8199-197bc6cb2b03",
-                        "label": "Heart disease (I51.9)"
-                      },
-                      {
-                        "concept": "3cd50188-26fe-102b-80cb-0017a47871b2",
-                        "label": "Hypertension (I10)"
-                      },
-                      {
-                        "concept": "529287bb-6bd6-4efd-a90d-4ea96dbb4802",
-                        "label": "Mental illness (F99)"
-                      },
-                      {
-                        "concept": "17aba9e2-b0f0-4d62-9aba-1b2568437313",
-                        "label": "None"
-                      },
-                      {
-                        "concept": "26c0366b-83e4-4401-9699-e545219b8870",
-                        "label": "Other"
-                      },
-                      {
-                        "concept": "117703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "Sickle-cell anemia (D57.1)"
-                      },
-                      {
-                        "concept": "105903f4-7b6d-496a-b613-37ab9d0f5450",
-                        "label": "Type 1 diabetes (E10)"
-                      },
-                      {
-                        "concept": "8b26ecd3-8726-4c8e-b042-cbe71e44a863",
-                        "label": "Type 2 diabetes (E11)"
-                      }
-                    ]
-                  },
-                  "validators": []
                 },
                 {
-                  "label": "Details",
                   "type": "obs",
                   "required": false,
-                  "id": "details",
+                  "id": "personalHistoryDetails",
                   "questionOptions": {
                     "rendering": "textarea",
                     "concept": "9d20f065-9568-4769-80b5-f596907a8805"
@@ -453,7 +335,70 @@
               "validators": []
             },
             {
-              "label": "History of Trauma",
+              "type": "obsGroup",
+              "required": false,
+              "id": "familyHistorySet",
+              "questionOptions": {
+                "rendering": "group",
+                "concept": "47ded7b8-23c1-4e57-b374-e2fde0396a18"
+              },
+              "questions": [
+                {
+                  "type": "obs",
+                  "required": false,
+                  "id": "familyHistory",
+                  "questionOptions": {
+                    "rendering": "checkbox-searchable",
+                    "concept": "e34f9f11-c50b-4096-828d-300a34edb0d1",
+                    "answers": [
+                      {
+                        "concept": "3ccc4bf6-26fe-102b-80cb-0017a47871b2"
+                      },
+                      {
+                        "concept": "13cf6c22-2eba-4a9b-a4ac-6683dec5c973"
+                      },
+                      {
+                        "concept": "f40bf9bb-fcaa-4f90-8199-197bc6cb2b03"
+                      },
+                      {
+                        "concept": "3cd50188-26fe-102b-80cb-0017a47871b2"
+                      },
+                      {
+                        "concept": "529287bb-6bd6-4efd-a90d-4ea96dbb4802"
+                      },
+                      {
+                        "concept": "17aba9e2-b0f0-4d62-9aba-1b2568437313"
+                      },
+                      {
+                        "concept": "26c0366b-83e4-4401-9699-e545219b8870"
+                      },
+                      {
+                        "concept": "117703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      },
+                      {
+                        "concept": "105903f4-7b6d-496a-b613-37ab9d0f5450"
+                      },
+                      {
+                        "concept": "8b26ecd3-8726-4c8e-b042-cbe71e44a863"
+                      }
+                    ]
+                  },
+                  "validators": []
+                },
+                {
+                  "type": "obs",
+                  "required": false,
+                  "id": "familyHistoryDetails",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "9d20f065-9568-4769-80b5-f596907a8805"
+                  },
+                  "validators": []
+                }
+              ],
+              "validators": []
+            },
+            {
               "type": "obs",
               "required": false,
               "id": "historyOfTrauma",
@@ -464,7 +409,6 @@
               "validators": []
             },
             {
-              "label": "Past Surgical History",
               "type": "obs",
               "required": false,
               "id": "pastSurgicalHistory",
@@ -475,7 +419,6 @@
               "validators": []
             },
             {
-              "label": "Life Style",
               "type": "obsGroup",
               "required": false,
               "id": "lifeStyle",
@@ -485,7 +428,6 @@
               },
               "questions": [
                 {
-                  "label": "Alcohol Use Set",
                   "type": "obsGroup",
                   "required": false,
                   "id": "alcoholUseSet",
@@ -495,7 +437,6 @@
                   },
                   "questions": [
                     {
-                      "label": "Use of alcohol",
                       "type": "obs",
                       "required": false,
                       "id": "useOfAlcohol",
@@ -504,19 +445,16 @@
                         "concept": "16a035ea-acf0-4e54-9c63-ffd126aaa3f7",
                         "answers": [
                           {
-                            "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                            "label": "Yes"
+                            "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                           },
                           {
-                            "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                            "label": "No"
+                            "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                           }
                         ]
                       },
                       "validators": []
                     },
                     {
-                      "label": "CAGE",
                       "type": "obs",
                       "required": false,
                       "id": "cage",
@@ -525,20 +463,16 @@
                         "concept": "1dcfdce8-d75b-4e14-b128-e2593e968e8e",
                         "answers": [
                           {
-                            "concept": "372f3da0-132f-4f00-a1cb-60c8d5b5d171",
-                            "label": "Annoyed"
+                            "concept": "372f3da0-132f-4f00-a1cb-60c8d5b5d171"
                           },
                           {
-                            "concept": "7a12b072-44a3-420b-807d-082821accfe8",
-                            "label": "Cut Down"
+                            "concept": "7a12b072-44a3-420b-807d-082821accfe8"
                           },
                           {
-                            "concept": "6c97c859-1ae7-4821-90a1-9ea011011137",
-                            "label": "Eye-opener"
+                            "concept": "6c97c859-1ae7-4821-90a1-9ea011011137"
                           },
                           {
-                            "concept": "5c33fc6c-54fa-4d14-83a0-fc2815277e1d",
-                            "label": "Guilty"
+                            "concept": "5c33fc6c-54fa-4d14-83a0-fc2815277e1d"
                           }
                         ]
                       },
@@ -548,7 +482,6 @@
                       "validators": []
                     },
                     {
-                      "label": "CAGE Score",
                       "type": "obs",
                       "required": false,
                       "id": "cageScore",
@@ -566,7 +499,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Tobacco History Set",
                   "type": "obsGroup",
                   "required": false,
                   "id": "tobaccoHistorySet",
@@ -576,7 +508,6 @@
                   },
                   "questions": [
                     {
-                      "label": "Tobacco use",
                       "type": "obs",
                       "required": false,
                       "id": "tobaccoUse",
@@ -585,19 +516,16 @@
                         "concept": "61ac6631-a248-4dae-bd32-33520d26c04d",
                         "answers": [
                           {
-                            "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                            "label": "Yes"
+                            "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                           },
                           {
-                            "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                            "label": "No"
+                            "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                           }
                         ]
                       },
                       "validators": []
                     },
                     {
-                      "label": "Number of Tobacco sticks",
                       "type": "obs",
                       "required": false,
                       "id": "numberOfTobaccoSticks",
@@ -612,7 +540,6 @@
                       "validators": []
                     },
                     {
-                      "label": "Smoking Duration",
                       "type": "obs",
                       "required": false,
                       "id": "smokingDuration",
@@ -644,7 +571,6 @@
                       "validators": []
                     },
                     {
-                      "label": "Pack Years",
                       "type": "obs",
                       "required": false,
                       "id": "packYears",
@@ -658,7 +584,6 @@
                       "validators": []
                     },
                     {
-                      "label": "Year(s) since last smoke",
                       "type": "obs",
                       "required": false,
                       "id": "year(S)SinceLastSmoke",
@@ -675,7 +600,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Marijuana",
                   "type": "obs",
                   "required": false,
                   "id": "marijuana",
@@ -684,19 +608,16 @@
                     "concept": "386d919c-32c8-4621-b922-8b38f5db3c10",
                     "answers": [
                       {
-                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                        "label": "Yes"
+                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                       },
                       {
-                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                        "label": "No"
+                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Other Substance",
                   "type": "obs",
                   "required": false,
                   "id": "otherSubstance",
@@ -705,19 +626,16 @@
                     "concept": "de52f07a-d72a-44d0-8f4e-c7698ae4d798",
                     "answers": [
                       {
-                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                        "label": "Yes"
+                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                       },
                       {
-                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                        "label": "No"
+                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Exercise",
                   "type": "obs",
                   "required": false,
                   "id": "exercise",
@@ -726,19 +644,16 @@
                     "concept": "ebd6e645-10d1-47dd-9740-5f8aa609b414",
                     "answers": [
                       {
-                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                        "label": "Yes"
+                        "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                       },
                       {
-                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                        "label": "No"
+                        "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                       }
                     ]
                   },
                   "validators": []
                 },
                 {
-                  "label": "Sexual history",
                   "type": "obsGroup",
                   "required": false,
                   "id": "sexualHistory",
@@ -748,7 +663,6 @@
                   },
                   "questions": [
                     {
-                      "label": "Sexual Orientation",
                       "type": "obs",
                       "required": false,
                       "id": "sexualOrientation",
@@ -757,23 +671,19 @@
                         "concept": "71c00a33-20a2-4e02-98fe-de621d3c38f2",
                         "answers": [
                           {
-                            "concept": "f1f84eda-fcb5-4d99-808f-745deb93e25f",
-                            "label": "Bisexual"
+                            "concept": "f1f84eda-fcb5-4d99-808f-745deb93e25f"
                           },
                           {
-                            "concept": "14f99da3-a9e0-424e-bf00-02dcbc0bf60d",
-                            "label": "Heterosexual"
+                            "concept": "14f99da3-a9e0-424e-bf00-02dcbc0bf60d"
                           },
                           {
-                            "concept": "b1bfc81d-b867-4772-a129-1981289d9aca",
-                            "label": "Homosexual"
+                            "concept": "b1bfc81d-b867-4772-a129-1981289d9aca"
                           }
                         ]
                       },
                       "validators": []
                     },
                     {
-                      "label": "Age at first intercourse",
                       "type": "obs",
                       "required": false,
                       "id": "ageAtFirstIntercourse",
@@ -788,7 +698,6 @@
                   "validators": []
                 },
                 {
-                  "label": "Other observations",
                   "type": "obs",
                   "required": false,
                   "id": "otherObservations",

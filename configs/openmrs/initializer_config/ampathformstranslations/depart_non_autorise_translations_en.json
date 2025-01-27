@@ -5,10 +5,6 @@
   "form_name_translation": "Unauthorized departure",
   "language": "en",
   "translations": {
-    "Départ non autorisé": "Unauthorized Departure",
-    "Left without permission": "Left Without Permission",
-    "Comments": "Comments",
-    "Yes": "Yes",
-    "No": "No"
+
   }
 }
