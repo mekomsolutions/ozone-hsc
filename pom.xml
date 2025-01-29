@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -25,11 +26,16 @@
   </properties>
 
   <dependencies>
-    <!-- TODO: Add any implementation-specific dependencies -->
+    <dependency>
+      <groupId>com.ozonehis</groupId>
+      <artifactId>ozone-pro</artifactId>
+      <type>zip</type>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
-      <build>
-        <plugins>
-       <plugin>
+  <build>
+    <plugins>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
         <executions>
@@ -55,50 +61,128 @@
               </resources>
             </configuration>
           </execution>
-            <execution>
-                <!-- Add stock extension addon -->
-                <id>Copy binaries folder</id>
-                <phase>prepare-package</phase>
-                <goals>
-                    <goal>copy-resources</goal>
-                </goals>
-                <configuration>
-                    <outputDirectory>
-                        ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries</outputDirectory>
-                    <overwrite>true</overwrite>
-                    <resources>
-                        <resource>
-                            <directory>${project.basedir}/binaries</directory>
-                        </resource>
-                    </resources>
-                </configuration>
-            </execution>
-            <execution>
-                <!-- Copy over the Docker Compose override file -->
-                <id>Copy docker-compose-override.yml</id>
-                <phase>process-resources</phase>
-                <goals>
-                    <goal>copy-resources</goal>
-                </goals>
-                <configuration>
-                    <outputDirectory>
-                        ${project.build.directory}/${project.artifactId}-${project.version}/run/docker/
-                    </outputDirectory>
-                    <overwrite>true</overwrite>
-                    <resources>
-                        <resource>
-                            <directory>${project.basedir}/scripts</directory>
-                            <includes>
-                                <include>docker-compose-override.yml</include>
-                            </includes>
-                        </resource>
-                    </resources>
-                </configuration>
-            </execution>
-          </executions>
+          <execution>
+            <!-- Add stock extension addon -->
+            <id>Copy binaries folder</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries</outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>${project.basedir}/binaries</directory>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- Copy over the Docker Compose override file -->
+            <id>Copy docker-compose-override.yml</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}-${project.version}/run/docker/
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>${project.basedir}/scripts</directory>
+                  <includes>
+                    <include>docker-compose-override.yml</include>
+                  </includes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- Copy Central Auth and Monitoring Binary Resources -->
+            <id>Copy Central Auth and Monitoring Resources </id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <targetPath>
+                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/eip-keycloak-superset</targetPath>
+                  <directory>
+                    ${project.build.directory}/ozone-pro/distro/binaries/eip-keycloak-superset/</directory>
+                </resource>
+                <resource>
+                  <targetPath>
+                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/eip-keycloak-openmrs</targetPath>
+                  <directory>
+                    ${project.build.directory}/ozone-pro/distro/binaries/eip-keycloak-openmrs/</directory>
+                </resource>
+                <resource>
+                  <targetPath>
+                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/openmrs/jmx_exporter</targetPath>
+                  <directory>
+                    ${project.build.directory}/ozone-pro/distro/binaries/openmrs/jmx_exporter</directory>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- Copy Central Auth and Monitoring Docker Resources -->
+            <id>Copy Central Auth and Monitoring Docker Resources</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}-${project.version}/run/docker/
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>
+                    ${project.build.directory}/ozone-pro/run/docker</directory>
+                  <includes>
+                    <include>docker-compose-common-pro.yml</include>
+                    <include>docker-compose-eip-keycloak-openmrs.yml</include>
+                    <include>docker-compose-eip-keycloak-superset.yml</include>
+                    <include>docker-compose-eip-keycloak-odoo.yml</include>
+                    <include>docker-compose-openmrs-pro.yml</include>
+                  </includes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
-        </plugins>
-      </build>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>Unpack Ozone Pro</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>unpack-dependencies</goal>
+            </goals>
+            <configuration>
+              <excludeTransitive>true</excludeTransitive>
+              <outputDirectory>${project.build.directory}/ozone-pro</outputDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
   <profiles>
     <profile>
       <id>validator</id>
@@ -164,6 +248,10 @@
       <name>OpenMRS Nexus Repository</name>
       <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
     </repository>
+    <repository>
+      <id>mks-nexus-private</id>
+      <url>https://nexus.mekomsolutions.net/repository/maven-private/</url>
+    </repository>
   </repositories>
 
   <pluginRepositories>
@@ -198,17 +286,16 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-
   <distributionManagement>
     <repository>
       <name>Mekom Solutions Nexus repo for releases</name>
       <id>mks-nexus-public-releases</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-releases</url>
+      <url>https://nexus.mekomsolutions.net/repository/maven-private-releases</url>
     </repository>
     <snapshotRepository>
       <name>Mekom Solutions Nexus repo for snapshots</name>
       <id>mks-nexus-public-snapshots</id>
-      <url>https://nexus.mekomsolutions.net/repository/maven-snapshots</url>
+      <url>https://nexus.mekomsolutions.net/repository/maven-private-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
