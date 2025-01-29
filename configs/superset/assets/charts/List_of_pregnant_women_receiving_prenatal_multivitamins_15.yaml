@@ -1,0 +1,60 @@
+slice_name: List of pregnant women receiving prenatal multivitamins
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 6__table
+  viz_type: table
+  slice_id: 15
+  query_mode: raw
+  groupby: []
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    birthdate: true
+    date_started: true
+  metrics: []
+  all_columns:
+  - openmrs_id
+  - patient_name
+  - gender
+  - patient_age_at_visit
+  - date_started
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_4zfc96ce68c_2vjllqd8dsx
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: date_started
+  order_by_cols:
+  - '["date_started", false]'
+  server_pagination: false
+  row_limit: 10000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: '%Y-%m-%d %H:%M:%S'
+  page_length: 200
+  include_search: true
+  show_cell_bars: false
+  color_pn: false
+  allow_rearrange_columns: true
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 6
+query_context: '{"datasource":{"id":6,"type":"table"},"force":false,"queries":[{"filters":[{"col":"date_started","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["openmrs_id","patient_name","gender","patient_age_at_visit","date_started"],"orderby":[["date_started",false]],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"6__table","viz_type":"table","slice_id":15,"query_mode":"raw","groupby":[],"time_grain_sqla":"P1D","temporal_columns_lookup":{"birthdate":true,"date_started":true},"metrics":[],"all_columns":["openmrs_id","patient_name","gender","patient_age_at_visit","date_started"],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_4zfc96ce68c_2vjllqd8dsx","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","sqlExpression":null,"subject":"date_started"}],"order_by_cols":["[\"date_started\",
+  false]"],"server_pagination":false,"row_limit":10000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"%Y-%m-%d
+  %H:%M:%S","page_length":200,"include_search":true,"show_cell_bars":false,"color_pn":false,"allow_rearrange_columns":true,"conditional_formatting":[],"extra_form_data":{},"dashboards":[6],"force":false,"result_format":"json","result_type":"full","include_time":false},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: c6e43edc-55d0-401b-9a59-00e09f91dea5
+version: 1.0.0
+dataset_uuid: f1553bdf-bff6-49e6-8ef2-ed70a90fae52
