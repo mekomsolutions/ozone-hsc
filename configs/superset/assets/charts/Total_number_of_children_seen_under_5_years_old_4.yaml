@@ -1,0 +1,39 @@
+slice_name: Total number of children seen under 5 years old
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 2__table
+  viz_type: big_number_total
+  slice_id: 4
+  metric: count
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: current_visit_date
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    comparator: No filter
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_zdvmdausz4q_ggv9inf55o5
+  subheader: Patients
+  header_font_size: 0.4
+  subheader_font_size: 0.125
+  y_axis_format: ',d'
+  time_format: smart_date
+  force_timestamp_formatting: false
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 4
+query_context: '{"datasource":{"id":2,"type":"table"},"force":false,"queries":[{"filters":[{"col":"current_visit_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":["count"],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"2__table","viz_type":"big_number_total","slice_id":4,"metric":"count","adhoc_filters":[{"expressionType":"SIMPLE","subject":"current_visit_date","operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","comparator":"No
+  filter","clause":"WHERE","sqlExpression":null,"isExtra":false,"isNew":false,"datasourceWarning":false,"filterOptionName":"filter_zdvmdausz4q_ggv9inf55o5"}],"subheader":"Patients","header_font_size":0.4,"subheader_font_size":0.125,"y_axis_format":",d","time_format":"smart_date","force_timestamp_formatting":false,"conditional_formatting":[],"extra_form_data":{},"dashboards":[4],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: a17b471d-d0e4-40d6-a19a-734f329c7b4b
+version: 1.0.0
+dataset_uuid: b0e8406b-57c6-4b14-a259-8ff3be2c8cf1
