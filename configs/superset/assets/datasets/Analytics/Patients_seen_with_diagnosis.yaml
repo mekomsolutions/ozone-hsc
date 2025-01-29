@@ -1,0 +1,163 @@
+table_name: Patients seen with diagnosis
+main_dttm_col: date_started
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+schema: public
+sql: "WITH diagnosis_visits AS (\n    SELECT DISTINCT visit_uuid \n    FROM observations\
+  \ \n    WHERE question_uuid = 'a92807d9-bbe9-4874-aa6b-86c531fb6efd' \n    AND answer_coded\
+  \ IS NOT NULL\n)\nSELECT \n    v.visit_uuid,\n    v.date_started,\n    SUBSTRING(pt.identifiers\
+  \ FROM 'Num\xE9ro Dossier: ([^,]*)') AS openmrs_id,\n    CONCAT_WS(' ', pt.given_name,\
+  \ pt.middle_name, pt.family_name) AS patient_name,\n    pt.gender,\n    EXTRACT(YEAR\
+  \ FROM AGE(v.date_started, pt.birthdate)) AS age,\n    v.type,\n    MAX(CASE WHEN\
+  \ o.question_uuid = '59d12a8e-62a8-4a4e-8f5e-8d7dc45b6a70' THEN o.answer_coded END)\
+  \ as diagnosis_order,\n    MAX(CASE WHEN o.question_uuid = 'a92807d9-bbe9-4874-aa6b-86c531fb6efd'\
+  \ THEN o.answer_coded END) as diagnosis,\n    MAX(CASE WHEN o.question_uuid = 'a606df80-6615-4523-8b93-fa47ee311024'\
+  \ THEN o.answer_coded END) as diagnosis_certainty\nFROM visits v\nINNER JOIN diagnosis_visits\
+  \ dv ON v.visit_uuid = dv.visit_uuid\nLEFT JOIN patients pt ON pt.patient_uuid =\
+  \ v.patient_uuid\nLEFT JOIN observations o ON o.visit_uuid = v.visit_uuid\nWHERE\
+  \ v.visit_voided IS FALSE\nGROUP BY v.visit_uuid, v.date_started, pt.identifiers,\
+  \ pt.given_name, pt.middle_name, pt.family_name, pt.gender, pt.birthdate, v.type\n"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: 99cf35bd-53d1-42b1-8220-d72c2bee65ac
+metrics:
+- metric_name: count
+  verbose_name: row count
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+columns:
+- column_name: openmrs_id
+  verbose_name: Patient ID
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: This is the OpenMRS ID identifier
+  python_date_format: null
+  extra: {}
+- column_name: age
+  verbose_name: Age (years)
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: diagnosis_certainty
+  verbose_name: Diagnosis Certainty
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: diagnosis_order
+  verbose_name: Diagnosis Type
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: type
+  verbose_name: Visit Type
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: diagnosis
+  verbose_name: Diagnosis
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: gender
+  verbose_name: Gender
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: patient_name
+  verbose_name: Name
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: date_started
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: DATETIME
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: visit_uuid
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+version: 1.0.0
+database_uuid: 4e5f4045-a62d-4964-b719-58229a60e7fe
