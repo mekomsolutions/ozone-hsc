@@ -417,7 +417,7 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounterType": "3f3058a3-d264-47b4-a414-1d5ddc707121",
+  "encounterType": "f6c2a7eb-d0dc-47fc-931d-868ba5cae5e81",
   "referencedForms": [],
   "uuid": "123d2a47-ad72-47bd-ba07-5119c9761b74",
   "description": "Emergency Department Form",
