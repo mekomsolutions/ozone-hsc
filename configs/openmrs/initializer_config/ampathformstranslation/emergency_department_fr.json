@@ -25,7 +25,18 @@
         "Review":"Revue",
         "Physical Examination":"Examen Physique",
         "Impressions / Diagnostics":"Impression diagnostiques",
-        "Yes": "Oui",
-        "No": "Non"
+        "Domestic accident": "Accidents domestiques",
+        "Injury on public road": "Accidents de la voie publique",
+        "Other type assault/violence": "Autres types de violence",
+        "Physical violence": "Violences physiques",
+        "Sexual violence": "Violences sexuelles",
+        "Work related accident": "Accidents du travail",
+        "Traumatic injuries": "Lésions trauma",
+        "Respiratory": "Respiratoires",
+        "Obstetric": "Obstétricales",
+        "Musculoskeletal": "Ostéo-Articul",
+        "Genitourinary": "Urinaires",
+        "Gastrointestinal": "Digestives",
+        "Cardiovascular": "Cardio-vascul"
     }
 }

@@ -25,7 +25,18 @@
         "Review":"Review",
         "Physical Examination":"Physical Examination",
         "Impressions / Diagnostics":"Impressions / Diagnostics",
-        "Yes": "Yes",
-        "No": "No"
+        "Domestic accident": "Domestic accident",
+        "Injury on public road": "Injury on public road",
+        "Other type assault/violence": "Other type assault/violence",
+        "Physical violence": "Physical violence",
+        "Sexual violence": "Sexual violence",
+        "Work related accident": "Work related accident",
+        "Traumatic injuries": "Traumatic injuries",
+        "Respiratory": "Respiratory",
+        "Obstetric": "Obstetric",
+        "Musculoskeletal": "Musculoskeletal",
+        "Genitourinary": "Genitourinary",
+        "Gastrointestinal": "Gastrointestinal",
+        "Cardiovascular": "Cardiovascular"
     }
 }

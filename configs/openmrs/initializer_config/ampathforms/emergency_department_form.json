@@ -29,12 +29,10 @@
                 "concept": "e127d9cc-aac5-4f91-9dad-0f33edbed2ce",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "True"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "False"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
@@ -131,7 +129,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Anamnesis",
               "type": "obs",
               "required": false,
               "id": "anamnesis",
@@ -142,7 +139,6 @@
               "validators": []
             },
             {
-              "label": "Past medical history",
               "type": "obs",
               "required": false,
               "id": "pastMedicalHistory",
@@ -153,7 +149,6 @@
               "validators": []
             },
             {
-              "label": "Family history",
               "type": "obs",
               "required": false,
               "id": "familyHistory",
@@ -164,7 +159,6 @@
               "validators": []
             },
             {
-              "label": "Previous hospitalization",
               "type": "obs",
               "required": false,
               "id": "previousHospitalization",
@@ -173,12 +167,10 @@
                 "concept": "a1d46f24-06ff-4f8d-b2b0-e6754bcc37a5",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "Yes"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "No"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
@@ -188,7 +180,6 @@
               "hide": {
                 "hideWhenExpression": "isEmpty(previousHospitalization) || previousHospitalization !== 'bf885a9d-9f98-4990-8c20-ac4ace816bfe'"
               },
-              "label": "Reason",
               "type": "obs",
               "required": false,
               "id": "ifYesReason",
@@ -199,7 +190,6 @@
               "validators": []
             },
             {
-              "label": "Vaccination status",
               "type": "obs",
               "required": false,
               "id": "vaccinationStatus",
@@ -213,7 +203,6 @@
               "validators": []
             },
             {
-              "label": "Tetanus",
               "type": "obs",
               "required": false,
               "id": "tetanus",
@@ -222,19 +211,16 @@
                 "concept": "5890a04f-5327-4145-a8e5-24aed5e9b91e",
                 "answers": [
                   {
-                    "concept": "1d481a5f-f8e0-43ba-8732-5b5e22180d93",
-                    "label": "Up to date"
+                    "concept": "1d481a5f-f8e0-43ba-8732-5b5e22180d93"
                   },
                   {
-                    "concept": "f05641c9-e583-4f03-8a00-a722cca8a00f",
-                    "label": "Not up to date"
+                    "concept": "f05641c9-e583-4f03-8a00-a722cca8a00f"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Other Vaccinations",
               "type": "obs",
               "required": false,
               "id": "otherVaccinations",
@@ -243,12 +229,10 @@
                 "concept": "8c78ddb4-8e22-4c06-b48c-60ea8624d685",
                 "answers": [
                   {
-                    "concept": "1d481a5f-f8e0-43ba-8732-5b5e22180d93",
-                    "label": "Up to date"
+                    "concept": "1d481a5f-f8e0-43ba-8732-5b5e22180d93"
                   },
                   {
-                    "concept": "f05641c9-e583-4f03-8a00-a722cca8a00f",
-                    "label": "Not up to date"
+                    "concept": "f05641c9-e583-4f03-8a00-a722cca8a00f"
                   }
                 ]
               },
@@ -261,7 +245,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Alcohol",
               "type": "obs",
               "required": false,
               "id": "alcohol",
@@ -270,18 +253,15 @@
                 "concept": "16a035ea-acf0-4e54-9c63-ffd126aaa3f7",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "True"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "False"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               }
             },
             {
-              "label": "Tobacco",
               "type": "obs",
               "required": false,
               "id": "tobacco",
@@ -290,19 +270,16 @@
                 "concept": "61ac6631-a248-4dae-bd32-33520d26c04d",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "True"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "False"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Coffee",
               "type": "obs",
               "required": false,
               "id": "coffee",
@@ -311,12 +288,10 @@
                 "concept": "0c787837-0e53-49a6-9be7-4df178dd6fcd",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "True"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "False"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
@@ -332,19 +307,16 @@
                 "concept": "7d2e95f9-1368-4ef9-b65e-224aba05e5d3",
                 "answers": [
                   {
-                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe",
-                    "label": "True"
+                    "concept": "bf885a9d-9f98-4990-8c20-ac4ace816bfe"
                   },
                   {
-                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a",
-                    "label": "False"
+                    "concept": "2120763c-6c49-4133-b532-1e931ab4858a"
                   }
                 ]
               },
               "validators": []
             },
             {
-              "label": "Other",
               "type": "obs",
               "required": false,
               "id": "other",
@@ -361,7 +333,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Review of systems",
               "type": "obs",
               "required": false,
               "id": "reviewOfSystems",
@@ -378,7 +349,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "General condition / Nutritional status",
               "type": "obs",
               "required": false,
               "id": "generalCondition/NutritionalStatus",
@@ -389,7 +359,6 @@
               "validators": []
             },
             {
-              "label": "Fast Ultrasound ",
               "type": "obs",
               "required": false,
               "id": "ultrasound",
@@ -411,7 +380,6 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Impressions / Diagnostics",
               "type": "obs",
               "required": false,
               "id": "impressions/Diagnostics",
@@ -422,7 +390,6 @@
               "validators": []
             },
             {
-              "label": "Re-evalution",
               "type": "obs",
               "required": false,
               "id": "re-Evalution",
@@ -433,7 +400,6 @@
               "validators": []
             },
             {
-              "label": "Expected duration of stay (days)",
               "type": "obs",
               "required": false,
               "id": "expectedDurationOfStay(Days)",
