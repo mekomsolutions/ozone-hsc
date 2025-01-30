@@ -403,7 +403,8 @@
     "daysDurationUnit": {
       "uuid": "327cdb97-571c-2d13-306b-4024fce268cb",
       "display": "Day(s)"
-    }
+    },
+    "drugOrderTypeUUID": "16bb6bcf-2e81-4ba5-8583-ff4913201a72"
   },
   "@openmrs/esm-patient-tests-app": {
     "resultsViewerConcepts": [
