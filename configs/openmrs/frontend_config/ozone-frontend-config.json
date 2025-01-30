@@ -270,7 +270,8 @@
     ],
     "extensionSlots": {
       "patient-chart-summary-dashboard-slot": {
-        "add": ["attachments-overview-widget", "allergies-details-widget"]
+        "add": ["attachments-overview-widget", "allergies-details-widget"],
+        "remove": ["vitals-overview-widget"]
       },
       "patient-chart-dashboard-slot": {
         "add": ["nav-group#lifeStyle"],
