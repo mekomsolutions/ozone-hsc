@@ -102,6 +102,8 @@
                   <excludes>
                     <!-- Effectively disable inherited exclusions -->
                     <exclude>non-existing_file</exclude>
+                    <exclude>**/**/**/**/*.gitkeep</exclude>
+                    <exclude>**/**/**/**/metadata.yaml</exclude>
                   </excludes>
                 </resource>
               </resources>
@@ -214,17 +216,6 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-dependency-plugin</artifactId>
         <executions>
-          <execution>
-            <id>Unpack Ozone Pro</id>
-            <phase>generate-resources</phase>
-            <goals>
-              <goal>unpack-dependencies</goal>
-            </goals>
-            <configuration>
-              <excludeTransitive>true</excludeTransitive>
-              <outputDirectory>${project.build.directory}/ozone-pro</outputDirectory>
-            </configuration>
-          </execution>
           <!-- Unpack Ozone HSC Superset configs -->
           <execution>
             <id>Unpack Ozone HSC Superset configs sub-module</id>
@@ -253,6 +244,17 @@
                 ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/analytics/
               </outputDirectory>
               <includeArtifactIds>${analyticQueriesArtifactId}</includeArtifactIds>
+            </configuration>
+          </execution>
+          <execution>
+            <id>Unpack Ozone Pro</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>unpack-dependencies</goal>
+            </goals>
+            <configuration>
+              <excludeTransitive>true</excludeTransitive>
+              <outputDirectory>${project.build.directory}/ozone-pro</outputDirectory>
             </configuration>
           </execution>
         </executions>
