@@ -454,5 +454,14 @@
       "pageSize": 50,
       "obs": ["bbb02557-0277-4979-a1fa-b0020f136066"]
     }
+  },
+  "@openmrs/esm-ward-app": {
+    "extensionSlots": {
+      "action-menu-ward-patient-items-slot": {
+        "add": [
+          "order-basket-action-menu"
+        ]
+      }
+    }
   }
 }
