@@ -1,0 +1,49 @@
+slice_name: List of patients seen with diagnosis
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 5__table
+  viz_type: table
+  query_mode: raw
+  groupby: []
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    date_started: true
+  all_columns:
+  - openmrs_id
+  - patient_name
+  - gender
+  - age
+  - diagnosis_order
+  - diagnosis
+  - diagnosis_certainty
+  - type
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    subject: date_started
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  order_by_cols:
+  - '["date_started", false]'
+  row_limit: 10000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  include_search: true
+  show_cell_bars: false
+  color_pn: true
+  allow_rearrange_columns: true
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards: []
+query_context: '{"datasource":{"id":5,"type":"table"},"force":false,"queries":[{"filters":[{"col":"date_started","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["openmrs_id","patient_name","gender","age","diagnosis_order","diagnosis","diagnosis_certainty","type"],"orderby":[["date_started",false]],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"5__table","viz_type":"table","query_mode":"raw","groupby":[],"time_grain_sqla":"P1D","temporal_columns_lookup":{"date_started":true},"all_columns":["openmrs_id","patient_name","gender","age","diagnosis_order","diagnosis","diagnosis_certainty","type"],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","subject":"date_started","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"order_by_cols":["[\"date_started\", false]"],"row_limit":10000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","include_search":true,"show_cell_bars":false,"color_pn":true,"allow_rearrange_columns":true,"conditional_formatting":[],"extra_form_data":{},"dashboards":[],"force":false,"result_format":"json","result_type":"full","include_time":false},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: a5afbecb-f6ba-4d7a-bbef-b1864cf778ea
+version: 1.0.0
+dataset_uuid: 99cf35bd-53d1-42b1-8220-d72c2bee65ac

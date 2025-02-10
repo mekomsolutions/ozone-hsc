@@ -1,0 +1,68 @@
+slice_name: List of children seen under 5 years old
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 2__table
+  viz_type: table
+  slice_id: 5
+  query_mode: raw
+  groupby: []
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    current_visit_date: true
+    first_visit_of_year_date: true
+    birthdate: true
+  all_columns:
+  - openmrs_id
+  - patient_name
+  - gender
+  - age_in_months
+  - weight
+  - height
+  - head_circumference
+  - current_visit_date
+  - current_visit_type
+  - first_visit_of_year_date
+  - first_visit_of_year_type
+  percent_metrics: []
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: current_visit_date
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    comparator: No filter
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_6mejjbnzna_e7xkutao8li
+  order_by_cols: []
+  row_limit: 10000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: '%Y-%m-%d %H:%M:%S'
+  page_length: 200
+  include_search: true
+  show_cell_bars: false
+  color_pn: true
+  allow_rearrange_columns: true
+  column_config:
+    first_visit_of_year:
+      d3TimeFormat: '%d-%m-%Y %H:%M:%S'
+      horizontalAlign: left
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 4
+query_context: '{"datasource":{"id":2,"type":"table"},"force":false,"queries":[{"filters":[{"col":"current_visit_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["openmrs_id","patient_name","gender","age_in_months","weight","height","head_circumference","current_visit_date","current_visit_type","first_visit_of_year_date","first_visit_of_year_type"],"orderby":[],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"2__table","viz_type":"table","slice_id":5,"query_mode":"raw","groupby":[],"time_grain_sqla":"P1D","temporal_columns_lookup":{"current_visit_date":true,"first_visit_of_year_date":true,"birthdate":true},"all_columns":["openmrs_id","patient_name","gender","age_in_months","weight","height","head_circumference","current_visit_date","current_visit_type","first_visit_of_year_date","first_visit_of_year_type"],"percent_metrics":[],"adhoc_filters":[{"expressionType":"SIMPLE","subject":"current_visit_date","operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","comparator":"No
+  filter","clause":"WHERE","sqlExpression":null,"isExtra":false,"isNew":false,"datasourceWarning":false,"filterOptionName":"filter_6mejjbnzna_e7xkutao8li"}],"order_by_cols":[],"row_limit":10000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"%Y-%m-%d
+  %H:%M:%S","page_length":200,"include_search":true,"show_cell_bars":false,"color_pn":true,"allow_rearrange_columns":true,"column_config":{"first_visit_of_year":{"d3TimeFormat":"%d-%m-%Y
+  %H:%M:%S","horizontalAlign":"left"}},"conditional_formatting":[],"extra_form_data":{},"dashboards":[4],"force":false,"result_format":"json","result_type":"full","include_time":false},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 1aba6034-43f6-48f5-be46-ba3aa584096a
+version: 1.0.0
+dataset_uuid: b0e8406b-57c6-4b14-a259-8ff3be2c8cf1

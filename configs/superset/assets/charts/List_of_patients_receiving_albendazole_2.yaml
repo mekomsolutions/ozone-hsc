@@ -1,0 +1,70 @@
+slice_name: List of patients receiving albendazole
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 1__table
+  viz_type: table
+  slice_id: 2
+  query_mode: raw
+  groupby: []
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    birthdate: true
+    date_created: true
+  all_columns:
+  - openmrs_id
+  - patient_name
+  - gender
+  - age
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_n8s3g7tbmhl_npvfrwkm1mc
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: date_created
+  order_by_cols:
+  - '["date_created", false]'
+  row_limit: 10000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  page_length: 100
+  include_search: true
+  show_cell_bars: false
+  align_pn: false
+  color_pn: true
+  allow_rearrange_columns: false
+  column_config:
+    gender:
+      horizontalAlign: center
+    age:
+      horizontalAlign: center
+      colorPositiveNegative: false
+      alignPositiveNegative: false
+    patient_name:
+      horizontalAlign: left
+      truncateLongCells: true
+    openmrs_id:
+      truncateLongCells: true
+      horizontalAlign: left
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 3
+query_context: '{"datasource":{"id":1,"type":"table"},"force":false,"queries":[{"filters":[{"col":"date_created","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["openmrs_id","patient_name","gender","age"],"orderby":[["date_created",false]],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"1__table","viz_type":"table","slice_id":2,"query_mode":"raw","groupby":[],"time_grain_sqla":"P1D","temporal_columns_lookup":{"birthdate":true,"date_created":true},"all_columns":["openmrs_id","patient_name","gender","age"],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_n8s3g7tbmhl_npvfrwkm1mc","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","sqlExpression":null,"subject":"date_created"}],"order_by_cols":["[\"date_created\",
+  false]"],"row_limit":10000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","page_length":100,"include_search":true,"show_cell_bars":false,"align_pn":false,"color_pn":true,"allow_rearrange_columns":false,"column_config":{"gender":{"horizontalAlign":"center"},"age":{"horizontalAlign":"center","colorPositiveNegative":false,"alignPositiveNegative":false},"patient_name":{"horizontalAlign":"left","truncateLongCells":true},"openmrs_id":{"truncateLongCells":true,"horizontalAlign":"left"}},"conditional_formatting":[],"extra_form_data":{},"dashboards":[3],"force":false,"result_format":"json","result_type":"full","include_time":false},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 1b40bb3d-5f65-4f97-bd52-686ee5804cff
+version: 1.0.0
+dataset_uuid: 112cd19a-9a3a-45a5-95cb-e1f1b198eece
