@@ -132,6 +132,12 @@
                   <directory>
                     ${project.build.directory}/ozone-pro/distro/binaries/openmrs/jmx_exporter</directory>
                 </resource>
+                 <resource>
+                  <targetPath>
+                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/jmx_exporter_config</targetPath>
+                  <directory>
+                    ${project.build.directory}/ozone-pro/distro/configs/openmrs/jmx_exporter_config</directory>
+                </resource>
               </resources>
             </configuration>
           </execution>
