@@ -16,4 +16,13 @@
 			<where>name='email'</where>
 		</update>
 	</changeSet>
+	<changeSet id="postbahmni-2024-02-14-13-20" author="nathan">
+		<comment>
+			Set order type 'Drug Order' UUID
+		</comment>
+		<update tableName="order_type">
+			<column name="uuid" value="16bb6bcf-2e81-4ba5-8583-ff4913201a72"/>
+			<where>name='Drug Order'</where>
+		</update>
+	</changeSet>
 </databaseChangeLog>
