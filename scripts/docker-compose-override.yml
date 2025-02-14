@@ -2,3 +2,9 @@ services:
   odoo:
     environment:
       - ADDONS=sale_management,stock,account_account,purchase,mrp,odoo_initializer,ozone_settings,mrp_product_expiry,product_expiry,l10n_generic_coa,stock_extension
+  env-substitution:
+    environment:
+      - ODOO_HOST=http://odoo
+      - ODOO_USER=${ODOO_USER}
+      - ODOO_PASSWORD=${ODOO_PASSWORD}
+      - ODOO_DB=${ODOO_DB}
