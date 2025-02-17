@@ -169,6 +169,26 @@
               </resources>
             </configuration>
           </execution>
+          <execution>
+            <!-- Copy Central Auth EIP client Data file -->
+            <id>Copy Central Auth EIP client Data file</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}-${project.version}/distro/data/mysql
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>
+                    ${project.build.directory}/ozone-pro/distro/data/mysql</directory>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
         </executions>
       </plugin>
       <plugin>
