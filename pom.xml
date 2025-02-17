@@ -178,13 +178,13 @@
             </goals>
             <configuration>
               <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}/distro/data/mysql
+                ${project.build.directory}/${project.artifactId}-${project.version}/distro/data
               </outputDirectory>
               <overwrite>true</overwrite>
               <resources>
                 <resource>
                   <directory>
-                    ${project.build.directory}/ozone-pro/distro/data/mysql</directory>
+                    ${project.build.directory}/ozone-pro/distro/data</directory>
                 </resource>
               </resources>
             </configuration>
