@@ -1,0 +1,177 @@
+dashboard_title: Patients receiving albendazole
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: true
+uuid: 01e13120-41cb-46cc-b448-ddd4722eae2b
+position:
+  CHART-5ziqHE8CZf:
+    children: []
+    id: CHART-5ziqHE8CZf
+    meta:
+      chartId: 3
+      height: 54
+      sliceName: Age distribution of patients receiving albendazole
+      uuid: 77d1228c-2f30-4ea3-af5c-569addc79c26
+      width: 8
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-IEpzG1gad7
+    type: CHART
+  CHART-9a1_gvxj5s:
+    children: []
+    id: CHART-9a1_gvxj5s
+    meta:
+      chartId: 2
+      height: 108
+      sliceName: List of patients receiving albendazole
+      uuid: 1b40bb3d-5f65-4f97-bd52-686ee5804cff
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-djCKBsLMYe
+    type: CHART
+  CHART-y2P3o1ejTV:
+    children: []
+    id: CHART-y2P3o1ejTV
+    meta:
+      chartId: 1
+      height: 54
+      sliceName: Total number of patients receiving albendazole
+      uuid: 97ecb090-b536-4222-b8e1-4a2f0ee0def8
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-djCKBsLMYe
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-pgJRIAM8UZ
+    - ROW-UzXDmPpGK
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Patients receiving albendazole
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-UzXDmPpGK:
+    children:
+    - CHART-9a1_gvxj5s
+    id: ROW-UzXDmPpGK
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-pgJRIAM8UZ:
+    children:
+    - CHART-y2P3o1ejTV
+    - CHART-5ziqHE8CZf
+    id: ROW-pgJRIAM8UZ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  chart_configuration:
+    '2':
+      id: 2
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 3
+    '3':
+      id: 3
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+  color_scheme: ''
+  refresh_frequency: 0
+  shared_label_colors:
+    F: '#1FA8C9'
+    M: '#5AC189'
+  color_scheme_domain: []
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  native_filter_configuration:
+  - id: NATIVE_FILTER-kXCC6TS75
+    controlValues:
+      enableEmptyFilter: false
+    name: Reporting period
+    filterType: filter_time
+    targets:
+    - {}
+    defaultDataMask:
+      extraFormData:
+        time_range: Last month
+      filterState:
+        value: Last month
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+    tabsInScope: []
+  - id: NATIVE_FILTER-vT-VRjUTd
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    name: Gender
+    filterType: filter_select
+    targets:
+    - column:
+        name: gender
+      datasetUuid: 112cd19a-9a3a-45a5-95cb-e1f1b198eece
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+version: 1.0.0
