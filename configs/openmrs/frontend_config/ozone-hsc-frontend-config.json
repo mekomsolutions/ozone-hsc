@@ -301,6 +301,36 @@
       }
     }
   },
+  "@openmrs/esm-patient-appointments-app": {
+    "Display conditions": {
+      "privileges": ["Manage Appointments"]
+    }
+  },
+  "@openmrs/esm-patient-immunizations-app": {
+    "Display conditions": {
+      "privileges": ["Add Immunizations"]
+    }
+  },
+  "@openmrs/esm-patient-attachments-app": {
+    "Display conditions": {
+      "privileges": ["Add Attachments"]
+    }
+  },
+  "@openmrs/esm-patient-conditions-app": {
+    "Display conditions": {
+      "privileges": ["Add Conditions", "Get Conditions"]
+    }
+  },
+  "@openmrs/esm-patient-forms-app": {
+    "Display conditions": {
+      "privileges": ["Get Forms"]
+    }
+  },
+  "@openmrs/esm-patient-allergies-app": {
+    "Display conditions": {
+      "privileges": ["Get Allergies", "Add Allergies"]
+    }
+  },
   "@openmrs/esm-patient-vitals-app": {
     "concepts": {
       "systolicBloodPressureUuid": "bc4f2e44-26b0-4f5f-a98f-248601fdf792",
