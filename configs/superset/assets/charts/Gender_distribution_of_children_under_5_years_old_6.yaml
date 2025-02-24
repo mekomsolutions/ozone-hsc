@@ -1,0 +1,52 @@
+slice_name: Gender distribution of children under 5 years old
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 2__table
+  viz_type: pie
+  slice_id: 6
+  groupby:
+  - gender
+  metric: count
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: current_visit_date
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    comparator: No filter
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_a0zvscn24c6_j84un5ad4bn
+  row_limit: 100
+  sort_by_metric: true
+  color_scheme: supersetColors
+  show_labels_threshold: 5
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  legendMargin: null
+  label_type: key_value_percent
+  number_format: ',d'
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: true
+  outerRadius: 62
+  donut: true
+  innerRadius: 30
+  extra_form_data: {}
+  dashboards:
+  - 4
+query_context: '{"datasource":{"id":2,"type":"table"},"force":false,"queries":[{"filters":[{"col":"current_visit_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["gender"],"metrics":["count"],"orderby":[["count",false]],"annotation_layers":[],"row_limit":100,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"2__table","viz_type":"pie","slice_id":6,"groupby":["gender"],"metric":"count","adhoc_filters":[{"expressionType":"SIMPLE","subject":"current_visit_date","operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","comparator":"No
+  filter","clause":"WHERE","sqlExpression":null,"isExtra":false,"isNew":false,"datasourceWarning":false,"filterOptionName":"filter_a0zvscn24c6_j84un5ad4bn"}],"row_limit":100,"sort_by_metric":true,"color_scheme":"supersetColors","show_labels_threshold":5,"show_legend":true,"legendType":"scroll","legendOrientation":"top","legendMargin":null,"label_type":"key_value_percent","number_format":",d","date_format":"smart_date","show_labels":true,"labels_outside":true,"label_line":true,"show_total":true,"outerRadius":62,"donut":true,"innerRadius":30,"extra_form_data":{},"dashboards":[4],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 7ae34a95-c450-4107-bb95-0a1323655d64
+version: 1.0.0
+dataset_uuid: b0e8406b-57c6-4b14-a259-8ff3be2c8cf1
