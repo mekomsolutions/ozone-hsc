@@ -13,3 +13,4 @@ services:
   eip-odoo-openmrs:
     environment:
       - EIP_FHIR_RESOURCES=Patient,ServiceRequest,MedicationRequest,SupplyRequest,Procedure
+      - EIP_DRUG_ORDER_TYPE_UUID=16bb6bcf-2e81-4ba5-8583-ff4913201a72
