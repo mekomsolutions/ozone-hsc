@@ -1,0 +1,38 @@
+slice_name: Total number of patients receiving albendazole
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 1__table
+  viz_type: big_number_total
+  slice_id: 1
+  metric: count
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: date_created
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    comparator: No filter
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_kmacbodjbus_uu6g2q90ron
+  subheader: Patients
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: ',d'
+  time_format: smart_date
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 3
+query_context: '{"datasource":{"id":1,"type":"table"},"force":false,"queries":[{"filters":[{"col":"date_created","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":["count"],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"1__table","viz_type":"big_number_total","slice_id":1,"metric":"count","adhoc_filters":[{"expressionType":"SIMPLE","subject":"date_created","operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","comparator":"No
+  filter","clause":"WHERE","sqlExpression":null,"isExtra":false,"isNew":false,"datasourceWarning":false,"filterOptionName":"filter_kmacbodjbus_uu6g2q90ron"}],"subheader":"Patients","header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":",d","time_format":"smart_date","conditional_formatting":[],"extra_form_data":{},"dashboards":[3],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 97ecb090-b536-4222-b8e1-4a2f0ee0def8
+version: 1.0.0
+dataset_uuid: 112cd19a-9a3a-45a5-95cb-e1f1b198eece

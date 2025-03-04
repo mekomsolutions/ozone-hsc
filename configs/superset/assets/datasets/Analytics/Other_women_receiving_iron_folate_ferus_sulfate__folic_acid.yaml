@@ -1,0 +1,138 @@
+table_name: Other women receiving iron folate (ferus sulfate + folic acid)
+main_dttm_col: birthdate
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+schema: public
+sql: "SELECT DISTINCT\n  SUBSTRING(\n    identifiers\n    FROM\n      'Num\xE9ro Dossier:\
+  \ ([^,]*)'\n  ) AS openmrs_id,\n  CONCAT_WS (' ', given_name, middle_name, family_name)\
+  \ AS patient_name,\n  gender,\n  DATE_PART ('year', age (ord.date_created, birthdate))\
+  \ AS age,\n  birthdate,\n  ct.name AS drug_name,\n  v.type,\n  v.date_started\n\
+  FROM\n  visits v\n  LEFT JOIN patients pt ON (\n    v.patient_uuid=pt.patient_uuid\n\
+  \    AND pt.patient_id IS NOT NULL\n  )\n  LEFT JOIN orders ord ON (\n    ord.patient_id=pt.patient_id\n\
+  \    AND ord.voided IS FALSE\n  )\n  LEFT JOIN concepts ct ON (\n    ord.concept_id=ct.concept_id\n\
+  \    AND ct.concept_id IS NOT NULL\n  )\nWHERE\n  ord.order_type_uuid='16bb6bcf-2e81-4ba5-8583-ff4913201a72'\
+  \ --Drug orders only\n  AND ct.uuid IN ('d1274833-6c0e-480c-9c0a-b656156e6e7f')\
+  \ -- Ferrous Folate\n  AND v.visit_type_uuid NOT IN ('35ba9aff-901c-49dc-8630-a59385480d18')\
+  \ -- Exclude Pre natal visits\n  AND gender = 'F'\n  AND DATE_PART ('year', age\
+  \ (ord.date_created, birthdate)) >= 15\nORDER BY\n  v.date_started;\n"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: 7232c62b-55a1-48c1-a13f-edba38253ec0
+metrics:
+- metric_name: count
+  verbose_name: Total Entries
+  metric_type: count
+  expression: COUNT(*)
+  description: Total number of records in the dataset, including all rows regardless
+    of values
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+columns:
+- column_name: age
+  verbose_name: Age (years)
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: date_started
+  verbose_name: Visit Date
+  is_dttm: true
+  is_active: true
+  type: DATETIME
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: openmrs_id
+  verbose_name: Patient ID
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: type
+  verbose_name: Visit Type
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: gender
+  verbose_name: Gender
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: patient_name
+  verbose_name: Name
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: birthdate
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: DATE
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: drug_name
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+version: 1.0.0
+database_uuid: 4e5f4045-a62d-4964-b719-58229a60e7fe
