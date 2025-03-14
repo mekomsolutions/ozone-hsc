@@ -221,6 +221,13 @@
     }
   },
   "@openmrs/esm-primary-navigation-app": {
+    "extensionSlots": {
+      "user-panel-slot": {
+        "remove": [
+          "password-changer"
+        ]
+      }
+    },
     "externalRefLinks": [
       {
         "title": "Pharmacy, Billing & Inventory",
