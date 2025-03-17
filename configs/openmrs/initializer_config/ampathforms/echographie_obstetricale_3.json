@@ -14,6 +14,7 @@
               "id": "numberOfFetuses",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "concept": "a7ad184c-b79a-476d-9ba2-ef980375da28",
                 "conceptMappings": [
                   {
@@ -22,7 +23,7 @@
                     "value": "165387"
                   }
                 ],
-                "disallowDecimals": true
+                "disallowDecimals": false
               },
               "validators": []
             },
@@ -32,8 +33,9 @@
               "id": "numberOfPlacenta",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "concept": "c1e61ae3-4de8-4fe1-9b7a-8c1ae56d1631",
-                "disallowDecimals": true
+                "disallowDecimals": false
               },
               "validators": []
             },
@@ -76,6 +78,7 @@
                   "id": "fetalHeartRate",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "min": "120",
                     "max": "160",
                     "concept": "7ce5a9fe-d9e0-427e-a080-ce8a9c673822",

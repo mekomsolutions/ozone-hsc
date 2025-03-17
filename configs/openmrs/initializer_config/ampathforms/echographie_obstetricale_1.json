@@ -48,6 +48,7 @@
                   "id": "numberOfWeeks",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "73099ba8-73c7-4427-a973-76fc1e4d4120",
                     "disallowDecimals": true
                   },
@@ -59,6 +60,7 @@
                   "id": "numberOfDays",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "f887f487-58a2-4429-944c-c2134ea658de",
                     "disallowDecimals": true
                   },
@@ -118,6 +120,7 @@
               "id": "numberOfFetuses",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "concept": "a7ad184c-b79a-476d-9ba2-ef980375da28",
                 "conceptMappings": [
                   {
@@ -136,6 +139,7 @@
               "id": "numberOfPlacenta",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "concept": "c1e61ae3-4de8-4fe1-9b7a-8c1ae56d1631",
                 "disallowDecimals": true
               },
@@ -180,6 +184,7 @@
                   "id": "fetalHeartRate",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "min": "120",
                     "max": "160",
                     "concept": "7ce5a9fe-d9e0-427e-a080-ce8a9c673822",
