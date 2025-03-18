@@ -14,6 +14,7 @@
               "id": "ageAtMenarche",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "concept": "d5fea038-5a9d-47b1-87d3-8a3b162db2c0",
                 "disallowDecimals": true
               },
@@ -43,6 +44,7 @@
               "id": "totalNumberOfPregnancies",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "concept": "5bab781c-96be-4c32-b75b-d7906ddff555",
                 "disallowDecimals": true
               },
@@ -55,6 +57,7 @@
               "id": "numberOfAbortions",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "concept": "88e9ef3b-651f-47ea-89c5-5f751cee165b",
                 "disallowDecimals": true
               },
@@ -66,6 +69,7 @@
               "id": "numberOfTermPregnancies",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "concept": "b346c76b-56ba-4c27-97cc-f7b0f85bf581",
                 "conceptMappings": [
                   {
@@ -274,6 +278,7 @@
                   "id": "numberOfPartners",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "cfe9491c-8f42-425d-9c0a-987c171006e6",
                     "disallowDecimals": true
                   },

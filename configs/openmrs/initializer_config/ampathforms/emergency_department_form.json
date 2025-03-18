@@ -195,6 +195,7 @@
               "id": "vaccinationStatus",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "min": "1900",
                 "max": "2100",
                 "concept": "ea3e990a-eae3-40c9-a6c0-367468b71f8d",
@@ -405,6 +406,7 @@
               "id": "expectedDurationOfStay(Days)",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "min": "0",
                 "concept": "e232692d-e2a5-4c12-bad0-805862bf8e23",
                 "disallowDecimals": true

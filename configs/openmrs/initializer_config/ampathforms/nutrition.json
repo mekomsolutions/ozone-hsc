@@ -143,6 +143,7 @@
                   "id": "duration",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "b0823b2c-4bc8-2a7c-41b5-7bf3c7f14e82",
                     "disallowDecimals": true
                   },

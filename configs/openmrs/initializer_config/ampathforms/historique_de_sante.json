@@ -79,6 +79,7 @@
                   "id": "duration",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "b0823b2c-4bc8-2a7c-41b5-7bf3c7f14e82",
                     "disallowDecimals": true
                   },
@@ -689,6 +690,7 @@
                       "id": "ageAtFirstIntercourse",
                       "questionOptions": {
                         "rendering": "number",
+                        "step": 1,
                         "concept": "2f6144e3-ec2c-4858-b01e-af447d68c136",
                         "disallowDecimals": true
                       },
