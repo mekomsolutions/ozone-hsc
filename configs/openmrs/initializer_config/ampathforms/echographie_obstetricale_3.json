@@ -23,7 +23,7 @@
                     "value": "165387"
                   }
                 ],
-                "disallowDecimals": false
+                "disallowDecimals": true
               },
               "validators": []
             },
@@ -35,7 +35,7 @@
                 "rendering": "number",
                 "step": 1,
                 "concept": "c1e61ae3-4de8-4fe1-9b7a-8c1ae56d1631",
-                "disallowDecimals": false
+                "disallowDecimals": true
               },
               "validators": []
             },
