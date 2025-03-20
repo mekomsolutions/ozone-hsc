@@ -32,8 +32,8 @@
    <ul>
     <li>Depends on:
      <ul>
-      <li><a href="https://docs.ozone-his.com/users/#ozone-his-apps">Ozone Alpha 12</a></li>
-      <li><a href="https://github.com/mekomsolutions/ozone-haiti?tab=readme-ov-file#ozone-haiti-">Ozone Haiti 1.0.0</a></li>
+      <li><a href="https://docs.ozone-his.com/users/#ozone-his-apps">Ozone 1.0.0-alpha.13</a></li>
+      <li><a href="https://github.com/mekomsolutions/ozone-haiti?tab=readme-ov-file#release-notes">Ozone Haiti 1.0.0</a></li>
      </ul>
     </li>
    </ul>
