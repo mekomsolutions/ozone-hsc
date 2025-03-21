@@ -129,6 +129,12 @@
                 </resource>
                 <resource>
                   <targetPath>
+                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/eip-keycloak-odoo</targetPath>
+                  <directory>
+                    ${project.build.directory}/ozone-pro/distro/binaries/eip-keycloak-odoo/</directory>
+                </resource>
+                <resource>
+                  <targetPath>
                     ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/openmrs/jmx_exporter</targetPath>
                   <directory>
                     ${project.build.directory}/ozone-pro/distro/binaries/openmrs/jmx_exporter</directory>
@@ -138,6 +144,40 @@
                     ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/openmrs/jmx_exporter_config</targetPath>
                   <directory>
                     ${project.build.directory}/ozone-pro/distro/configs/openmrs/jmx_exporter_config</directory>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- Copy Central Auth Configuration files -->
+            <id>Copy Central Auth Configurations </id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <targetPath>
+                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/eip-keycloak-superset</targetPath>
+                  <directory>
+                    ${project.build.directory}/ozone-pro/distro/configs/eip-keycloak-superset/</directory>
+                </resource>
+                <resource>
+                  <targetPath>
+                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/eip-keycloak-openmrs</targetPath>
+                  <directory>
+                    ${project.build.directory}/ozone-pro/distro/configs/eip-keycloak-openmrs/</directory>
+                </resource>
+                <resource>
+                  <targetPath>
+                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/eip-keycloak-odoo</targetPath>
+                  <directory>
+                    ${project.build.directory}/ozone-pro/distro/configs/eip-keycloak-odoo/</directory>
                 </resource>
               </resources>
             </configuration>
