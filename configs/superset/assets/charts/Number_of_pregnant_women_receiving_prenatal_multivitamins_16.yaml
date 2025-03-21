@@ -1,0 +1,38 @@
+slice_name: Number of pregnant women receiving prenatal multivitamins
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 6__table
+  viz_type: big_number_total
+  slice_id: 16
+  metric: count
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_x3e7weut2fi_loxfqx4vyu
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: date_started
+  subheader: Patients
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: ',d'
+  time_format: smart_date
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 6
+query_context: '{"datasource":{"id":6,"type":"table"},"force":false,"queries":[{"filters":[{"col":"date_started","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":["count"],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"6__table","viz_type":"big_number_total","slice_id":16,"metric":"count","adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_x3e7weut2fi_loxfqx4vyu","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","sqlExpression":null,"subject":"date_started"}],"subheader":"Patients","header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":",d","time_format":"smart_date","conditional_formatting":[],"extra_form_data":{},"dashboards":[6],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 5aced814-8c3f-4c9a-8fa5-e1e220674a25
+version: 1.0.0
+dataset_uuid: f1553bdf-bff6-49e6-8ef2-ed70a90fae52

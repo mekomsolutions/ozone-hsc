@@ -1,0 +1,39 @@
+slice_name: Total number of pregnant women receiving iron folate (ferus sulfate +
+  folic acid)
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 3__table
+  viz_type: big_number_total
+  slice_id: 10
+  metric: count
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_qewt5zzkgm_ds69dv7adek
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: date_started
+  subheader: Patients
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: ',d'
+  time_format: smart_date
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 2
+query_context: '{"datasource":{"id":3,"type":"table"},"force":false,"queries":[{"filters":[{"col":"date_started","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":["count"],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"3__table","viz_type":"big_number_total","slice_id":10,"metric":"count","adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_qewt5zzkgm_ds69dv7adek","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","sqlExpression":null,"subject":"date_started"}],"subheader":"Patients","header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":",d","time_format":"smart_date","conditional_formatting":[],"extra_form_data":{},"dashboards":[2],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 9511533c-5123-4286-909b-5d43c791debd
+version: 1.0.0
+dataset_uuid: 54e7e9a1-4295-4ead-9726-8aef532c85a5
