@@ -129,6 +129,12 @@
                 </resource>
                 <resource>
                   <targetPath>
+                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/eip-keycloak-odoo</targetPath>
+                  <directory>
+                    ${project.build.directory}/ozone-pro/distro/binaries/eip-keycloak-odoo/</directory>
+                </resource>
+                <resource>
+                  <targetPath>
                     ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/openmrs/jmx_exporter</targetPath>
                   <directory>
                     ${project.build.directory}/ozone-pro/distro/binaries/openmrs/jmx_exporter</directory>
