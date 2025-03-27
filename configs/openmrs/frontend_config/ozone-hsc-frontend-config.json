@@ -494,9 +494,10 @@
   },
   "@openmrs/esm-ward-app": {
     "extensionSlots": {
-      "action-menu-ward-patient-items-slot": {
+      "ward-patient-workspace-header-slot": {
         "add": [
-          "order-basket-action-menu"
+          "active-medications-widget",
+          "conditions-details-widget"
         ]
       }
     }
