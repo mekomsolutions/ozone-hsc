@@ -418,6 +418,7 @@
     ]
   },
   "@openmrs/esm-patient-medications-app": {
+    "requireIndication": false,
     "drugOrderTypeUUID": "16bb6bcf-2e81-4ba5-8583-ff4913201a72",
     "daysDurationUnit": {
       "uuid": "327cdb97-571c-2d13-306b-4024fce268cb",
