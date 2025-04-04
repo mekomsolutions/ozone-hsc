@@ -22,6 +22,7 @@
               }
             },
             {
+              "label": "Pulse (beats/min)",
               "type": "obs",
               "required": false,
               "id": "pulseTest",
@@ -42,6 +43,7 @@
               }
             },
             {
+              "label": "Temperature",
               "type": "obs",
               "required": false,
               "id": "temperatureTest",
@@ -62,6 +64,7 @@
               }
             },
             {
+              "label": "Respiratory Rate (breaths/min)",
               "type": "obs",
               "required": false,
               "id": "respiratoryRate",
@@ -81,6 +84,7 @@
               "validators": []
             },
             {
+              "label": "Oxygen Saturation (%)",
               "type": "obs",
               "required": false,
               "id": "oxygenSaturation",
@@ -106,6 +110,7 @@
           "isExpanded": "true",
           "questions": [
             {
+              "label": "Systolic Blood Pressure (mmHg)",
               "type": "obs",
               "required": false,
               "id": "systolicBloodPressure",
@@ -125,6 +130,7 @@
               }
             },
             {
+              "label": "Diastolic Blood Pressure (mmHg)",
               "type": "obs",
               "required": false,
               "id": "diastolicBloodPressure",
@@ -155,6 +161,7 @@
           "isExpanded": "true",
           "questions": [
             {
+              "label": "Level of emergency severity assessment",
               "type": "obs",
               "required": false,
               "id": "levelOfEmergencySeverityAssessment",
@@ -183,6 +190,7 @@
           "isExpanded": "true",
           "questions": [
             {
+              "label": "Height",
               "type": "obs",
               "required": false,
               "id": "height",
@@ -200,6 +208,7 @@
               "validators": []
             },
             {
+              "label": "Weight",
               "type": "obs",
               "required": false,
               "id": "weight",
@@ -218,6 +227,7 @@
               }
             },
             {
+              "label": "Head Circumference",
               "type": "obs",
               "required": false,
               "id": "headCircumference",
@@ -228,6 +238,7 @@
               "validators": []
             },
             {
+              "label": "Abdominal Diameter",
               "type": "obs",
               "required": false,
               "id": "abdominalDiameter",
@@ -238,6 +249,7 @@
               "validators": []
             },
             {
+              "label": "Mid-Upper Arm Circumference",
               "type": "obs",
               "required": false,
               "id": "midUpperArmCircumference",
