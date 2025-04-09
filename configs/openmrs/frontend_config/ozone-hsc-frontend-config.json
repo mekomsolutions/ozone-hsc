@@ -236,6 +236,10 @@
       {
         "title": "Reporting & Analytics",
         "redirect": "${SUPERSET_PUBLIC_URL}"
+      },
+      {
+        "title": "Manage Account",
+        "redirect": "${KEYCLOAK_URL}/realms/ozone/account/#/"
       }
     ],
     "logo": {
