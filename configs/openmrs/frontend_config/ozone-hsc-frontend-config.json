@@ -496,15 +496,5 @@
       "pageSize": 50,
       "obs": ["bbb02557-0277-4979-a1fa-b0020f136066"]
     }
-  },
-  "@openmrs/esm-ward-app": {
-    "extensionSlots": {
-      "ward-patient-workspace-header-slot": {
-        "add": [
-          "active-medications-widget",
-          "conditions-details-widget"
-        ]
-      }
-    }
   }
 }
