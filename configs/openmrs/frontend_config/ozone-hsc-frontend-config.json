@@ -238,7 +238,7 @@
         "redirect": "${SUPERSET_PUBLIC_URL}"
       },
       {
-        "title": "Manage Account",
+        "title": "Account Management",
         "redirect": "${KEYCLOAK_URL}/realms/ozone/account/#/"
       }
     ],
