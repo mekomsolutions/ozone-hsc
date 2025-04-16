@@ -12,11 +12,11 @@ sql: "SELECT DISTINCT\n  SUBSTRING(identifiers FROM 'Num\xE9ro Dossier: ([^,]*)'
   \ = pt.patient_uuid \n  AND pt.patient_id IS NOT NULL \n  AND pt.dead IS FALSE\n\
   )\nINNER JOIN encounters e ON (\n  v.visit_uuid = e.visit_uuid \n  AND e.visit_uuid\
   \ IS NOT NULL \n  AND e.encounter_voided IS FALSE\n)\nINNER JOIN orders ord ON (\n\
-  \  ord.encounter_id = e.encounter_id\n  AND ord.voided IS FALSE\n)\nINNER JOIN concepts\
-  \ ct ON (\n  ord.concept_id = ct.concept_id\n  AND ct.concept_id IS NOT NULL\n)\n\
-  WHERE \n  v.visit_type_uuid = '35ba9aff-901c-49dc-8630-a59385480d18'\n  AND ord.order_type_uuid\
-  \ = '16bb6bcf-2e81-4ba5-8583-ff4913201a72'\n  AND ct.uuid = 'e770a760-5e8b-42d8-939f-c7b12ea3754f'\n\
-  \  AND pt.gender = 'F'\n  AND v.visit_voided IS FALSE;"
+  \  ord.encounter_uuid = e.encounter_uuid\n  AND ord.voided IS FALSE\n)\nINNER JOIN\
+  \ concepts ct ON (\n  ord.concept_uuid = ct.uuid)\nWHERE \n  v.visit_type_uuid =\
+  \ '35ba9aff-901c-49dc-8630-a59385480d18'\n  AND ord.order_type_uuid = '16bb6bcf-2e81-4ba5-8583-ff4913201a72'\n\
+  \  AND ct.uuid = 'e770a760-5e8b-42d8-939f-c7b12ea3754f'\n  AND pt.gender = 'F'\n\
+  \  AND v.visit_voided IS FALSE;"
 params: null
 template_params: null
 filter_select_enabled: true
@@ -26,111 +26,112 @@ normalize_columns: false
 always_filter_main_dttm: false
 uuid: f1553bdf-bff6-49e6-8ef2-ed70a90fae52
 metrics:
-- metric_name: count
-  verbose_name: Row count
-  metric_type: count
-  expression: COUNT(*)
-  description: null
-  d3format: null
-  currency: null
-  extra: {}
-  warning_text: null
+  - metric_name: count
+    verbose_name: Row count
+    metric_type: count
+    expression: COUNT(*)
+    description: null
+    d3format: null
+    currency: null
+    extra:
+      warning_markdown: ''
+    warning_text: null
 columns:
-- column_name: patient_age_at_visit
-  verbose_name: Age (years)
-  is_dttm: false
-  is_active: true
-  type: DECIMAL
-  advanced_data_type: null
-  groupby: true
-  filterable: true
-  expression: null
-  description: null
-  python_date_format: null
-  extra: {}
-- column_name: date_started
-  verbose_name: Visit Date
-  is_dttm: true
-  is_active: true
-  type: DATETIME
-  advanced_data_type: null
-  groupby: true
-  filterable: true
-  expression: null
-  description: null
-  python_date_format: null
-  extra: {}
-- column_name: openmrs_id
-  verbose_name: Patient ID
-  is_dttm: false
-  is_active: true
-  type: STRING
-  advanced_data_type: null
-  groupby: true
-  filterable: true
-  expression: null
-  description: null
-  python_date_format: null
-  extra: {}
-- column_name: type
-  verbose_name: Visit Type
-  is_dttm: false
-  is_active: true
-  type: STRING
-  advanced_data_type: null
-  groupby: true
-  filterable: true
-  expression: null
-  description: null
-  python_date_format: null
-  extra: {}
-- column_name: gender
-  verbose_name: Gender
-  is_dttm: false
-  is_active: true
-  type: STRING
-  advanced_data_type: null
-  groupby: true
-  filterable: true
-  expression: null
-  description: null
-  python_date_format: null
-  extra: {}
-- column_name: patient_name
-  verbose_name: Name
-  is_dttm: false
-  is_active: true
-  type: STRING
-  advanced_data_type: null
-  groupby: true
-  filterable: true
-  expression: null
-  description: null
-  python_date_format: null
-  extra: {}
-- column_name: birthdate
-  verbose_name: null
-  is_dttm: true
-  is_active: true
-  type: DATE
-  advanced_data_type: null
-  groupby: true
-  filterable: true
-  expression: null
-  description: null
-  python_date_format: null
-  extra: {}
-- column_name: drug_name
-  verbose_name: null
-  is_dttm: false
-  is_active: true
-  type: STRING
-  advanced_data_type: null
-  groupby: true
-  filterable: true
-  expression: null
-  description: null
-  python_date_format: null
-  extra: {}
+  - column_name: patient_age_at_visit
+    verbose_name: Age (years)
+    is_dttm: false
+    is_active: true
+    type: DECIMAL
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: date_started
+    verbose_name: Visit Date
+    is_dttm: true
+    is_active: true
+    type: DATETIME
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: openmrs_id
+    verbose_name: Patient ID
+    is_dttm: false
+    is_active: true
+    type: STRING
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: type
+    verbose_name: Visit Type
+    is_dttm: false
+    is_active: true
+    type: STRING
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: gender
+    verbose_name: Gender
+    is_dttm: false
+    is_active: true
+    type: STRING
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: patient_name
+    verbose_name: Name
+    is_dttm: false
+    is_active: true
+    type: STRING
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: birthdate
+    verbose_name: null
+    is_dttm: true
+    is_active: true
+    type: DATE
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: drug_name
+    verbose_name: null
+    is_dttm: false
+    is_active: true
+    type: STRING
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
 version: 1.0.0
 database_uuid: 4e5f4045-a62d-4964-b719-58229a60e7fe
