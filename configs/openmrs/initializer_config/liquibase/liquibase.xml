@@ -6,6 +6,43 @@
 	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
 
+	<!-- Create service account for EIP -->
+	<changeSet id="create_service-account-eip_20221004" author="ruhanga" dbms="mysql,mariadb">
+		<preConditions onFail="MARK_RAN" onError="WARN">
+			<and>
+				<sqlCheck expectedResult="0">
+					select count(1) from person where uuid = "20aef621-6060-4d95-b259-4da3bae5288a"
+				</sqlCheck>
+				<sqlCheck expectedResult="0">
+					select count(1) from users where uuid = "7fcd946f-472e-40c8-baa1-bdfc792bfb58"
+				</sqlCheck>
+				<sqlCheck expectedResult="0">
+					select count(1) from person_name where uuid = '45a57c97-dd4a-45b8-b46b-19ef79d97d6b'
+				</sqlCheck>
+				<sqlCheck expectedResult="0">
+					select count(1) from provider where uuid = '9975e5eb-c31b-4ec1-b67d-69a9987a4033'
+				</sqlCheck>
+			</and>
+		</preConditions>
+		<sql><![CDATA[
+            INSERT INTO person (gender, dead, creator, date_created, voided, uuid) VALUES ("U", 0, 1, NOW(), 0, '20aef621-6060-4d95-b259-4da3bae5288a');
+            select @EIP_PERSON_ID := null;
+            select @EIP_PERSON_ID := person_id from person where uuid = "20aef621-6060-4d95-b259-4da3bae5288a";
+
+            INSERT INTO person_name (preferred, person_id, given_name, family_name, creator, date_created, voided, uuid) VALUES (1, @EIP_PERSON_ID,'eip', 'app', 1, NOW(), 0, '45a57c97-dd4a-45b8-b46b-19ef79d97d6b');
+
+            INSERT INTO users (person_id, system_id, username, creator, date_created, retired, uuid, `password`, salt) VALUES (@EIP_PERSON_ID, 'service-account-eip', 'service-account-eip', 1, NOW(), 0, '7fcd946f-472e-40c8-baa1-bdfc792bfb58', MD5(RAND()), MD5(RAND()));
+            select @EIP_USER_ID := null;
+            select @EIP_USER_ID := user_id from users where uuid = "7fcd946f-472e-40c8-baa1-bdfc792bfb58";
+
+            INSERT INTO provider(person_id, identifier, creator, date_created, uuid) values(@EIP_PERSON_ID, 'service-account-eip', 1, NOW(), '9975e5eb-c31b-4ec1-b67d-69a9987a4033');
+
+            INSERT INTO user_role VALUES (@EIP_USER_ID, "System developer");
+            INSERT INTO user_role VALUES (@EIP_USER_ID, "Provider");
+        ]]>
+		</sql>
+	</changeSet>
+
 	<!-- Person Attribute types -->
 	<changeSet id="postappointments-2024-09-16-07-00" author="nathan">
 		<comment>
@@ -14,6 +51,17 @@
 		<update tableName="person_attribute_type">
 			<column name="uuid" value="d9b2d63d-6b6d-4c9e-b4e1-6e8f4f3efc3e"/>
 			<where>name='email'</where>
+		</update>
+	</changeSet>
+
+	<!-- Update order type 'Drug Order' UUID -->
+	<changeSet id="postbahmni-2025-02-14-13-20" author="nathan">
+		<comment>
+			Set order type 'Drug Order' UUID
+		</comment>
+		<update tableName="order_type">
+			<column name="uuid" value="16bb6bcf-2e81-4ba5-8583-ff4913201a72"/>
+			<where>name='Drug Order'</where>
 		</update>
 	</changeSet>
 </databaseChangeLog>

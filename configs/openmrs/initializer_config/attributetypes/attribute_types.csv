@@ -1,3 +1,2 @@
 Uuid,Void/Retire,Entity name,Name,display:en,display:fr,Description,Min occurs,Max occurs,Datatype classname,Datatype config,Preferred handler classname,Handler config,_order:1000
 a56959b5-4fe2-4d69-a553-fdc77957c48b,,Visit,Mode of arrival,Mode of arrival,Moyen de transport,The mode of arrival that the patient took to the location,0,1,org.openmrs.customdatatype.datatype.ConceptDatatype,f83eeb93-703a-4dd5-bd95-51a6580b4065,,,
-d63554a8-4979-4719-a918-1ccc3d924ed7,,Visit,Level of emergency severity assessment,Level of emergency severity assessment,Évaluation du niveau de gravité de l'urgence,Level of emergency severity assessment,0,1,org.openmrs.customdatatype.datatype.ConceptDatatype,bbb02557-0277-4979-a1fa-b0020f136066,,,

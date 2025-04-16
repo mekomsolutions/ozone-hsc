@@ -75,6 +75,7 @@
                   "id": "sequenceNumber",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "1f4109b3-b201-46df-a341-dcfa5299a187",
                     "conceptMappings": [
                       {

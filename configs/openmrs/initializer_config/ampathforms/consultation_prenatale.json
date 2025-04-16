@@ -348,6 +348,7 @@
                   "id": "numberOfWeeks",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "73099ba8-73c7-4427-a973-76fc1e4d4120",
                     "disallowDecimals": true
                   },
@@ -359,6 +360,7 @@
                   "id": "numberOfDays",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "concept": "f887f487-58a2-4429-944c-c2134ea658de",
                     "disallowDecimals": true
                   },
@@ -508,6 +510,7 @@
                   "questionOptions": {
                     "rendering": "number",
                     "concept": "b0823b2c-4bc8-2a7c-41b5-7bf3c7f14e82",
+                    "step": 1,
                     "disallowDecimals": true
                   },
                   "validators": []
@@ -574,6 +577,7 @@
                   "id": "fetalHeartRate",
                   "questionOptions": {
                     "rendering": "number",
+                    "step": 1,
                     "min": "120",
                     "max": "160",
                     "concept": "7ce5a9fe-d9e0-427e-a080-ce8a9c673822",

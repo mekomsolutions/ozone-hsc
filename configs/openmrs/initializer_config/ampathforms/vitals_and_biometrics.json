@@ -15,17 +15,20 @@
               "id": "painScale",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "min": "0",
                 "max": "10",
                 "concept": "3fe6460f-3d37-463e-9fb9-df42ab15aec8"
               }
             },
             {
+              "label": "Pulse (beats/min)",
               "type": "obs",
               "required": false,
               "id": "pulseTest",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "min": "10",
                 "max": "230",
                 "concept": "0b9e358e-c9cf-439e-8c00-69f873cec59f",
@@ -40,11 +43,13 @@
               }
             },
             {
+              "label": "Temperature",
               "type": "obs",
               "required": false,
               "id": "temperatureTest",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "min": "25",
                 "max": "43",
                 "concept": "0ff962b3-8730-4eb0-9028-82d403b066bf",
@@ -59,11 +64,13 @@
               }
             },
             {
+              "label": "Respiratory Rate (breaths/min)",
               "type": "obs",
               "required": false,
               "id": "respiratoryRate",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "concept": "8130729f-4605-49b3-b7c0-12b19cc10543",
                 "conceptMappings": [
                   {
@@ -77,11 +84,13 @@
               "validators": []
             },
             {
+              "label": "Oxygen Saturation (%)",
               "type": "obs",
               "required": false,
               "id": "oxygenSaturation",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "min": "0",
                 "max": "100",
                 "concept": "c642aeb3-95d3-4d1b-aa5b-1273b438d14f",
@@ -101,11 +110,13 @@
           "isExpanded": "true",
           "questions": [
             {
+              "label": "Systolic Blood Pressure (mmHg)",
               "type": "obs",
               "required": false,
               "id": "systolicBloodPressure",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "min": "40",
                 "max": "400",
                 "concept": "bc4f2e44-26b0-4f5f-a98f-248601fdf792",
@@ -119,11 +130,13 @@
               }
             },
             {
+              "label": "Diastolic Blood Pressure (mmHg)",
               "type": "obs",
               "required": false,
               "id": "diastolicBloodPressure",
               "questionOptions": {
                 "rendering": "number",
+                "step": 1,
                 "min": "20",
                 "max": "400",
                 "concept": "8bc4016d-88ee-43dc-a943-ad10b8bb211e",
@@ -148,6 +161,7 @@
           "isExpanded": "true",
           "questions": [
             {
+              "label": "Level of emergency severity assessment",
               "type": "obs",
               "required": false,
               "id": "levelOfEmergencySeverityAssessment",
@@ -176,6 +190,7 @@
           "isExpanded": "true",
           "questions": [
             {
+              "label": "Height",
               "type": "obs",
               "required": false,
               "id": "height",
@@ -193,6 +208,7 @@
               "validators": []
             },
             {
+              "label": "Weight",
               "type": "obs",
               "required": false,
               "id": "weight",
@@ -211,6 +227,7 @@
               }
             },
             {
+              "label": "Head Circumference",
               "type": "obs",
               "required": false,
               "id": "headCircumference",
@@ -221,6 +238,7 @@
               "validators": []
             },
             {
+              "label": "Abdominal Diameter",
               "type": "obs",
               "required": false,
               "id": "abdominalDiameter",
@@ -231,6 +249,7 @@
               "validators": []
             },
             {
+              "label": "Mid-Upper Arm Circumference",
               "type": "obs",
               "required": false,
               "id": "midUpperArmCircumference",

@@ -95,3 +95,11 @@ init.403d1903-e1d5-4891-bef1-241429bf861d,uom.product_uom_categ_unit,1,0.01,Smal
 init.a55c6f3f-c39a-4018-ada7-91be3f636843,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Tube de 5g
 init.52eddb09-6e4c-43a7-b0a1-713998bf9590,uom.product_uom_categ_unit,1,0.01,Smaller than the reference Unit of Measure,Vial de 1.8ml
 init.85c85d9b-fc79-4cc3-b484-3c7d7425b88c,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Barre de 90g
+init.162401AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Kit
+init.162400AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Boîte
+init.162399AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Cartouche
+init.162398AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Pack de doses
+init.162397AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Chacun
+init.162396AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Inhalateur
+init.162395AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Sachet
+init.1514AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,uom.product_uom_categ_unit,1,0.01,Bigger than the reference Unit of Measure,Paquets
