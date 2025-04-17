@@ -1,0 +1,136 @@
+dashboard_title: Patient seen with diagnosis
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: true
+uuid: eb056608-183f-4449-af1b-94dddf62209a
+position:
+  CHART-1Zpseh6H4T:
+    children: []
+    id: CHART-1Zpseh6H4T
+    meta:
+      chartId: 13
+      height: 64
+      sliceName: List of patients seen with diagnosis
+      uuid: a5afbecb-f6ba-4d7a-bbef-b1864cf778ea
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-NWIJcU62R8
+    type: CHART
+  CHART-QcqnlQlh2z:
+    children: []
+    id: CHART-QcqnlQlh2z
+    meta:
+      chartId: 14
+      height: 76
+      sliceName: Distribution of patients diagnosis
+      uuid: 3d708c23-bd08-4702-ae02-ae9f14574085
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-NWIJcU62R8
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-NWIJcU62R8
+    - ROW-kaxF_tz9Lf
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Patient seen with diagnosis
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-NWIJcU62R8:
+    children:
+    - CHART-1Zpseh6H4T
+    id: ROW-NWIJcU62R8
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-kaxF_tz9Lf:
+    children:
+    - CHART-QcqnlQlh2z
+    id: ROW-kaxF_tz9Lf
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  chart_configuration:
+    '13':
+      id: 13
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 14
+    '14':
+      id: 14
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 13
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 13
+    - 14
+  color_scheme: ''
+  refresh_frequency: 0
+  shared_label_colors:
+    Primary, Confirmed: '#1FA8C9'
+    Primary, Presumed: '#5AC189'
+    Secondary, Presumed: '#666666'
+    Secondary, Confirmed: '#FCC700'
+  color_scheme_domain: []
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  native_filter_configuration:
+  - id: NATIVE_FILTER-uNvJVfNqj
+    controlValues:
+      enableEmptyFilter: false
+    name: Reporting period
+    filterType: filter_time
+    targets:
+    - {}
+    defaultDataMask:
+      extraFormData:
+        time_range: Last year
+      filterState:
+        value: Last year
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 13
+    - 14
+    tabsInScope: []
+version: 1.0.0
