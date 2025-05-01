@@ -33,6 +33,21 @@
   <modules>
     <module>configs/superset</module>
   </modules>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.ozonehis</groupId>
+        <artifactId>ozone-haiti</artifactId>
+        <version>${ozone.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>erp-omod</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <dependencies>
     <dependency>
