@@ -104,6 +104,7 @@
                     <exclude>non-existing_file</exclude>
                     <exclude>**/**/**/**/*.gitkeep</exclude>
                     <exclude>**/**/**/**/metadata.yaml</exclude>
+                    <exclude>distro/configs/**/ampathforms*/Consultation.json</exclude>
                   </excludes>
                 </resource>
               </resources>
