@@ -21,6 +21,8 @@
     <ozone.groupId>com.ozonehis</ozone.groupId>
     <ozone.version>1.1.0-SNAPSHOT</ozone.version>
 
+    <ozoneProVersion>1.0.0-alpha.13</ozoneProVersion>
+
     <analyticsQueriesVersion>1.2.0</analyticsQueriesVersion>
 
     <supersetConfigsArtifactId>ozone-hsc-superset-configs</supersetConfigsArtifactId>
@@ -39,7 +41,7 @@
       <groupId>com.ozonehis</groupId>
       <artifactId>ozone-pro</artifactId>
       <type>zip</type>
-      <version>1.0.0-alpha.13</version>
+      <version>${ozoneProVersion}</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
