@@ -147,15 +147,14 @@
                   <directory>${project.basedir}/scripts</directory>
                   <includes>
                     <include>docker-compose-override.yml</include>
-                    <include>docker-compose-odoo-override-sso.yml</include>
                   </includes>
                 </resource>
               </resources>
             </configuration>
           </execution>
           <execution>
-            <!-- Copy Central Auth and Monitoring Binary Resources -->
-            <id>Copy Central Auth and Monitoring Resources </id>
+            <!-- Copy Monitoring Binary Resources -->
+            <id>Copy Monitoring Resources </id>
             <phase>process-resources</phase>
             <goals>
               <goal>copy-resources</goal>
@@ -166,24 +165,6 @@
               </outputDirectory>
               <overwrite>true</overwrite>
               <resources>
-                <resource>
-                  <targetPath>
-                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/eip-keycloak-superset</targetPath>
-                  <directory>
-                    ${project.build.directory}/ozone-pro/distro/binaries/eip-keycloak-superset/</directory>
-                </resource>
-                <resource>
-                  <targetPath>
-                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/eip-keycloak-openmrs</targetPath>
-                  <directory>
-                    ${project.build.directory}/ozone-pro/distro/binaries/eip-keycloak-openmrs/</directory>
-                </resource>
-                <resource>
-                  <targetPath>
-                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/eip-keycloak-odoo</targetPath>
-                  <directory>
-                    ${project.build.directory}/ozone-pro/distro/binaries/eip-keycloak-odoo/</directory>
-                </resource>
                 <resource>
                   <targetPath>
                     ${project.build.directory}/${project.artifactId}-${project.version}/distro/binaries/openmrs/jmx_exporter</targetPath>
@@ -200,42 +181,8 @@
             </configuration>
           </execution>
           <execution>
-            <!-- Copy Central Auth Configuration files -->
-            <id>Copy Central Auth Configurations </id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/
-              </outputDirectory>
-              <overwrite>true</overwrite>
-              <resources>
-                <resource>
-                  <targetPath>
-                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/eip-keycloak-superset</targetPath>
-                  <directory>
-                    ${project.build.directory}/ozone-pro/distro/configs/eip-keycloak-superset/</directory>
-                </resource>
-                <resource>
-                  <targetPath>
-                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/eip-keycloak-openmrs</targetPath>
-                  <directory>
-                    ${project.build.directory}/ozone-pro/distro/configs/eip-keycloak-openmrs/</directory>
-                </resource>
-                <resource>
-                  <targetPath>
-                    ${project.build.directory}/${project.artifactId}-${project.version}/distro/configs/eip-keycloak-odoo</targetPath>
-                  <directory>
-                    ${project.build.directory}/ozone-pro/distro/configs/eip-keycloak-odoo/</directory>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-          <execution>
-            <!-- Copy Central Auth and Monitoring Docker Resources -->
-            <id>Copy Central Auth and Monitoring Docker Resources</id>
+            <!-- Copy Monitoring Docker Resources -->
+            <id>Copy Monitoring Docker Resources</id>
             <phase>process-resources</phase>
             <goals>
               <goal>copy-resources</goal>
@@ -251,31 +198,8 @@
                     ${project.build.directory}/ozone-pro/run/docker</directory>
                   <includes>
                     <include>docker-compose-common-pro.yml</include>
-                    <include>docker-compose-eip-keycloak-openmrs.yml</include>
-                    <include>docker-compose-eip-keycloak-superset.yml</include>
-                    <include>docker-compose-eip-keycloak-odoo.yml</include>
                     <include>docker-compose-openmrs-pro.yml</include>
                   </includes>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-          <execution>
-            <!-- Copy Central Auth EIP client Data file -->
-            <id>Copy Central Auth EIP client Data file</id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>
-                ${project.build.directory}/${project.artifactId}-${project.version}/distro/data
-              </outputDirectory>
-              <overwrite>true</overwrite>
-              <resources>
-                <resource>
-                  <directory>
-                    ${project.build.directory}/ozone-pro/distro/data</directory>
                 </resource>
               </resources>
             </configuration>
